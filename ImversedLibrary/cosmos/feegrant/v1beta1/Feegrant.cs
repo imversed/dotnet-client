@@ -45,11 +45,12 @@ namespace Cosmos.Feegrant.V1Beta1 {
             "YnVmLlRpbWVzdGFtcEIIkN8fAcjeHwA6Ecq0LQ1GZWVBbGxvd2FuY2VJIoIB",
             "ChNBbGxvd2VkTXNnQWxsb3dhbmNlEjoKCWFsbG93YW5jZRgBIAEoCzIULmdv",
             "b2dsZS5wcm90b2J1Zi5BbnlCEcq0LQ1GZWVBbGxvd2FuY2VJEhgKEGFsbG93",
-            "ZWRfbWVzc2FnZXMYAiADKAk6FYigHwDKtC0NRmVlQWxsb3dhbmNlSSJlCgVH",
-            "cmFudBIPCgdncmFudGVyGAEgASgJEg8KB2dyYW50ZWUYAiABKAkSOgoJYWxs",
-            "b3dhbmNlGAMgASgLMhQuZ29vZ2xlLnByb3RvYnVmLkFueUIRyrQtDUZlZUFs",
-            "bG93YW5jZUlCKVonZ2l0aHViLmNvbS9jb3Ntb3MvY29zbW9zLXNkay94L2Zl",
-            "ZWdyYW50YgZwcm90bzM="));
+            "ZWRfbWVzc2FnZXMYAiADKAk6FYigHwDKtC0NRmVlQWxsb3dhbmNlSSKZAQoF",
+            "R3JhbnQSKQoHZ3JhbnRlchgBIAEoCUIY0rQtFGNvc21vcy5BZGRyZXNzU3Ry",
+            "aW5nEikKB2dyYW50ZWUYAiABKAlCGNK0LRRjb3Ntb3MuQWRkcmVzc1N0cmlu",
+            "ZxI6CglhbGxvd2FuY2UYAyABKAsyFC5nb29nbGUucHJvdG9idWYuQW55QhHK",
+            "tC0NRmVlQWxsb3dhbmNlSUIpWidnaXRodWIuY29tL2Nvc21vcy9jb3Ntb3Mt",
+            "c2RrL3gvZmVlZ3JhbnRiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Gogoproto.GogoReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.AnyReflection.Descriptor, global::CosmosProto.CosmosReflection.Descriptor, global::Cosmos.Base.V1Beta1.CoinReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.DurationReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
@@ -716,7 +717,7 @@ namespace Cosmos.Feegrant.V1Beta1 {
     public const int AllowanceFieldNumber = 1;
     private global::Google.Protobuf.WellKnownTypes.Any allowance_;
     /// <summary>
-    /// allowance can be any of basic and filtered fee allowance.
+    /// allowance can be any of basic and periodic fee allowance.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -980,7 +981,7 @@ namespace Cosmos.Feegrant.V1Beta1 {
     public const int AllowanceFieldNumber = 3;
     private global::Google.Protobuf.WellKnownTypes.Any allowance_;
     /// <summary>
-    /// allowance can be any of basic and filtered fee allowance.
+    /// allowance can be any of basic, periodic, allowed fee allowance.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]

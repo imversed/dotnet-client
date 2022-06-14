@@ -68,6 +68,10 @@ namespace Cosmos.Staking.V1Beta1 {
     static readonly grpc::Marshaller<global::Cosmos.Staking.V1Beta1.MsgUndelegate> __Marshaller_cosmos_staking_v1beta1_MsgUndelegate = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Cosmos.Staking.V1Beta1.MsgUndelegate.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Cosmos.Staking.V1Beta1.MsgUndelegateResponse> __Marshaller_cosmos_staking_v1beta1_MsgUndelegateResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Cosmos.Staking.V1Beta1.MsgUndelegateResponse.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Cosmos.Staking.V1Beta1.MsgCancelUnbondingDelegation> __Marshaller_cosmos_staking_v1beta1_MsgCancelUnbondingDelegation = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Cosmos.Staking.V1Beta1.MsgCancelUnbondingDelegation.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Cosmos.Staking.V1Beta1.MsgCancelUnbondingDelegationResponse> __Marshaller_cosmos_staking_v1beta1_MsgCancelUnbondingDelegationResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Cosmos.Staking.V1Beta1.MsgCancelUnbondingDelegationResponse.Parser));
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Cosmos.Staking.V1Beta1.MsgCreateValidator, global::Cosmos.Staking.V1Beta1.MsgCreateValidatorResponse> __Method_CreateValidator = new grpc::Method<global::Cosmos.Staking.V1Beta1.MsgCreateValidator, global::Cosmos.Staking.V1Beta1.MsgCreateValidatorResponse>(
@@ -108,6 +112,14 @@ namespace Cosmos.Staking.V1Beta1 {
         "Undelegate",
         __Marshaller_cosmos_staking_v1beta1_MsgUndelegate,
         __Marshaller_cosmos_staking_v1beta1_MsgUndelegateResponse);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Cosmos.Staking.V1Beta1.MsgCancelUnbondingDelegation, global::Cosmos.Staking.V1Beta1.MsgCancelUnbondingDelegationResponse> __Method_CancelUnbondingDelegation = new grpc::Method<global::Cosmos.Staking.V1Beta1.MsgCancelUnbondingDelegation, global::Cosmos.Staking.V1Beta1.MsgCancelUnbondingDelegationResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "CancelUnbondingDelegation",
+        __Marshaller_cosmos_staking_v1beta1_MsgCancelUnbondingDelegation,
+        __Marshaller_cosmos_staking_v1beta1_MsgCancelUnbondingDelegationResponse);
 
     /// <summary>Service descriptor</summary>
     public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor
@@ -178,6 +190,21 @@ namespace Cosmos.Staking.V1Beta1 {
       /// <returns>The response to send back to the client (wrapped by a task).</returns>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::System.Threading.Tasks.Task<global::Cosmos.Staking.V1Beta1.MsgUndelegateResponse> Undelegate(global::Cosmos.Staking.V1Beta1.MsgUndelegate request, grpc::ServerCallContext context)
+      {
+        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
+      }
+
+      /// <summary>
+      /// CancelUnbondingDelegation defines a method for performing canceling the unbonding delegation
+      /// and delegate back to previous validator.
+      ///
+      /// Since: cosmos-sdk 0.46
+      /// </summary>
+      /// <param name="request">The request received from the client.</param>
+      /// <param name="context">The context of the server-side call handler being invoked.</param>
+      /// <returns>The response to send back to the client (wrapped by a task).</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::System.Threading.Tasks.Task<global::Cosmos.Staking.V1Beta1.MsgCancelUnbondingDelegationResponse> CancelUnbondingDelegation(global::Cosmos.Staking.V1Beta1.MsgCancelUnbondingDelegation request, grpc::ServerCallContext context)
       {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
       }
@@ -463,6 +490,66 @@ namespace Cosmos.Staking.V1Beta1 {
       {
         return CallInvoker.AsyncUnaryCall(__Method_Undelegate, null, options, request);
       }
+      /// <summary>
+      /// CancelUnbondingDelegation defines a method for performing canceling the unbonding delegation
+      /// and delegate back to previous validator.
+      ///
+      /// Since: cosmos-sdk 0.46
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Cosmos.Staking.V1Beta1.MsgCancelUnbondingDelegationResponse CancelUnbondingDelegation(global::Cosmos.Staking.V1Beta1.MsgCancelUnbondingDelegation request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return CancelUnbondingDelegation(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// CancelUnbondingDelegation defines a method for performing canceling the unbonding delegation
+      /// and delegate back to previous validator.
+      ///
+      /// Since: cosmos-sdk 0.46
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Cosmos.Staking.V1Beta1.MsgCancelUnbondingDelegationResponse CancelUnbondingDelegation(global::Cosmos.Staking.V1Beta1.MsgCancelUnbondingDelegation request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_CancelUnbondingDelegation, null, options, request);
+      }
+      /// <summary>
+      /// CancelUnbondingDelegation defines a method for performing canceling the unbonding delegation
+      /// and delegate back to previous validator.
+      ///
+      /// Since: cosmos-sdk 0.46
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Cosmos.Staking.V1Beta1.MsgCancelUnbondingDelegationResponse> CancelUnbondingDelegationAsync(global::Cosmos.Staking.V1Beta1.MsgCancelUnbondingDelegation request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return CancelUnbondingDelegationAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// CancelUnbondingDelegation defines a method for performing canceling the unbonding delegation
+      /// and delegate back to previous validator.
+      ///
+      /// Since: cosmos-sdk 0.46
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Cosmos.Staking.V1Beta1.MsgCancelUnbondingDelegationResponse> CancelUnbondingDelegationAsync(global::Cosmos.Staking.V1Beta1.MsgCancelUnbondingDelegation request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_CancelUnbondingDelegation, null, options, request);
+      }
       /// <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       protected override MsgClient NewInstance(ClientBaseConfiguration configuration)
@@ -481,7 +568,8 @@ namespace Cosmos.Staking.V1Beta1 {
           .AddMethod(__Method_EditValidator, serviceImpl.EditValidator)
           .AddMethod(__Method_Delegate, serviceImpl.Delegate)
           .AddMethod(__Method_BeginRedelegate, serviceImpl.BeginRedelegate)
-          .AddMethod(__Method_Undelegate, serviceImpl.Undelegate).Build();
+          .AddMethod(__Method_Undelegate, serviceImpl.Undelegate)
+          .AddMethod(__Method_CancelUnbondingDelegation, serviceImpl.CancelUnbondingDelegation).Build();
     }
 
     /// <summary>Register service method with a service binder with or without implementation. Useful when customizing the service binding logic.
@@ -496,6 +584,7 @@ namespace Cosmos.Staking.V1Beta1 {
       serviceBinder.AddMethod(__Method_Delegate, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Cosmos.Staking.V1Beta1.MsgDelegate, global::Cosmos.Staking.V1Beta1.MsgDelegateResponse>(serviceImpl.Delegate));
       serviceBinder.AddMethod(__Method_BeginRedelegate, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Cosmos.Staking.V1Beta1.MsgBeginRedelegate, global::Cosmos.Staking.V1Beta1.MsgBeginRedelegateResponse>(serviceImpl.BeginRedelegate));
       serviceBinder.AddMethod(__Method_Undelegate, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Cosmos.Staking.V1Beta1.MsgUndelegate, global::Cosmos.Staking.V1Beta1.MsgUndelegateResponse>(serviceImpl.Undelegate));
+      serviceBinder.AddMethod(__Method_CancelUnbondingDelegation, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Cosmos.Staking.V1Beta1.MsgCancelUnbondingDelegation, global::Cosmos.Staking.V1Beta1.MsgCancelUnbondingDelegationResponse>(serviceImpl.CancelUnbondingDelegation));
     }
 
   }

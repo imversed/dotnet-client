@@ -27,22 +27,48 @@ namespace Cosmos.Authz.V1Beta1 {
             "CiBjb3Ntb3MvYXV0aHovdjFiZXRhMS9xdWVyeS5wcm90bxIUY29zbW9zLmF1",
             "dGh6LnYxYmV0YTEaHGdvb2dsZS9hcGkvYW5ub3RhdGlvbnMucHJvdG8aKmNv",
             "c21vcy9iYXNlL3F1ZXJ5L3YxYmV0YTEvcGFnaW5hdGlvbi5wcm90bxogY29z",
-            "bW9zL2F1dGh6L3YxYmV0YTEvYXV0aHoucHJvdG8iiAEKElF1ZXJ5R3JhbnRz",
-            "UmVxdWVzdBIPCgdncmFudGVyGAEgASgJEg8KB2dyYW50ZWUYAiABKAkSFAoM",
-            "bXNnX3R5cGVfdXJsGAMgASgJEjoKCnBhZ2luYXRpb24YBCABKAsyJi5jb3Nt",
-            "b3MuYmFzZS5xdWVyeS52MWJldGExLlBhZ2VSZXF1ZXN0In8KE1F1ZXJ5R3Jh",
-            "bnRzUmVzcG9uc2USKwoGZ3JhbnRzGAEgAygLMhsuY29zbW9zLmF1dGh6LnYx",
-            "YmV0YTEuR3JhbnQSOwoKcGFnaW5hdGlvbhgCIAEoCzInLmNvc21vcy5iYXNl",
-            "LnF1ZXJ5LnYxYmV0YTEuUGFnZVJlc3BvbnNlMo0BCgVRdWVyeRKDAQoGR3Jh",
-            "bnRzEiguY29zbW9zLmF1dGh6LnYxYmV0YTEuUXVlcnlHcmFudHNSZXF1ZXN0",
-            "GikuY29zbW9zLmF1dGh6LnYxYmV0YTEuUXVlcnlHcmFudHNSZXNwb25zZSIk",
-            "gtPkkwIeEhwvY29zbW9zL2F1dGh6L3YxYmV0YTEvZ3JhbnRzQiZaJGdpdGh1",
-            "Yi5jb20vY29zbW9zL2Nvc21vcy1zZGsveC9hdXRoemIGcHJvdG8z"));
+            "bW9zL2F1dGh6L3YxYmV0YTEvYXV0aHoucHJvdG8aGWNvc21vc19wcm90by9j",
+            "b3Ntb3MucHJvdG8ivAEKElF1ZXJ5R3JhbnRzUmVxdWVzdBIpCgdncmFudGVy",
+            "GAEgASgJQhjStC0UY29zbW9zLkFkZHJlc3NTdHJpbmcSKQoHZ3JhbnRlZRgC",
+            "IAEoCUIY0rQtFGNvc21vcy5BZGRyZXNzU3RyaW5nEhQKDG1zZ190eXBlX3Vy",
+            "bBgDIAEoCRI6CgpwYWdpbmF0aW9uGAQgASgLMiYuY29zbW9zLmJhc2UucXVl",
+            "cnkudjFiZXRhMS5QYWdlUmVxdWVzdCJ/ChNRdWVyeUdyYW50c1Jlc3BvbnNl",
+            "EisKBmdyYW50cxgBIAMoCzIbLmNvc21vcy5hdXRoei52MWJldGExLkdyYW50",
+            "EjsKCnBhZ2luYXRpb24YAiABKAsyJy5jb3Ntb3MuYmFzZS5xdWVyeS52MWJl",
+            "dGExLlBhZ2VSZXNwb25zZSKCAQoZUXVlcnlHcmFudGVyR3JhbnRzUmVxdWVz",
+            "dBIpCgdncmFudGVyGAEgASgJQhjStC0UY29zbW9zLkFkZHJlc3NTdHJpbmcS",
+            "OgoKcGFnaW5hdGlvbhgCIAEoCzImLmNvc21vcy5iYXNlLnF1ZXJ5LnYxYmV0",
+            "YTEuUGFnZVJlcXVlc3QikwEKGlF1ZXJ5R3JhbnRlckdyYW50c1Jlc3BvbnNl",
+            "EjgKBmdyYW50cxgBIAMoCzIoLmNvc21vcy5hdXRoei52MWJldGExLkdyYW50",
+            "QXV0aG9yaXphdGlvbhI7CgpwYWdpbmF0aW9uGAIgASgLMicuY29zbW9zLmJh",
+            "c2UucXVlcnkudjFiZXRhMS5QYWdlUmVzcG9uc2UiggEKGVF1ZXJ5R3JhbnRl",
+            "ZUdyYW50c1JlcXVlc3QSKQoHZ3JhbnRlZRgBIAEoCUIY0rQtFGNvc21vcy5B",
+            "ZGRyZXNzU3RyaW5nEjoKCnBhZ2luYXRpb24YAiABKAsyJi5jb3Ntb3MuYmFz",
+            "ZS5xdWVyeS52MWJldGExLlBhZ2VSZXF1ZXN0IpMBChpRdWVyeUdyYW50ZWVH",
+            "cmFudHNSZXNwb25zZRI4CgZncmFudHMYASADKAsyKC5jb3Ntb3MuYXV0aHou",
+            "djFiZXRhMS5HcmFudEF1dGhvcml6YXRpb24SOwoKcGFnaW5hdGlvbhgCIAEo",
+            "CzInLmNvc21vcy5iYXNlLnF1ZXJ5LnYxYmV0YTEuUGFnZVJlc3BvbnNlMucD",
+            "CgVRdWVyeRKDAQoGR3JhbnRzEiguY29zbW9zLmF1dGh6LnYxYmV0YTEuUXVl",
+            "cnlHcmFudHNSZXF1ZXN0GikuY29zbW9zLmF1dGh6LnYxYmV0YTEuUXVlcnlH",
+            "cmFudHNSZXNwb25zZSIkgtPkkwIeEhwvY29zbW9zL2F1dGh6L3YxYmV0YTEv",
+            "Z3JhbnRzEqoBCg1HcmFudGVyR3JhbnRzEi8uY29zbW9zLmF1dGh6LnYxYmV0",
+            "YTEuUXVlcnlHcmFudGVyR3JhbnRzUmVxdWVzdBowLmNvc21vcy5hdXRoei52",
+            "MWJldGExLlF1ZXJ5R3JhbnRlckdyYW50c1Jlc3BvbnNlIjaC0+STAjASLi9j",
+            "b3Ntb3MvYXV0aHovdjFiZXRhMS9ncmFudHMvZ3JhbnRlci97Z3JhbnRlcn0S",
+            "qgEKDUdyYW50ZWVHcmFudHMSLy5jb3Ntb3MuYXV0aHoudjFiZXRhMS5RdWVy",
+            "eUdyYW50ZWVHcmFudHNSZXF1ZXN0GjAuY29zbW9zLmF1dGh6LnYxYmV0YTEu",
+            "UXVlcnlHcmFudGVlR3JhbnRzUmVzcG9uc2UiNoLT5JMCMBIuL2Nvc21vcy9h",
+            "dXRoei92MWJldGExL2dyYW50cy9ncmFudGVlL3tncmFudGVlfUImWiRnaXRo",
+            "dWIuY29tL2Nvc21vcy9jb3Ntb3Mtc2RrL3gvYXV0aHpiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Cosmos.Base.Query.V1Beta1.PaginationReflection.Descriptor, global::Cosmos.Authz.V1Beta1.AuthzReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Cosmos.Base.Query.V1Beta1.PaginationReflection.Descriptor, global::Cosmos.Authz.V1Beta1.AuthzReflection.Descriptor, global::CosmosProto.CosmosReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Authz.V1Beta1.QueryGrantsRequest), global::Cosmos.Authz.V1Beta1.QueryGrantsRequest.Parser, new[]{ "Granter", "Grantee", "MsgTypeUrl", "Pagination" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Authz.V1Beta1.QueryGrantsResponse), global::Cosmos.Authz.V1Beta1.QueryGrantsResponse.Parser, new[]{ "Grants", "Pagination" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Authz.V1Beta1.QueryGrantsResponse), global::Cosmos.Authz.V1Beta1.QueryGrantsResponse.Parser, new[]{ "Grants", "Pagination" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Authz.V1Beta1.QueryGranterGrantsRequest), global::Cosmos.Authz.V1Beta1.QueryGranterGrantsRequest.Parser, new[]{ "Granter", "Pagination" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Authz.V1Beta1.QueryGranterGrantsResponse), global::Cosmos.Authz.V1Beta1.QueryGranterGrantsResponse.Parser, new[]{ "Grants", "Pagination" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Authz.V1Beta1.QueryGranteeGrantsRequest), global::Cosmos.Authz.V1Beta1.QueryGranteeGrantsRequest.Parser, new[]{ "Grantee", "Pagination" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Authz.V1Beta1.QueryGranteeGrantsResponse), global::Cosmos.Authz.V1Beta1.QueryGranteeGrantsResponse.Parser, new[]{ "Grants", "Pagination" }, null, null, null, null)
           }));
     }
     #endregion
@@ -531,6 +557,954 @@ namespace Cosmos.Authz.V1Beta1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(QueryGrantsResponse other) {
+      if (other == null) {
+        return;
+      }
+      grants_.Add(other.grants_);
+      if (other.pagination_ != null) {
+        if (pagination_ == null) {
+          Pagination = new global::Cosmos.Base.Query.V1Beta1.PageResponse();
+        }
+        Pagination.MergeFrom(other.Pagination);
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            grants_.AddEntriesFrom(input, _repeated_grants_codec);
+            break;
+          }
+          case 18: {
+            if (pagination_ == null) {
+              Pagination = new global::Cosmos.Base.Query.V1Beta1.PageResponse();
+            }
+            input.ReadMessage(Pagination);
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            grants_.AddEntriesFrom(ref input, _repeated_grants_codec);
+            break;
+          }
+          case 18: {
+            if (pagination_ == null) {
+              Pagination = new global::Cosmos.Base.Query.V1Beta1.PageResponse();
+            }
+            input.ReadMessage(Pagination);
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// QueryGranterGrantsRequest is the request type for the Query/GranterGrants RPC method.
+  /// </summary>
+  public sealed partial class QueryGranterGrantsRequest : pb::IMessage<QueryGranterGrantsRequest>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<QueryGranterGrantsRequest> _parser = new pb::MessageParser<QueryGranterGrantsRequest>(() => new QueryGranterGrantsRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<QueryGranterGrantsRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Cosmos.Authz.V1Beta1.QueryReflection.Descriptor.MessageTypes[2]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public QueryGranterGrantsRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public QueryGranterGrantsRequest(QueryGranterGrantsRequest other) : this() {
+      granter_ = other.granter_;
+      pagination_ = other.pagination_ != null ? other.pagination_.Clone() : null;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public QueryGranterGrantsRequest Clone() {
+      return new QueryGranterGrantsRequest(this);
+    }
+
+    /// <summary>Field number for the "granter" field.</summary>
+    public const int GranterFieldNumber = 1;
+    private string granter_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string Granter {
+      get { return granter_; }
+      set {
+        granter_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "pagination" field.</summary>
+    public const int PaginationFieldNumber = 2;
+    private global::Cosmos.Base.Query.V1Beta1.PageRequest pagination_;
+    /// <summary>
+    /// pagination defines an pagination for the request.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Cosmos.Base.Query.V1Beta1.PageRequest Pagination {
+      get { return pagination_; }
+      set {
+        pagination_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as QueryGranterGrantsRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(QueryGranterGrantsRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Granter != other.Granter) return false;
+      if (!object.Equals(Pagination, other.Pagination)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Granter.Length != 0) hash ^= Granter.GetHashCode();
+      if (pagination_ != null) hash ^= Pagination.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (Granter.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Granter);
+      }
+      if (pagination_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(Pagination);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (Granter.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Granter);
+      }
+      if (pagination_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(Pagination);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (Granter.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Granter);
+      }
+      if (pagination_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Pagination);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(QueryGranterGrantsRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Granter.Length != 0) {
+        Granter = other.Granter;
+      }
+      if (other.pagination_ != null) {
+        if (pagination_ == null) {
+          Pagination = new global::Cosmos.Base.Query.V1Beta1.PageRequest();
+        }
+        Pagination.MergeFrom(other.Pagination);
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            Granter = input.ReadString();
+            break;
+          }
+          case 18: {
+            if (pagination_ == null) {
+              Pagination = new global::Cosmos.Base.Query.V1Beta1.PageRequest();
+            }
+            input.ReadMessage(Pagination);
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            Granter = input.ReadString();
+            break;
+          }
+          case 18: {
+            if (pagination_ == null) {
+              Pagination = new global::Cosmos.Base.Query.V1Beta1.PageRequest();
+            }
+            input.ReadMessage(Pagination);
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// QueryGranterGrantsResponse is the response type for the Query/GranterGrants RPC method.
+  /// </summary>
+  public sealed partial class QueryGranterGrantsResponse : pb::IMessage<QueryGranterGrantsResponse>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<QueryGranterGrantsResponse> _parser = new pb::MessageParser<QueryGranterGrantsResponse>(() => new QueryGranterGrantsResponse());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<QueryGranterGrantsResponse> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Cosmos.Authz.V1Beta1.QueryReflection.Descriptor.MessageTypes[3]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public QueryGranterGrantsResponse() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public QueryGranterGrantsResponse(QueryGranterGrantsResponse other) : this() {
+      grants_ = other.grants_.Clone();
+      pagination_ = other.pagination_ != null ? other.pagination_.Clone() : null;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public QueryGranterGrantsResponse Clone() {
+      return new QueryGranterGrantsResponse(this);
+    }
+
+    /// <summary>Field number for the "grants" field.</summary>
+    public const int GrantsFieldNumber = 1;
+    private static readonly pb::FieldCodec<global::Cosmos.Authz.V1Beta1.GrantAuthorization> _repeated_grants_codec
+        = pb::FieldCodec.ForMessage(10, global::Cosmos.Authz.V1Beta1.GrantAuthorization.Parser);
+    private readonly pbc::RepeatedField<global::Cosmos.Authz.V1Beta1.GrantAuthorization> grants_ = new pbc::RepeatedField<global::Cosmos.Authz.V1Beta1.GrantAuthorization>();
+    /// <summary>
+    /// grants is a list of grants granted by the granter.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pbc::RepeatedField<global::Cosmos.Authz.V1Beta1.GrantAuthorization> Grants {
+      get { return grants_; }
+    }
+
+    /// <summary>Field number for the "pagination" field.</summary>
+    public const int PaginationFieldNumber = 2;
+    private global::Cosmos.Base.Query.V1Beta1.PageResponse pagination_;
+    /// <summary>
+    /// pagination defines an pagination for the response.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Cosmos.Base.Query.V1Beta1.PageResponse Pagination {
+      get { return pagination_; }
+      set {
+        pagination_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as QueryGranterGrantsResponse);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(QueryGranterGrantsResponse other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if(!grants_.Equals(other.grants_)) return false;
+      if (!object.Equals(Pagination, other.Pagination)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      hash ^= grants_.GetHashCode();
+      if (pagination_ != null) hash ^= Pagination.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      grants_.WriteTo(output, _repeated_grants_codec);
+      if (pagination_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(Pagination);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      grants_.WriteTo(ref output, _repeated_grants_codec);
+      if (pagination_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(Pagination);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      size += grants_.CalculateSize(_repeated_grants_codec);
+      if (pagination_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Pagination);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(QueryGranterGrantsResponse other) {
+      if (other == null) {
+        return;
+      }
+      grants_.Add(other.grants_);
+      if (other.pagination_ != null) {
+        if (pagination_ == null) {
+          Pagination = new global::Cosmos.Base.Query.V1Beta1.PageResponse();
+        }
+        Pagination.MergeFrom(other.Pagination);
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            grants_.AddEntriesFrom(input, _repeated_grants_codec);
+            break;
+          }
+          case 18: {
+            if (pagination_ == null) {
+              Pagination = new global::Cosmos.Base.Query.V1Beta1.PageResponse();
+            }
+            input.ReadMessage(Pagination);
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            grants_.AddEntriesFrom(ref input, _repeated_grants_codec);
+            break;
+          }
+          case 18: {
+            if (pagination_ == null) {
+              Pagination = new global::Cosmos.Base.Query.V1Beta1.PageResponse();
+            }
+            input.ReadMessage(Pagination);
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// QueryGranteeGrantsRequest is the request type for the Query/IssuedGrants RPC method.
+  /// </summary>
+  public sealed partial class QueryGranteeGrantsRequest : pb::IMessage<QueryGranteeGrantsRequest>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<QueryGranteeGrantsRequest> _parser = new pb::MessageParser<QueryGranteeGrantsRequest>(() => new QueryGranteeGrantsRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<QueryGranteeGrantsRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Cosmos.Authz.V1Beta1.QueryReflection.Descriptor.MessageTypes[4]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public QueryGranteeGrantsRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public QueryGranteeGrantsRequest(QueryGranteeGrantsRequest other) : this() {
+      grantee_ = other.grantee_;
+      pagination_ = other.pagination_ != null ? other.pagination_.Clone() : null;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public QueryGranteeGrantsRequest Clone() {
+      return new QueryGranteeGrantsRequest(this);
+    }
+
+    /// <summary>Field number for the "grantee" field.</summary>
+    public const int GranteeFieldNumber = 1;
+    private string grantee_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string Grantee {
+      get { return grantee_; }
+      set {
+        grantee_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "pagination" field.</summary>
+    public const int PaginationFieldNumber = 2;
+    private global::Cosmos.Base.Query.V1Beta1.PageRequest pagination_;
+    /// <summary>
+    /// pagination defines an pagination for the request.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Cosmos.Base.Query.V1Beta1.PageRequest Pagination {
+      get { return pagination_; }
+      set {
+        pagination_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as QueryGranteeGrantsRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(QueryGranteeGrantsRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Grantee != other.Grantee) return false;
+      if (!object.Equals(Pagination, other.Pagination)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Grantee.Length != 0) hash ^= Grantee.GetHashCode();
+      if (pagination_ != null) hash ^= Pagination.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (Grantee.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Grantee);
+      }
+      if (pagination_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(Pagination);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (Grantee.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Grantee);
+      }
+      if (pagination_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(Pagination);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (Grantee.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Grantee);
+      }
+      if (pagination_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Pagination);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(QueryGranteeGrantsRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Grantee.Length != 0) {
+        Grantee = other.Grantee;
+      }
+      if (other.pagination_ != null) {
+        if (pagination_ == null) {
+          Pagination = new global::Cosmos.Base.Query.V1Beta1.PageRequest();
+        }
+        Pagination.MergeFrom(other.Pagination);
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            Grantee = input.ReadString();
+            break;
+          }
+          case 18: {
+            if (pagination_ == null) {
+              Pagination = new global::Cosmos.Base.Query.V1Beta1.PageRequest();
+            }
+            input.ReadMessage(Pagination);
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            Grantee = input.ReadString();
+            break;
+          }
+          case 18: {
+            if (pagination_ == null) {
+              Pagination = new global::Cosmos.Base.Query.V1Beta1.PageRequest();
+            }
+            input.ReadMessage(Pagination);
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// QueryGranteeGrantsResponse is the response type for the Query/GranteeGrants RPC method.
+  /// </summary>
+  public sealed partial class QueryGranteeGrantsResponse : pb::IMessage<QueryGranteeGrantsResponse>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<QueryGranteeGrantsResponse> _parser = new pb::MessageParser<QueryGranteeGrantsResponse>(() => new QueryGranteeGrantsResponse());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<QueryGranteeGrantsResponse> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Cosmos.Authz.V1Beta1.QueryReflection.Descriptor.MessageTypes[5]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public QueryGranteeGrantsResponse() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public QueryGranteeGrantsResponse(QueryGranteeGrantsResponse other) : this() {
+      grants_ = other.grants_.Clone();
+      pagination_ = other.pagination_ != null ? other.pagination_.Clone() : null;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public QueryGranteeGrantsResponse Clone() {
+      return new QueryGranteeGrantsResponse(this);
+    }
+
+    /// <summary>Field number for the "grants" field.</summary>
+    public const int GrantsFieldNumber = 1;
+    private static readonly pb::FieldCodec<global::Cosmos.Authz.V1Beta1.GrantAuthorization> _repeated_grants_codec
+        = pb::FieldCodec.ForMessage(10, global::Cosmos.Authz.V1Beta1.GrantAuthorization.Parser);
+    private readonly pbc::RepeatedField<global::Cosmos.Authz.V1Beta1.GrantAuthorization> grants_ = new pbc::RepeatedField<global::Cosmos.Authz.V1Beta1.GrantAuthorization>();
+    /// <summary>
+    /// grants is a list of grants granted to the grantee.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pbc::RepeatedField<global::Cosmos.Authz.V1Beta1.GrantAuthorization> Grants {
+      get { return grants_; }
+    }
+
+    /// <summary>Field number for the "pagination" field.</summary>
+    public const int PaginationFieldNumber = 2;
+    private global::Cosmos.Base.Query.V1Beta1.PageResponse pagination_;
+    /// <summary>
+    /// pagination defines an pagination for the response.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Cosmos.Base.Query.V1Beta1.PageResponse Pagination {
+      get { return pagination_; }
+      set {
+        pagination_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as QueryGranteeGrantsResponse);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(QueryGranteeGrantsResponse other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if(!grants_.Equals(other.grants_)) return false;
+      if (!object.Equals(Pagination, other.Pagination)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      hash ^= grants_.GetHashCode();
+      if (pagination_ != null) hash ^= Pagination.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      grants_.WriteTo(output, _repeated_grants_codec);
+      if (pagination_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(Pagination);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      grants_.WriteTo(ref output, _repeated_grants_codec);
+      if (pagination_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(Pagination);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      size += grants_.CalculateSize(_repeated_grants_codec);
+      if (pagination_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Pagination);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(QueryGranteeGrantsResponse other) {
       if (other == null) {
         return;
       }

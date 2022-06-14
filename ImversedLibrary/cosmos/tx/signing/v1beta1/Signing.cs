@@ -41,11 +41,12 @@ namespace Cosmos.Tx.Signing.V1Beta1 {
             "AQoFTXVsdGkSQQoIYml0YXJyYXkYASABKAsyLy5jb3Ntb3MuY3J5cHRvLm11",
             "bHRpc2lnLnYxYmV0YTEuQ29tcGFjdEJpdEFycmF5EkcKCnNpZ25hdHVyZXMY",
             "AiADKAsyMy5jb3Ntb3MudHguc2lnbmluZy52MWJldGExLlNpZ25hdHVyZURl",
-            "c2NyaXB0b3IuRGF0YUIFCgNzdW0qcwoIU2lnbk1vZGUSGQoVU0lHTl9NT0RF",
-            "X1VOU1BFQ0lGSUVEEAASFAoQU0lHTl9NT0RFX0RJUkVDVBABEhUKEVNJR05f",
-            "TU9ERV9URVhUVUFMEAISHwobU0lHTl9NT0RFX0xFR0FDWV9BTUlOT19KU09O",
-            "EH9CL1otZ2l0aHViLmNvbS9jb3Ntb3MvY29zbW9zLXNkay90eXBlcy90eC9z",
-            "aWduaW5nYgZwcm90bzM="));
+            "c2NyaXB0b3IuRGF0YUIFCgNzdW0qpQEKCFNpZ25Nb2RlEhkKFVNJR05fTU9E",
+            "RV9VTlNQRUNJRklFRBAAEhQKEFNJR05fTU9ERV9ESVJFQ1QQARIVChFTSUdO",
+            "X01PREVfVEVYVFVBTBACEhgKFFNJR05fTU9ERV9ESVJFQ1RfQVVYEAMSHwob",
+            "U0lHTl9NT0RFX0xFR0FDWV9BTUlOT19KU09OEH8SFgoRU0lHTl9NT0RFX0VJ",
+            "UF8xOTEQvwFCL1otZ2l0aHViLmNvbS9jb3Ntb3MvY29zbW9zLXNkay90eXBl",
+            "cy90eC9zaWduaW5nYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Cosmos.Crypto.Multisig.V1Beta1.MultisigReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.AnyReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Cosmos.Tx.Signing.V1Beta1.SignMode), }, null, new pbr::GeneratedClrTypeInfo[] {
@@ -60,29 +61,58 @@ namespace Cosmos.Tx.Signing.V1Beta1 {
   #region Enums
   /// <summary>
   /// SignMode represents a signing mode with its own security guarantees.
+  ///
+  /// This enum should be considered a registry of all known sign modes
+  /// in the Cosmos ecosystem. Apps are not expected to support all known
+  /// sign modes. Apps that would like to support custom  sign modes are
+  /// encouraged to open a small PR against this file to add a new case
+  /// to this SignMode enum describing their sign mode so that different
+  /// apps have a consistent version of this enum.
   /// </summary>
   public enum SignMode {
     /// <summary>
     /// SIGN_MODE_UNSPECIFIED specifies an unknown signing mode and will be
-    /// rejected
+    /// rejected.
     /// </summary>
     [pbr::OriginalName("SIGN_MODE_UNSPECIFIED")] Unspecified = 0,
     /// <summary>
     /// SIGN_MODE_DIRECT specifies a signing mode which uses SignDoc and is
-    /// verified with raw bytes from Tx
+    /// verified with raw bytes from Tx.
     /// </summary>
     [pbr::OriginalName("SIGN_MODE_DIRECT")] Direct = 1,
     /// <summary>
     /// SIGN_MODE_TEXTUAL is a future signing mode that will verify some
     /// human-readable textual representation on top of the binary representation
-    /// from SIGN_MODE_DIRECT
+    /// from SIGN_MODE_DIRECT. It is currently not supported.
     /// </summary>
     [pbr::OriginalName("SIGN_MODE_TEXTUAL")] Textual = 2,
     /// <summary>
+    /// SIGN_MODE_DIRECT_AUX specifies a signing mode which uses
+    /// SignDocDirectAux. As opposed to SIGN_MODE_DIRECT, this sign mode does not
+    /// require signers signing over other signers' `signer_info`. It also allows
+    /// for adding Tips in transactions.
+    ///
+    /// Since: cosmos-sdk 0.46
+    /// </summary>
+    [pbr::OriginalName("SIGN_MODE_DIRECT_AUX")] DirectAux = 3,
+    /// <summary>
     /// SIGN_MODE_LEGACY_AMINO_JSON is a backwards compatibility mode which uses
-    /// Amino JSON and will be removed in the future
+    /// Amino JSON and will be removed in the future.
     /// </summary>
     [pbr::OriginalName("SIGN_MODE_LEGACY_AMINO_JSON")] LegacyAminoJson = 127,
+    /// <summary>
+    /// SIGN_MODE_EIP_191 specifies the sign mode for EIP 191 signing on the Cosmos
+    /// SDK. Ref: https://eips.ethereum.org/EIPS/eip-191
+    /// 
+    /// Currently, SIGN_MODE_EIP_191 is registered as a SignMode enum variant,
+    /// but is not implemented on the SDK by default. To enable EIP-191, you need
+    /// to pass a custom `TxConfig` that has an implementation of
+    /// `SignModeHandler` for EIP-191. The SDK may decide to fully support
+    /// EIP-191 in the future.
+    ///
+    /// Since: cosmos-sdk 0.45.2
+    /// </summary>
+    [pbr::OriginalName("SIGN_MODE_EIP_191")] Eip191 = 191,
   }
 
   #endregion

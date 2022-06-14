@@ -30,16 +30,26 @@ namespace Cosmos.Params.V1Beta1 {
             "YXJhbXMucHJvdG8iMwoSUXVlcnlQYXJhbXNSZXF1ZXN0EhAKCHN1YnNwYWNl",
             "GAEgASgJEgsKA2tleRgCIAEoCSJOChNRdWVyeVBhcmFtc1Jlc3BvbnNlEjcK",
             "BXBhcmFtGAEgASgLMiIuY29zbW9zLnBhcmFtcy52MWJldGExLlBhcmFtQ2hh",
-            "bmdlQgTI3h8AMpABCgVRdWVyeRKGAQoGUGFyYW1zEikuY29zbW9zLnBhcmFt",
-            "cy52MWJldGExLlF1ZXJ5UGFyYW1zUmVxdWVzdBoqLmNvc21vcy5wYXJhbXMu",
-            "djFiZXRhMS5RdWVyeVBhcmFtc1Jlc3BvbnNlIiWC0+STAh8SHS9jb3Ntb3Mv",
-            "cGFyYW1zL3YxYmV0YTEvcGFyYW1zQjZaNGdpdGh1Yi5jb20vY29zbW9zL2Nv",
-            "c21vcy1zZGsveC9wYXJhbXMvdHlwZXMvcHJvcG9zYWxiBnByb3RvMw=="));
+            "bmdlQgTI3h8AIhcKFVF1ZXJ5U3Vic3BhY2VzUmVxdWVzdCJMChZRdWVyeVN1",
+            "YnNwYWNlc1Jlc3BvbnNlEjIKCXN1YnNwYWNlcxgBIAMoCzIfLmNvc21vcy5w",
+            "YXJhbXMudjFiZXRhMS5TdWJzcGFjZSIqCghTdWJzcGFjZRIQCghzdWJzcGFj",
+            "ZRgBIAEoCRIMCgRrZXlzGAIgAygJMqUCCgVRdWVyeRKGAQoGUGFyYW1zEiku",
+            "Y29zbW9zLnBhcmFtcy52MWJldGExLlF1ZXJ5UGFyYW1zUmVxdWVzdBoqLmNv",
+            "c21vcy5wYXJhbXMudjFiZXRhMS5RdWVyeVBhcmFtc1Jlc3BvbnNlIiWC0+ST",
+            "Ah8SHS9jb3Ntb3MvcGFyYW1zL3YxYmV0YTEvcGFyYW1zEpIBCglTdWJzcGFj",
+            "ZXMSLC5jb3Ntb3MucGFyYW1zLnYxYmV0YTEuUXVlcnlTdWJzcGFjZXNSZXF1",
+            "ZXN0Gi0uY29zbW9zLnBhcmFtcy52MWJldGExLlF1ZXJ5U3Vic3BhY2VzUmVz",
+            "cG9uc2UiKILT5JMCIhIgL2Nvc21vcy9wYXJhbXMvdjFiZXRhMS9zdWJzcGFj",
+            "ZXNCNlo0Z2l0aHViLmNvbS9jb3Ntb3MvY29zbW9zLXNkay94L3BhcmFtcy90",
+            "eXBlcy9wcm9wb3NhbGIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Gogoproto.GogoReflection.Descriptor, global::Google.Api.AnnotationsReflection.Descriptor, global::Cosmos.Params.V1Beta1.ParamsReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Params.V1Beta1.QueryParamsRequest), global::Cosmos.Params.V1Beta1.QueryParamsRequest.Parser, new[]{ "Subspace", "Key" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Params.V1Beta1.QueryParamsResponse), global::Cosmos.Params.V1Beta1.QueryParamsResponse.Parser, new[]{ "Param" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Params.V1Beta1.QueryParamsResponse), global::Cosmos.Params.V1Beta1.QueryParamsResponse.Parser, new[]{ "Param" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Params.V1Beta1.QuerySubspacesRequest), global::Cosmos.Params.V1Beta1.QuerySubspacesRequest.Parser, null, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Params.V1Beta1.QuerySubspacesResponse), global::Cosmos.Params.V1Beta1.QuerySubspacesResponse.Parser, new[]{ "Subspaces" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Params.V1Beta1.Subspace), global::Cosmos.Params.V1Beta1.Subspace.Parser, new[]{ "Subspace_", "Keys" }, null, null, null, null)
           }));
     }
     #endregion
@@ -476,6 +486,569 @@ namespace Cosmos.Params.V1Beta1 {
               Param = new global::Cosmos.Params.V1Beta1.ParamChange();
             }
             input.ReadMessage(Param);
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// QuerySubspacesRequest defines a request type for querying for all registered
+  /// subspaces and all keys for a subspace.
+  ///
+  /// Since: cosmos-sdk 0.46
+  /// </summary>
+  public sealed partial class QuerySubspacesRequest : pb::IMessage<QuerySubspacesRequest>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<QuerySubspacesRequest> _parser = new pb::MessageParser<QuerySubspacesRequest>(() => new QuerySubspacesRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<QuerySubspacesRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Cosmos.Params.V1Beta1.QueryReflection.Descriptor.MessageTypes[2]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public QuerySubspacesRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public QuerySubspacesRequest(QuerySubspacesRequest other) : this() {
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public QuerySubspacesRequest Clone() {
+      return new QuerySubspacesRequest(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as QuerySubspacesRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(QuerySubspacesRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(QuerySubspacesRequest other) {
+      if (other == null) {
+        return;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// QuerySubspacesResponse defines the response types for querying for all
+  /// registered subspaces and all keys for a subspace.
+  ///
+  /// Since: cosmos-sdk 0.46
+  /// </summary>
+  public sealed partial class QuerySubspacesResponse : pb::IMessage<QuerySubspacesResponse>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<QuerySubspacesResponse> _parser = new pb::MessageParser<QuerySubspacesResponse>(() => new QuerySubspacesResponse());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<QuerySubspacesResponse> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Cosmos.Params.V1Beta1.QueryReflection.Descriptor.MessageTypes[3]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public QuerySubspacesResponse() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public QuerySubspacesResponse(QuerySubspacesResponse other) : this() {
+      subspaces_ = other.subspaces_.Clone();
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public QuerySubspacesResponse Clone() {
+      return new QuerySubspacesResponse(this);
+    }
+
+    /// <summary>Field number for the "subspaces" field.</summary>
+    public const int SubspacesFieldNumber = 1;
+    private static readonly pb::FieldCodec<global::Cosmos.Params.V1Beta1.Subspace> _repeated_subspaces_codec
+        = pb::FieldCodec.ForMessage(10, global::Cosmos.Params.V1Beta1.Subspace.Parser);
+    private readonly pbc::RepeatedField<global::Cosmos.Params.V1Beta1.Subspace> subspaces_ = new pbc::RepeatedField<global::Cosmos.Params.V1Beta1.Subspace>();
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pbc::RepeatedField<global::Cosmos.Params.V1Beta1.Subspace> Subspaces {
+      get { return subspaces_; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as QuerySubspacesResponse);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(QuerySubspacesResponse other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if(!subspaces_.Equals(other.subspaces_)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      hash ^= subspaces_.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      subspaces_.WriteTo(output, _repeated_subspaces_codec);
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      subspaces_.WriteTo(ref output, _repeated_subspaces_codec);
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      size += subspaces_.CalculateSize(_repeated_subspaces_codec);
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(QuerySubspacesResponse other) {
+      if (other == null) {
+        return;
+      }
+      subspaces_.Add(other.subspaces_);
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            subspaces_.AddEntriesFrom(input, _repeated_subspaces_codec);
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            subspaces_.AddEntriesFrom(ref input, _repeated_subspaces_codec);
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// Subspace defines a parameter subspace name and all the keys that exist for
+  /// the subspace.
+  ///
+  /// Since: cosmos-sdk 0.46
+  /// </summary>
+  public sealed partial class Subspace : pb::IMessage<Subspace>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<Subspace> _parser = new pb::MessageParser<Subspace>(() => new Subspace());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<Subspace> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Cosmos.Params.V1Beta1.QueryReflection.Descriptor.MessageTypes[4]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public Subspace() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public Subspace(Subspace other) : this() {
+      subspace_ = other.subspace_;
+      keys_ = other.keys_.Clone();
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public Subspace Clone() {
+      return new Subspace(this);
+    }
+
+    /// <summary>Field number for the "subspace" field.</summary>
+    public const int Subspace_FieldNumber = 1;
+    private string subspace_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string Subspace_ {
+      get { return subspace_; }
+      set {
+        subspace_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "keys" field.</summary>
+    public const int KeysFieldNumber = 2;
+    private static readonly pb::FieldCodec<string> _repeated_keys_codec
+        = pb::FieldCodec.ForString(18);
+    private readonly pbc::RepeatedField<string> keys_ = new pbc::RepeatedField<string>();
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pbc::RepeatedField<string> Keys {
+      get { return keys_; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as Subspace);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(Subspace other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Subspace_ != other.Subspace_) return false;
+      if(!keys_.Equals(other.keys_)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Subspace_.Length != 0) hash ^= Subspace_.GetHashCode();
+      hash ^= keys_.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (Subspace_.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Subspace_);
+      }
+      keys_.WriteTo(output, _repeated_keys_codec);
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (Subspace_.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Subspace_);
+      }
+      keys_.WriteTo(ref output, _repeated_keys_codec);
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (Subspace_.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Subspace_);
+      }
+      size += keys_.CalculateSize(_repeated_keys_codec);
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(Subspace other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Subspace_.Length != 0) {
+        Subspace_ = other.Subspace_;
+      }
+      keys_.Add(other.keys_);
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            Subspace_ = input.ReadString();
+            break;
+          }
+          case 18: {
+            keys_.AddEntriesFrom(input, _repeated_keys_codec);
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            Subspace_ = input.ReadString();
+            break;
+          }
+          case 18: {
+            keys_.AddEntriesFrom(ref input, _repeated_keys_codec);
             break;
           }
         }

@@ -26,11 +26,11 @@ namespace Cosmos.Crypto.Multisig {
           string.Concat(
             "CiFjb3Ntb3MvY3J5cHRvL211bHRpc2lnL2tleXMucHJvdG8SFmNvc21vcy5j",
             "cnlwdG8ubXVsdGlzaWcaFGdvZ29wcm90by9nb2dvLnByb3RvGhlnb29nbGUv",
-            "cHJvdG9idWYvYW55LnByb3RvIowBChFMZWdhY3lBbWlub1B1YktleRInCgl0",
-            "aHJlc2hvbGQYASABKA1CFPLeHxB5YW1sOiJ0aHJlc2hvbGQiEkgKC3B1Ymxp",
-            "Y19rZXlzGAIgAygLMhQuZ29vZ2xlLnByb3RvYnVmLkFueUId4t4fB1B1Yktl",
-            "eXPy3h8OeWFtbDoicHVia2V5cyI6BIigHwBCM1oxZ2l0aHViLmNvbS9jb3Nt",
-            "b3MvY29zbW9zLXNkay9jcnlwdG8va2V5cy9tdWx0aXNpZ2IGcHJvdG8z"));
+            "cHJvdG9idWYvYW55LnByb3RvImQKEUxlZ2FjeUFtaW5vUHViS2V5EhEKCXRo",
+            "cmVzaG9sZBgBIAEoDRI2CgtwdWJsaWNfa2V5cxgCIAMoCzIULmdvb2dsZS5w",
+            "cm90b2J1Zi5BbnlCC+LeHwdQdWJLZXlzOgSIoB8AQjNaMWdpdGh1Yi5jb20v",
+            "Y29zbW9zL2Nvc21vcy1zZGsvY3J5cHRvL2tleXMvbXVsdGlzaWdiBnByb3Rv",
+            "Mw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Gogoproto.GogoReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.AnyReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {

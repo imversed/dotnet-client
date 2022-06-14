@@ -27,20 +27,21 @@ namespace Cosmos.Staking.V1Beta1 {
             "CiJjb3Ntb3Mvc3Rha2luZy92MWJldGExL2F1dGh6LnByb3RvEhZjb3Ntb3Mu",
             "c3Rha2luZy52MWJldGExGhRnb2dvcHJvdG8vZ29nby5wcm90bxoZY29zbW9z",
             "X3Byb3RvL2Nvc21vcy5wcm90bxoeY29zbW9zL2Jhc2UvdjFiZXRhMS9jb2lu",
-            "LnByb3RvIpADChJTdGFrZUF1dGhvcml6YXRpb24SWgoKbWF4X3Rva2VucxgB",
+            "LnByb3RvIqoDChJTdGFrZUF1dGhvcml6YXRpb24SWgoKbWF4X3Rva2VucxgB",
             "IAEoCzIZLmNvc21vcy5iYXNlLnYxYmV0YTEuQ29pbkIrqt8fJ2dpdGh1Yi5j",
             "b20vY29zbW9zL2Nvc21vcy1zZGsvdHlwZXMuQ29pbhJLCgphbGxvd19saXN0",
             "GAIgASgLMjUuY29zbW9zLnN0YWtpbmcudjFiZXRhMS5TdGFrZUF1dGhvcml6",
             "YXRpb24uVmFsaWRhdG9yc0gAEkoKCWRlbnlfbGlzdBgDIAEoCzI1LmNvc21v",
             "cy5zdGFraW5nLnYxYmV0YTEuU3Rha2VBdXRob3JpemF0aW9uLlZhbGlkYXRv",
             "cnNIABJFChJhdXRob3JpemF0aW9uX3R5cGUYBCABKA4yKS5jb3Ntb3Muc3Rh",
-            "a2luZy52MWJldGExLkF1dGhvcml6YXRpb25UeXBlGh0KClZhbGlkYXRvcnMS",
-            "DwoHYWRkcmVzcxgBIAMoCToRyrQtDUF1dGhvcml6YXRpb25CDAoKdmFsaWRh",
-            "dG9ycyqeAQoRQXV0aG9yaXphdGlvblR5cGUSIgoeQVVUSE9SSVpBVElPTl9U",
-            "WVBFX1VOU1BFQ0lGSUVEEAASHwobQVVUSE9SSVpBVElPTl9UWVBFX0RFTEVH",
-            "QVRFEAESIQodQVVUSE9SSVpBVElPTl9UWVBFX1VOREVMRUdBVEUQAhIhCh1B",
-            "VVRIT1JJWkFUSU9OX1RZUEVfUkVERUxFR0FURRADQi5aLGdpdGh1Yi5jb20v",
-            "Y29zbW9zL2Nvc21vcy1zZGsveC9zdGFraW5nL3R5cGVzYgZwcm90bzM="));
+            "a2luZy52MWJldGExLkF1dGhvcml6YXRpb25UeXBlGjcKClZhbGlkYXRvcnMS",
+            "KQoHYWRkcmVzcxgBIAMoCUIY0rQtFGNvc21vcy5BZGRyZXNzU3RyaW5nOhHK",
+            "tC0NQXV0aG9yaXphdGlvbkIMCgp2YWxpZGF0b3JzKp4BChFBdXRob3JpemF0",
+            "aW9uVHlwZRIiCh5BVVRIT1JJWkFUSU9OX1RZUEVfVU5TUEVDSUZJRUQQABIf",
+            "ChtBVVRIT1JJWkFUSU9OX1RZUEVfREVMRUdBVEUQARIhCh1BVVRIT1JJWkFU",
+            "SU9OX1RZUEVfVU5ERUxFR0FURRACEiEKHUFVVEhPUklaQVRJT05fVFlQRV9S",
+            "RURFTEVHQVRFEANCLlosZ2l0aHViLmNvbS9jb3Ntb3MvY29zbW9zLXNkay94",
+            "L3N0YWtpbmcvdHlwZXNiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Gogoproto.GogoReflection.Descriptor, global::CosmosProto.CosmosReflection.Descriptor, global::Cosmos.Base.V1Beta1.CoinReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Cosmos.Staking.V1Beta1.AuthorizationType), }, null, new pbr::GeneratedClrTypeInfo[] {
@@ -53,6 +54,8 @@ namespace Cosmos.Staking.V1Beta1 {
   #region Enums
   /// <summary>
   /// AuthorizationType defines the type of staking module authorization type
+  ///
+  /// Since: cosmos-sdk 0.43
   /// </summary>
   public enum AuthorizationType {
     /// <summary>
@@ -78,6 +81,8 @@ namespace Cosmos.Staking.V1Beta1 {
   #region Messages
   /// <summary>
   /// StakeAuthorization defines authorization for delegate/undelegate/redelegate.
+  ///
+  /// Since: cosmos-sdk 0.43
   /// </summary>
   public sealed partial class StakeAuthorization : pb::IMessage<StakeAuthorization>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE

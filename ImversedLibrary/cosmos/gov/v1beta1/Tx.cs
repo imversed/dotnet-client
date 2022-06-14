@@ -28,38 +28,40 @@ namespace Cosmos.Gov.V1Beta1 {
             "ZXRhMRoeY29zbW9zL2Jhc2UvdjFiZXRhMS9jb2luLnByb3RvGhxjb3Ntb3Mv",
             "Z292L3YxYmV0YTEvZ292LnByb3RvGhljb3Ntb3NfcHJvdG8vY29zbW9zLnBy",
             "b3RvGhRnb2dvcHJvdG8vZ29nby5wcm90bxoZZ29vZ2xlL3Byb3RvYnVmL2Fu",
-            "eS5wcm90byLrAQoRTXNnU3VibWl0UHJvcG9zYWwSMgoHY29udGVudBgBIAEo",
-            "CzIULmdvb2dsZS5wcm90b2J1Zi5BbnlCC8q0LQdDb250ZW50En4KD2luaXRp",
-            "YWxfZGVwb3NpdBgCIAMoCzIZLmNvc21vcy5iYXNlLnYxYmV0YTEuQ29pbkJK",
-            "yN4fAKrfHyhnaXRodWIuY29tL2Nvc21vcy9jb3Ntb3Mtc2RrL3R5cGVzLkNv",
-            "aW5z8t4fFnlhbWw6ImluaXRpYWxfZGVwb3NpdCISEAoIcHJvcG9zZXIYAyAB",
-            "KAk6EOigHwCYoB8AgNwgAIigHwAiVwoZTXNnU3VibWl0UHJvcG9zYWxSZXNw",
-            "b25zZRI6Cgtwcm9wb3NhbF9pZBgBIAEoBEIl6t4fC3Byb3Bvc2FsX2lk8t4f",
-            "EnlhbWw6InByb3Bvc2FsX2lkIiKWAQoHTXNnVm90ZRI6Cgtwcm9wb3NhbF9p",
-            "ZBgBIAEoBEIl6t4fC3Byb3Bvc2FsX2lk8t4fEnlhbWw6InByb3Bvc2FsX2lk",
-            "IhINCgV2b3RlchgCIAEoCRIuCgZvcHRpb24YAyABKA4yHi5jb3Ntb3MuZ292",
-            "LnYxYmV0YTEuVm90ZU9wdGlvbjoQ6KAfAJigHwCA3CAAiKAfACIRCg9Nc2dW",
-            "b3RlUmVzcG9uc2UingEKD01zZ1ZvdGVXZWlnaHRlZBIrCgtwcm9wb3NhbF9p",
-            "ZBgBIAEoBEIW8t4fEnlhbWw6InByb3Bvc2FsX2lkIhINCgV2b3RlchgCIAEo",
-            "CRI9CgdvcHRpb25zGAMgAygLMiYuY29zbW9zLmdvdi52MWJldGExLldlaWdo",
-            "dGVkVm90ZU9wdGlvbkIEyN4fADoQ6KAfAJigHwCA3CAAiKAfACIZChdNc2dW",
-            "b3RlV2VpZ2h0ZWRSZXNwb25zZSLKAQoKTXNnRGVwb3NpdBI6Cgtwcm9wb3Nh",
-            "bF9pZBgBIAEoBEIl6t4fC3Byb3Bvc2FsX2lk8t4fEnlhbWw6InByb3Bvc2Fs",
-            "X2lkIhIRCglkZXBvc2l0b3IYAiABKAkSWwoGYW1vdW50GAMgAygLMhkuY29z",
-            "bW9zLmJhc2UudjFiZXRhMS5Db2luQjDI3h8Aqt8fKGdpdGh1Yi5jb20vY29z",
-            "bW9zL2Nvc21vcy1zZGsvdHlwZXMuQ29pbnM6EOigHwCYoB8AgNwgAIigHwAi",
-            "FAoSTXNnRGVwb3NpdFJlc3BvbnNlMuwCCgNNc2cSZgoOU3VibWl0UHJvcG9z",
-            "YWwSJS5jb3Ntb3MuZ292LnYxYmV0YTEuTXNnU3VibWl0UHJvcG9zYWwaLS5j",
-            "b3Ntb3MuZ292LnYxYmV0YTEuTXNnU3VibWl0UHJvcG9zYWxSZXNwb25zZRJI",
-            "CgRWb3RlEhsuY29zbW9zLmdvdi52MWJldGExLk1zZ1ZvdGUaIy5jb3Ntb3Mu",
-            "Z292LnYxYmV0YTEuTXNnVm90ZVJlc3BvbnNlEmAKDFZvdGVXZWlnaHRlZBIj",
-            "LmNvc21vcy5nb3YudjFiZXRhMS5Nc2dWb3RlV2VpZ2h0ZWQaKy5jb3Ntb3Mu",
-            "Z292LnYxYmV0YTEuTXNnVm90ZVdlaWdodGVkUmVzcG9uc2USUQoHRGVwb3Np",
-            "dBIeLmNvc21vcy5nb3YudjFiZXRhMS5Nc2dEZXBvc2l0GiYuY29zbW9zLmdv",
-            "di52MWJldGExLk1zZ0RlcG9zaXRSZXNwb25zZUIqWihnaXRodWIuY29tL2Nv",
-            "c21vcy9jb3Ntb3Mtc2RrL3gvZ292L3R5cGVzYgZwcm90bzM="));
+            "eS5wcm90bxoXY29zbW9zL21zZy92MS9tc2cucHJvdG8i+AEKEU1zZ1N1Ym1p",
+            "dFByb3Bvc2FsEjIKB2NvbnRlbnQYASABKAsyFC5nb29nbGUucHJvdG9idWYu",
+            "QW55QgvKtC0HQ29udGVudBJkCg9pbml0aWFsX2RlcG9zaXQYAiADKAsyGS5j",
+            "b3Ntb3MuYmFzZS52MWJldGExLkNvaW5CMMjeHwCq3x8oZ2l0aHViLmNvbS9j",
+            "b3Ntb3MvY29zbW9zLXNkay90eXBlcy5Db2lucxIqCghwcm9wb3NlchgDIAEo",
+            "CUIY0rQtFGNvc21vcy5BZGRyZXNzU3RyaW5nOh2C57AqCHByb3Bvc2Vy6KAf",
+            "AJigHwCA3CAAiKAfACJBChlNc2dTdWJtaXRQcm9wb3NhbFJlc3BvbnNlEiQK",
+            "C3Byb3Bvc2FsX2lkGAEgASgEQg/q3h8LcHJvcG9zYWxfaWQikwEKB01zZ1Zv",
+            "dGUSEwoLcHJvcG9zYWxfaWQYASABKAQSJwoFdm90ZXIYAiABKAlCGNK0LRRj",
+            "b3Ntb3MuQWRkcmVzc1N0cmluZxIuCgZvcHRpb24YAyABKA4yHi5jb3Ntb3Mu",
+            "Z292LnYxYmV0YTEuVm90ZU9wdGlvbjoaguewKgV2b3RlcuigHwCYoB8AgNwg",
+            "AIigHwAiEQoPTXNnVm90ZVJlc3BvbnNlIrsBCg9Nc2dWb3RlV2VpZ2h0ZWQS",
+            "JAoLcHJvcG9zYWxfaWQYASABKARCD+reHwtwcm9wb3NhbF9pZBInCgV2b3Rl",
+            "chgCIAEoCUIY0rQtFGNvc21vcy5BZGRyZXNzU3RyaW5nEj0KB29wdGlvbnMY",
+            "AyADKAsyJi5jb3Ntb3MuZ292LnYxYmV0YTEuV2VpZ2h0ZWRWb3RlT3B0aW9u",
+            "QgTI3h8AOhqC57AqBXZvdGVy6KAfAJigHwCA3CAAiKAfACIZChdNc2dWb3Rl",
+            "V2VpZ2h0ZWRSZXNwb25zZSLcAQoKTXNnRGVwb3NpdBIkCgtwcm9wb3NhbF9p",
+            "ZBgBIAEoBEIP6t4fC3Byb3Bvc2FsX2lkEisKCWRlcG9zaXRvchgCIAEoCUIY",
+            "0rQtFGNvc21vcy5BZGRyZXNzU3RyaW5nElsKBmFtb3VudBgDIAMoCzIZLmNv",
+            "c21vcy5iYXNlLnYxYmV0YTEuQ29pbkIwyN4fAKrfHyhnaXRodWIuY29tL2Nv",
+            "c21vcy9jb3Ntb3Mtc2RrL3R5cGVzLkNvaW5zOh6C57AqCWRlcG9zaXRvcuig",
+            "HwCYoB8AgNwgAIigHwAiFAoSTXNnRGVwb3NpdFJlc3BvbnNlMuwCCgNNc2cS",
+            "ZgoOU3VibWl0UHJvcG9zYWwSJS5jb3Ntb3MuZ292LnYxYmV0YTEuTXNnU3Vi",
+            "bWl0UHJvcG9zYWwaLS5jb3Ntb3MuZ292LnYxYmV0YTEuTXNnU3VibWl0UHJv",
+            "cG9zYWxSZXNwb25zZRJICgRWb3RlEhsuY29zbW9zLmdvdi52MWJldGExLk1z",
+            "Z1ZvdGUaIy5jb3Ntb3MuZ292LnYxYmV0YTEuTXNnVm90ZVJlc3BvbnNlEmAK",
+            "DFZvdGVXZWlnaHRlZBIjLmNvc21vcy5nb3YudjFiZXRhMS5Nc2dWb3RlV2Vp",
+            "Z2h0ZWQaKy5jb3Ntb3MuZ292LnYxYmV0YTEuTXNnVm90ZVdlaWdodGVkUmVz",
+            "cG9uc2USUQoHRGVwb3NpdBIeLmNvc21vcy5nb3YudjFiZXRhMS5Nc2dEZXBv",
+            "c2l0GiYuY29zbW9zLmdvdi52MWJldGExLk1zZ0RlcG9zaXRSZXNwb25zZUIy",
+            "WjBnaXRodWIuY29tL2Nvc21vcy9jb3Ntb3Mtc2RrL3gvZ292L3R5cGVzL3Yx",
+            "YmV0YTFiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Cosmos.Base.V1Beta1.CoinReflection.Descriptor, global::Cosmos.Gov.V1Beta1.GovReflection.Descriptor, global::CosmosProto.CosmosReflection.Descriptor, global::Gogoproto.GogoReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.AnyReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::Cosmos.Base.V1Beta1.CoinReflection.Descriptor, global::Cosmos.Gov.V1Beta1.GovReflection.Descriptor, global::CosmosProto.CosmosReflection.Descriptor, global::Gogoproto.GogoReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.AnyReflection.Descriptor, global::Cosmos.Msg.V1.MsgReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Gov.V1Beta1.MsgSubmitProposal), global::Cosmos.Gov.V1Beta1.MsgSubmitProposal.Parser, new[]{ "Content", "InitialDeposit", "Proposer" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Gov.V1Beta1.MsgSubmitProposalResponse), global::Cosmos.Gov.V1Beta1.MsgSubmitProposalResponse.Parser, new[]{ "ProposalId" }, null, null, null, null),
@@ -955,6 +957,8 @@ namespace Cosmos.Gov.V1Beta1 {
 
   /// <summary>
   /// MsgVoteWeighted defines a message to cast a vote.
+  ///
+  /// Since: cosmos-sdk 0.43
   /// </summary>
   public sealed partial class MsgVoteWeighted : pb::IMessage<MsgVoteWeighted>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
@@ -1210,6 +1214,8 @@ namespace Cosmos.Gov.V1Beta1 {
 
   /// <summary>
   /// MsgVoteWeightedResponse defines the Msg/VoteWeighted response type.
+  ///
+  /// Since: cosmos-sdk 0.43
   /// </summary>
   public sealed partial class MsgVoteWeightedResponse : pb::IMessage<MsgVoteWeightedResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE

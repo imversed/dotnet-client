@@ -72,6 +72,10 @@ namespace Cosmos.Base.Tendermint.V1Beta1 {
     static readonly grpc::Marshaller<global::Cosmos.Base.Tendermint.V1Beta1.GetValidatorSetByHeightRequest> __Marshaller_cosmos_base_tendermint_v1beta1_GetValidatorSetByHeightRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Cosmos.Base.Tendermint.V1Beta1.GetValidatorSetByHeightRequest.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Cosmos.Base.Tendermint.V1Beta1.GetValidatorSetByHeightResponse> __Marshaller_cosmos_base_tendermint_v1beta1_GetValidatorSetByHeightResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Cosmos.Base.Tendermint.V1Beta1.GetValidatorSetByHeightResponse.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Cosmos.Base.Tendermint.V1Beta1.ABCIQueryRequest> __Marshaller_cosmos_base_tendermint_v1beta1_ABCIQueryRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Cosmos.Base.Tendermint.V1Beta1.ABCIQueryRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Cosmos.Base.Tendermint.V1Beta1.ABCIQueryResponse> __Marshaller_cosmos_base_tendermint_v1beta1_ABCIQueryResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Cosmos.Base.Tendermint.V1Beta1.ABCIQueryResponse.Parser));
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Cosmos.Base.Tendermint.V1Beta1.GetNodeInfoRequest, global::Cosmos.Base.Tendermint.V1Beta1.GetNodeInfoResponse> __Method_GetNodeInfo = new grpc::Method<global::Cosmos.Base.Tendermint.V1Beta1.GetNodeInfoRequest, global::Cosmos.Base.Tendermint.V1Beta1.GetNodeInfoResponse>(
@@ -120,6 +124,14 @@ namespace Cosmos.Base.Tendermint.V1Beta1 {
         "GetValidatorSetByHeight",
         __Marshaller_cosmos_base_tendermint_v1beta1_GetValidatorSetByHeightRequest,
         __Marshaller_cosmos_base_tendermint_v1beta1_GetValidatorSetByHeightResponse);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Cosmos.Base.Tendermint.V1Beta1.ABCIQueryRequest, global::Cosmos.Base.Tendermint.V1Beta1.ABCIQueryResponse> __Method_ABCIQuery = new grpc::Method<global::Cosmos.Base.Tendermint.V1Beta1.ABCIQueryRequest, global::Cosmos.Base.Tendermint.V1Beta1.ABCIQueryResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "ABCIQuery",
+        __Marshaller_cosmos_base_tendermint_v1beta1_ABCIQueryRequest,
+        __Marshaller_cosmos_base_tendermint_v1beta1_ABCIQueryResponse);
 
     /// <summary>Service descriptor</summary>
     public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor
@@ -199,6 +211,22 @@ namespace Cosmos.Base.Tendermint.V1Beta1 {
       /// <returns>The response to send back to the client (wrapped by a task).</returns>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::System.Threading.Tasks.Task<global::Cosmos.Base.Tendermint.V1Beta1.GetValidatorSetByHeightResponse> GetValidatorSetByHeight(global::Cosmos.Base.Tendermint.V1Beta1.GetValidatorSetByHeightRequest request, grpc::ServerCallContext context)
+      {
+        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
+      }
+
+      /// <summary>
+      /// ABCIQuery defines a query handler that supports ABCI queries directly to the
+      /// application, bypassing Tendermint completely. The ABCI query must contain
+      /// a valid and supported path, including app, custom, p2p, and store.
+      ///
+      /// Since: cosmos-sdk 0.46
+      /// </summary>
+      /// <param name="request">The request received from the client.</param>
+      /// <param name="context">The context of the server-side call handler being invoked.</param>
+      /// <returns>The response to send back to the client (wrapped by a task).</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::System.Threading.Tasks.Task<global::Cosmos.Base.Tendermint.V1Beta1.ABCIQueryResponse> ABCIQuery(global::Cosmos.Base.Tendermint.V1Beta1.ABCIQueryRequest request, grpc::ServerCallContext context)
       {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
       }
@@ -520,6 +548,70 @@ namespace Cosmos.Base.Tendermint.V1Beta1 {
       {
         return CallInvoker.AsyncUnaryCall(__Method_GetValidatorSetByHeight, null, options, request);
       }
+      /// <summary>
+      /// ABCIQuery defines a query handler that supports ABCI queries directly to the
+      /// application, bypassing Tendermint completely. The ABCI query must contain
+      /// a valid and supported path, including app, custom, p2p, and store.
+      ///
+      /// Since: cosmos-sdk 0.46
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Cosmos.Base.Tendermint.V1Beta1.ABCIQueryResponse ABCIQuery(global::Cosmos.Base.Tendermint.V1Beta1.ABCIQueryRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return ABCIQuery(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// ABCIQuery defines a query handler that supports ABCI queries directly to the
+      /// application, bypassing Tendermint completely. The ABCI query must contain
+      /// a valid and supported path, including app, custom, p2p, and store.
+      ///
+      /// Since: cosmos-sdk 0.46
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Cosmos.Base.Tendermint.V1Beta1.ABCIQueryResponse ABCIQuery(global::Cosmos.Base.Tendermint.V1Beta1.ABCIQueryRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_ABCIQuery, null, options, request);
+      }
+      /// <summary>
+      /// ABCIQuery defines a query handler that supports ABCI queries directly to the
+      /// application, bypassing Tendermint completely. The ABCI query must contain
+      /// a valid and supported path, including app, custom, p2p, and store.
+      ///
+      /// Since: cosmos-sdk 0.46
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Cosmos.Base.Tendermint.V1Beta1.ABCIQueryResponse> ABCIQueryAsync(global::Cosmos.Base.Tendermint.V1Beta1.ABCIQueryRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return ABCIQueryAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// ABCIQuery defines a query handler that supports ABCI queries directly to the
+      /// application, bypassing Tendermint completely. The ABCI query must contain
+      /// a valid and supported path, including app, custom, p2p, and store.
+      ///
+      /// Since: cosmos-sdk 0.46
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Cosmos.Base.Tendermint.V1Beta1.ABCIQueryResponse> ABCIQueryAsync(global::Cosmos.Base.Tendermint.V1Beta1.ABCIQueryRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_ABCIQuery, null, options, request);
+      }
       /// <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       protected override ServiceClient NewInstance(ClientBaseConfiguration configuration)
@@ -539,7 +631,8 @@ namespace Cosmos.Base.Tendermint.V1Beta1 {
           .AddMethod(__Method_GetLatestBlock, serviceImpl.GetLatestBlock)
           .AddMethod(__Method_GetBlockByHeight, serviceImpl.GetBlockByHeight)
           .AddMethod(__Method_GetLatestValidatorSet, serviceImpl.GetLatestValidatorSet)
-          .AddMethod(__Method_GetValidatorSetByHeight, serviceImpl.GetValidatorSetByHeight).Build();
+          .AddMethod(__Method_GetValidatorSetByHeight, serviceImpl.GetValidatorSetByHeight)
+          .AddMethod(__Method_ABCIQuery, serviceImpl.ABCIQuery).Build();
     }
 
     /// <summary>Register service method with a service binder with or without implementation. Useful when customizing the service binding logic.
@@ -555,6 +648,7 @@ namespace Cosmos.Base.Tendermint.V1Beta1 {
       serviceBinder.AddMethod(__Method_GetBlockByHeight, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Cosmos.Base.Tendermint.V1Beta1.GetBlockByHeightRequest, global::Cosmos.Base.Tendermint.V1Beta1.GetBlockByHeightResponse>(serviceImpl.GetBlockByHeight));
       serviceBinder.AddMethod(__Method_GetLatestValidatorSet, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Cosmos.Base.Tendermint.V1Beta1.GetLatestValidatorSetRequest, global::Cosmos.Base.Tendermint.V1Beta1.GetLatestValidatorSetResponse>(serviceImpl.GetLatestValidatorSet));
       serviceBinder.AddMethod(__Method_GetValidatorSetByHeight, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Cosmos.Base.Tendermint.V1Beta1.GetValidatorSetByHeightRequest, global::Cosmos.Base.Tendermint.V1Beta1.GetValidatorSetByHeightResponse>(serviceImpl.GetValidatorSetByHeight));
+      serviceBinder.AddMethod(__Method_ABCIQuery, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Cosmos.Base.Tendermint.V1Beta1.ABCIQueryRequest, global::Cosmos.Base.Tendermint.V1Beta1.ABCIQueryResponse>(serviceImpl.ABCIQuery));
     }
 
   }

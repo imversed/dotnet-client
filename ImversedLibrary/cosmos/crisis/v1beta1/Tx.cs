@@ -25,17 +25,18 @@ namespace Cosmos.Crisis.V1Beta1 {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
             "Ch5jb3Ntb3MvY3Jpc2lzL3YxYmV0YTEvdHgucHJvdG8SFWNvc21vcy5jcmlz",
-            "aXMudjFiZXRhMRoUZ29nb3Byb3RvL2dvZ28ucHJvdG8ipAEKEk1zZ1Zlcmlm",
-            "eUludmFyaWFudBIOCgZzZW5kZXIYASABKAkSPwoVaW52YXJpYW50X21vZHVs",
-            "ZV9uYW1lGAIgASgJQiDy3h8ceWFtbDoiaW52YXJpYW50X21vZHVsZV9uYW1l",
-            "IhIzCg9pbnZhcmlhbnRfcm91dGUYAyABKAlCGvLeHxZ5YW1sOiJpbnZhcmlh",
-            "bnRfcm91dGUiOgjooB8AiKAfACIcChpNc2dWZXJpZnlJbnZhcmlhbnRSZXNw",
-            "b25zZTJ2CgNNc2cSbwoPVmVyaWZ5SW52YXJpYW50EikuY29zbW9zLmNyaXNp",
-            "cy52MWJldGExLk1zZ1ZlcmlmeUludmFyaWFudBoxLmNvc21vcy5jcmlzaXMu",
-            "djFiZXRhMS5Nc2dWZXJpZnlJbnZhcmlhbnRSZXNwb25zZUItWitnaXRodWIu",
-            "Y29tL2Nvc21vcy9jb3Ntb3Mtc2RrL3gvY3Jpc2lzL3R5cGVzYgZwcm90bzM="));
+            "aXMudjFiZXRhMRoUZ29nb3Byb3RvL2dvZ28ucHJvdG8aGWNvc21vc19wcm90",
+            "by9jb3Ntb3MucHJvdG8aF2Nvc21vcy9tc2cvdjEvbXNnLnByb3RvIosBChJN",
+            "c2dWZXJpZnlJbnZhcmlhbnQSKAoGc2VuZGVyGAEgASgJQhjStC0UY29zbW9z",
+            "LkFkZHJlc3NTdHJpbmcSHQoVaW52YXJpYW50X21vZHVsZV9uYW1lGAIgASgJ",
+            "EhcKD2ludmFyaWFudF9yb3V0ZRgDIAEoCToTguewKgZzZW5kZXLooB8AiKAf",
+            "ACIcChpNc2dWZXJpZnlJbnZhcmlhbnRSZXNwb25zZTJ2CgNNc2cSbwoPVmVy",
+            "aWZ5SW52YXJpYW50EikuY29zbW9zLmNyaXNpcy52MWJldGExLk1zZ1Zlcmlm",
+            "eUludmFyaWFudBoxLmNvc21vcy5jcmlzaXMudjFiZXRhMS5Nc2dWZXJpZnlJ",
+            "bnZhcmlhbnRSZXNwb25zZUItWitnaXRodWIuY29tL2Nvc21vcy9jb3Ntb3Mt",
+            "c2RrL3gvY3Jpc2lzL3R5cGVzYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Gogoproto.GogoReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::Gogoproto.GogoReflection.Descriptor, global::CosmosProto.CosmosReflection.Descriptor, global::Cosmos.Msg.V1.MsgReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Crisis.V1Beta1.MsgVerifyInvariant), global::Cosmos.Crisis.V1Beta1.MsgVerifyInvariant.Parser, new[]{ "Sender", "InvariantModuleName", "InvariantRoute" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Crisis.V1Beta1.MsgVerifyInvariantResponse), global::Cosmos.Crisis.V1Beta1.MsgVerifyInvariantResponse.Parser, null, null, null, null, null)

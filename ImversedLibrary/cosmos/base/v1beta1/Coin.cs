@@ -25,15 +25,17 @@ namespace Cosmos.Base.V1Beta1 {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
             "Ch5jb3Ntb3MvYmFzZS92MWJldGExL2NvaW4ucHJvdG8SE2Nvc21vcy5iYXNl",
-            "LnYxYmV0YTEaFGdvZ29wcm90by9nb2dvLnByb3RvIjgKBENvaW4SDQoFZGVu",
-            "b20YASABKAkSGwoGYW1vdW50GAIgASgJQgva3h8DSW50yN4fADoE6KAfASI7",
-            "CgdEZWNDb2luEg0KBWRlbm9tGAEgASgJEhsKBmFtb3VudBgCIAEoCUIL2t4f",
-            "A0RlY8jeHwA6BOigHwEiJAoISW50UHJvdG8SGAoDaW50GAEgASgJQgva3h8D",
-            "SW50yN4fACIkCghEZWNQcm90bxIYCgNkZWMYASABKAlCC9reHwNEZWPI3h8A",
-            "QixaImdpdGh1Yi5jb20vY29zbW9zL2Nvc21vcy1zZGsvdHlwZXPY4R4AgOIe",
-            "AGIGcHJvdG8z"));
+            "LnYxYmV0YTEaFGdvZ29wcm90by9nb2dvLnByb3RvGhljb3Ntb3NfcHJvdG8v",
+            "Y29zbW9zLnByb3RvIkYKBENvaW4SDQoFZGVub20YASABKAkSKQoGYW1vdW50",
+            "GAIgASgJQhnStC0KY29zbW9zLkludNreHwNJbnTI3h8AOgTooB8BIkkKB0Rl",
+            "Y0NvaW4SDQoFZGVub20YASABKAkSKQoGYW1vdW50GAIgASgJQhnStC0KY29z",
+            "bW9zLkRlY9reHwNEZWPI3h8AOgTooB8BIjIKCEludFByb3RvEiYKA2ludBgB",
+            "IAEoCUIZ0rQtCmNvc21vcy5JbnTa3h8DSW50yN4fACIyCghEZWNQcm90bxIm",
+            "CgNkZWMYASABKAlCGdK0LQpjb3Ntb3MuRGVj2t4fA0RlY8jeHwBCLFoiZ2l0",
+            "aHViLmNvbS9jb3Ntb3MvY29zbW9zLXNkay90eXBlc9jhHgCA4h4AYgZwcm90",
+            "bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Gogoproto.GogoReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::Gogoproto.GogoReflection.Descriptor, global::CosmosProto.CosmosReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Base.V1Beta1.Coin), global::Cosmos.Base.V1Beta1.Coin.Parser, new[]{ "Denom", "Amount" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Base.V1Beta1.DecCoin), global::Cosmos.Base.V1Beta1.DecCoin.Parser, new[]{ "Denom", "Amount" }, null, null, null, null),

@@ -45,6 +45,8 @@ namespace Cosmos.Bank.V1Beta1 {
   /// <summary>
   /// SendAuthorization allows the grantee to spend up to spend_limit coins from
   /// the granter's account.
+  ///
+  /// Since: cosmos-sdk 0.43
   /// </summary>
   public sealed partial class SendAuthorization : pb::IMessage<SendAuthorization>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE

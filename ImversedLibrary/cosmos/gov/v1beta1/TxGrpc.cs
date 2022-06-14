@@ -133,6 +133,8 @@ namespace Cosmos.Gov.V1Beta1 {
 
       /// <summary>
       /// VoteWeighted defines a method to add a weighted vote on a specific proposal.
+      ///
+      /// Since: cosmos-sdk 0.43
       /// </summary>
       /// <param name="request">The request received from the client.</param>
       /// <param name="context">The context of the server-side call handler being invoked.</param>
@@ -282,6 +284,8 @@ namespace Cosmos.Gov.V1Beta1 {
       }
       /// <summary>
       /// VoteWeighted defines a method to add a weighted vote on a specific proposal.
+      ///
+      /// Since: cosmos-sdk 0.43
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
@@ -295,6 +299,8 @@ namespace Cosmos.Gov.V1Beta1 {
       }
       /// <summary>
       /// VoteWeighted defines a method to add a weighted vote on a specific proposal.
+      ///
+      /// Since: cosmos-sdk 0.43
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
@@ -306,6 +312,8 @@ namespace Cosmos.Gov.V1Beta1 {
       }
       /// <summary>
       /// VoteWeighted defines a method to add a weighted vote on a specific proposal.
+      ///
+      /// Since: cosmos-sdk 0.43
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
@@ -319,6 +327,8 @@ namespace Cosmos.Gov.V1Beta1 {
       }
       /// <summary>
       /// VoteWeighted defines a method to add a weighted vote on a specific proposal.
+      ///
+      /// Since: cosmos-sdk 0.43
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>

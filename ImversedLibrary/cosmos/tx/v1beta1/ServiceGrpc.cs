@@ -64,6 +64,10 @@ namespace Cosmos.Tx.V1Beta1 {
     static readonly grpc::Marshaller<global::Cosmos.Tx.V1Beta1.GetTxsEventRequest> __Marshaller_cosmos_tx_v1beta1_GetTxsEventRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Cosmos.Tx.V1Beta1.GetTxsEventRequest.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Cosmos.Tx.V1Beta1.GetTxsEventResponse> __Marshaller_cosmos_tx_v1beta1_GetTxsEventResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Cosmos.Tx.V1Beta1.GetTxsEventResponse.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Cosmos.Tx.V1Beta1.GetBlockWithTxsRequest> __Marshaller_cosmos_tx_v1beta1_GetBlockWithTxsRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Cosmos.Tx.V1Beta1.GetBlockWithTxsRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Cosmos.Tx.V1Beta1.GetBlockWithTxsResponse> __Marshaller_cosmos_tx_v1beta1_GetBlockWithTxsResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Cosmos.Tx.V1Beta1.GetBlockWithTxsResponse.Parser));
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Cosmos.Tx.V1Beta1.SimulateRequest, global::Cosmos.Tx.V1Beta1.SimulateResponse> __Method_Simulate = new grpc::Method<global::Cosmos.Tx.V1Beta1.SimulateRequest, global::Cosmos.Tx.V1Beta1.SimulateResponse>(
@@ -96,6 +100,14 @@ namespace Cosmos.Tx.V1Beta1 {
         "GetTxsEvent",
         __Marshaller_cosmos_tx_v1beta1_GetTxsEventRequest,
         __Marshaller_cosmos_tx_v1beta1_GetTxsEventResponse);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Cosmos.Tx.V1Beta1.GetBlockWithTxsRequest, global::Cosmos.Tx.V1Beta1.GetBlockWithTxsResponse> __Method_GetBlockWithTxs = new grpc::Method<global::Cosmos.Tx.V1Beta1.GetBlockWithTxsRequest, global::Cosmos.Tx.V1Beta1.GetBlockWithTxsResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "GetBlockWithTxs",
+        __Marshaller_cosmos_tx_v1beta1_GetBlockWithTxsRequest,
+        __Marshaller_cosmos_tx_v1beta1_GetBlockWithTxsResponse);
 
     /// <summary>Service descriptor</summary>
     public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor
@@ -151,6 +163,20 @@ namespace Cosmos.Tx.V1Beta1 {
       /// <returns>The response to send back to the client (wrapped by a task).</returns>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::System.Threading.Tasks.Task<global::Cosmos.Tx.V1Beta1.GetTxsEventResponse> GetTxsEvent(global::Cosmos.Tx.V1Beta1.GetTxsEventRequest request, grpc::ServerCallContext context)
+      {
+        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
+      }
+
+      /// <summary>
+      /// GetBlockWithTxs fetches a block with decoded txs.
+      ///
+      /// Since: cosmos-sdk 0.45.2
+      /// </summary>
+      /// <param name="request">The request received from the client.</param>
+      /// <param name="context">The context of the server-side call handler being invoked.</param>
+      /// <returns>The response to send back to the client (wrapped by a task).</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::System.Threading.Tasks.Task<global::Cosmos.Tx.V1Beta1.GetBlockWithTxsResponse> GetBlockWithTxs(global::Cosmos.Tx.V1Beta1.GetBlockWithTxsRequest request, grpc::ServerCallContext context)
       {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
       }
@@ -376,6 +402,62 @@ namespace Cosmos.Tx.V1Beta1 {
       {
         return CallInvoker.AsyncUnaryCall(__Method_GetTxsEvent, null, options, request);
       }
+      /// <summary>
+      /// GetBlockWithTxs fetches a block with decoded txs.
+      ///
+      /// Since: cosmos-sdk 0.45.2
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Cosmos.Tx.V1Beta1.GetBlockWithTxsResponse GetBlockWithTxs(global::Cosmos.Tx.V1Beta1.GetBlockWithTxsRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return GetBlockWithTxs(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// GetBlockWithTxs fetches a block with decoded txs.
+      ///
+      /// Since: cosmos-sdk 0.45.2
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Cosmos.Tx.V1Beta1.GetBlockWithTxsResponse GetBlockWithTxs(global::Cosmos.Tx.V1Beta1.GetBlockWithTxsRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_GetBlockWithTxs, null, options, request);
+      }
+      /// <summary>
+      /// GetBlockWithTxs fetches a block with decoded txs.
+      ///
+      /// Since: cosmos-sdk 0.45.2
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Cosmos.Tx.V1Beta1.GetBlockWithTxsResponse> GetBlockWithTxsAsync(global::Cosmos.Tx.V1Beta1.GetBlockWithTxsRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return GetBlockWithTxsAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// GetBlockWithTxs fetches a block with decoded txs.
+      ///
+      /// Since: cosmos-sdk 0.45.2
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Cosmos.Tx.V1Beta1.GetBlockWithTxsResponse> GetBlockWithTxsAsync(global::Cosmos.Tx.V1Beta1.GetBlockWithTxsRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_GetBlockWithTxs, null, options, request);
+      }
       /// <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       protected override ServiceClient NewInstance(ClientBaseConfiguration configuration)
@@ -393,7 +475,8 @@ namespace Cosmos.Tx.V1Beta1 {
           .AddMethod(__Method_Simulate, serviceImpl.Simulate)
           .AddMethod(__Method_GetTx, serviceImpl.GetTx)
           .AddMethod(__Method_BroadcastTx, serviceImpl.BroadcastTx)
-          .AddMethod(__Method_GetTxsEvent, serviceImpl.GetTxsEvent).Build();
+          .AddMethod(__Method_GetTxsEvent, serviceImpl.GetTxsEvent)
+          .AddMethod(__Method_GetBlockWithTxs, serviceImpl.GetBlockWithTxs).Build();
     }
 
     /// <summary>Register service method with a service binder with or without implementation. Useful when customizing the service binding logic.
@@ -407,6 +490,7 @@ namespace Cosmos.Tx.V1Beta1 {
       serviceBinder.AddMethod(__Method_GetTx, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Cosmos.Tx.V1Beta1.GetTxRequest, global::Cosmos.Tx.V1Beta1.GetTxResponse>(serviceImpl.GetTx));
       serviceBinder.AddMethod(__Method_BroadcastTx, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Cosmos.Tx.V1Beta1.BroadcastTxRequest, global::Cosmos.Tx.V1Beta1.BroadcastTxResponse>(serviceImpl.BroadcastTx));
       serviceBinder.AddMethod(__Method_GetTxsEvent, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Cosmos.Tx.V1Beta1.GetTxsEventRequest, global::Cosmos.Tx.V1Beta1.GetTxsEventResponse>(serviceImpl.GetTxsEvent));
+      serviceBinder.AddMethod(__Method_GetBlockWithTxs, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Cosmos.Tx.V1Beta1.GetBlockWithTxsRequest, global::Cosmos.Tx.V1Beta1.GetBlockWithTxsResponse>(serviceImpl.GetBlockWithTxs));
     }
 
   }

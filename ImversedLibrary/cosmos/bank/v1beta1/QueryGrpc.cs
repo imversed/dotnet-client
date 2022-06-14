@@ -57,6 +57,10 @@ namespace Cosmos.Bank.V1Beta1 {
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Cosmos.Bank.V1Beta1.QueryAllBalancesResponse> __Marshaller_cosmos_bank_v1beta1_QueryAllBalancesResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Cosmos.Bank.V1Beta1.QueryAllBalancesResponse.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Cosmos.Bank.V1Beta1.QuerySpendableBalancesRequest> __Marshaller_cosmos_bank_v1beta1_QuerySpendableBalancesRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Cosmos.Bank.V1Beta1.QuerySpendableBalancesRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Cosmos.Bank.V1Beta1.QuerySpendableBalancesResponse> __Marshaller_cosmos_bank_v1beta1_QuerySpendableBalancesResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Cosmos.Bank.V1Beta1.QuerySpendableBalancesResponse.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Cosmos.Bank.V1Beta1.QueryTotalSupplyRequest> __Marshaller_cosmos_bank_v1beta1_QueryTotalSupplyRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Cosmos.Bank.V1Beta1.QueryTotalSupplyRequest.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Cosmos.Bank.V1Beta1.QueryTotalSupplyResponse> __Marshaller_cosmos_bank_v1beta1_QueryTotalSupplyResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Cosmos.Bank.V1Beta1.QueryTotalSupplyResponse.Parser));
@@ -76,6 +80,14 @@ namespace Cosmos.Bank.V1Beta1 {
     static readonly grpc::Marshaller<global::Cosmos.Bank.V1Beta1.QueryDenomsMetadataRequest> __Marshaller_cosmos_bank_v1beta1_QueryDenomsMetadataRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Cosmos.Bank.V1Beta1.QueryDenomsMetadataRequest.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Cosmos.Bank.V1Beta1.QueryDenomsMetadataResponse> __Marshaller_cosmos_bank_v1beta1_QueryDenomsMetadataResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Cosmos.Bank.V1Beta1.QueryDenomsMetadataResponse.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Cosmos.Bank.V1Beta1.QueryDenomOwnersRequest> __Marshaller_cosmos_bank_v1beta1_QueryDenomOwnersRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Cosmos.Bank.V1Beta1.QueryDenomOwnersRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Cosmos.Bank.V1Beta1.QueryDenomOwnersResponse> __Marshaller_cosmos_bank_v1beta1_QueryDenomOwnersResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Cosmos.Bank.V1Beta1.QueryDenomOwnersResponse.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Cosmos.Bank.V1Beta1.QuerySendEnabledRequest> __Marshaller_cosmos_bank_v1beta1_QuerySendEnabledRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Cosmos.Bank.V1Beta1.QuerySendEnabledRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Cosmos.Bank.V1Beta1.QuerySendEnabledResponse> __Marshaller_cosmos_bank_v1beta1_QuerySendEnabledResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Cosmos.Bank.V1Beta1.QuerySendEnabledResponse.Parser));
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Cosmos.Bank.V1Beta1.QueryBalanceRequest, global::Cosmos.Bank.V1Beta1.QueryBalanceResponse> __Method_Balance = new grpc::Method<global::Cosmos.Bank.V1Beta1.QueryBalanceRequest, global::Cosmos.Bank.V1Beta1.QueryBalanceResponse>(
@@ -92,6 +104,14 @@ namespace Cosmos.Bank.V1Beta1 {
         "AllBalances",
         __Marshaller_cosmos_bank_v1beta1_QueryAllBalancesRequest,
         __Marshaller_cosmos_bank_v1beta1_QueryAllBalancesResponse);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Cosmos.Bank.V1Beta1.QuerySpendableBalancesRequest, global::Cosmos.Bank.V1Beta1.QuerySpendableBalancesResponse> __Method_SpendableBalances = new grpc::Method<global::Cosmos.Bank.V1Beta1.QuerySpendableBalancesRequest, global::Cosmos.Bank.V1Beta1.QuerySpendableBalancesResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "SpendableBalances",
+        __Marshaller_cosmos_bank_v1beta1_QuerySpendableBalancesRequest,
+        __Marshaller_cosmos_bank_v1beta1_QuerySpendableBalancesResponse);
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Cosmos.Bank.V1Beta1.QueryTotalSupplyRequest, global::Cosmos.Bank.V1Beta1.QueryTotalSupplyResponse> __Method_TotalSupply = new grpc::Method<global::Cosmos.Bank.V1Beta1.QueryTotalSupplyRequest, global::Cosmos.Bank.V1Beta1.QueryTotalSupplyResponse>(
@@ -133,6 +153,22 @@ namespace Cosmos.Bank.V1Beta1 {
         __Marshaller_cosmos_bank_v1beta1_QueryDenomsMetadataRequest,
         __Marshaller_cosmos_bank_v1beta1_QueryDenomsMetadataResponse);
 
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Cosmos.Bank.V1Beta1.QueryDenomOwnersRequest, global::Cosmos.Bank.V1Beta1.QueryDenomOwnersResponse> __Method_DenomOwners = new grpc::Method<global::Cosmos.Bank.V1Beta1.QueryDenomOwnersRequest, global::Cosmos.Bank.V1Beta1.QueryDenomOwnersResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "DenomOwners",
+        __Marshaller_cosmos_bank_v1beta1_QueryDenomOwnersRequest,
+        __Marshaller_cosmos_bank_v1beta1_QueryDenomOwnersResponse);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Cosmos.Bank.V1Beta1.QuerySendEnabledRequest, global::Cosmos.Bank.V1Beta1.QuerySendEnabledResponse> __Method_SendEnabled = new grpc::Method<global::Cosmos.Bank.V1Beta1.QuerySendEnabledRequest, global::Cosmos.Bank.V1Beta1.QuerySendEnabledResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "SendEnabled",
+        __Marshaller_cosmos_bank_v1beta1_QuerySendEnabledRequest,
+        __Marshaller_cosmos_bank_v1beta1_QuerySendEnabledResponse);
+
     /// <summary>Service descriptor</summary>
     public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor
     {
@@ -163,6 +199,21 @@ namespace Cosmos.Bank.V1Beta1 {
       /// <returns>The response to send back to the client (wrapped by a task).</returns>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::System.Threading.Tasks.Task<global::Cosmos.Bank.V1Beta1.QueryAllBalancesResponse> AllBalances(global::Cosmos.Bank.V1Beta1.QueryAllBalancesRequest request, grpc::ServerCallContext context)
+      {
+        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
+      }
+
+      /// <summary>
+      /// SpendableBalances queries the spenable balance of all coins for a single
+      /// account.
+      ///
+      /// Since: cosmos-sdk 0.46
+      /// </summary>
+      /// <param name="request">The request received from the client.</param>
+      /// <param name="context">The context of the server-side call handler being invoked.</param>
+      /// <returns>The response to send back to the client (wrapped by a task).</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::System.Threading.Tasks.Task<global::Cosmos.Bank.V1Beta1.QuerySpendableBalancesResponse> SpendableBalances(global::Cosmos.Bank.V1Beta1.QuerySpendableBalancesRequest request, grpc::ServerCallContext context)
       {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
       }
@@ -216,13 +267,47 @@ namespace Cosmos.Bank.V1Beta1 {
       }
 
       /// <summary>
-      /// DenomsMetadata queries the client metadata for all registered coin denominations.
+      /// DenomsMetadata queries the client metadata for all registered coin
+      /// denominations.
       /// </summary>
       /// <param name="request">The request received from the client.</param>
       /// <param name="context">The context of the server-side call handler being invoked.</param>
       /// <returns>The response to send back to the client (wrapped by a task).</returns>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::System.Threading.Tasks.Task<global::Cosmos.Bank.V1Beta1.QueryDenomsMetadataResponse> DenomsMetadata(global::Cosmos.Bank.V1Beta1.QueryDenomsMetadataRequest request, grpc::ServerCallContext context)
+      {
+        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
+      }
+
+      /// <summary>
+      /// DenomOwners queries for all account addresses that own a particular token
+      /// denomination.
+      ///
+      /// Since: cosmos-sdk 0.46
+      /// </summary>
+      /// <param name="request">The request received from the client.</param>
+      /// <param name="context">The context of the server-side call handler being invoked.</param>
+      /// <returns>The response to send back to the client (wrapped by a task).</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::System.Threading.Tasks.Task<global::Cosmos.Bank.V1Beta1.QueryDenomOwnersResponse> DenomOwners(global::Cosmos.Bank.V1Beta1.QueryDenomOwnersRequest request, grpc::ServerCallContext context)
+      {
+        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
+      }
+
+      /// <summary>
+      /// SendEnabled queries for SendEnabled entries.
+      ///
+      /// This query only returns denominations that have specific SendEnabled settings.
+      /// Any denomination that does not have a specific setting will use the default
+      /// params.default_send_enabled, and will not be returned by this query.
+      ///
+      /// Since: cosmos-sdk 0.47
+      /// </summary>
+      /// <param name="request">The request received from the client.</param>
+      /// <param name="context">The context of the server-side call handler being invoked.</param>
+      /// <returns>The response to send back to the client (wrapped by a task).</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::System.Threading.Tasks.Task<global::Cosmos.Bank.V1Beta1.QuerySendEnabledResponse> SendEnabled(global::Cosmos.Bank.V1Beta1.QuerySendEnabledRequest request, grpc::ServerCallContext context)
       {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
       }
@@ -351,6 +436,66 @@ namespace Cosmos.Bank.V1Beta1 {
       public virtual grpc::AsyncUnaryCall<global::Cosmos.Bank.V1Beta1.QueryAllBalancesResponse> AllBalancesAsync(global::Cosmos.Bank.V1Beta1.QueryAllBalancesRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_AllBalances, null, options, request);
+      }
+      /// <summary>
+      /// SpendableBalances queries the spenable balance of all coins for a single
+      /// account.
+      ///
+      /// Since: cosmos-sdk 0.46
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Cosmos.Bank.V1Beta1.QuerySpendableBalancesResponse SpendableBalances(global::Cosmos.Bank.V1Beta1.QuerySpendableBalancesRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return SpendableBalances(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// SpendableBalances queries the spenable balance of all coins for a single
+      /// account.
+      ///
+      /// Since: cosmos-sdk 0.46
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Cosmos.Bank.V1Beta1.QuerySpendableBalancesResponse SpendableBalances(global::Cosmos.Bank.V1Beta1.QuerySpendableBalancesRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_SpendableBalances, null, options, request);
+      }
+      /// <summary>
+      /// SpendableBalances queries the spenable balance of all coins for a single
+      /// account.
+      ///
+      /// Since: cosmos-sdk 0.46
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Cosmos.Bank.V1Beta1.QuerySpendableBalancesResponse> SpendableBalancesAsync(global::Cosmos.Bank.V1Beta1.QuerySpendableBalancesRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return SpendableBalancesAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// SpendableBalances queries the spenable balance of all coins for a single
+      /// account.
+      ///
+      /// Since: cosmos-sdk 0.46
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Cosmos.Bank.V1Beta1.QuerySpendableBalancesResponse> SpendableBalancesAsync(global::Cosmos.Bank.V1Beta1.QuerySpendableBalancesRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_SpendableBalances, null, options, request);
       }
       /// <summary>
       /// TotalSupply queries the total supply of all coins.
@@ -545,7 +690,8 @@ namespace Cosmos.Bank.V1Beta1 {
         return CallInvoker.AsyncUnaryCall(__Method_DenomMetadata, null, options, request);
       }
       /// <summary>
-      /// DenomsMetadata queries the client metadata for all registered coin denominations.
+      /// DenomsMetadata queries the client metadata for all registered coin
+      /// denominations.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
@@ -558,7 +704,8 @@ namespace Cosmos.Bank.V1Beta1 {
         return DenomsMetadata(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       /// <summary>
-      /// DenomsMetadata queries the client metadata for all registered coin denominations.
+      /// DenomsMetadata queries the client metadata for all registered coin
+      /// denominations.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
@@ -569,7 +716,8 @@ namespace Cosmos.Bank.V1Beta1 {
         return CallInvoker.BlockingUnaryCall(__Method_DenomsMetadata, null, options, request);
       }
       /// <summary>
-      /// DenomsMetadata queries the client metadata for all registered coin denominations.
+      /// DenomsMetadata queries the client metadata for all registered coin
+      /// denominations.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
@@ -582,7 +730,8 @@ namespace Cosmos.Bank.V1Beta1 {
         return DenomsMetadataAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       /// <summary>
-      /// DenomsMetadata queries the client metadata for all registered coin denominations.
+      /// DenomsMetadata queries the client metadata for all registered coin
+      /// denominations.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
@@ -591,6 +740,138 @@ namespace Cosmos.Bank.V1Beta1 {
       public virtual grpc::AsyncUnaryCall<global::Cosmos.Bank.V1Beta1.QueryDenomsMetadataResponse> DenomsMetadataAsync(global::Cosmos.Bank.V1Beta1.QueryDenomsMetadataRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_DenomsMetadata, null, options, request);
+      }
+      /// <summary>
+      /// DenomOwners queries for all account addresses that own a particular token
+      /// denomination.
+      ///
+      /// Since: cosmos-sdk 0.46
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Cosmos.Bank.V1Beta1.QueryDenomOwnersResponse DenomOwners(global::Cosmos.Bank.V1Beta1.QueryDenomOwnersRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return DenomOwners(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// DenomOwners queries for all account addresses that own a particular token
+      /// denomination.
+      ///
+      /// Since: cosmos-sdk 0.46
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Cosmos.Bank.V1Beta1.QueryDenomOwnersResponse DenomOwners(global::Cosmos.Bank.V1Beta1.QueryDenomOwnersRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_DenomOwners, null, options, request);
+      }
+      /// <summary>
+      /// DenomOwners queries for all account addresses that own a particular token
+      /// denomination.
+      ///
+      /// Since: cosmos-sdk 0.46
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Cosmos.Bank.V1Beta1.QueryDenomOwnersResponse> DenomOwnersAsync(global::Cosmos.Bank.V1Beta1.QueryDenomOwnersRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return DenomOwnersAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// DenomOwners queries for all account addresses that own a particular token
+      /// denomination.
+      ///
+      /// Since: cosmos-sdk 0.46
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Cosmos.Bank.V1Beta1.QueryDenomOwnersResponse> DenomOwnersAsync(global::Cosmos.Bank.V1Beta1.QueryDenomOwnersRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_DenomOwners, null, options, request);
+      }
+      /// <summary>
+      /// SendEnabled queries for SendEnabled entries.
+      ///
+      /// This query only returns denominations that have specific SendEnabled settings.
+      /// Any denomination that does not have a specific setting will use the default
+      /// params.default_send_enabled, and will not be returned by this query.
+      ///
+      /// Since: cosmos-sdk 0.47
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Cosmos.Bank.V1Beta1.QuerySendEnabledResponse SendEnabled(global::Cosmos.Bank.V1Beta1.QuerySendEnabledRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return SendEnabled(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// SendEnabled queries for SendEnabled entries.
+      ///
+      /// This query only returns denominations that have specific SendEnabled settings.
+      /// Any denomination that does not have a specific setting will use the default
+      /// params.default_send_enabled, and will not be returned by this query.
+      ///
+      /// Since: cosmos-sdk 0.47
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Cosmos.Bank.V1Beta1.QuerySendEnabledResponse SendEnabled(global::Cosmos.Bank.V1Beta1.QuerySendEnabledRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_SendEnabled, null, options, request);
+      }
+      /// <summary>
+      /// SendEnabled queries for SendEnabled entries.
+      ///
+      /// This query only returns denominations that have specific SendEnabled settings.
+      /// Any denomination that does not have a specific setting will use the default
+      /// params.default_send_enabled, and will not be returned by this query.
+      ///
+      /// Since: cosmos-sdk 0.47
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Cosmos.Bank.V1Beta1.QuerySendEnabledResponse> SendEnabledAsync(global::Cosmos.Bank.V1Beta1.QuerySendEnabledRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return SendEnabledAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// SendEnabled queries for SendEnabled entries.
+      ///
+      /// This query only returns denominations that have specific SendEnabled settings.
+      /// Any denomination that does not have a specific setting will use the default
+      /// params.default_send_enabled, and will not be returned by this query.
+      ///
+      /// Since: cosmos-sdk 0.47
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Cosmos.Bank.V1Beta1.QuerySendEnabledResponse> SendEnabledAsync(global::Cosmos.Bank.V1Beta1.QuerySendEnabledRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_SendEnabled, null, options, request);
       }
       /// <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
@@ -608,11 +889,14 @@ namespace Cosmos.Bank.V1Beta1 {
       return grpc::ServerServiceDefinition.CreateBuilder()
           .AddMethod(__Method_Balance, serviceImpl.Balance)
           .AddMethod(__Method_AllBalances, serviceImpl.AllBalances)
+          .AddMethod(__Method_SpendableBalances, serviceImpl.SpendableBalances)
           .AddMethod(__Method_TotalSupply, serviceImpl.TotalSupply)
           .AddMethod(__Method_SupplyOf, serviceImpl.SupplyOf)
           .AddMethod(__Method_Params, serviceImpl.Params)
           .AddMethod(__Method_DenomMetadata, serviceImpl.DenomMetadata)
-          .AddMethod(__Method_DenomsMetadata, serviceImpl.DenomsMetadata).Build();
+          .AddMethod(__Method_DenomsMetadata, serviceImpl.DenomsMetadata)
+          .AddMethod(__Method_DenomOwners, serviceImpl.DenomOwners)
+          .AddMethod(__Method_SendEnabled, serviceImpl.SendEnabled).Build();
     }
 
     /// <summary>Register service method with a service binder with or without implementation. Useful when customizing the service binding logic.
@@ -624,11 +908,14 @@ namespace Cosmos.Bank.V1Beta1 {
     {
       serviceBinder.AddMethod(__Method_Balance, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Cosmos.Bank.V1Beta1.QueryBalanceRequest, global::Cosmos.Bank.V1Beta1.QueryBalanceResponse>(serviceImpl.Balance));
       serviceBinder.AddMethod(__Method_AllBalances, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Cosmos.Bank.V1Beta1.QueryAllBalancesRequest, global::Cosmos.Bank.V1Beta1.QueryAllBalancesResponse>(serviceImpl.AllBalances));
+      serviceBinder.AddMethod(__Method_SpendableBalances, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Cosmos.Bank.V1Beta1.QuerySpendableBalancesRequest, global::Cosmos.Bank.V1Beta1.QuerySpendableBalancesResponse>(serviceImpl.SpendableBalances));
       serviceBinder.AddMethod(__Method_TotalSupply, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Cosmos.Bank.V1Beta1.QueryTotalSupplyRequest, global::Cosmos.Bank.V1Beta1.QueryTotalSupplyResponse>(serviceImpl.TotalSupply));
       serviceBinder.AddMethod(__Method_SupplyOf, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Cosmos.Bank.V1Beta1.QuerySupplyOfRequest, global::Cosmos.Bank.V1Beta1.QuerySupplyOfResponse>(serviceImpl.SupplyOf));
       serviceBinder.AddMethod(__Method_Params, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Cosmos.Bank.V1Beta1.QueryParamsRequest, global::Cosmos.Bank.V1Beta1.QueryParamsResponse>(serviceImpl.Params));
       serviceBinder.AddMethod(__Method_DenomMetadata, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Cosmos.Bank.V1Beta1.QueryDenomMetadataRequest, global::Cosmos.Bank.V1Beta1.QueryDenomMetadataResponse>(serviceImpl.DenomMetadata));
       serviceBinder.AddMethod(__Method_DenomsMetadata, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Cosmos.Bank.V1Beta1.QueryDenomsMetadataRequest, global::Cosmos.Bank.V1Beta1.QueryDenomsMetadataResponse>(serviceImpl.DenomsMetadata));
+      serviceBinder.AddMethod(__Method_DenomOwners, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Cosmos.Bank.V1Beta1.QueryDenomOwnersRequest, global::Cosmos.Bank.V1Beta1.QueryDenomOwnersResponse>(serviceImpl.DenomOwners));
+      serviceBinder.AddMethod(__Method_SendEnabled, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Cosmos.Bank.V1Beta1.QuerySendEnabledRequest, global::Cosmos.Bank.V1Beta1.QuerySendEnabledResponse>(serviceImpl.SendEnabled));
     }
 
   }

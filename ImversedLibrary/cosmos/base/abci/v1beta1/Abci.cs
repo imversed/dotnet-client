@@ -27,49 +27,49 @@ namespace Cosmos.Base.Abci.V1Beta1 {
             "CiNjb3Ntb3MvYmFzZS9hYmNpL3YxYmV0YTEvYWJjaS5wcm90bxIYY29zbW9z",
             "LmJhc2UuYWJjaS52MWJldGExGhRnb2dvcHJvdG8vZ29nby5wcm90bxobdGVu",
             "ZGVybWludC9hYmNpL3R5cGVzLnByb3RvGhlnb29nbGUvcHJvdG9idWYvYW55",
-            "LnByb3RvIrgCCgpUeFJlc3BvbnNlEg4KBmhlaWdodBgBIAEoAxIaCgZ0eGhh",
+            "LnByb3RvIuYCCgpUeFJlc3BvbnNlEg4KBmhlaWdodBgBIAEoAxIaCgZ0eGhh",
             "c2gYAiABKAlCCuLeHwZUeEhhc2gSEQoJY29kZXNwYWNlGAMgASgJEgwKBGNv",
             "ZGUYBCABKA0SDAoEZGF0YRgFIAEoCRIPCgdyYXdfbG9nGAYgASgJEk8KBGxv",
             "Z3MYByADKAsyKC5jb3Ntb3MuYmFzZS5hYmNpLnYxYmV0YTEuQUJDSU1lc3Nh",
             "Z2VMb2dCF6rfHw9BQkNJTWVzc2FnZUxvZ3PI3h8AEgwKBGluZm8YCCABKAkS",
             "EgoKZ2FzX3dhbnRlZBgJIAEoAxIQCghnYXNfdXNlZBgKIAEoAxIgCgJ0eBgL",
             "IAEoCzIULmdvb2dsZS5wcm90b2J1Zi5BbnkSEQoJdGltZXN0YW1wGAwgASgJ",
-            "OgSIoB8AIoMBCg5BQkNJTWVzc2FnZUxvZxIRCgltc2dfaW5kZXgYASABKA0S",
-            "CwoDbG9nGAIgASgJEksKBmV2ZW50cxgDIAMoCzIlLmNvc21vcy5iYXNlLmFi",
-            "Y2kudjFiZXRhMS5TdHJpbmdFdmVudEIUqt8fDFN0cmluZ0V2ZW50c8jeHwA6",
-            "BIDcIAEiYAoLU3RyaW5nRXZlbnQSDAoEdHlwZRgBIAEoCRI9CgphdHRyaWJ1",
-            "dGVzGAIgAygLMiMuY29zbW9zLmJhc2UuYWJjaS52MWJldGExLkF0dHJpYnV0",
-            "ZUIEyN4fADoEgNwgASInCglBdHRyaWJ1dGUSCwoDa2V5GAEgASgJEg0KBXZh",
-            "bHVlGAIgASgJIlsKB0dhc0luZm8SKQoKZ2FzX3dhbnRlZBgBIAEoBEIV8t4f",
-            "EXlhbWw6Imdhc193YW50ZWQiEiUKCGdhc191c2VkGAIgASgEQhPy3h8PeWFt",
-            "bDoiZ2FzX3VzZWQiIlcKBlJlc3VsdBIMCgRkYXRhGAEgASgMEgsKA2xvZxgC",
-            "IAEoCRIsCgZldmVudHMYAyADKAsyFi50ZW5kZXJtaW50LmFiY2kuRXZlbnRC",
-            "BMjeHwA6BIigHwAihQEKElNpbXVsYXRpb25SZXNwb25zZRI9CghnYXNfaW5m",
-            "bxgBIAEoCzIhLmNvc21vcy5iYXNlLmFiY2kudjFiZXRhMS5HYXNJbmZvQgjQ",
-            "3h8ByN4fABIwCgZyZXN1bHQYAiABKAsyIC5jb3Ntb3MuYmFzZS5hYmNpLnYx",
-            "YmV0YTEuUmVzdWx0Ii8KB01zZ0RhdGESEAoIbXNnX3R5cGUYASABKAkSDAoE",
-            "ZGF0YRgCIAEoDDoEgNwgASJCCglUeE1zZ0RhdGESLwoEZGF0YRgBIAMoCzIh",
-            "LmNvc21vcy5iYXNlLmFiY2kudjFiZXRhMS5Nc2dEYXRhOgSA3CABIpkCCg9T",
-            "ZWFyY2hUeHNSZXN1bHQSOgoLdG90YWxfY291bnQYASABKARCJfLeHxJ5YW1s",
-            "OiJ0b3RhbF9jb3VudCLq3h8LdG90YWxfY291bnQSDQoFY291bnQYAiABKAQS",
-            "OgoLcGFnZV9udW1iZXIYAyABKARCJfLeHxJ5YW1sOiJwYWdlX251bWJlciLq",
-            "3h8LcGFnZV9udW1iZXISNwoKcGFnZV90b3RhbBgEIAEoBEIj8t4fEXlhbWw6",
-            "InBhZ2VfdG90YWwi6t4fCnBhZ2VfdG90YWwSDQoFbGltaXQYBSABKAQSMQoD",
-            "dHhzGAYgAygLMiQuY29zbW9zLmJhc2UuYWJjaS52MWJldGExLlR4UmVzcG9u",
-            "c2U6BIDcIAFCKFoiZ2l0aHViLmNvbS9jb3Ntb3MvY29zbW9zLXNkay90eXBl",
-            "c9jhHgBiBnByb3RvMw=="));
+            "EiwKBmV2ZW50cxgNIAMoCzIWLnRlbmRlcm1pbnQuYWJjaS5FdmVudEIEyN4f",
+            "ADoEiKAfACKSAQoOQUJDSU1lc3NhZ2VMb2cSIAoJbXNnX2luZGV4GAEgASgN",
+            "Qg3q3h8JbXNnX2luZGV4EgsKA2xvZxgCIAEoCRJLCgZldmVudHMYAyADKAsy",
+            "JS5jb3Ntb3MuYmFzZS5hYmNpLnYxYmV0YTEuU3RyaW5nRXZlbnRCFKrfHwxT",
+            "dHJpbmdFdmVudHPI3h8AOgSA3CABImAKC1N0cmluZ0V2ZW50EgwKBHR5cGUY",
+            "ASABKAkSPQoKYXR0cmlidXRlcxgCIAMoCzIjLmNvc21vcy5iYXNlLmFiY2ku",
+            "djFiZXRhMS5BdHRyaWJ1dGVCBMjeHwA6BIDcIAEiJwoJQXR0cmlidXRlEgsK",
+            "A2tleRgBIAEoCRINCgV2YWx1ZRgCIAEoCSIvCgdHYXNJbmZvEhIKCmdhc193",
+            "YW50ZWQYASABKAQSEAoIZ2FzX3VzZWQYAiABKAQiiAEKBlJlc3VsdBIQCgRk",
+            "YXRhGAEgASgMQgIYARILCgNsb2cYAiABKAkSLAoGZXZlbnRzGAMgAygLMhYu",
+            "dGVuZGVybWludC5hYmNpLkV2ZW50QgTI3h8AEisKDW1zZ19yZXNwb25zZXMY",
+            "BCADKAsyFC5nb29nbGUucHJvdG9idWYuQW55OgSIoB8AIoUBChJTaW11bGF0",
+            "aW9uUmVzcG9uc2USPQoIZ2FzX2luZm8YASABKAsyIS5jb3Ntb3MuYmFzZS5h",
+            "YmNpLnYxYmV0YTEuR2FzSW5mb0II0N4fAcjeHwASMAoGcmVzdWx0GAIgASgL",
+            "MiAuY29zbW9zLmJhc2UuYWJjaS52MWJldGExLlJlc3VsdCIxCgdNc2dEYXRh",
+            "EhAKCG1zZ190eXBlGAEgASgJEgwKBGRhdGEYAiABKAw6BhgBgNwgASJzCglU",
+            "eE1zZ0RhdGESMwoEZGF0YRgBIAMoCzIhLmNvc21vcy5iYXNlLmFiY2kudjFi",
+            "ZXRhMS5Nc2dEYXRhQgIYARIrCg1tc2dfcmVzcG9uc2VzGAIgAygLMhQuZ29v",
+            "Z2xlLnByb3RvYnVmLkFueToEgNwgASKmAQoPU2VhcmNoVHhzUmVzdWx0EhMK",
+            "C3RvdGFsX2NvdW50GAEgASgEEg0KBWNvdW50GAIgASgEEhMKC3BhZ2VfbnVt",
+            "YmVyGAMgASgEEhIKCnBhZ2VfdG90YWwYBCABKAQSDQoFbGltaXQYBSABKAQS",
+            "MQoDdHhzGAYgAygLMiQuY29zbW9zLmJhc2UuYWJjaS52MWJldGExLlR4UmVz",
+            "cG9uc2U6BIDcIAFCKFoiZ2l0aHViLmNvbS9jb3Ntb3MvY29zbW9zLXNkay90",
+            "eXBlc9jhHgBiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Gogoproto.GogoReflection.Descriptor, global::Tendermint.Abci.TypesReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.AnyReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Base.Abci.V1Beta1.TxResponse), global::Cosmos.Base.Abci.V1Beta1.TxResponse.Parser, new[]{ "Height", "Txhash", "Codespace", "Code", "Data", "RawLog", "Logs", "Info", "GasWanted", "GasUsed", "Tx", "Timestamp" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Base.Abci.V1Beta1.TxResponse), global::Cosmos.Base.Abci.V1Beta1.TxResponse.Parser, new[]{ "Height", "Txhash", "Codespace", "Code", "Data", "RawLog", "Logs", "Info", "GasWanted", "GasUsed", "Tx", "Timestamp", "Events" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Base.Abci.V1Beta1.ABCIMessageLog), global::Cosmos.Base.Abci.V1Beta1.ABCIMessageLog.Parser, new[]{ "MsgIndex", "Log", "Events" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Base.Abci.V1Beta1.StringEvent), global::Cosmos.Base.Abci.V1Beta1.StringEvent.Parser, new[]{ "Type", "Attributes" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Base.Abci.V1Beta1.Attribute), global::Cosmos.Base.Abci.V1Beta1.Attribute.Parser, new[]{ "Key", "Value" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Base.Abci.V1Beta1.GasInfo), global::Cosmos.Base.Abci.V1Beta1.GasInfo.Parser, new[]{ "GasWanted", "GasUsed" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Base.Abci.V1Beta1.Result), global::Cosmos.Base.Abci.V1Beta1.Result.Parser, new[]{ "Data", "Log", "Events" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Base.Abci.V1Beta1.Result), global::Cosmos.Base.Abci.V1Beta1.Result.Parser, new[]{ "Data", "Log", "Events", "MsgResponses" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Base.Abci.V1Beta1.SimulationResponse), global::Cosmos.Base.Abci.V1Beta1.SimulationResponse.Parser, new[]{ "GasInfo", "Result" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Base.Abci.V1Beta1.MsgData), global::Cosmos.Base.Abci.V1Beta1.MsgData.Parser, new[]{ "MsgType", "Data" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Base.Abci.V1Beta1.TxMsgData), global::Cosmos.Base.Abci.V1Beta1.TxMsgData.Parser, new[]{ "Data" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Base.Abci.V1Beta1.TxMsgData), global::Cosmos.Base.Abci.V1Beta1.TxMsgData.Parser, new[]{ "Data", "MsgResponses" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Base.Abci.V1Beta1.SearchTxsResult), global::Cosmos.Base.Abci.V1Beta1.SearchTxsResult.Parser, new[]{ "TotalCount", "Count", "PageNumber", "PageTotal", "Limit", "Txs" }, null, null, null, null)
           }));
     }
@@ -127,6 +127,7 @@ namespace Cosmos.Base.Abci.V1Beta1 {
       gasUsed_ = other.gasUsed_;
       tx_ = other.tx_ != null ? other.tx_.Clone() : null;
       timestamp_ = other.timestamp_;
+      events_ = other.events_.Clone();
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -318,6 +319,25 @@ namespace Cosmos.Base.Abci.V1Beta1 {
       }
     }
 
+    /// <summary>Field number for the "events" field.</summary>
+    public const int EventsFieldNumber = 13;
+    private static readonly pb::FieldCodec<global::Tendermint.Abci.Event> _repeated_events_codec
+        = pb::FieldCodec.ForMessage(106, global::Tendermint.Abci.Event.Parser);
+    private readonly pbc::RepeatedField<global::Tendermint.Abci.Event> events_ = new pbc::RepeatedField<global::Tendermint.Abci.Event>();
+    /// <summary>
+    /// Events defines all the events emitted by processing a transaction. Note,
+    /// these events include those emitted by processing all the messages and those
+    /// emitted from the ante. Whereas Logs contains the events, with
+    /// additional metadata, emitted only by processing the messages.
+    ///
+    /// Since: cosmos-sdk 0.42.11, 0.44.5, 0.45
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pbc::RepeatedField<global::Tendermint.Abci.Event> Events {
+      get { return events_; }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -345,6 +365,7 @@ namespace Cosmos.Base.Abci.V1Beta1 {
       if (GasUsed != other.GasUsed) return false;
       if (!object.Equals(Tx, other.Tx)) return false;
       if (Timestamp != other.Timestamp) return false;
+      if(!events_.Equals(other.events_)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -364,6 +385,7 @@ namespace Cosmos.Base.Abci.V1Beta1 {
       if (GasUsed != 0L) hash ^= GasUsed.GetHashCode();
       if (tx_ != null) hash ^= Tx.GetHashCode();
       if (Timestamp.Length != 0) hash ^= Timestamp.GetHashCode();
+      hash ^= events_.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -427,6 +449,7 @@ namespace Cosmos.Base.Abci.V1Beta1 {
         output.WriteRawTag(98);
         output.WriteString(Timestamp);
       }
+      events_.WriteTo(output, _repeated_events_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -482,6 +505,7 @@ namespace Cosmos.Base.Abci.V1Beta1 {
         output.WriteRawTag(98);
         output.WriteString(Timestamp);
       }
+      events_.WriteTo(ref output, _repeated_events_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -526,6 +550,7 @@ namespace Cosmos.Base.Abci.V1Beta1 {
       if (Timestamp.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Timestamp);
       }
+      size += events_.CalculateSize(_repeated_events_codec);
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -575,6 +600,7 @@ namespace Cosmos.Base.Abci.V1Beta1 {
       if (other.Timestamp.Length != 0) {
         Timestamp = other.Timestamp;
       }
+      events_.Add(other.events_);
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -641,6 +667,10 @@ namespace Cosmos.Base.Abci.V1Beta1 {
             Timestamp = input.ReadString();
             break;
           }
+          case 106: {
+            events_.AddEntriesFrom(input, _repeated_events_codec);
+            break;
+          }
         }
       }
     #endif
@@ -705,6 +735,10 @@ namespace Cosmos.Base.Abci.V1Beta1 {
           }
           case 98: {
             Timestamp = input.ReadString();
+            break;
+          }
+          case 106: {
+            events_.AddEntriesFrom(ref input, _repeated_events_codec);
             break;
           }
         }
@@ -1697,6 +1731,7 @@ namespace Cosmos.Base.Abci.V1Beta1 {
       data_ = other.data_;
       log_ = other.log_;
       events_ = other.events_.Clone();
+      msgResponses_ = other.msgResponses_.Clone();
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -1712,7 +1747,10 @@ namespace Cosmos.Base.Abci.V1Beta1 {
     /// <summary>
     /// Data is any data returned from message or handler execution. It MUST be
     /// length prefixed in order to separate data from multiple message executions.
+    /// Deprecated. This field is still populated, but prefer msg_response instead
+    /// because it also contains the Msg response typeURL.
     /// </summary>
+    [global::System.ObsoleteAttribute]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public pb::ByteString Data {
@@ -1752,6 +1790,22 @@ namespace Cosmos.Base.Abci.V1Beta1 {
       get { return events_; }
     }
 
+    /// <summary>Field number for the "msg_responses" field.</summary>
+    public const int MsgResponsesFieldNumber = 4;
+    private static readonly pb::FieldCodec<global::Google.Protobuf.WellKnownTypes.Any> _repeated_msgResponses_codec
+        = pb::FieldCodec.ForMessage(34, global::Google.Protobuf.WellKnownTypes.Any.Parser);
+    private readonly pbc::RepeatedField<global::Google.Protobuf.WellKnownTypes.Any> msgResponses_ = new pbc::RepeatedField<global::Google.Protobuf.WellKnownTypes.Any>();
+    /// <summary>
+    /// msg_responses contains the Msg handler responses type packed in Anys.
+    ///
+    /// Since: cosmos-sdk 0.46
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pbc::RepeatedField<global::Google.Protobuf.WellKnownTypes.Any> MsgResponses {
+      get { return msgResponses_; }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -1770,6 +1824,7 @@ namespace Cosmos.Base.Abci.V1Beta1 {
       if (Data != other.Data) return false;
       if (Log != other.Log) return false;
       if(!events_.Equals(other.events_)) return false;
+      if(!msgResponses_.Equals(other.msgResponses_)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -1780,6 +1835,7 @@ namespace Cosmos.Base.Abci.V1Beta1 {
       if (Data.Length != 0) hash ^= Data.GetHashCode();
       if (Log.Length != 0) hash ^= Log.GetHashCode();
       hash ^= events_.GetHashCode();
+      hash ^= msgResponses_.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -1807,6 +1863,7 @@ namespace Cosmos.Base.Abci.V1Beta1 {
         output.WriteString(Log);
       }
       events_.WriteTo(output, _repeated_events_codec);
+      msgResponses_.WriteTo(output, _repeated_msgResponses_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -1826,6 +1883,7 @@ namespace Cosmos.Base.Abci.V1Beta1 {
         output.WriteString(Log);
       }
       events_.WriteTo(ref output, _repeated_events_codec);
+      msgResponses_.WriteTo(ref output, _repeated_msgResponses_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -1843,6 +1901,7 @@ namespace Cosmos.Base.Abci.V1Beta1 {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Log);
       }
       size += events_.CalculateSize(_repeated_events_codec);
+      size += msgResponses_.CalculateSize(_repeated_msgResponses_codec);
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -1862,6 +1921,7 @@ namespace Cosmos.Base.Abci.V1Beta1 {
         Log = other.Log;
       }
       events_.Add(other.events_);
+      msgResponses_.Add(other.msgResponses_);
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -1889,6 +1949,10 @@ namespace Cosmos.Base.Abci.V1Beta1 {
             events_.AddEntriesFrom(input, _repeated_events_codec);
             break;
           }
+          case 34: {
+            msgResponses_.AddEntriesFrom(input, _repeated_msgResponses_codec);
+            break;
+          }
         }
       }
     #endif
@@ -1914,6 +1978,10 @@ namespace Cosmos.Base.Abci.V1Beta1 {
           }
           case 26: {
             events_.AddEntriesFrom(ref input, _repeated_events_codec);
+            break;
+          }
+          case 34: {
+            msgResponses_.AddEntriesFrom(ref input, _repeated_msgResponses_codec);
             break;
           }
         }
@@ -2175,6 +2243,7 @@ namespace Cosmos.Base.Abci.V1Beta1 {
   /// MsgData defines the data returned in a Result object during message
   /// execution.
   /// </summary>
+  [global::System.ObsoleteAttribute]
   public sealed partial class MsgData : pb::IMessage<MsgData>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -2440,6 +2509,7 @@ namespace Cosmos.Base.Abci.V1Beta1 {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public TxMsgData(TxMsgData other) : this() {
       data_ = other.data_.Clone();
+      msgResponses_ = other.msgResponses_.Clone();
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -2454,10 +2524,30 @@ namespace Cosmos.Base.Abci.V1Beta1 {
     private static readonly pb::FieldCodec<global::Cosmos.Base.Abci.V1Beta1.MsgData> _repeated_data_codec
         = pb::FieldCodec.ForMessage(10, global::Cosmos.Base.Abci.V1Beta1.MsgData.Parser);
     private readonly pbc::RepeatedField<global::Cosmos.Base.Abci.V1Beta1.MsgData> data_ = new pbc::RepeatedField<global::Cosmos.Base.Abci.V1Beta1.MsgData>();
+    /// <summary>
+    /// data field is deprecated and not populated.
+    /// </summary>
+    [global::System.ObsoleteAttribute]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public pbc::RepeatedField<global::Cosmos.Base.Abci.V1Beta1.MsgData> Data {
       get { return data_; }
+    }
+
+    /// <summary>Field number for the "msg_responses" field.</summary>
+    public const int MsgResponsesFieldNumber = 2;
+    private static readonly pb::FieldCodec<global::Google.Protobuf.WellKnownTypes.Any> _repeated_msgResponses_codec
+        = pb::FieldCodec.ForMessage(18, global::Google.Protobuf.WellKnownTypes.Any.Parser);
+    private readonly pbc::RepeatedField<global::Google.Protobuf.WellKnownTypes.Any> msgResponses_ = new pbc::RepeatedField<global::Google.Protobuf.WellKnownTypes.Any>();
+    /// <summary>
+    /// msg_responses contains the Msg handler responses packed into Anys.
+    ///
+    /// Since: cosmos-sdk 0.46
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pbc::RepeatedField<global::Google.Protobuf.WellKnownTypes.Any> MsgResponses {
+      get { return msgResponses_; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2476,6 +2566,7 @@ namespace Cosmos.Base.Abci.V1Beta1 {
         return true;
       }
       if(!data_.Equals(other.data_)) return false;
+      if(!msgResponses_.Equals(other.msgResponses_)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -2484,6 +2575,7 @@ namespace Cosmos.Base.Abci.V1Beta1 {
     public override int GetHashCode() {
       int hash = 1;
       hash ^= data_.GetHashCode();
+      hash ^= msgResponses_.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -2503,6 +2595,7 @@ namespace Cosmos.Base.Abci.V1Beta1 {
       output.WriteRawMessage(this);
     #else
       data_.WriteTo(output, _repeated_data_codec);
+      msgResponses_.WriteTo(output, _repeated_msgResponses_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -2514,6 +2607,7 @@ namespace Cosmos.Base.Abci.V1Beta1 {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
       data_.WriteTo(ref output, _repeated_data_codec);
+      msgResponses_.WriteTo(ref output, _repeated_msgResponses_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -2525,6 +2619,7 @@ namespace Cosmos.Base.Abci.V1Beta1 {
     public int CalculateSize() {
       int size = 0;
       size += data_.CalculateSize(_repeated_data_codec);
+      size += msgResponses_.CalculateSize(_repeated_msgResponses_codec);
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -2538,6 +2633,7 @@ namespace Cosmos.Base.Abci.V1Beta1 {
         return;
       }
       data_.Add(other.data_);
+      msgResponses_.Add(other.msgResponses_);
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -2557,6 +2653,10 @@ namespace Cosmos.Base.Abci.V1Beta1 {
             data_.AddEntriesFrom(input, _repeated_data_codec);
             break;
           }
+          case 18: {
+            msgResponses_.AddEntriesFrom(input, _repeated_msgResponses_codec);
+            break;
+          }
         }
       }
     #endif
@@ -2574,6 +2674,10 @@ namespace Cosmos.Base.Abci.V1Beta1 {
             break;
           case 10: {
             data_.AddEntriesFrom(ref input, _repeated_data_codec);
+            break;
+          }
+          case 18: {
+            msgResponses_.AddEntriesFrom(ref input, _repeated_msgResponses_codec);
             break;
           }
         }

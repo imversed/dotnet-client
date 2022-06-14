@@ -26,30 +26,32 @@ namespace Cosmos.Bank.V1Beta1 {
           string.Concat(
             "Ch5jb3Ntb3MvYmFuay92MWJldGExL2JhbmsucHJvdG8SE2Nvc21vcy5iYW5r",
             "LnYxYmV0YTEaFGdvZ29wcm90by9nb2dvLnByb3RvGhljb3Ntb3NfcHJvdG8v",
-            "Y29zbW9zLnByb3RvGh5jb3Ntb3MvYmFzZS92MWJldGExL2NvaW4ucHJvdG8i",
-            "sgEKBlBhcmFtcxJZCgxzZW5kX2VuYWJsZWQYASADKAsyIC5jb3Ntb3MuYmFu",
-            "ay52MWJldGExLlNlbmRFbmFibGVkQiHy3h8deWFtbDoic2VuZF9lbmFibGVk",
-            "LG9taXRlbXB0eSISRwoUZGVmYXVsdF9zZW5kX2VuYWJsZWQYAiABKAhCKfLe",
-            "HyV5YW1sOiJkZWZhdWx0X3NlbmRfZW5hYmxlZCxvbWl0ZW1wdHkiOgSYoB8A",
-            "IjcKC1NlbmRFbmFibGVkEg0KBWRlbm9tGAEgASgJEg8KB2VuYWJsZWQYAiAB",
-            "KAg6COigHwGYoB8AIn4KBUlucHV0Eg8KB2FkZHJlc3MYASABKAkSWgoFY29p",
-            "bnMYAiADKAsyGS5jb3Ntb3MuYmFzZS52MWJldGExLkNvaW5CMMjeHwCq3x8o",
-            "Z2l0aHViLmNvbS9jb3Ntb3MvY29zbW9zLXNkay90eXBlcy5Db2luczoI6KAf",
-            "AIigHwAifwoGT3V0cHV0Eg8KB2FkZHJlc3MYASABKAkSWgoFY29pbnMYAiAD",
-            "KAsyGS5jb3Ntb3MuYmFzZS52MWJldGExLkNvaW5CMMjeHwCq3x8oZ2l0aHVi",
-            "LmNvbS9jb3Ntb3MvY29zbW9zLXNkay90eXBlcy5Db2luczoI6KAfAIigHwAi",
-            "rAEKBlN1cHBseRJaCgV0b3RhbBgBIAMoCzIZLmNvc21vcy5iYXNlLnYxYmV0",
-            "YTEuQ29pbkIwyN4fAKrfHyhnaXRodWIuY29tL2Nvc21vcy9jb3Ntb3Mtc2Rr",
-            "L3R5cGVzLkNvaW5zOkYYAeigHwGIoB8AyrQtOCpnaXRodWIuY29tL2Nvc21v",
-            "cy9jb3Ntb3Mtc2RrL3gvYmFuay9sZWdhY3kvdjA0MC5TdXBwbHlJIj0KCURl",
-            "bm9tVW5pdBINCgVkZW5vbRgBIAEoCRIQCghleHBvbmVudBgCIAEoDRIPCgdh",
-            "bGlhc2VzGAMgAygJIpEBCghNZXRhZGF0YRITCgtkZXNjcmlwdGlvbhgBIAEo",
-            "CRIzCgtkZW5vbV91bml0cxgCIAMoCzIeLmNvc21vcy5iYW5rLnYxYmV0YTEu",
-            "RGVub21Vbml0EgwKBGJhc2UYAyABKAkSDwoHZGlzcGxheRgEIAEoCRIMCgRu",
-            "YW1lGAUgASgJEg4KBnN5bWJvbBgGIAEoCUIrWilnaXRodWIuY29tL2Nvc21v",
-            "cy9jb3Ntb3Mtc2RrL3gvYmFuay90eXBlc2IGcHJvdG8z"));
+            "Y29zbW9zLnByb3RvGh5jb3Ntb3MvYmFzZS92MWJldGExL2NvaW4ucHJvdG8a",
+            "F2Nvc21vcy9tc2cvdjEvbXNnLnByb3RvImgKBlBhcmFtcxI6CgxzZW5kX2Vu",
+            "YWJsZWQYASADKAsyIC5jb3Ntb3MuYmFuay52MWJldGExLlNlbmRFbmFibGVk",
+            "QgIYARIcChRkZWZhdWx0X3NlbmRfZW5hYmxlZBgCIAEoCDoEmKAfACI3CgtT",
+            "ZW5kRW5hYmxlZBINCgVkZW5vbRgBIAEoCRIPCgdlbmFibGVkGAIgASgIOgjo",
+            "oB8BmKAfACKkAQoFSW5wdXQSKQoHYWRkcmVzcxgBIAEoCUIY0rQtFGNvc21v",
+            "cy5BZGRyZXNzU3RyaW5nEloKBWNvaW5zGAIgAygLMhkuY29zbW9zLmJhc2Uu",
+            "djFiZXRhMS5Db2luQjDI3h8Aqt8fKGdpdGh1Yi5jb20vY29zbW9zL2Nvc21v",
+            "cy1zZGsvdHlwZXMuQ29pbnM6FILnsCoHYWRkcmVzc+igHwCIoB8AIpkBCgZP",
+            "dXRwdXQSKQoHYWRkcmVzcxgBIAEoCUIY0rQtFGNvc21vcy5BZGRyZXNzU3Ry",
+            "aW5nEloKBWNvaW5zGAIgAygLMhkuY29zbW9zLmJhc2UudjFiZXRhMS5Db2lu",
+            "QjDI3h8Aqt8fKGdpdGh1Yi5jb20vY29zbW9zL2Nvc21vcy1zZGsvdHlwZXMu",
+            "Q29pbnM6COigHwCIoB8AIrABCgZTdXBwbHkSWgoFdG90YWwYASADKAsyGS5j",
+            "b3Ntb3MuYmFzZS52MWJldGExLkNvaW5CMMjeHwCq3x8oZ2l0aHViLmNvbS9j",
+            "b3Ntb3MvY29zbW9zLXNkay90eXBlcy5Db2luczpKGAHooB8BiKAfAMq0LTwq",
+            "Z2l0aHViLmNvbS9jb3Ntb3MvY29zbW9zLXNkay94L2JhbmsvbWlncmF0aW9u",
+            "cy92MDQwLlN1cHBseUkiPQoJRGVub21Vbml0Eg0KBWRlbm9tGAEgASgJEhAK",
+            "CGV4cG9uZW50GAIgASgNEg8KB2FsaWFzZXMYAyADKAkixgEKCE1ldGFkYXRh",
+            "EhMKC2Rlc2NyaXB0aW9uGAEgASgJEjMKC2Rlbm9tX3VuaXRzGAIgAygLMh4u",
+            "Y29zbW9zLmJhbmsudjFiZXRhMS5EZW5vbVVuaXQSDAoEYmFzZRgDIAEoCRIP",
+            "CgdkaXNwbGF5GAQgASgJEgwKBG5hbWUYBSABKAkSDgoGc3ltYm9sGAYgASgJ",
+            "EhQKA3VyaRgHIAEoCUIH4t4fA1VSSRIdCgh1cmlfaGFzaBgIIAEoCUIL4t4f",
+            "B1VSSUhhc2hCK1opZ2l0aHViLmNvbS9jb3Ntb3MvY29zbW9zLXNkay94L2Jh",
+            "bmsvdHlwZXNiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Gogoproto.GogoReflection.Descriptor, global::CosmosProto.CosmosReflection.Descriptor, global::Cosmos.Base.V1Beta1.CoinReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::Gogoproto.GogoReflection.Descriptor, global::CosmosProto.CosmosReflection.Descriptor, global::Cosmos.Base.V1Beta1.CoinReflection.Descriptor, global::Cosmos.Msg.V1.MsgReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Bank.V1Beta1.Params), global::Cosmos.Bank.V1Beta1.Params.Parser, new[]{ "SendEnabled", "DefaultSendEnabled" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Bank.V1Beta1.SendEnabled), global::Cosmos.Bank.V1Beta1.SendEnabled.Parser, new[]{ "Denom", "Enabled" }, null, null, null, null),
@@ -57,7 +59,7 @@ namespace Cosmos.Bank.V1Beta1 {
             new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Bank.V1Beta1.Output), global::Cosmos.Bank.V1Beta1.Output.Parser, new[]{ "Address", "Coins" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Bank.V1Beta1.Supply), global::Cosmos.Bank.V1Beta1.Supply.Parser, new[]{ "Total" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Bank.V1Beta1.DenomUnit), global::Cosmos.Bank.V1Beta1.DenomUnit.Parser, new[]{ "Denom", "Exponent", "Aliases" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Bank.V1Beta1.Metadata), global::Cosmos.Bank.V1Beta1.Metadata.Parser, new[]{ "Description", "DenomUnits", "Base", "Display", "Name", "Symbol" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Bank.V1Beta1.Metadata), global::Cosmos.Bank.V1Beta1.Metadata.Parser, new[]{ "Description", "DenomUnits", "Base", "Display", "Name", "Symbol", "Uri", "UriHash" }, null, null, null, null)
           }));
     }
     #endregion
@@ -117,6 +119,14 @@ namespace Cosmos.Bank.V1Beta1 {
     private static readonly pb::FieldCodec<global::Cosmos.Bank.V1Beta1.SendEnabled> _repeated_sendEnabled_codec
         = pb::FieldCodec.ForMessage(10, global::Cosmos.Bank.V1Beta1.SendEnabled.Parser);
     private readonly pbc::RepeatedField<global::Cosmos.Bank.V1Beta1.SendEnabled> sendEnabled_ = new pbc::RepeatedField<global::Cosmos.Bank.V1Beta1.SendEnabled>();
+    /// <summary>
+    /// Deprecated: Use of SendEnabled in params is deprecated.
+    /// For genesis, use the newly added send_enabled field in the genesis object.
+    /// Storage, lookup, and manipulation of this information is now in the keeper.
+    ///
+    /// As of cosmos-sdk 0.47, this only exists for backwards compatibility of genesis files.
+    /// </summary>
+    [global::System.ObsoleteAttribute]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public pbc::RepeatedField<global::Cosmos.Bank.V1Beta1.SendEnabled> SendEnabled {
@@ -1203,7 +1213,7 @@ namespace Cosmos.Bank.V1Beta1 {
     /// <summary>
     /// exponent represents power of 10 exponent that one must
     /// raise the base_denom to in order to equal the given DenomUnit's denom
-    /// 1 denom = 1^exponent base_denom
+    /// 1 denom = 10^exponent base_denom
     /// (e.g. with a base_denom of uatom, one can create a DenomUnit of 'atom' with
     /// exponent = 6, thus: 1 atom = 10^6 uatom).
     /// </summary>
@@ -1445,6 +1455,8 @@ namespace Cosmos.Bank.V1Beta1 {
       display_ = other.display_;
       name_ = other.name_;
       symbol_ = other.symbol_;
+      uri_ = other.uri_;
+      uriHash_ = other.uriHash_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -1516,6 +1528,8 @@ namespace Cosmos.Bank.V1Beta1 {
     private string name_ = "";
     /// <summary>
     /// name defines the name of the token (eg: Cosmos Atom)
+    ///
+    /// Since: cosmos-sdk 0.43
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -1532,6 +1546,8 @@ namespace Cosmos.Bank.V1Beta1 {
     /// <summary>
     /// symbol is the token symbol usually shown on exchanges (eg: ATOM). This can
     /// be the same as the display.
+    ///
+    /// Since: cosmos-sdk 0.43
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -1539,6 +1555,41 @@ namespace Cosmos.Bank.V1Beta1 {
       get { return symbol_; }
       set {
         symbol_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "uri" field.</summary>
+    public const int UriFieldNumber = 7;
+    private string uri_ = "";
+    /// <summary>
+    /// URI to a document (on or off-chain) that contains additional information. Optional.
+    ///
+    /// Since: cosmos-sdk 0.46
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string Uri {
+      get { return uri_; }
+      set {
+        uri_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "uri_hash" field.</summary>
+    public const int UriHashFieldNumber = 8;
+    private string uriHash_ = "";
+    /// <summary>
+    /// URIHash is a sha256 hash of a document pointed by URI. It's used to verify that
+    /// the document didn't change. Optional.
+    ///
+    /// Since: cosmos-sdk 0.46
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string UriHash {
+      get { return uriHash_; }
+      set {
+        uriHash_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
     }
 
@@ -1563,6 +1614,8 @@ namespace Cosmos.Bank.V1Beta1 {
       if (Display != other.Display) return false;
       if (Name != other.Name) return false;
       if (Symbol != other.Symbol) return false;
+      if (Uri != other.Uri) return false;
+      if (UriHash != other.UriHash) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -1576,6 +1629,8 @@ namespace Cosmos.Bank.V1Beta1 {
       if (Display.Length != 0) hash ^= Display.GetHashCode();
       if (Name.Length != 0) hash ^= Name.GetHashCode();
       if (Symbol.Length != 0) hash ^= Symbol.GetHashCode();
+      if (Uri.Length != 0) hash ^= Uri.GetHashCode();
+      if (UriHash.Length != 0) hash ^= UriHash.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -1615,6 +1670,14 @@ namespace Cosmos.Bank.V1Beta1 {
         output.WriteRawTag(50);
         output.WriteString(Symbol);
       }
+      if (Uri.Length != 0) {
+        output.WriteRawTag(58);
+        output.WriteString(Uri);
+      }
+      if (UriHash.Length != 0) {
+        output.WriteRawTag(66);
+        output.WriteString(UriHash);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -1646,6 +1709,14 @@ namespace Cosmos.Bank.V1Beta1 {
         output.WriteRawTag(50);
         output.WriteString(Symbol);
       }
+      if (Uri.Length != 0) {
+        output.WriteRawTag(58);
+        output.WriteString(Uri);
+      }
+      if (UriHash.Length != 0) {
+        output.WriteRawTag(66);
+        output.WriteString(UriHash);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -1671,6 +1742,12 @@ namespace Cosmos.Bank.V1Beta1 {
       }
       if (Symbol.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Symbol);
+      }
+      if (Uri.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Uri);
+      }
+      if (UriHash.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(UriHash);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -1699,6 +1776,12 @@ namespace Cosmos.Bank.V1Beta1 {
       }
       if (other.Symbol.Length != 0) {
         Symbol = other.Symbol;
+      }
+      if (other.Uri.Length != 0) {
+        Uri = other.Uri;
+      }
+      if (other.UriHash.Length != 0) {
+        UriHash = other.UriHash;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -1739,6 +1822,14 @@ namespace Cosmos.Bank.V1Beta1 {
             Symbol = input.ReadString();
             break;
           }
+          case 58: {
+            Uri = input.ReadString();
+            break;
+          }
+          case 66: {
+            UriHash = input.ReadString();
+            break;
+          }
         }
       }
     #endif
@@ -1776,6 +1867,14 @@ namespace Cosmos.Bank.V1Beta1 {
           }
           case 50: {
             Symbol = input.ReadString();
+            break;
+          }
+          case 58: {
+            Uri = input.ReadString();
+            break;
+          }
+          case 66: {
+            UriHash = input.ReadString();
             break;
           }
         }

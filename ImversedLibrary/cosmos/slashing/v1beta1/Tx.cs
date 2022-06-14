@@ -25,15 +25,17 @@ namespace Cosmos.Slashing.V1Beta1 {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
             "CiBjb3Ntb3Mvc2xhc2hpbmcvdjFiZXRhMS90eC5wcm90bxIXY29zbW9zLnNs",
-            "YXNoaW5nLnYxYmV0YTEaFGdvZ29wcm90by9nb2dvLnByb3RvIkwKCU1zZ1Vu",
-            "amFpbBI1Cg52YWxpZGF0b3JfYWRkchgBIAEoCUId8t4fDnlhbWw6ImFkZHJl",
-            "c3Mi6t4fB2FkZHJlc3M6CIigHwCYoB8BIhMKEU1zZ1VuamFpbFJlc3BvbnNl",
-            "Ml8KA01zZxJYCgZVbmphaWwSIi5jb3Ntb3Muc2xhc2hpbmcudjFiZXRhMS5N",
-            "c2dVbmphaWwaKi5jb3Ntb3Muc2xhc2hpbmcudjFiZXRhMS5Nc2dVbmphaWxS",
-            "ZXNwb25zZUIzWi1naXRodWIuY29tL2Nvc21vcy9jb3Ntb3Mtc2RrL3gvc2xh",
-            "c2hpbmcvdHlwZXOo4h4BYgZwcm90bzM="));
+            "YXNoaW5nLnYxYmV0YTEaFGdvZ29wcm90by9nb2dvLnByb3RvGhljb3Ntb3Nf",
+            "cHJvdG8vY29zbW9zLnByb3RvGhdjb3Ntb3MvbXNnL3YxL21zZy5wcm90byJl",
+            "CglNc2dVbmphaWwSOwoOdmFsaWRhdG9yX2FkZHIYASABKAlCI9K0LRRjb3Nt",
+            "b3MuQWRkcmVzc1N0cmluZ+reHwdhZGRyZXNzOhuC57AqDnZhbGlkYXRvcl9h",
+            "ZGRyiKAfAJigHwEiEwoRTXNnVW5qYWlsUmVzcG9uc2UyXwoDTXNnElgKBlVu",
+            "amFpbBIiLmNvc21vcy5zbGFzaGluZy52MWJldGExLk1zZ1VuamFpbBoqLmNv",
+            "c21vcy5zbGFzaGluZy52MWJldGExLk1zZ1VuamFpbFJlc3BvbnNlQjNaLWdp",
+            "dGh1Yi5jb20vY29zbW9zL2Nvc21vcy1zZGsveC9zbGFzaGluZy90eXBlc6ji",
+            "HgFiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Gogoproto.GogoReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::Gogoproto.GogoReflection.Descriptor, global::CosmosProto.CosmosReflection.Descriptor, global::Cosmos.Msg.V1.MsgReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Slashing.V1Beta1.MsgUnjail), global::Cosmos.Slashing.V1Beta1.MsgUnjail.Parser, new[]{ "ValidatorAddr" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Slashing.V1Beta1.MsgUnjailResponse), global::Cosmos.Slashing.V1Beta1.MsgUnjailResponse.Parser, null, null, null, null, null)

@@ -28,68 +28,104 @@ namespace Cosmos.Bank.V1Beta1 {
             "ay52MWJldGExGipjb3Ntb3MvYmFzZS9xdWVyeS92MWJldGExL3BhZ2luYXRp",
             "b24ucHJvdG8aFGdvZ29wcm90by9nb2dvLnByb3RvGhxnb29nbGUvYXBpL2Fu",
             "bm90YXRpb25zLnByb3RvGh5jb3Ntb3MvYmFzZS92MWJldGExL2NvaW4ucHJv",
-            "dG8aHmNvc21vcy9iYW5rL3YxYmV0YTEvYmFuay5wcm90byI/ChNRdWVyeUJh",
-            "bGFuY2VSZXF1ZXN0Eg8KB2FkZHJlc3MYASABKAkSDQoFZGVub20YAiABKAk6",
-            "COigHwCIoB8AIkIKFFF1ZXJ5QmFsYW5jZVJlc3BvbnNlEioKB2JhbGFuY2UY",
-            "ASABKAsyGS5jb3Ntb3MuYmFzZS52MWJldGExLkNvaW4icAoXUXVlcnlBbGxC",
-            "YWxhbmNlc1JlcXVlc3QSDwoHYWRkcmVzcxgBIAEoCRI6CgpwYWdpbmF0aW9u",
-            "GAIgASgLMiYuY29zbW9zLmJhc2UucXVlcnkudjFiZXRhMS5QYWdlUmVxdWVz",
-            "dDoI6KAfAIigHwAitgEKGFF1ZXJ5QWxsQmFsYW5jZXNSZXNwb25zZRJdCghi",
-            "YWxhbmNlcxgBIAMoCzIZLmNvc21vcy5iYXNlLnYxYmV0YTEuQ29pbkIwyN4f",
-            "AKrfHyhnaXRodWIuY29tL2Nvc21vcy9jb3Ntb3Mtc2RrL3R5cGVzLkNvaW5z",
-            "EjsKCnBhZ2luYXRpb24YAiABKAsyJy5jb3Ntb3MuYmFzZS5xdWVyeS52MWJl",
-            "dGExLlBhZ2VSZXNwb25zZSJfChdRdWVyeVRvdGFsU3VwcGx5UmVxdWVzdBI6",
-            "CgpwYWdpbmF0aW9uGAEgASgLMiYuY29zbW9zLmJhc2UucXVlcnkudjFiZXRh",
-            "MS5QYWdlUmVxdWVzdDoI6KAfAIigHwAitAEKGFF1ZXJ5VG90YWxTdXBwbHlS",
-            "ZXNwb25zZRJbCgZzdXBwbHkYASADKAsyGS5jb3Ntb3MuYmFzZS52MWJldGEx",
-            "LkNvaW5CMMjeHwCq3x8oZ2l0aHViLmNvbS9jb3Ntb3MvY29zbW9zLXNkay90",
-            "eXBlcy5Db2lucxI7CgpwYWdpbmF0aW9uGAIgASgLMicuY29zbW9zLmJhc2Uu",
-            "cXVlcnkudjFiZXRhMS5QYWdlUmVzcG9uc2UiJQoUUXVlcnlTdXBwbHlPZlJl",
-            "cXVlc3QSDQoFZGVub20YASABKAkiSAoVUXVlcnlTdXBwbHlPZlJlc3BvbnNl",
-            "Ei8KBmFtb3VudBgBIAEoCzIZLmNvc21vcy5iYXNlLnYxYmV0YTEuQ29pbkIE",
-            "yN4fACIUChJRdWVyeVBhcmFtc1JlcXVlc3QiSAoTUXVlcnlQYXJhbXNSZXNw",
-            "b25zZRIxCgZwYXJhbXMYASABKAsyGy5jb3Ntb3MuYmFuay52MWJldGExLlBh",
-            "cmFtc0IEyN4fACJYChpRdWVyeURlbm9tc01ldGFkYXRhUmVxdWVzdBI6Cgpw",
-            "YWdpbmF0aW9uGAEgASgLMiYuY29zbW9zLmJhc2UucXVlcnkudjFiZXRhMS5Q",
-            "YWdlUmVxdWVzdCKSAQobUXVlcnlEZW5vbXNNZXRhZGF0YVJlc3BvbnNlEjYK",
-            "CW1ldGFkYXRhcxgBIAMoCzIdLmNvc21vcy5iYW5rLnYxYmV0YTEuTWV0YWRh",
-            "dGFCBMjeHwASOwoKcGFnaW5hdGlvbhgCIAEoCzInLmNvc21vcy5iYXNlLnF1",
-            "ZXJ5LnYxYmV0YTEuUGFnZVJlc3BvbnNlIioKGVF1ZXJ5RGVub21NZXRhZGF0",
-            "YVJlcXVlc3QSDQoFZGVub20YASABKAkiUwoaUXVlcnlEZW5vbU1ldGFkYXRh",
-            "UmVzcG9uc2USNQoIbWV0YWRhdGEYASABKAsyHS5jb3Ntb3MuYmFuay52MWJl",
-            "dGExLk1ldGFkYXRhQgTI3h8AMrIICgVRdWVyeRKXAQoHQmFsYW5jZRIoLmNv",
-            "c21vcy5iYW5rLnYxYmV0YTEuUXVlcnlCYWxhbmNlUmVxdWVzdBopLmNvc21v",
-            "cy5iYW5rLnYxYmV0YTEuUXVlcnlCYWxhbmNlUmVzcG9uc2UiN4LT5JMCMRIv",
-            "L2Nvc21vcy9iYW5rL3YxYmV0YTEvYmFsYW5jZXMve2FkZHJlc3N9L3tkZW5v",
-            "bX0SmwEKC0FsbEJhbGFuY2VzEiwuY29zbW9zLmJhbmsudjFiZXRhMS5RdWVy",
-            "eUFsbEJhbGFuY2VzUmVxdWVzdBotLmNvc21vcy5iYW5rLnYxYmV0YTEuUXVl",
-            "cnlBbGxCYWxhbmNlc1Jlc3BvbnNlIi+C0+STAikSJy9jb3Ntb3MvYmFuay92",
-            "MWJldGExL2JhbGFuY2VzL3thZGRyZXNzfRKPAQoLVG90YWxTdXBwbHkSLC5j",
-            "b3Ntb3MuYmFuay52MWJldGExLlF1ZXJ5VG90YWxTdXBwbHlSZXF1ZXN0Gi0u",
-            "Y29zbW9zLmJhbmsudjFiZXRhMS5RdWVyeVRvdGFsU3VwcGx5UmVzcG9uc2Ui",
-            "I4LT5JMCHRIbL2Nvc21vcy9iYW5rL3YxYmV0YTEvc3VwcGx5Eo4BCghTdXBw",
-            "bHlPZhIpLmNvc21vcy5iYW5rLnYxYmV0YTEuUXVlcnlTdXBwbHlPZlJlcXVl",
-            "c3QaKi5jb3Ntb3MuYmFuay52MWJldGExLlF1ZXJ5U3VwcGx5T2ZSZXNwb25z",
-            "ZSIrgtPkkwIlEiMvY29zbW9zL2JhbmsvdjFiZXRhMS9zdXBwbHkve2Rlbm9t",
-            "fRKAAQoGUGFyYW1zEicuY29zbW9zLmJhbmsudjFiZXRhMS5RdWVyeVBhcmFt",
-            "c1JlcXVlc3QaKC5jb3Ntb3MuYmFuay52MWJldGExLlF1ZXJ5UGFyYW1zUmVz",
-            "cG9uc2UiI4LT5JMCHRIbL2Nvc21vcy9iYW5rL3YxYmV0YTEvcGFyYW1zEqYB",
-            "Cg1EZW5vbU1ldGFkYXRhEi4uY29zbW9zLmJhbmsudjFiZXRhMS5RdWVyeURl",
-            "bm9tTWV0YWRhdGFSZXF1ZXN0Gi8uY29zbW9zLmJhbmsudjFiZXRhMS5RdWVy",
-            "eURlbm9tTWV0YWRhdGFSZXNwb25zZSI0gtPkkwIuEiwvY29zbW9zL2Jhbmsv",
-            "djFiZXRhMS9kZW5vbXNfbWV0YWRhdGEve2Rlbm9tfRKhAQoORGVub21zTWV0",
-            "YWRhdGESLy5jb3Ntb3MuYmFuay52MWJldGExLlF1ZXJ5RGVub21zTWV0YWRh",
-            "dGFSZXF1ZXN0GjAuY29zbW9zLmJhbmsudjFiZXRhMS5RdWVyeURlbm9tc01l",
-            "dGFkYXRhUmVzcG9uc2UiLILT5JMCJhIkL2Nvc21vcy9iYW5rL3YxYmV0YTEv",
-            "ZGVub21zX21ldGFkYXRhQitaKWdpdGh1Yi5jb20vY29zbW9zL2Nvc21vcy1z",
-            "ZGsveC9iYW5rL3R5cGVzYgZwcm90bzM="));
+            "dG8aHmNvc21vcy9iYW5rL3YxYmV0YTEvYmFuay5wcm90bxoZY29zbW9zX3By",
+            "b3RvL2Nvc21vcy5wcm90byJZChNRdWVyeUJhbGFuY2VSZXF1ZXN0EikKB2Fk",
+            "ZHJlc3MYASABKAlCGNK0LRRjb3Ntb3MuQWRkcmVzc1N0cmluZxINCgVkZW5v",
+            "bRgCIAEoCToI6KAfAIigHwAiQgoUUXVlcnlCYWxhbmNlUmVzcG9uc2USKgoH",
+            "YmFsYW5jZRgBIAEoCzIZLmNvc21vcy5iYXNlLnYxYmV0YTEuQ29pbiKKAQoX",
+            "UXVlcnlBbGxCYWxhbmNlc1JlcXVlc3QSKQoHYWRkcmVzcxgBIAEoCUIY0rQt",
+            "FGNvc21vcy5BZGRyZXNzU3RyaW5nEjoKCnBhZ2luYXRpb24YAiABKAsyJi5j",
+            "b3Ntb3MuYmFzZS5xdWVyeS52MWJldGExLlBhZ2VSZXF1ZXN0OgjooB8AiKAf",
+            "ACK2AQoYUXVlcnlBbGxCYWxhbmNlc1Jlc3BvbnNlEl0KCGJhbGFuY2VzGAEg",
+            "AygLMhkuY29zbW9zLmJhc2UudjFiZXRhMS5Db2luQjDI3h8Aqt8fKGdpdGh1",
+            "Yi5jb20vY29zbW9zL2Nvc21vcy1zZGsvdHlwZXMuQ29pbnMSOwoKcGFnaW5h",
+            "dGlvbhgCIAEoCzInLmNvc21vcy5iYXNlLnF1ZXJ5LnYxYmV0YTEuUGFnZVJl",
+            "c3BvbnNlIpABCh1RdWVyeVNwZW5kYWJsZUJhbGFuY2VzUmVxdWVzdBIpCgdh",
+            "ZGRyZXNzGAEgASgJQhjStC0UY29zbW9zLkFkZHJlc3NTdHJpbmcSOgoKcGFn",
+            "aW5hdGlvbhgCIAEoCzImLmNvc21vcy5iYXNlLnF1ZXJ5LnYxYmV0YTEuUGFn",
+            "ZVJlcXVlc3Q6COigHwCIoB8AIrwBCh5RdWVyeVNwZW5kYWJsZUJhbGFuY2Vz",
+            "UmVzcG9uc2USXQoIYmFsYW5jZXMYASADKAsyGS5jb3Ntb3MuYmFzZS52MWJl",
+            "dGExLkNvaW5CMMjeHwCq3x8oZ2l0aHViLmNvbS9jb3Ntb3MvY29zbW9zLXNk",
+            "ay90eXBlcy5Db2lucxI7CgpwYWdpbmF0aW9uGAIgASgLMicuY29zbW9zLmJh",
+            "c2UucXVlcnkudjFiZXRhMS5QYWdlUmVzcG9uc2UiXwoXUXVlcnlUb3RhbFN1",
+            "cHBseVJlcXVlc3QSOgoKcGFnaW5hdGlvbhgBIAEoCzImLmNvc21vcy5iYXNl",
+            "LnF1ZXJ5LnYxYmV0YTEuUGFnZVJlcXVlc3Q6COigHwCIoB8AIrQBChhRdWVy",
+            "eVRvdGFsU3VwcGx5UmVzcG9uc2USWwoGc3VwcGx5GAEgAygLMhkuY29zbW9z",
+            "LmJhc2UudjFiZXRhMS5Db2luQjDI3h8Aqt8fKGdpdGh1Yi5jb20vY29zbW9z",
+            "L2Nvc21vcy1zZGsvdHlwZXMuQ29pbnMSOwoKcGFnaW5hdGlvbhgCIAEoCzIn",
+            "LmNvc21vcy5iYXNlLnF1ZXJ5LnYxYmV0YTEuUGFnZVJlc3BvbnNlIiUKFFF1",
+            "ZXJ5U3VwcGx5T2ZSZXF1ZXN0Eg0KBWRlbm9tGAEgASgJIkgKFVF1ZXJ5U3Vw",
+            "cGx5T2ZSZXNwb25zZRIvCgZhbW91bnQYASABKAsyGS5jb3Ntb3MuYmFzZS52",
+            "MWJldGExLkNvaW5CBMjeHwAiFAoSUXVlcnlQYXJhbXNSZXF1ZXN0IkgKE1F1",
+            "ZXJ5UGFyYW1zUmVzcG9uc2USMQoGcGFyYW1zGAEgASgLMhsuY29zbW9zLmJh",
+            "bmsudjFiZXRhMS5QYXJhbXNCBMjeHwAiWAoaUXVlcnlEZW5vbXNNZXRhZGF0",
+            "YVJlcXVlc3QSOgoKcGFnaW5hdGlvbhgBIAEoCzImLmNvc21vcy5iYXNlLnF1",
+            "ZXJ5LnYxYmV0YTEuUGFnZVJlcXVlc3QikgEKG1F1ZXJ5RGVub21zTWV0YWRh",
+            "dGFSZXNwb25zZRI2CgltZXRhZGF0YXMYASADKAsyHS5jb3Ntb3MuYmFuay52",
+            "MWJldGExLk1ldGFkYXRhQgTI3h8AEjsKCnBhZ2luYXRpb24YAiABKAsyJy5j",
+            "b3Ntb3MuYmFzZS5xdWVyeS52MWJldGExLlBhZ2VSZXNwb25zZSIqChlRdWVy",
+            "eURlbm9tTWV0YWRhdGFSZXF1ZXN0Eg0KBWRlbm9tGAEgASgJIlMKGlF1ZXJ5",
+            "RGVub21NZXRhZGF0YVJlc3BvbnNlEjUKCG1ldGFkYXRhGAEgASgLMh0uY29z",
+            "bW9zLmJhbmsudjFiZXRhMS5NZXRhZGF0YUIEyN4fACJkChdRdWVyeURlbm9t",
+            "T3duZXJzUmVxdWVzdBINCgVkZW5vbRgBIAEoCRI6CgpwYWdpbmF0aW9uGAIg",
+            "ASgLMiYuY29zbW9zLmJhc2UucXVlcnkudjFiZXRhMS5QYWdlUmVxdWVzdCJp",
+            "CgpEZW5vbU93bmVyEikKB2FkZHJlc3MYASABKAlCGNK0LRRjb3Ntb3MuQWRk",
+            "cmVzc1N0cmluZxIwCgdiYWxhbmNlGAIgASgLMhkuY29zbW9zLmJhc2UudjFi",
+            "ZXRhMS5Db2luQgTI3h8AIo4BChhRdWVyeURlbm9tT3duZXJzUmVzcG9uc2US",
+            "NQoMZGVub21fb3duZXJzGAEgAygLMh8uY29zbW9zLmJhbmsudjFiZXRhMS5E",
+            "ZW5vbU93bmVyEjsKCnBhZ2luYXRpb24YAiABKAsyJy5jb3Ntb3MuYmFzZS5x",
+            "dWVyeS52MWJldGExLlBhZ2VSZXNwb25zZSJlChdRdWVyeVNlbmRFbmFibGVk",
+            "UmVxdWVzdBIOCgZkZW5vbXMYASADKAkSOgoKcGFnaW5hdGlvbhhjIAEoCzIm",
+            "LmNvc21vcy5iYXNlLnF1ZXJ5LnYxYmV0YTEuUGFnZVJlcXVlc3QijwEKGFF1",
+            "ZXJ5U2VuZEVuYWJsZWRSZXNwb25zZRI2CgxzZW5kX2VuYWJsZWQYASADKAsy",
+            "IC5jb3Ntb3MuYmFuay52MWJldGExLlNlbmRFbmFibGVkEjsKCnBhZ2luYXRp",
+            "b24YYyABKAsyJy5jb3Ntb3MuYmFzZS5xdWVyeS52MWJldGExLlBhZ2VSZXNw",
+            "b25zZTKmDAoFUXVlcnkSmAEKB0JhbGFuY2USKC5jb3Ntb3MuYmFuay52MWJl",
+            "dGExLlF1ZXJ5QmFsYW5jZVJlcXVlc3QaKS5jb3Ntb3MuYmFuay52MWJldGEx",
+            "LlF1ZXJ5QmFsYW5jZVJlc3BvbnNlIjiC0+STAjISMC9jb3Ntb3MvYmFuay92",
+            "MWJldGExL2JhbGFuY2VzL3thZGRyZXNzfS9ieV9kZW5vbRKbAQoLQWxsQmFs",
+            "YW5jZXMSLC5jb3Ntb3MuYmFuay52MWJldGExLlF1ZXJ5QWxsQmFsYW5jZXNS",
+            "ZXF1ZXN0Gi0uY29zbW9zLmJhbmsudjFiZXRhMS5RdWVyeUFsbEJhbGFuY2Vz",
+            "UmVzcG9uc2UiL4LT5JMCKRInL2Nvc21vcy9iYW5rL3YxYmV0YTEvYmFsYW5j",
+            "ZXMve2FkZHJlc3N9ErcBChFTcGVuZGFibGVCYWxhbmNlcxIyLmNvc21vcy5i",
+            "YW5rLnYxYmV0YTEuUXVlcnlTcGVuZGFibGVCYWxhbmNlc1JlcXVlc3QaMy5j",
+            "b3Ntb3MuYmFuay52MWJldGExLlF1ZXJ5U3BlbmRhYmxlQmFsYW5jZXNSZXNw",
+            "b25zZSI5gtPkkwIzEjEvY29zbW9zL2JhbmsvdjFiZXRhMS9zcGVuZGFibGVf",
+            "YmFsYW5jZXMve2FkZHJlc3N9Eo8BCgtUb3RhbFN1cHBseRIsLmNvc21vcy5i",
+            "YW5rLnYxYmV0YTEuUXVlcnlUb3RhbFN1cHBseVJlcXVlc3QaLS5jb3Ntb3Mu",
+            "YmFuay52MWJldGExLlF1ZXJ5VG90YWxTdXBwbHlSZXNwb25zZSIjgtPkkwId",
+            "EhsvY29zbW9zL2JhbmsvdjFiZXRhMS9zdXBwbHkSjwEKCFN1cHBseU9mEiku",
+            "Y29zbW9zLmJhbmsudjFiZXRhMS5RdWVyeVN1cHBseU9mUmVxdWVzdBoqLmNv",
+            "c21vcy5iYW5rLnYxYmV0YTEuUXVlcnlTdXBwbHlPZlJlc3BvbnNlIiyC0+ST",
+            "AiYSJC9jb3Ntb3MvYmFuay92MWJldGExL3N1cHBseS9ieV9kZW5vbRKAAQoG",
+            "UGFyYW1zEicuY29zbW9zLmJhbmsudjFiZXRhMS5RdWVyeVBhcmFtc1JlcXVl",
+            "c3QaKC5jb3Ntb3MuYmFuay52MWJldGExLlF1ZXJ5UGFyYW1zUmVzcG9uc2Ui",
+            "I4LT5JMCHRIbL2Nvc21vcy9iYW5rL3YxYmV0YTEvcGFyYW1zEqYBCg1EZW5v",
+            "bU1ldGFkYXRhEi4uY29zbW9zLmJhbmsudjFiZXRhMS5RdWVyeURlbm9tTWV0",
+            "YWRhdGFSZXF1ZXN0Gi8uY29zbW9zLmJhbmsudjFiZXRhMS5RdWVyeURlbm9t",
+            "TWV0YWRhdGFSZXNwb25zZSI0gtPkkwIuEiwvY29zbW9zL2JhbmsvdjFiZXRh",
+            "MS9kZW5vbXNfbWV0YWRhdGEve2Rlbm9tfRKhAQoORGVub21zTWV0YWRhdGES",
+            "Ly5jb3Ntb3MuYmFuay52MWJldGExLlF1ZXJ5RGVub21zTWV0YWRhdGFSZXF1",
+            "ZXN0GjAuY29zbW9zLmJhbmsudjFiZXRhMS5RdWVyeURlbm9tc01ldGFkYXRh",
+            "UmVzcG9uc2UiLILT5JMCJhIkL2Nvc21vcy9iYW5rL3YxYmV0YTEvZGVub21z",
+            "X21ldGFkYXRhEp0BCgtEZW5vbU93bmVycxIsLmNvc21vcy5iYW5rLnYxYmV0",
+            "YTEuUXVlcnlEZW5vbU93bmVyc1JlcXVlc3QaLS5jb3Ntb3MuYmFuay52MWJl",
+            "dGExLlF1ZXJ5RGVub21Pd25lcnNSZXNwb25zZSIxgtPkkwIrEikvY29zbW9z",
+            "L2JhbmsvdjFiZXRhMS9kZW5vbV9vd25lcnMve2Rlbm9tfRKVAQoLU2VuZEVu",
+            "YWJsZWQSLC5jb3Ntb3MuYmFuay52MWJldGExLlF1ZXJ5U2VuZEVuYWJsZWRS",
+            "ZXF1ZXN0Gi0uY29zbW9zLmJhbmsudjFiZXRhMS5RdWVyeVNlbmRFbmFibGVk",
+            "UmVzcG9uc2UiKYLT5JMCIxIhL2Nvc21vcy9iYW5rL3YxYmV0YTEvc2VuZF9l",
+            "bmFibGVkQitaKWdpdGh1Yi5jb20vY29zbW9zL2Nvc21vcy1zZGsveC9iYW5r",
+            "L3R5cGVzYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Cosmos.Base.Query.V1Beta1.PaginationReflection.Descriptor, global::Gogoproto.GogoReflection.Descriptor, global::Google.Api.AnnotationsReflection.Descriptor, global::Cosmos.Base.V1Beta1.CoinReflection.Descriptor, global::Cosmos.Bank.V1Beta1.BankReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::Cosmos.Base.Query.V1Beta1.PaginationReflection.Descriptor, global::Gogoproto.GogoReflection.Descriptor, global::Google.Api.AnnotationsReflection.Descriptor, global::Cosmos.Base.V1Beta1.CoinReflection.Descriptor, global::Cosmos.Bank.V1Beta1.BankReflection.Descriptor, global::CosmosProto.CosmosReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Bank.V1Beta1.QueryBalanceRequest), global::Cosmos.Bank.V1Beta1.QueryBalanceRequest.Parser, new[]{ "Address", "Denom" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Bank.V1Beta1.QueryBalanceResponse), global::Cosmos.Bank.V1Beta1.QueryBalanceResponse.Parser, new[]{ "Balance" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Bank.V1Beta1.QueryAllBalancesRequest), global::Cosmos.Bank.V1Beta1.QueryAllBalancesRequest.Parser, new[]{ "Address", "Pagination" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Bank.V1Beta1.QueryAllBalancesResponse), global::Cosmos.Bank.V1Beta1.QueryAllBalancesResponse.Parser, new[]{ "Balances", "Pagination" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Bank.V1Beta1.QuerySpendableBalancesRequest), global::Cosmos.Bank.V1Beta1.QuerySpendableBalancesRequest.Parser, new[]{ "Address", "Pagination" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Bank.V1Beta1.QuerySpendableBalancesResponse), global::Cosmos.Bank.V1Beta1.QuerySpendableBalancesResponse.Parser, new[]{ "Balances", "Pagination" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Bank.V1Beta1.QueryTotalSupplyRequest), global::Cosmos.Bank.V1Beta1.QueryTotalSupplyRequest.Parser, new[]{ "Pagination" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Bank.V1Beta1.QueryTotalSupplyResponse), global::Cosmos.Bank.V1Beta1.QueryTotalSupplyResponse.Parser, new[]{ "Supply", "Pagination" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Bank.V1Beta1.QuerySupplyOfRequest), global::Cosmos.Bank.V1Beta1.QuerySupplyOfRequest.Parser, new[]{ "Denom" }, null, null, null, null),
@@ -99,7 +135,12 @@ namespace Cosmos.Bank.V1Beta1 {
             new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Bank.V1Beta1.QueryDenomsMetadataRequest), global::Cosmos.Bank.V1Beta1.QueryDenomsMetadataRequest.Parser, new[]{ "Pagination" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Bank.V1Beta1.QueryDenomsMetadataResponse), global::Cosmos.Bank.V1Beta1.QueryDenomsMetadataResponse.Parser, new[]{ "Metadatas", "Pagination" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Bank.V1Beta1.QueryDenomMetadataRequest), global::Cosmos.Bank.V1Beta1.QueryDenomMetadataRequest.Parser, new[]{ "Denom" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Bank.V1Beta1.QueryDenomMetadataResponse), global::Cosmos.Bank.V1Beta1.QueryDenomMetadataResponse.Parser, new[]{ "Metadata" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Bank.V1Beta1.QueryDenomMetadataResponse), global::Cosmos.Bank.V1Beta1.QueryDenomMetadataResponse.Parser, new[]{ "Metadata" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Bank.V1Beta1.QueryDenomOwnersRequest), global::Cosmos.Bank.V1Beta1.QueryDenomOwnersRequest.Parser, new[]{ "Denom", "Pagination" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Bank.V1Beta1.DenomOwner), global::Cosmos.Bank.V1Beta1.DenomOwner.Parser, new[]{ "Address", "Balance" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Bank.V1Beta1.QueryDenomOwnersResponse), global::Cosmos.Bank.V1Beta1.QueryDenomOwnersResponse.Parser, new[]{ "DenomOwners", "Pagination" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Bank.V1Beta1.QuerySendEnabledRequest), global::Cosmos.Bank.V1Beta1.QuerySendEnabledRequest.Parser, new[]{ "Denoms", "Pagination" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Bank.V1Beta1.QuerySendEnabledResponse), global::Cosmos.Bank.V1Beta1.QuerySendEnabledResponse.Parser, new[]{ "SendEnabled", "Pagination" }, null, null, null, null)
           }));
     }
     #endregion
@@ -1024,6 +1065,489 @@ namespace Cosmos.Bank.V1Beta1 {
   }
 
   /// <summary>
+  /// QuerySpendableBalancesRequest defines the gRPC request structure for querying
+  /// an account's spendable balances.
+  ///
+  /// Since: cosmos-sdk 0.46
+  /// </summary>
+  public sealed partial class QuerySpendableBalancesRequest : pb::IMessage<QuerySpendableBalancesRequest>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<QuerySpendableBalancesRequest> _parser = new pb::MessageParser<QuerySpendableBalancesRequest>(() => new QuerySpendableBalancesRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<QuerySpendableBalancesRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Cosmos.Bank.V1Beta1.QueryReflection.Descriptor.MessageTypes[4]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public QuerySpendableBalancesRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public QuerySpendableBalancesRequest(QuerySpendableBalancesRequest other) : this() {
+      address_ = other.address_;
+      pagination_ = other.pagination_ != null ? other.pagination_.Clone() : null;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public QuerySpendableBalancesRequest Clone() {
+      return new QuerySpendableBalancesRequest(this);
+    }
+
+    /// <summary>Field number for the "address" field.</summary>
+    public const int AddressFieldNumber = 1;
+    private string address_ = "";
+    /// <summary>
+    /// address is the address to query spendable balances for.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string Address {
+      get { return address_; }
+      set {
+        address_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "pagination" field.</summary>
+    public const int PaginationFieldNumber = 2;
+    private global::Cosmos.Base.Query.V1Beta1.PageRequest pagination_;
+    /// <summary>
+    /// pagination defines an optional pagination for the request.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Cosmos.Base.Query.V1Beta1.PageRequest Pagination {
+      get { return pagination_; }
+      set {
+        pagination_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as QuerySpendableBalancesRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(QuerySpendableBalancesRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Address != other.Address) return false;
+      if (!object.Equals(Pagination, other.Pagination)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Address.Length != 0) hash ^= Address.GetHashCode();
+      if (pagination_ != null) hash ^= Pagination.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (Address.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Address);
+      }
+      if (pagination_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(Pagination);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (Address.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Address);
+      }
+      if (pagination_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(Pagination);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (Address.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Address);
+      }
+      if (pagination_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Pagination);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(QuerySpendableBalancesRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Address.Length != 0) {
+        Address = other.Address;
+      }
+      if (other.pagination_ != null) {
+        if (pagination_ == null) {
+          Pagination = new global::Cosmos.Base.Query.V1Beta1.PageRequest();
+        }
+        Pagination.MergeFrom(other.Pagination);
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            Address = input.ReadString();
+            break;
+          }
+          case 18: {
+            if (pagination_ == null) {
+              Pagination = new global::Cosmos.Base.Query.V1Beta1.PageRequest();
+            }
+            input.ReadMessage(Pagination);
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            Address = input.ReadString();
+            break;
+          }
+          case 18: {
+            if (pagination_ == null) {
+              Pagination = new global::Cosmos.Base.Query.V1Beta1.PageRequest();
+            }
+            input.ReadMessage(Pagination);
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// QuerySpendableBalancesResponse defines the gRPC response structure for querying
+  /// an account's spendable balances.
+  ///
+  /// Since: cosmos-sdk 0.46
+  /// </summary>
+  public sealed partial class QuerySpendableBalancesResponse : pb::IMessage<QuerySpendableBalancesResponse>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<QuerySpendableBalancesResponse> _parser = new pb::MessageParser<QuerySpendableBalancesResponse>(() => new QuerySpendableBalancesResponse());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<QuerySpendableBalancesResponse> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Cosmos.Bank.V1Beta1.QueryReflection.Descriptor.MessageTypes[5]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public QuerySpendableBalancesResponse() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public QuerySpendableBalancesResponse(QuerySpendableBalancesResponse other) : this() {
+      balances_ = other.balances_.Clone();
+      pagination_ = other.pagination_ != null ? other.pagination_.Clone() : null;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public QuerySpendableBalancesResponse Clone() {
+      return new QuerySpendableBalancesResponse(this);
+    }
+
+    /// <summary>Field number for the "balances" field.</summary>
+    public const int BalancesFieldNumber = 1;
+    private static readonly pb::FieldCodec<global::Cosmos.Base.V1Beta1.Coin> _repeated_balances_codec
+        = pb::FieldCodec.ForMessage(10, global::Cosmos.Base.V1Beta1.Coin.Parser);
+    private readonly pbc::RepeatedField<global::Cosmos.Base.V1Beta1.Coin> balances_ = new pbc::RepeatedField<global::Cosmos.Base.V1Beta1.Coin>();
+    /// <summary>
+    /// balances is the spendable balances of all the coins.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pbc::RepeatedField<global::Cosmos.Base.V1Beta1.Coin> Balances {
+      get { return balances_; }
+    }
+
+    /// <summary>Field number for the "pagination" field.</summary>
+    public const int PaginationFieldNumber = 2;
+    private global::Cosmos.Base.Query.V1Beta1.PageResponse pagination_;
+    /// <summary>
+    /// pagination defines the pagination in the response.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Cosmos.Base.Query.V1Beta1.PageResponse Pagination {
+      get { return pagination_; }
+      set {
+        pagination_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as QuerySpendableBalancesResponse);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(QuerySpendableBalancesResponse other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if(!balances_.Equals(other.balances_)) return false;
+      if (!object.Equals(Pagination, other.Pagination)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      hash ^= balances_.GetHashCode();
+      if (pagination_ != null) hash ^= Pagination.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      balances_.WriteTo(output, _repeated_balances_codec);
+      if (pagination_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(Pagination);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      balances_.WriteTo(ref output, _repeated_balances_codec);
+      if (pagination_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(Pagination);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      size += balances_.CalculateSize(_repeated_balances_codec);
+      if (pagination_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Pagination);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(QuerySpendableBalancesResponse other) {
+      if (other == null) {
+        return;
+      }
+      balances_.Add(other.balances_);
+      if (other.pagination_ != null) {
+        if (pagination_ == null) {
+          Pagination = new global::Cosmos.Base.Query.V1Beta1.PageResponse();
+        }
+        Pagination.MergeFrom(other.Pagination);
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            balances_.AddEntriesFrom(input, _repeated_balances_codec);
+            break;
+          }
+          case 18: {
+            if (pagination_ == null) {
+              Pagination = new global::Cosmos.Base.Query.V1Beta1.PageResponse();
+            }
+            input.ReadMessage(Pagination);
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            balances_.AddEntriesFrom(ref input, _repeated_balances_codec);
+            break;
+          }
+          case 18: {
+            if (pagination_ == null) {
+              Pagination = new global::Cosmos.Base.Query.V1Beta1.PageResponse();
+            }
+            input.ReadMessage(Pagination);
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
   /// QueryTotalSupplyRequest is the request type for the Query/TotalSupply RPC
   /// method.
   /// </summary>
@@ -1041,7 +1565,7 @@ namespace Cosmos.Bank.V1Beta1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Cosmos.Bank.V1Beta1.QueryReflection.Descriptor.MessageTypes[4]; }
+      get { return global::Cosmos.Bank.V1Beta1.QueryReflection.Descriptor.MessageTypes[6]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1076,6 +1600,8 @@ namespace Cosmos.Bank.V1Beta1 {
     private global::Cosmos.Base.Query.V1Beta1.PageRequest pagination_;
     /// <summary>
     /// pagination defines an optional pagination for the request.
+    ///
+    /// Since: cosmos-sdk 0.43
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -1246,7 +1772,7 @@ namespace Cosmos.Bank.V1Beta1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Cosmos.Bank.V1Beta1.QueryReflection.Descriptor.MessageTypes[5]; }
+      get { return global::Cosmos.Bank.V1Beta1.QueryReflection.Descriptor.MessageTypes[7]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1296,6 +1822,8 @@ namespace Cosmos.Bank.V1Beta1 {
     private global::Cosmos.Base.Query.V1Beta1.PageResponse pagination_;
     /// <summary>
     /// pagination defines the pagination in the response.
+    ///
+    /// Since: cosmos-sdk 0.43
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -1479,7 +2007,7 @@ namespace Cosmos.Bank.V1Beta1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Cosmos.Bank.V1Beta1.QueryReflection.Descriptor.MessageTypes[6]; }
+      get { return global::Cosmos.Bank.V1Beta1.QueryReflection.Descriptor.MessageTypes[8]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1674,7 +2202,7 @@ namespace Cosmos.Bank.V1Beta1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Cosmos.Bank.V1Beta1.QueryReflection.Descriptor.MessageTypes[7]; }
+      get { return global::Cosmos.Bank.V1Beta1.QueryReflection.Descriptor.MessageTypes[9]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1878,7 +2406,7 @@ namespace Cosmos.Bank.V1Beta1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Cosmos.Bank.V1Beta1.QueryReflection.Descriptor.MessageTypes[8]; }
+      get { return global::Cosmos.Bank.V1Beta1.QueryReflection.Descriptor.MessageTypes[10]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2033,7 +2561,7 @@ namespace Cosmos.Bank.V1Beta1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Cosmos.Bank.V1Beta1.QueryReflection.Descriptor.MessageTypes[9]; }
+      get { return global::Cosmos.Bank.V1Beta1.QueryReflection.Descriptor.MessageTypes[11]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2234,7 +2762,7 @@ namespace Cosmos.Bank.V1Beta1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Cosmos.Bank.V1Beta1.QueryReflection.Descriptor.MessageTypes[10]; }
+      get { return global::Cosmos.Bank.V1Beta1.QueryReflection.Descriptor.MessageTypes[12]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2439,7 +2967,7 @@ namespace Cosmos.Bank.V1Beta1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Cosmos.Bank.V1Beta1.QueryReflection.Descriptor.MessageTypes[11]; }
+      get { return global::Cosmos.Bank.V1Beta1.QueryReflection.Descriptor.MessageTypes[13]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2672,7 +3200,7 @@ namespace Cosmos.Bank.V1Beta1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Cosmos.Bank.V1Beta1.QueryReflection.Descriptor.MessageTypes[12]; }
+      get { return global::Cosmos.Bank.V1Beta1.QueryReflection.Descriptor.MessageTypes[14]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2868,7 +3396,7 @@ namespace Cosmos.Bank.V1Beta1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Cosmos.Bank.V1Beta1.QueryReflection.Descriptor.MessageTypes[13]; }
+      get { return global::Cosmos.Bank.V1Beta1.QueryReflection.Descriptor.MessageTypes[15]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3046,6 +3574,1199 @@ namespace Cosmos.Bank.V1Beta1 {
               Metadata = new global::Cosmos.Bank.V1Beta1.Metadata();
             }
             input.ReadMessage(Metadata);
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// QueryDenomOwnersRequest defines the request type for the DenomOwners RPC query,
+  /// which queries for a paginated set of all account holders of a particular
+  /// denomination.
+  /// </summary>
+  public sealed partial class QueryDenomOwnersRequest : pb::IMessage<QueryDenomOwnersRequest>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<QueryDenomOwnersRequest> _parser = new pb::MessageParser<QueryDenomOwnersRequest>(() => new QueryDenomOwnersRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<QueryDenomOwnersRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Cosmos.Bank.V1Beta1.QueryReflection.Descriptor.MessageTypes[16]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public QueryDenomOwnersRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public QueryDenomOwnersRequest(QueryDenomOwnersRequest other) : this() {
+      denom_ = other.denom_;
+      pagination_ = other.pagination_ != null ? other.pagination_.Clone() : null;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public QueryDenomOwnersRequest Clone() {
+      return new QueryDenomOwnersRequest(this);
+    }
+
+    /// <summary>Field number for the "denom" field.</summary>
+    public const int DenomFieldNumber = 1;
+    private string denom_ = "";
+    /// <summary>
+    /// denom defines the coin denomination to query all account holders for.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string Denom {
+      get { return denom_; }
+      set {
+        denom_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "pagination" field.</summary>
+    public const int PaginationFieldNumber = 2;
+    private global::Cosmos.Base.Query.V1Beta1.PageRequest pagination_;
+    /// <summary>
+    /// pagination defines an optional pagination for the request.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Cosmos.Base.Query.V1Beta1.PageRequest Pagination {
+      get { return pagination_; }
+      set {
+        pagination_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as QueryDenomOwnersRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(QueryDenomOwnersRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Denom != other.Denom) return false;
+      if (!object.Equals(Pagination, other.Pagination)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Denom.Length != 0) hash ^= Denom.GetHashCode();
+      if (pagination_ != null) hash ^= Pagination.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (Denom.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Denom);
+      }
+      if (pagination_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(Pagination);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (Denom.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Denom);
+      }
+      if (pagination_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(Pagination);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (Denom.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Denom);
+      }
+      if (pagination_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Pagination);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(QueryDenomOwnersRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Denom.Length != 0) {
+        Denom = other.Denom;
+      }
+      if (other.pagination_ != null) {
+        if (pagination_ == null) {
+          Pagination = new global::Cosmos.Base.Query.V1Beta1.PageRequest();
+        }
+        Pagination.MergeFrom(other.Pagination);
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            Denom = input.ReadString();
+            break;
+          }
+          case 18: {
+            if (pagination_ == null) {
+              Pagination = new global::Cosmos.Base.Query.V1Beta1.PageRequest();
+            }
+            input.ReadMessage(Pagination);
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            Denom = input.ReadString();
+            break;
+          }
+          case 18: {
+            if (pagination_ == null) {
+              Pagination = new global::Cosmos.Base.Query.V1Beta1.PageRequest();
+            }
+            input.ReadMessage(Pagination);
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// DenomOwner defines structure representing an account that owns or holds a
+  /// particular denominated token. It contains the account address and account
+  /// balance of the denominated token.
+  ///
+  /// Since: cosmos-sdk 0.46
+  /// </summary>
+  public sealed partial class DenomOwner : pb::IMessage<DenomOwner>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<DenomOwner> _parser = new pb::MessageParser<DenomOwner>(() => new DenomOwner());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<DenomOwner> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Cosmos.Bank.V1Beta1.QueryReflection.Descriptor.MessageTypes[17]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public DenomOwner() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public DenomOwner(DenomOwner other) : this() {
+      address_ = other.address_;
+      balance_ = other.balance_ != null ? other.balance_.Clone() : null;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public DenomOwner Clone() {
+      return new DenomOwner(this);
+    }
+
+    /// <summary>Field number for the "address" field.</summary>
+    public const int AddressFieldNumber = 1;
+    private string address_ = "";
+    /// <summary>
+    /// address defines the address that owns a particular denomination.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string Address {
+      get { return address_; }
+      set {
+        address_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "balance" field.</summary>
+    public const int BalanceFieldNumber = 2;
+    private global::Cosmos.Base.V1Beta1.Coin balance_;
+    /// <summary>
+    /// balance is the balance of the denominated coin for an account.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Cosmos.Base.V1Beta1.Coin Balance {
+      get { return balance_; }
+      set {
+        balance_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as DenomOwner);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(DenomOwner other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Address != other.Address) return false;
+      if (!object.Equals(Balance, other.Balance)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Address.Length != 0) hash ^= Address.GetHashCode();
+      if (balance_ != null) hash ^= Balance.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (Address.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Address);
+      }
+      if (balance_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(Balance);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (Address.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Address);
+      }
+      if (balance_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(Balance);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (Address.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Address);
+      }
+      if (balance_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Balance);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(DenomOwner other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Address.Length != 0) {
+        Address = other.Address;
+      }
+      if (other.balance_ != null) {
+        if (balance_ == null) {
+          Balance = new global::Cosmos.Base.V1Beta1.Coin();
+        }
+        Balance.MergeFrom(other.Balance);
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            Address = input.ReadString();
+            break;
+          }
+          case 18: {
+            if (balance_ == null) {
+              Balance = new global::Cosmos.Base.V1Beta1.Coin();
+            }
+            input.ReadMessage(Balance);
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            Address = input.ReadString();
+            break;
+          }
+          case 18: {
+            if (balance_ == null) {
+              Balance = new global::Cosmos.Base.V1Beta1.Coin();
+            }
+            input.ReadMessage(Balance);
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// QueryDenomOwnersResponse defines the RPC response of a DenomOwners RPC query.
+  ///
+  /// Since: cosmos-sdk 0.46
+  /// </summary>
+  public sealed partial class QueryDenomOwnersResponse : pb::IMessage<QueryDenomOwnersResponse>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<QueryDenomOwnersResponse> _parser = new pb::MessageParser<QueryDenomOwnersResponse>(() => new QueryDenomOwnersResponse());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<QueryDenomOwnersResponse> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Cosmos.Bank.V1Beta1.QueryReflection.Descriptor.MessageTypes[18]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public QueryDenomOwnersResponse() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public QueryDenomOwnersResponse(QueryDenomOwnersResponse other) : this() {
+      denomOwners_ = other.denomOwners_.Clone();
+      pagination_ = other.pagination_ != null ? other.pagination_.Clone() : null;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public QueryDenomOwnersResponse Clone() {
+      return new QueryDenomOwnersResponse(this);
+    }
+
+    /// <summary>Field number for the "denom_owners" field.</summary>
+    public const int DenomOwnersFieldNumber = 1;
+    private static readonly pb::FieldCodec<global::Cosmos.Bank.V1Beta1.DenomOwner> _repeated_denomOwners_codec
+        = pb::FieldCodec.ForMessage(10, global::Cosmos.Bank.V1Beta1.DenomOwner.Parser);
+    private readonly pbc::RepeatedField<global::Cosmos.Bank.V1Beta1.DenomOwner> denomOwners_ = new pbc::RepeatedField<global::Cosmos.Bank.V1Beta1.DenomOwner>();
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pbc::RepeatedField<global::Cosmos.Bank.V1Beta1.DenomOwner> DenomOwners {
+      get { return denomOwners_; }
+    }
+
+    /// <summary>Field number for the "pagination" field.</summary>
+    public const int PaginationFieldNumber = 2;
+    private global::Cosmos.Base.Query.V1Beta1.PageResponse pagination_;
+    /// <summary>
+    /// pagination defines the pagination in the response.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Cosmos.Base.Query.V1Beta1.PageResponse Pagination {
+      get { return pagination_; }
+      set {
+        pagination_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as QueryDenomOwnersResponse);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(QueryDenomOwnersResponse other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if(!denomOwners_.Equals(other.denomOwners_)) return false;
+      if (!object.Equals(Pagination, other.Pagination)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      hash ^= denomOwners_.GetHashCode();
+      if (pagination_ != null) hash ^= Pagination.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      denomOwners_.WriteTo(output, _repeated_denomOwners_codec);
+      if (pagination_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(Pagination);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      denomOwners_.WriteTo(ref output, _repeated_denomOwners_codec);
+      if (pagination_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(Pagination);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      size += denomOwners_.CalculateSize(_repeated_denomOwners_codec);
+      if (pagination_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Pagination);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(QueryDenomOwnersResponse other) {
+      if (other == null) {
+        return;
+      }
+      denomOwners_.Add(other.denomOwners_);
+      if (other.pagination_ != null) {
+        if (pagination_ == null) {
+          Pagination = new global::Cosmos.Base.Query.V1Beta1.PageResponse();
+        }
+        Pagination.MergeFrom(other.Pagination);
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            denomOwners_.AddEntriesFrom(input, _repeated_denomOwners_codec);
+            break;
+          }
+          case 18: {
+            if (pagination_ == null) {
+              Pagination = new global::Cosmos.Base.Query.V1Beta1.PageResponse();
+            }
+            input.ReadMessage(Pagination);
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            denomOwners_.AddEntriesFrom(ref input, _repeated_denomOwners_codec);
+            break;
+          }
+          case 18: {
+            if (pagination_ == null) {
+              Pagination = new global::Cosmos.Base.Query.V1Beta1.PageResponse();
+            }
+            input.ReadMessage(Pagination);
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// QuerySendEnabledRequest defines the RPC request for looking up SendEnabled entries.
+  ///
+  /// Since: cosmos-sdk 0.47
+  /// </summary>
+  public sealed partial class QuerySendEnabledRequest : pb::IMessage<QuerySendEnabledRequest>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<QuerySendEnabledRequest> _parser = new pb::MessageParser<QuerySendEnabledRequest>(() => new QuerySendEnabledRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<QuerySendEnabledRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Cosmos.Bank.V1Beta1.QueryReflection.Descriptor.MessageTypes[19]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public QuerySendEnabledRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public QuerySendEnabledRequest(QuerySendEnabledRequest other) : this() {
+      denoms_ = other.denoms_.Clone();
+      pagination_ = other.pagination_ != null ? other.pagination_.Clone() : null;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public QuerySendEnabledRequest Clone() {
+      return new QuerySendEnabledRequest(this);
+    }
+
+    /// <summary>Field number for the "denoms" field.</summary>
+    public const int DenomsFieldNumber = 1;
+    private static readonly pb::FieldCodec<string> _repeated_denoms_codec
+        = pb::FieldCodec.ForString(10);
+    private readonly pbc::RepeatedField<string> denoms_ = new pbc::RepeatedField<string>();
+    /// <summary>
+    /// denoms is the specific denoms you want look up. Leave empty to get all entries.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pbc::RepeatedField<string> Denoms {
+      get { return denoms_; }
+    }
+
+    /// <summary>Field number for the "pagination" field.</summary>
+    public const int PaginationFieldNumber = 99;
+    private global::Cosmos.Base.Query.V1Beta1.PageRequest pagination_;
+    /// <summary>
+    /// pagination defines an optional pagination for the request.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Cosmos.Base.Query.V1Beta1.PageRequest Pagination {
+      get { return pagination_; }
+      set {
+        pagination_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as QuerySendEnabledRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(QuerySendEnabledRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if(!denoms_.Equals(other.denoms_)) return false;
+      if (!object.Equals(Pagination, other.Pagination)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      hash ^= denoms_.GetHashCode();
+      if (pagination_ != null) hash ^= Pagination.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      denoms_.WriteTo(output, _repeated_denoms_codec);
+      if (pagination_ != null) {
+        output.WriteRawTag(154, 6);
+        output.WriteMessage(Pagination);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      denoms_.WriteTo(ref output, _repeated_denoms_codec);
+      if (pagination_ != null) {
+        output.WriteRawTag(154, 6);
+        output.WriteMessage(Pagination);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      size += denoms_.CalculateSize(_repeated_denoms_codec);
+      if (pagination_ != null) {
+        size += 2 + pb::CodedOutputStream.ComputeMessageSize(Pagination);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(QuerySendEnabledRequest other) {
+      if (other == null) {
+        return;
+      }
+      denoms_.Add(other.denoms_);
+      if (other.pagination_ != null) {
+        if (pagination_ == null) {
+          Pagination = new global::Cosmos.Base.Query.V1Beta1.PageRequest();
+        }
+        Pagination.MergeFrom(other.Pagination);
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            denoms_.AddEntriesFrom(input, _repeated_denoms_codec);
+            break;
+          }
+          case 794: {
+            if (pagination_ == null) {
+              Pagination = new global::Cosmos.Base.Query.V1Beta1.PageRequest();
+            }
+            input.ReadMessage(Pagination);
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            denoms_.AddEntriesFrom(ref input, _repeated_denoms_codec);
+            break;
+          }
+          case 794: {
+            if (pagination_ == null) {
+              Pagination = new global::Cosmos.Base.Query.V1Beta1.PageRequest();
+            }
+            input.ReadMessage(Pagination);
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// QuerySendEnabledResponse defines the RPC response of a SendEnable query.
+  ///
+  /// Since: cosmos-sdk 0.47
+  /// </summary>
+  public sealed partial class QuerySendEnabledResponse : pb::IMessage<QuerySendEnabledResponse>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<QuerySendEnabledResponse> _parser = new pb::MessageParser<QuerySendEnabledResponse>(() => new QuerySendEnabledResponse());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<QuerySendEnabledResponse> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Cosmos.Bank.V1Beta1.QueryReflection.Descriptor.MessageTypes[20]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public QuerySendEnabledResponse() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public QuerySendEnabledResponse(QuerySendEnabledResponse other) : this() {
+      sendEnabled_ = other.sendEnabled_.Clone();
+      pagination_ = other.pagination_ != null ? other.pagination_.Clone() : null;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public QuerySendEnabledResponse Clone() {
+      return new QuerySendEnabledResponse(this);
+    }
+
+    /// <summary>Field number for the "send_enabled" field.</summary>
+    public const int SendEnabledFieldNumber = 1;
+    private static readonly pb::FieldCodec<global::Cosmos.Bank.V1Beta1.SendEnabled> _repeated_sendEnabled_codec
+        = pb::FieldCodec.ForMessage(10, global::Cosmos.Bank.V1Beta1.SendEnabled.Parser);
+    private readonly pbc::RepeatedField<global::Cosmos.Bank.V1Beta1.SendEnabled> sendEnabled_ = new pbc::RepeatedField<global::Cosmos.Bank.V1Beta1.SendEnabled>();
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pbc::RepeatedField<global::Cosmos.Bank.V1Beta1.SendEnabled> SendEnabled {
+      get { return sendEnabled_; }
+    }
+
+    /// <summary>Field number for the "pagination" field.</summary>
+    public const int PaginationFieldNumber = 99;
+    private global::Cosmos.Base.Query.V1Beta1.PageResponse pagination_;
+    /// <summary>
+    /// pagination defines the pagination in the response.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Cosmos.Base.Query.V1Beta1.PageResponse Pagination {
+      get { return pagination_; }
+      set {
+        pagination_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as QuerySendEnabledResponse);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(QuerySendEnabledResponse other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if(!sendEnabled_.Equals(other.sendEnabled_)) return false;
+      if (!object.Equals(Pagination, other.Pagination)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      hash ^= sendEnabled_.GetHashCode();
+      if (pagination_ != null) hash ^= Pagination.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      sendEnabled_.WriteTo(output, _repeated_sendEnabled_codec);
+      if (pagination_ != null) {
+        output.WriteRawTag(154, 6);
+        output.WriteMessage(Pagination);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      sendEnabled_.WriteTo(ref output, _repeated_sendEnabled_codec);
+      if (pagination_ != null) {
+        output.WriteRawTag(154, 6);
+        output.WriteMessage(Pagination);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      size += sendEnabled_.CalculateSize(_repeated_sendEnabled_codec);
+      if (pagination_ != null) {
+        size += 2 + pb::CodedOutputStream.ComputeMessageSize(Pagination);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(QuerySendEnabledResponse other) {
+      if (other == null) {
+        return;
+      }
+      sendEnabled_.Add(other.sendEnabled_);
+      if (other.pagination_ != null) {
+        if (pagination_ == null) {
+          Pagination = new global::Cosmos.Base.Query.V1Beta1.PageResponse();
+        }
+        Pagination.MergeFrom(other.Pagination);
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            sendEnabled_.AddEntriesFrom(input, _repeated_sendEnabled_codec);
+            break;
+          }
+          case 794: {
+            if (pagination_ == null) {
+              Pagination = new global::Cosmos.Base.Query.V1Beta1.PageResponse();
+            }
+            input.ReadMessage(Pagination);
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            sendEnabled_.AddEntriesFrom(ref input, _repeated_sendEnabled_codec);
+            break;
+          }
+          case 794: {
+            if (pagination_ == null) {
+              Pagination = new global::Cosmos.Base.Query.V1Beta1.PageResponse();
+            }
+            input.ReadMessage(Pagination);
             break;
           }
         }

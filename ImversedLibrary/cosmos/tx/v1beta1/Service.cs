@@ -27,46 +27,57 @@ namespace Cosmos.Tx.V1Beta1 {
             "Ch9jb3Ntb3MvdHgvdjFiZXRhMS9zZXJ2aWNlLnByb3RvEhFjb3Ntb3MudHgu",
             "djFiZXRhMRocZ29vZ2xlL2FwaS9hbm5vdGF0aW9ucy5wcm90bxojY29zbW9z",
             "L2Jhc2UvYWJjaS92MWJldGExL2FiY2kucHJvdG8aGmNvc21vcy90eC92MWJl",
-            "dGExL3R4LnByb3RvGhRnb2dvcHJvdG8vZ29nby5wcm90bxoqY29zbW9zL2Jh",
-            "c2UvcXVlcnkvdjFiZXRhMS9wYWdpbmF0aW9uLnByb3RvIo4BChJHZXRUeHNF",
-            "dmVudFJlcXVlc3QSDgoGZXZlbnRzGAEgAygJEjoKCnBhZ2luYXRpb24YAiAB",
-            "KAsyJi5jb3Ntb3MuYmFzZS5xdWVyeS52MWJldGExLlBhZ2VSZXF1ZXN0EiwK",
-            "CG9yZGVyX2J5GAMgASgOMhouY29zbW9zLnR4LnYxYmV0YTEuT3JkZXJCeSKy",
-            "AQoTR2V0VHhzRXZlbnRSZXNwb25zZRIiCgN0eHMYASADKAsyFS5jb3Ntb3Mu",
-            "dHgudjFiZXRhMS5UeBI6Cgx0eF9yZXNwb25zZXMYAiADKAsyJC5jb3Ntb3Mu",
-            "YmFzZS5hYmNpLnYxYmV0YTEuVHhSZXNwb25zZRI7CgpwYWdpbmF0aW9uGAMg",
-            "ASgLMicuY29zbW9zLmJhc2UucXVlcnkudjFiZXRhMS5QYWdlUmVzcG9uc2Ui",
-            "VgoSQnJvYWRjYXN0VHhSZXF1ZXN0EhAKCHR4X2J5dGVzGAEgASgMEi4KBG1v",
-            "ZGUYAiABKA4yIC5jb3Ntb3MudHgudjFiZXRhMS5Ccm9hZGNhc3RNb2RlIlAK",
-            "E0Jyb2FkY2FzdFR4UmVzcG9uc2USOQoLdHhfcmVzcG9uc2UYASABKAsyJC5j",
-            "b3Ntb3MuYmFzZS5hYmNpLnYxYmV0YTEuVHhSZXNwb25zZSJKCg9TaW11bGF0",
-            "ZVJlcXVlc3QSJQoCdHgYASABKAsyFS5jb3Ntb3MudHgudjFiZXRhMS5UeEIC",
-            "GAESEAoIdHhfYnl0ZXMYAiABKAwieQoQU2ltdWxhdGVSZXNwb25zZRIzCghn",
-            "YXNfaW5mbxgBIAEoCzIhLmNvc21vcy5iYXNlLmFiY2kudjFiZXRhMS5HYXNJ",
-            "bmZvEjAKBnJlc3VsdBgCIAEoCzIgLmNvc21vcy5iYXNlLmFiY2kudjFiZXRh",
-            "MS5SZXN1bHQiHAoMR2V0VHhSZXF1ZXN0EgwKBGhhc2gYASABKAkibQoNR2V0",
-            "VHhSZXNwb25zZRIhCgJ0eBgBIAEoCzIVLmNvc21vcy50eC52MWJldGExLlR4",
-            "EjkKC3R4X3Jlc3BvbnNlGAIgASgLMiQuY29zbW9zLmJhc2UuYWJjaS52MWJl",
-            "dGExLlR4UmVzcG9uc2UqSAoHT3JkZXJCeRIYChRPUkRFUl9CWV9VTlNQRUNJ",
-            "RklFRBAAEhAKDE9SREVSX0JZX0FTQxABEhEKDU9SREVSX0JZX0RFU0MQAip8",
-            "Cg1Ccm9hZGNhc3RNb2RlEh4KGkJST0FEQ0FTVF9NT0RFX1VOU1BFQ0lGSUVE",
-            "EAASGAoUQlJPQURDQVNUX01PREVfQkxPQ0sQARIXChNCUk9BRENBU1RfTU9E",
-            "RV9TWU5DEAISGAoUQlJPQURDQVNUX01PREVfQVNZTkMQAzL4AwoHU2Vydmlj",
-            "ZRJ7CghTaW11bGF0ZRIiLmNvc21vcy50eC52MWJldGExLlNpbXVsYXRlUmVx",
-            "dWVzdBojLmNvc21vcy50eC52MWJldGExLlNpbXVsYXRlUmVzcG9uc2UiJoLT",
-            "5JMCICIbL2Nvc21vcy90eC92MWJldGExL3NpbXVsYXRlOgEqEnEKBUdldFR4",
-            "Eh8uY29zbW9zLnR4LnYxYmV0YTEuR2V0VHhSZXF1ZXN0GiAuY29zbW9zLnR4",
-            "LnYxYmV0YTEuR2V0VHhSZXNwb25zZSIlgtPkkwIfEh0vY29zbW9zL3R4L3Yx",
-            "YmV0YTEvdHhzL3toYXNofRJ/CgtCcm9hZGNhc3RUeBIlLmNvc21vcy50eC52",
-            "MWJldGExLkJyb2FkY2FzdFR4UmVxdWVzdBomLmNvc21vcy50eC52MWJldGEx",
-            "LkJyb2FkY2FzdFR4UmVzcG9uc2UiIYLT5JMCGyIWL2Nvc21vcy90eC92MWJl",
-            "dGExL3R4czoBKhJ8CgtHZXRUeHNFdmVudBIlLmNvc21vcy50eC52MWJldGEx",
-            "LkdldFR4c0V2ZW50UmVxdWVzdBomLmNvc21vcy50eC52MWJldGExLkdldFR4",
-            "c0V2ZW50UmVzcG9uc2UiHoLT5JMCGBIWL2Nvc21vcy90eC92MWJldGExL3R4",
-            "c0IrWiVnaXRodWIuY29tL2Nvc21vcy9jb3Ntb3Mtc2RrL3R5cGVzL3R4wOMe",
-            "AWIGcHJvdG8z"));
+            "dGExL3R4LnByb3RvGipjb3Ntb3MvYmFzZS9xdWVyeS92MWJldGExL3BhZ2lu",
+            "YXRpb24ucHJvdG8aHHRlbmRlcm1pbnQvdHlwZXMvYmxvY2sucHJvdG8aHHRl",
+            "bmRlcm1pbnQvdHlwZXMvdHlwZXMucHJvdG8ijgEKEkdldFR4c0V2ZW50UmVx",
+            "dWVzdBIOCgZldmVudHMYASADKAkSOgoKcGFnaW5hdGlvbhgCIAEoCzImLmNv",
+            "c21vcy5iYXNlLnF1ZXJ5LnYxYmV0YTEuUGFnZVJlcXVlc3QSLAoIb3JkZXJf",
+            "YnkYAyABKA4yGi5jb3Ntb3MudHgudjFiZXRhMS5PcmRlckJ5IrIBChNHZXRU",
+            "eHNFdmVudFJlc3BvbnNlEiIKA3R4cxgBIAMoCzIVLmNvc21vcy50eC52MWJl",
+            "dGExLlR4EjoKDHR4X3Jlc3BvbnNlcxgCIAMoCzIkLmNvc21vcy5iYXNlLmFi",
+            "Y2kudjFiZXRhMS5UeFJlc3BvbnNlEjsKCnBhZ2luYXRpb24YAyABKAsyJy5j",
+            "b3Ntb3MuYmFzZS5xdWVyeS52MWJldGExLlBhZ2VSZXNwb25zZSJWChJCcm9h",
+            "ZGNhc3RUeFJlcXVlc3QSEAoIdHhfYnl0ZXMYASABKAwSLgoEbW9kZRgCIAEo",
+            "DjIgLmNvc21vcy50eC52MWJldGExLkJyb2FkY2FzdE1vZGUiUAoTQnJvYWRj",
+            "YXN0VHhSZXNwb25zZRI5Cgt0eF9yZXNwb25zZRgBIAEoCzIkLmNvc21vcy5i",
+            "YXNlLmFiY2kudjFiZXRhMS5UeFJlc3BvbnNlIkoKD1NpbXVsYXRlUmVxdWVz",
+            "dBIlCgJ0eBgBIAEoCzIVLmNvc21vcy50eC52MWJldGExLlR4QgIYARIQCgh0",
+            "eF9ieXRlcxgCIAEoDCJ5ChBTaW11bGF0ZVJlc3BvbnNlEjMKCGdhc19pbmZv",
+            "GAEgASgLMiEuY29zbW9zLmJhc2UuYWJjaS52MWJldGExLkdhc0luZm8SMAoG",
+            "cmVzdWx0GAIgASgLMiAuY29zbW9zLmJhc2UuYWJjaS52MWJldGExLlJlc3Vs",
+            "dCIcCgxHZXRUeFJlcXVlc3QSDAoEaGFzaBgBIAEoCSJtCg1HZXRUeFJlc3Bv",
+            "bnNlEiEKAnR4GAEgASgLMhUuY29zbW9zLnR4LnYxYmV0YTEuVHgSOQoLdHhf",
+            "cmVzcG9uc2UYAiABKAsyJC5jb3Ntb3MuYmFzZS5hYmNpLnYxYmV0YTEuVHhS",
+            "ZXNwb25zZSJkChZHZXRCbG9ja1dpdGhUeHNSZXF1ZXN0Eg4KBmhlaWdodBgB",
+            "IAEoAxI6CgpwYWdpbmF0aW9uGAIgASgLMiYuY29zbW9zLmJhc2UucXVlcnku",
+            "djFiZXRhMS5QYWdlUmVxdWVzdCLPAQoXR2V0QmxvY2tXaXRoVHhzUmVzcG9u",
+            "c2USIgoDdHhzGAEgAygLMhUuY29zbW9zLnR4LnYxYmV0YTEuVHgSKwoIYmxv",
+            "Y2tfaWQYAiABKAsyGS50ZW5kZXJtaW50LnR5cGVzLkJsb2NrSUQSJgoFYmxv",
+            "Y2sYAyABKAsyFy50ZW5kZXJtaW50LnR5cGVzLkJsb2NrEjsKCnBhZ2luYXRp",
+            "b24YBCABKAsyJy5jb3Ntb3MuYmFzZS5xdWVyeS52MWJldGExLlBhZ2VSZXNw",
+            "b25zZSpICgdPcmRlckJ5EhgKFE9SREVSX0JZX1VOU1BFQ0lGSUVEEAASEAoM",
+            "T1JERVJfQllfQVNDEAESEQoNT1JERVJfQllfREVTQxACKnwKDUJyb2FkY2Fz",
+            "dE1vZGUSHgoaQlJPQURDQVNUX01PREVfVU5TUEVDSUZJRUQQABIYChRCUk9B",
+            "RENBU1RfTU9ERV9CTE9DSxABEhcKE0JST0FEQ0FTVF9NT0RFX1NZTkMQAhIY",
+            "ChRCUk9BRENBU1RfTU9ERV9BU1lOQxADMpIFCgdTZXJ2aWNlEnsKCFNpbXVs",
+            "YXRlEiIuY29zbW9zLnR4LnYxYmV0YTEuU2ltdWxhdGVSZXF1ZXN0GiMuY29z",
+            "bW9zLnR4LnYxYmV0YTEuU2ltdWxhdGVSZXNwb25zZSImgtPkkwIgIhsvY29z",
+            "bW9zL3R4L3YxYmV0YTEvc2ltdWxhdGU6ASoScQoFR2V0VHgSHy5jb3Ntb3Mu",
+            "dHgudjFiZXRhMS5HZXRUeFJlcXVlc3QaIC5jb3Ntb3MudHgudjFiZXRhMS5H",
+            "ZXRUeFJlc3BvbnNlIiWC0+STAh8SHS9jb3Ntb3MvdHgvdjFiZXRhMS90eHMv",
+            "e2hhc2h9En8KC0Jyb2FkY2FzdFR4EiUuY29zbW9zLnR4LnYxYmV0YTEuQnJv",
+            "YWRjYXN0VHhSZXF1ZXN0GiYuY29zbW9zLnR4LnYxYmV0YTEuQnJvYWRjYXN0",
+            "VHhSZXNwb25zZSIhgtPkkwIbIhYvY29zbW9zL3R4L3YxYmV0YTEvdHhzOgEq",
+            "EnwKC0dldFR4c0V2ZW50EiUuY29zbW9zLnR4LnYxYmV0YTEuR2V0VHhzRXZl",
+            "bnRSZXF1ZXN0GiYuY29zbW9zLnR4LnYxYmV0YTEuR2V0VHhzRXZlbnRSZXNw",
+            "b25zZSIegtPkkwIYEhYvY29zbW9zL3R4L3YxYmV0YTEvdHhzEpcBCg9HZXRC",
+            "bG9ja1dpdGhUeHMSKS5jb3Ntb3MudHgudjFiZXRhMS5HZXRCbG9ja1dpdGhU",
+            "eHNSZXF1ZXN0GiouY29zbW9zLnR4LnYxYmV0YTEuR2V0QmxvY2tXaXRoVHhz",
+            "UmVzcG9uc2UiLYLT5JMCJxIlL2Nvc21vcy90eC92MWJldGExL3R4cy9ibG9j",
+            "ay97aGVpZ2h0fUInWiVnaXRodWIuY29tL2Nvc21vcy9jb3Ntb3Mtc2RrL3R5",
+            "cGVzL3R4YgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Cosmos.Base.Abci.V1Beta1.AbciReflection.Descriptor, global::Cosmos.Tx.V1Beta1.TxReflection.Descriptor, global::Gogoproto.GogoReflection.Descriptor, global::Cosmos.Base.Query.V1Beta1.PaginationReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Cosmos.Base.Abci.V1Beta1.AbciReflection.Descriptor, global::Cosmos.Tx.V1Beta1.TxReflection.Descriptor, global::Cosmos.Base.Query.V1Beta1.PaginationReflection.Descriptor, global::Tendermint.Types.BlockReflection.Descriptor, global::Tendermint.Types.TypesReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Cosmos.Tx.V1Beta1.OrderBy), typeof(global::Cosmos.Tx.V1Beta1.BroadcastMode), }, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Tx.V1Beta1.GetTxsEventRequest), global::Cosmos.Tx.V1Beta1.GetTxsEventRequest.Parser, new[]{ "Events", "Pagination", "OrderBy" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Tx.V1Beta1.GetTxsEventResponse), global::Cosmos.Tx.V1Beta1.GetTxsEventResponse.Parser, new[]{ "Txs", "TxResponses", "Pagination" }, null, null, null, null),
@@ -75,7 +86,9 @@ namespace Cosmos.Tx.V1Beta1 {
             new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Tx.V1Beta1.SimulateRequest), global::Cosmos.Tx.V1Beta1.SimulateRequest.Parser, new[]{ "Tx", "TxBytes" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Tx.V1Beta1.SimulateResponse), global::Cosmos.Tx.V1Beta1.SimulateResponse.Parser, new[]{ "GasInfo", "Result" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Tx.V1Beta1.GetTxRequest), global::Cosmos.Tx.V1Beta1.GetTxRequest.Parser, new[]{ "Hash" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Tx.V1Beta1.GetTxResponse), global::Cosmos.Tx.V1Beta1.GetTxResponse.Parser, new[]{ "Tx", "TxResponse" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Tx.V1Beta1.GetTxResponse), global::Cosmos.Tx.V1Beta1.GetTxResponse.Parser, new[]{ "Tx", "TxResponse" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Tx.V1Beta1.GetBlockWithTxsRequest), global::Cosmos.Tx.V1Beta1.GetBlockWithTxsRequest.Parser, new[]{ "Height", "Pagination" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Tx.V1Beta1.GetBlockWithTxsResponse), global::Cosmos.Tx.V1Beta1.GetBlockWithTxsResponse.Parser, new[]{ "Txs", "BlockId", "Block", "Pagination" }, null, null, null, null)
           }));
     }
     #endregion
@@ -196,7 +209,7 @@ namespace Cosmos.Tx.V1Beta1 {
     public const int PaginationFieldNumber = 2;
     private global::Cosmos.Base.Query.V1Beta1.PageRequest pagination_;
     /// <summary>
-    /// pagination defines an pagination for the request.
+    /// pagination defines a pagination for the request.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -481,7 +494,7 @@ namespace Cosmos.Tx.V1Beta1 {
     public const int PaginationFieldNumber = 3;
     private global::Cosmos.Base.Query.V1Beta1.PageResponse pagination_;
     /// <summary>
-    /// pagination defines an pagination for the response.
+    /// pagination defines a pagination for the response.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -1171,6 +1184,8 @@ namespace Cosmos.Tx.V1Beta1 {
     private pb::ByteString txBytes_ = pb::ByteString.Empty;
     /// <summary>
     /// tx_bytes is the raw transaction.
+    ///
+    /// Since: cosmos-sdk 0.43
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -2041,6 +2056,580 @@ namespace Cosmos.Tx.V1Beta1 {
               TxResponse = new global::Cosmos.Base.Abci.V1Beta1.TxResponse();
             }
             input.ReadMessage(TxResponse);
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// GetBlockWithTxsRequest is the request type for the Service.GetBlockWithTxs
+  /// RPC method.
+  ///
+  /// Since: cosmos-sdk 0.45.2
+  /// </summary>
+  public sealed partial class GetBlockWithTxsRequest : pb::IMessage<GetBlockWithTxsRequest>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<GetBlockWithTxsRequest> _parser = new pb::MessageParser<GetBlockWithTxsRequest>(() => new GetBlockWithTxsRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<GetBlockWithTxsRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Cosmos.Tx.V1Beta1.ServiceReflection.Descriptor.MessageTypes[8]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public GetBlockWithTxsRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public GetBlockWithTxsRequest(GetBlockWithTxsRequest other) : this() {
+      height_ = other.height_;
+      pagination_ = other.pagination_ != null ? other.pagination_.Clone() : null;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public GetBlockWithTxsRequest Clone() {
+      return new GetBlockWithTxsRequest(this);
+    }
+
+    /// <summary>Field number for the "height" field.</summary>
+    public const int HeightFieldNumber = 1;
+    private long height_;
+    /// <summary>
+    /// height is the height of the block to query.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public long Height {
+      get { return height_; }
+      set {
+        height_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "pagination" field.</summary>
+    public const int PaginationFieldNumber = 2;
+    private global::Cosmos.Base.Query.V1Beta1.PageRequest pagination_;
+    /// <summary>
+    /// pagination defines a pagination for the request.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Cosmos.Base.Query.V1Beta1.PageRequest Pagination {
+      get { return pagination_; }
+      set {
+        pagination_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as GetBlockWithTxsRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(GetBlockWithTxsRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Height != other.Height) return false;
+      if (!object.Equals(Pagination, other.Pagination)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Height != 0L) hash ^= Height.GetHashCode();
+      if (pagination_ != null) hash ^= Pagination.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (Height != 0L) {
+        output.WriteRawTag(8);
+        output.WriteInt64(Height);
+      }
+      if (pagination_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(Pagination);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (Height != 0L) {
+        output.WriteRawTag(8);
+        output.WriteInt64(Height);
+      }
+      if (pagination_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(Pagination);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (Height != 0L) {
+        size += 1 + pb::CodedOutputStream.ComputeInt64Size(Height);
+      }
+      if (pagination_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Pagination);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(GetBlockWithTxsRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Height != 0L) {
+        Height = other.Height;
+      }
+      if (other.pagination_ != null) {
+        if (pagination_ == null) {
+          Pagination = new global::Cosmos.Base.Query.V1Beta1.PageRequest();
+        }
+        Pagination.MergeFrom(other.Pagination);
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 8: {
+            Height = input.ReadInt64();
+            break;
+          }
+          case 18: {
+            if (pagination_ == null) {
+              Pagination = new global::Cosmos.Base.Query.V1Beta1.PageRequest();
+            }
+            input.ReadMessage(Pagination);
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 8: {
+            Height = input.ReadInt64();
+            break;
+          }
+          case 18: {
+            if (pagination_ == null) {
+              Pagination = new global::Cosmos.Base.Query.V1Beta1.PageRequest();
+            }
+            input.ReadMessage(Pagination);
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// GetBlockWithTxsResponse is the response type for the Service.GetBlockWithTxs method.
+  ///
+  /// Since: cosmos-sdk 0.45.2
+  /// </summary>
+  public sealed partial class GetBlockWithTxsResponse : pb::IMessage<GetBlockWithTxsResponse>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<GetBlockWithTxsResponse> _parser = new pb::MessageParser<GetBlockWithTxsResponse>(() => new GetBlockWithTxsResponse());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<GetBlockWithTxsResponse> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Cosmos.Tx.V1Beta1.ServiceReflection.Descriptor.MessageTypes[9]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public GetBlockWithTxsResponse() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public GetBlockWithTxsResponse(GetBlockWithTxsResponse other) : this() {
+      txs_ = other.txs_.Clone();
+      blockId_ = other.blockId_ != null ? other.blockId_.Clone() : null;
+      block_ = other.block_ != null ? other.block_.Clone() : null;
+      pagination_ = other.pagination_ != null ? other.pagination_.Clone() : null;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public GetBlockWithTxsResponse Clone() {
+      return new GetBlockWithTxsResponse(this);
+    }
+
+    /// <summary>Field number for the "txs" field.</summary>
+    public const int TxsFieldNumber = 1;
+    private static readonly pb::FieldCodec<global::Cosmos.Tx.V1Beta1.Tx> _repeated_txs_codec
+        = pb::FieldCodec.ForMessage(10, global::Cosmos.Tx.V1Beta1.Tx.Parser);
+    private readonly pbc::RepeatedField<global::Cosmos.Tx.V1Beta1.Tx> txs_ = new pbc::RepeatedField<global::Cosmos.Tx.V1Beta1.Tx>();
+    /// <summary>
+    /// txs are the transactions in the block.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pbc::RepeatedField<global::Cosmos.Tx.V1Beta1.Tx> Txs {
+      get { return txs_; }
+    }
+
+    /// <summary>Field number for the "block_id" field.</summary>
+    public const int BlockIdFieldNumber = 2;
+    private global::Tendermint.Types.BlockID blockId_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Tendermint.Types.BlockID BlockId {
+      get { return blockId_; }
+      set {
+        blockId_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "block" field.</summary>
+    public const int BlockFieldNumber = 3;
+    private global::Tendermint.Types.Block block_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Tendermint.Types.Block Block {
+      get { return block_; }
+      set {
+        block_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "pagination" field.</summary>
+    public const int PaginationFieldNumber = 4;
+    private global::Cosmos.Base.Query.V1Beta1.PageResponse pagination_;
+    /// <summary>
+    /// pagination defines a pagination for the response.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Cosmos.Base.Query.V1Beta1.PageResponse Pagination {
+      get { return pagination_; }
+      set {
+        pagination_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as GetBlockWithTxsResponse);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(GetBlockWithTxsResponse other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if(!txs_.Equals(other.txs_)) return false;
+      if (!object.Equals(BlockId, other.BlockId)) return false;
+      if (!object.Equals(Block, other.Block)) return false;
+      if (!object.Equals(Pagination, other.Pagination)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      hash ^= txs_.GetHashCode();
+      if (blockId_ != null) hash ^= BlockId.GetHashCode();
+      if (block_ != null) hash ^= Block.GetHashCode();
+      if (pagination_ != null) hash ^= Pagination.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      txs_.WriteTo(output, _repeated_txs_codec);
+      if (blockId_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(BlockId);
+      }
+      if (block_ != null) {
+        output.WriteRawTag(26);
+        output.WriteMessage(Block);
+      }
+      if (pagination_ != null) {
+        output.WriteRawTag(34);
+        output.WriteMessage(Pagination);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      txs_.WriteTo(ref output, _repeated_txs_codec);
+      if (blockId_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(BlockId);
+      }
+      if (block_ != null) {
+        output.WriteRawTag(26);
+        output.WriteMessage(Block);
+      }
+      if (pagination_ != null) {
+        output.WriteRawTag(34);
+        output.WriteMessage(Pagination);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      size += txs_.CalculateSize(_repeated_txs_codec);
+      if (blockId_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(BlockId);
+      }
+      if (block_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Block);
+      }
+      if (pagination_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Pagination);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(GetBlockWithTxsResponse other) {
+      if (other == null) {
+        return;
+      }
+      txs_.Add(other.txs_);
+      if (other.blockId_ != null) {
+        if (blockId_ == null) {
+          BlockId = new global::Tendermint.Types.BlockID();
+        }
+        BlockId.MergeFrom(other.BlockId);
+      }
+      if (other.block_ != null) {
+        if (block_ == null) {
+          Block = new global::Tendermint.Types.Block();
+        }
+        Block.MergeFrom(other.Block);
+      }
+      if (other.pagination_ != null) {
+        if (pagination_ == null) {
+          Pagination = new global::Cosmos.Base.Query.V1Beta1.PageResponse();
+        }
+        Pagination.MergeFrom(other.Pagination);
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            txs_.AddEntriesFrom(input, _repeated_txs_codec);
+            break;
+          }
+          case 18: {
+            if (blockId_ == null) {
+              BlockId = new global::Tendermint.Types.BlockID();
+            }
+            input.ReadMessage(BlockId);
+            break;
+          }
+          case 26: {
+            if (block_ == null) {
+              Block = new global::Tendermint.Types.Block();
+            }
+            input.ReadMessage(Block);
+            break;
+          }
+          case 34: {
+            if (pagination_ == null) {
+              Pagination = new global::Cosmos.Base.Query.V1Beta1.PageResponse();
+            }
+            input.ReadMessage(Pagination);
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            txs_.AddEntriesFrom(ref input, _repeated_txs_codec);
+            break;
+          }
+          case 18: {
+            if (blockId_ == null) {
+              BlockId = new global::Tendermint.Types.BlockID();
+            }
+            input.ReadMessage(BlockId);
+            break;
+          }
+          case 26: {
+            if (block_ == null) {
+              Block = new global::Tendermint.Types.Block();
+            }
+            input.ReadMessage(Block);
+            break;
+          }
+          case 34: {
+            if (pagination_ == null) {
+              Pagination = new global::Cosmos.Base.Query.V1Beta1.PageResponse();
+            }
+            input.ReadMessage(Pagination);
             break;
           }
         }

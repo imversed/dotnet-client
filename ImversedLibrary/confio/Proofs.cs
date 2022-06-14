@@ -59,14 +59,14 @@ namespace Ics23 {
             "DS5pY3MyMy5MZWFmT3ASDAoEcGF0aBgEIAMoBSKJAQobQ29tcHJlc3NlZE5v",
             "bkV4aXN0ZW5jZVByb29mEgsKA2tleRgBIAEoDBItCgRsZWZ0GAIgASgLMh8u",
             "aWNzMjMuQ29tcHJlc3NlZEV4aXN0ZW5jZVByb29mEi4KBXJpZ2h0GAMgASgL",
-            "Mh8uaWNzMjMuQ29tcHJlc3NlZEV4aXN0ZW5jZVByb29mKlUKBkhhc2hPcBIL",
+            "Mh8uaWNzMjMuQ29tcHJlc3NlZEV4aXN0ZW5jZVByb29mKmUKBkhhc2hPcBIL",
             "CgdOT19IQVNIEAASCgoGU0hBMjU2EAESCgoGU0hBNTEyEAISCgoGS0VDQ0FL",
-            "EAMSDQoJUklQRU1EMTYwEAQSCwoHQklUQ09JThAFKqsBCghMZW5ndGhPcBIN",
-            "CglOT19QUkVGSVgQABINCglWQVJfUFJPVE8QARILCgdWQVJfUkxQEAISDwoL",
-            "RklYRUQzMl9CSUcQAxISCg5GSVhFRDMyX0xJVFRMRRAEEg8KC0ZJWEVENjRf",
-            "QklHEAUSEgoORklYRUQ2NF9MSVRUTEUQBhIUChBSRVFVSVJFXzMyX0JZVEVT",
-            "EAcSFAoQUkVRVUlSRV82NF9CWVRFUxAIQhxaGmdpdGh1Yi5jb20vY29uZmlv",
-            "L2ljczIzL2dvYgZwcm90bzM="));
+            "EAMSDQoJUklQRU1EMTYwEAQSCwoHQklUQ09JThAFEg4KClNIQTUxMl8yNTYQ",
+            "BiqrAQoITGVuZ3RoT3ASDQoJTk9fUFJFRklYEAASDQoJVkFSX1BST1RPEAES",
+            "CwoHVkFSX1JMUBACEg8KC0ZJWEVEMzJfQklHEAMSEgoORklYRUQzMl9MSVRU",
+            "TEUQBBIPCgtGSVhFRDY0X0JJRxAFEhIKDkZJWEVENjRfTElUVExFEAYSFAoQ",
+            "UkVRVUlSRV8zMl9CWVRFUxAHEhQKEFJFUVVJUkVfNjRfQllURVMQCGIGcHJv",
+            "dG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Ics23.HashOp), typeof(global::Ics23.LengthOp), }, null, new pbr::GeneratedClrTypeInfo[] {
@@ -102,6 +102,7 @@ namespace Ics23 {
     /// ripemd160(sha256(x))
     /// </summary>
     [pbr::OriginalName("BITCOIN")] Bitcoin = 5,
+    [pbr::OriginalName("SHA512_256")] Sha512256 = 6,
   }
 
   /// <summary>
@@ -158,19 +159,16 @@ namespace Ics23 {
   ///ExistenceProof takes a key and a value and a set of steps to perform on it.
   ///The result of peforming all these steps will provide a "root hash", which can
   ///be compared to the value in a header.
-  ///
   ///Since it is computationally infeasible to produce a hash collission for any of the used
   ///cryptographic hash functions, if someone can provide a series of operations to transform
   ///a given key and value into a root hash that matches some trusted root, these key and values
   ///must be in the referenced merkle tree.
-  ///
   ///The only possible issue is maliablity in LeafOp, such as providing extra prefix data,
   ///which should be controlled by a spec. Eg. with lengthOp as NONE,
   ///prefix = FOO, key = BAR, value = CHOICE
   ///and
   ///prefix = F, key = OOBAR, value = CHOICE
   ///would produce the same value.
-  ///
   ///With LengthOp this is tricker but not impossible. Which is why the "leafPrefixEqual" field
   ///in the ProofSpec is valuable to prevent this mutability. And why all trees should
   ///length-prefix the data before hashing it.
@@ -1164,14 +1162,11 @@ namespace Ics23 {
   ///must be flexible to represent the internal transformation from
   ///the original key-value pairs into the basis hash, for many existing
   ///merkle trees.
-  ///
   ///key and value are passed in. So that the signature of this operation is:
   ///leafOp(key, value) -> output
-  ///
   ///To process this, first prehash the keys and values if needed (ANY means no hash in this case):
   ///hkey = prehashKey(key)
   ///hvalue = prehashValue(value)
-  ///
   ///Then combine the bytes, and hash it
   ///output = hash(prefix || length(hkey) || hkey || length(hvalue) || hvalue)
   /// </summary>
@@ -1520,16 +1515,12 @@ namespace Ics23 {
   ///*
   ///InnerOp represents a merkle-proof step that is not a leaf.
   ///It represents concatenating two children and hashing them to provide the next result.
-  ///
   ///The result of the previous step is passed in, so the signature of this op is:
   ///innerOp(child) -> output
-  ///
   ///The result of applying InnerOp should be:
   ///output = op.hash(op.prefix || child || op.suffix)
-  ///
   ///where the || operator is concatenation of binary data,
   ///and child is the result of hashing all the tree below this step.
-  ///
   ///Any special data, like prepending child with the length, or prepending the entire operation with
   ///some value to differentiate from leaf nodes, should be included in prefix and suffix.
   ///If either of prefix or suffix is empty, we just treat it as an empty string
@@ -1801,9 +1792,7 @@ namespace Ics23 {
   ///*
   ///ProofSpec defines what the expected parameters are for a given proof type.
   ///This can be stored in the client and used to validate any incoming proofs.
-  ///
   ///verify(ProofSpec, Proof) -> Proof | Error
-  ///
   ///As demonstrated in tests, if we don't fix the algorithm used to calculate the
   ///LeafHash for a given tree, there are many possible key-value pairs that can
   ///generate a given hash (by interpretting the preimage differently).
@@ -1862,7 +1851,7 @@ namespace Ics23 {
     private global::Ics23.LeafOp leafSpec_;
     /// <summary>
     /// any field in the ExistenceProof must be the same as in this spec.
-    /// except Prefix, which is just the first bytes of prefix (spec can be longer) 
+    /// except Prefix, which is just the first bytes of prefix (spec can be longer)
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -2142,9 +2131,7 @@ namespace Ics23 {
   ///
   ///InnerSpec contains all store-specific structure info to determine if two proofs from a
   ///given store are neighbors.
-  ///
   ///This enables:
-  ///
   ///isLeftMost(spec: InnerSpec, op: InnerOp)
   ///isRightMost(spec: InnerSpec, op: InnerOp)
   ///isLeftNeighbor(spec: InnerSpec, left: InnerOp, right: InnerOp)

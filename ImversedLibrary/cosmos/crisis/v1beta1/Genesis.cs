@@ -26,10 +26,10 @@ namespace Cosmos.Crisis.V1Beta1 {
           string.Concat(
             "CiNjb3Ntb3MvY3Jpc2lzL3YxYmV0YTEvZ2VuZXNpcy5wcm90bxIVY29zbW9z",
             "LmNyaXNpcy52MWJldGExGhRnb2dvcHJvdG8vZ29nby5wcm90bxoeY29zbW9z",
-            "L2Jhc2UvdjFiZXRhMS9jb2luLnByb3RvIlwKDEdlbmVzaXNTdGF0ZRJMCgxj",
+            "L2Jhc2UvdjFiZXRhMS9jb2luLnByb3RvIkUKDEdlbmVzaXNTdGF0ZRI1Cgxj",
             "b25zdGFudF9mZWUYAyABKAsyGS5jb3Ntb3MuYmFzZS52MWJldGExLkNvaW5C",
-            "G8jeHwDy3h8TeWFtbDoiY29uc3RhbnRfZmVlIkItWitnaXRodWIuY29tL2Nv",
-            "c21vcy9jb3Ntb3Mtc2RrL3gvY3Jpc2lzL3R5cGVzYgZwcm90bzM="));
+            "BMjeHwBCLVorZ2l0aHViLmNvbS9jb3Ntb3MvY29zbW9zLXNkay94L2NyaXNp",
+            "cy90eXBlc2IGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Gogoproto.GogoReflection.Descriptor, global::Cosmos.Base.V1Beta1.CoinReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {

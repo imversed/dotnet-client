@@ -28,47 +28,63 @@ namespace Cosmos.Tx.V1Beta1 {
             "YTEaFGdvZ29wcm90by9nb2dvLnByb3RvGi1jb3Ntb3MvY3J5cHRvL211bHRp",
             "c2lnL3YxYmV0YTEvbXVsdGlzaWcucHJvdG8aHmNvc21vcy9iYXNlL3YxYmV0",
             "YTEvY29pbi5wcm90bxonY29zbW9zL3R4L3NpZ25pbmcvdjFiZXRhMS9zaWdu",
-            "aW5nLnByb3RvGhlnb29nbGUvcHJvdG9idWYvYW55LnByb3RvInEKAlR4EicK",
-            "BGJvZHkYASABKAsyGS5jb3Ntb3MudHgudjFiZXRhMS5UeEJvZHkSLgoJYXV0",
-            "aF9pbmZvGAIgASgLMhsuY29zbW9zLnR4LnYxYmV0YTEuQXV0aEluZm8SEgoK",
-            "c2lnbmF0dXJlcxgDIAMoDCJICgVUeFJhdxISCgpib2R5X2J5dGVzGAEgASgM",
-            "EhcKD2F1dGhfaW5mb19ieXRlcxgCIAEoDBISCgpzaWduYXR1cmVzGAMgAygM",
-            "ImAKB1NpZ25Eb2MSEgoKYm9keV9ieXRlcxgBIAEoDBIXCg9hdXRoX2luZm9f",
-            "Ynl0ZXMYAiABKAwSEAoIY2hhaW5faWQYAyABKAkSFgoOYWNjb3VudF9udW1i",
-            "ZXIYBCABKAQixwEKBlR4Qm9keRImCghtZXNzYWdlcxgBIAMoCzIULmdvb2ds",
-            "ZS5wcm90b2J1Zi5BbnkSDAoEbWVtbxgCIAEoCRIWCg50aW1lb3V0X2hlaWdo",
-            "dBgDIAEoBBIwChFleHRlbnNpb25fb3B0aW9ucxj/ByADKAsyFC5nb29nbGUu",
-            "cHJvdG9idWYuQW55Ej0KHm5vbl9jcml0aWNhbF9leHRlbnNpb25fb3B0aW9u",
-            "cxj/DyADKAsyFC5nb29nbGUucHJvdG9idWYuQW55ImQKCEF1dGhJbmZvEjMK",
-            "DHNpZ25lcl9pbmZvcxgBIAMoCzIdLmNvc21vcy50eC52MWJldGExLlNpZ25l",
-            "ckluZm8SIwoDZmVlGAIgASgLMhYuY29zbW9zLnR4LnYxYmV0YTEuRmVlIngK",
-            "ClNpZ25lckluZm8SKAoKcHVibGljX2tleRgBIAEoCzIULmdvb2dsZS5wcm90",
-            "b2J1Zi5BbnkSLgoJbW9kZV9pbmZvGAIgASgLMhsuY29zbW9zLnR4LnYxYmV0",
-            "YTEuTW9kZUluZm8SEAoIc2VxdWVuY2UYAyABKAQitQIKCE1vZGVJbmZvEjQK",
-            "BnNpbmdsZRgBIAEoCzIiLmNvc21vcy50eC52MWJldGExLk1vZGVJbmZvLlNp",
-            "bmdsZUgAEjIKBW11bHRpGAIgASgLMiEuY29zbW9zLnR4LnYxYmV0YTEuTW9k",
-            "ZUluZm8uTXVsdGlIABo7CgZTaW5nbGUSMQoEbW9kZRgBIAEoDjIjLmNvc21v",
-            "cy50eC5zaWduaW5nLnYxYmV0YTEuU2lnbk1vZGUaewoFTXVsdGkSQQoIYml0",
-            "YXJyYXkYASABKAsyLy5jb3Ntb3MuY3J5cHRvLm11bHRpc2lnLnYxYmV0YTEu",
-            "Q29tcGFjdEJpdEFycmF5Ei8KCm1vZGVfaW5mb3MYAiADKAsyGy5jb3Ntb3Mu",
-            "dHgudjFiZXRhMS5Nb2RlSW5mb0IFCgNzdW0ilQEKA0ZlZRJbCgZhbW91bnQY",
-            "ASADKAsyGS5jb3Ntb3MuYmFzZS52MWJldGExLkNvaW5CMMjeHwCq3x8oZ2l0",
-            "aHViLmNvbS9jb3Ntb3MvY29zbW9zLXNkay90eXBlcy5Db2lucxIRCglnYXNf",
-            "bGltaXQYAiABKAQSDQoFcGF5ZXIYAyABKAkSDwoHZ3JhbnRlchgEIAEoCUIn",
-            "WiVnaXRodWIuY29tL2Nvc21vcy9jb3Ntb3Mtc2RrL3R5cGVzL3R4YgZwcm90",
-            "bzM="));
+            "aW5nLnByb3RvGhlnb29nbGUvcHJvdG9idWYvYW55LnByb3RvGhljb3Ntb3Nf",
+            "cHJvdG8vY29zbW9zLnByb3RvInEKAlR4EicKBGJvZHkYASABKAsyGS5jb3Nt",
+            "b3MudHgudjFiZXRhMS5UeEJvZHkSLgoJYXV0aF9pbmZvGAIgASgLMhsuY29z",
+            "bW9zLnR4LnYxYmV0YTEuQXV0aEluZm8SEgoKc2lnbmF0dXJlcxgDIAMoDCJI",
+            "CgVUeFJhdxISCgpib2R5X2J5dGVzGAEgASgMEhcKD2F1dGhfaW5mb19ieXRl",
+            "cxgCIAEoDBISCgpzaWduYXR1cmVzGAMgAygMImAKB1NpZ25Eb2MSEgoKYm9k",
+            "eV9ieXRlcxgBIAEoDBIXCg9hdXRoX2luZm9fYnl0ZXMYAiABKAwSEAoIY2hh",
+            "aW5faWQYAyABKAkSFgoOYWNjb3VudF9udW1iZXIYBCABKAQisQEKEFNpZ25E",
+            "b2NEaXJlY3RBdXgSEgoKYm9keV9ieXRlcxgBIAEoDBIoCgpwdWJsaWNfa2V5",
+            "GAIgASgLMhQuZ29vZ2xlLnByb3RvYnVmLkFueRIQCghjaGFpbl9pZBgDIAEo",
+            "CRIWCg5hY2NvdW50X251bWJlchgEIAEoBBIQCghzZXF1ZW5jZRgFIAEoBBIj",
+            "CgN0aXAYBiABKAsyFi5jb3Ntb3MudHgudjFiZXRhMS5UaXAixwEKBlR4Qm9k",
+            "eRImCghtZXNzYWdlcxgBIAMoCzIULmdvb2dsZS5wcm90b2J1Zi5BbnkSDAoE",
+            "bWVtbxgCIAEoCRIWCg50aW1lb3V0X2hlaWdodBgDIAEoBBIwChFleHRlbnNp",
+            "b25fb3B0aW9ucxj/ByADKAsyFC5nb29nbGUucHJvdG9idWYuQW55Ej0KHm5v",
+            "bl9jcml0aWNhbF9leHRlbnNpb25fb3B0aW9ucxj/DyADKAsyFC5nb29nbGUu",
+            "cHJvdG9idWYuQW55IokBCghBdXRoSW5mbxIzCgxzaWduZXJfaW5mb3MYASAD",
+            "KAsyHS5jb3Ntb3MudHgudjFiZXRhMS5TaWduZXJJbmZvEiMKA2ZlZRgCIAEo",
+            "CzIWLmNvc21vcy50eC52MWJldGExLkZlZRIjCgN0aXAYAyABKAsyFi5jb3Nt",
+            "b3MudHgudjFiZXRhMS5UaXAieAoKU2lnbmVySW5mbxIoCgpwdWJsaWNfa2V5",
+            "GAEgASgLMhQuZ29vZ2xlLnByb3RvYnVmLkFueRIuCgltb2RlX2luZm8YAiAB",
+            "KAsyGy5jb3Ntb3MudHgudjFiZXRhMS5Nb2RlSW5mbxIQCghzZXF1ZW5jZRgD",
+            "IAEoBCK1AgoITW9kZUluZm8SNAoGc2luZ2xlGAEgASgLMiIuY29zbW9zLnR4",
+            "LnYxYmV0YTEuTW9kZUluZm8uU2luZ2xlSAASMgoFbXVsdGkYAiABKAsyIS5j",
+            "b3Ntb3MudHgudjFiZXRhMS5Nb2RlSW5mby5NdWx0aUgAGjsKBlNpbmdsZRIx",
+            "CgRtb2RlGAEgASgOMiMuY29zbW9zLnR4LnNpZ25pbmcudjFiZXRhMS5TaWdu",
+            "TW9kZRp7CgVNdWx0aRJBCghiaXRhcnJheRgBIAEoCzIvLmNvc21vcy5jcnlw",
+            "dG8ubXVsdGlzaWcudjFiZXRhMS5Db21wYWN0Qml0QXJyYXkSLwoKbW9kZV9p",
+            "bmZvcxgCIAMoCzIbLmNvc21vcy50eC52MWJldGExLk1vZGVJbmZvQgUKA3N1",
+            "bSLJAQoDRmVlElsKBmFtb3VudBgBIAMoCzIZLmNvc21vcy5iYXNlLnYxYmV0",
+            "YTEuQ29pbkIwyN4fAKrfHyhnaXRodWIuY29tL2Nvc21vcy9jb3Ntb3Mtc2Rr",
+            "L3R5cGVzLkNvaW5zEhEKCWdhc19saW1pdBgCIAEoBBInCgVwYXllchgDIAEo",
+            "CUIY0rQtFGNvc21vcy5BZGRyZXNzU3RyaW5nEikKB2dyYW50ZXIYBCABKAlC",
+            "GNK0LRRjb3Ntb3MuQWRkcmVzc1N0cmluZyKMAQoDVGlwElsKBmFtb3VudBgB",
+            "IAMoCzIZLmNvc21vcy5iYXNlLnYxYmV0YTEuQ29pbkIwyN4fAKrfHyhnaXRo",
+            "dWIuY29tL2Nvc21vcy9jb3Ntb3Mtc2RrL3R5cGVzLkNvaW5zEigKBnRpcHBl",
+            "chgCIAEoCUIY0rQtFGNvc21vcy5BZGRyZXNzU3RyaW5nIrEBCg1BdXhTaWdu",
+            "ZXJEYXRhEikKB2FkZHJlc3MYASABKAlCGNK0LRRjb3Ntb3MuQWRkcmVzc1N0",
+            "cmluZxI1CghzaWduX2RvYxgCIAEoCzIjLmNvc21vcy50eC52MWJldGExLlNp",
+            "Z25Eb2NEaXJlY3RBdXgSMQoEbW9kZRgDIAEoDjIjLmNvc21vcy50eC5zaWdu",
+            "aW5nLnYxYmV0YTEuU2lnbk1vZGUSCwoDc2lnGAQgASgMQidaJWdpdGh1Yi5j",
+            "b20vY29zbW9zL2Nvc21vcy1zZGsvdHlwZXMvdHhiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Gogoproto.GogoReflection.Descriptor, global::Cosmos.Crypto.Multisig.V1Beta1.MultisigReflection.Descriptor, global::Cosmos.Base.V1Beta1.CoinReflection.Descriptor, global::Cosmos.Tx.Signing.V1Beta1.SigningReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.AnyReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::Gogoproto.GogoReflection.Descriptor, global::Cosmos.Crypto.Multisig.V1Beta1.MultisigReflection.Descriptor, global::Cosmos.Base.V1Beta1.CoinReflection.Descriptor, global::Cosmos.Tx.Signing.V1Beta1.SigningReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.AnyReflection.Descriptor, global::CosmosProto.CosmosReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Tx.V1Beta1.Tx), global::Cosmos.Tx.V1Beta1.Tx.Parser, new[]{ "Body", "AuthInfo", "Signatures" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Tx.V1Beta1.TxRaw), global::Cosmos.Tx.V1Beta1.TxRaw.Parser, new[]{ "BodyBytes", "AuthInfoBytes", "Signatures" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Tx.V1Beta1.SignDoc), global::Cosmos.Tx.V1Beta1.SignDoc.Parser, new[]{ "BodyBytes", "AuthInfoBytes", "ChainId", "AccountNumber" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Tx.V1Beta1.SignDocDirectAux), global::Cosmos.Tx.V1Beta1.SignDocDirectAux.Parser, new[]{ "BodyBytes", "PublicKey", "ChainId", "AccountNumber", "Sequence", "Tip" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Tx.V1Beta1.TxBody), global::Cosmos.Tx.V1Beta1.TxBody.Parser, new[]{ "Messages", "Memo", "TimeoutHeight", "ExtensionOptions", "NonCriticalExtensionOptions" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Tx.V1Beta1.AuthInfo), global::Cosmos.Tx.V1Beta1.AuthInfo.Parser, new[]{ "SignerInfos", "Fee" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Tx.V1Beta1.AuthInfo), global::Cosmos.Tx.V1Beta1.AuthInfo.Parser, new[]{ "SignerInfos", "Fee", "Tip" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Tx.V1Beta1.SignerInfo), global::Cosmos.Tx.V1Beta1.SignerInfo.Parser, new[]{ "PublicKey", "ModeInfo", "Sequence" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Tx.V1Beta1.ModeInfo), global::Cosmos.Tx.V1Beta1.ModeInfo.Parser, new[]{ "Single", "Multi" }, new[]{ "Sum" }, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Tx.V1Beta1.ModeInfo.Types.Single), global::Cosmos.Tx.V1Beta1.ModeInfo.Types.Single.Parser, new[]{ "Mode" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Tx.V1Beta1.ModeInfo.Types.Multi), global::Cosmos.Tx.V1Beta1.ModeInfo.Types.Multi.Parser, new[]{ "Bitarray", "ModeInfos" }, null, null, null, null)}),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Tx.V1Beta1.Fee), global::Cosmos.Tx.V1Beta1.Fee.Parser, new[]{ "Amount", "GasLimit", "Payer", "Granter" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Tx.V1Beta1.Fee), global::Cosmos.Tx.V1Beta1.Fee.Parser, new[]{ "Amount", "GasLimit", "Payer", "Granter" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Tx.V1Beta1.Tip), global::Cosmos.Tx.V1Beta1.Tip.Parser, new[]{ "Amount", "Tipper" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Tx.V1Beta1.AuxSignerData), global::Cosmos.Tx.V1Beta1.AuxSignerData.Parser, new[]{ "Address", "SignDoc", "Mode", "Sig" }, null, null, null, null)
           }));
     }
     #endregion
@@ -952,6 +968,430 @@ namespace Cosmos.Tx.V1Beta1 {
   }
 
   /// <summary>
+  /// SignDocDirectAux is the type used for generating sign bytes for
+  /// SIGN_MODE_DIRECT_AUX.
+  ///
+  /// Since: cosmos-sdk 0.46
+  /// </summary>
+  public sealed partial class SignDocDirectAux : pb::IMessage<SignDocDirectAux>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<SignDocDirectAux> _parser = new pb::MessageParser<SignDocDirectAux>(() => new SignDocDirectAux());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<SignDocDirectAux> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Cosmos.Tx.V1Beta1.TxReflection.Descriptor.MessageTypes[3]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public SignDocDirectAux() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public SignDocDirectAux(SignDocDirectAux other) : this() {
+      bodyBytes_ = other.bodyBytes_;
+      publicKey_ = other.publicKey_ != null ? other.publicKey_.Clone() : null;
+      chainId_ = other.chainId_;
+      accountNumber_ = other.accountNumber_;
+      sequence_ = other.sequence_;
+      tip_ = other.tip_ != null ? other.tip_.Clone() : null;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public SignDocDirectAux Clone() {
+      return new SignDocDirectAux(this);
+    }
+
+    /// <summary>Field number for the "body_bytes" field.</summary>
+    public const int BodyBytesFieldNumber = 1;
+    private pb::ByteString bodyBytes_ = pb::ByteString.Empty;
+    /// <summary>
+    /// body_bytes is protobuf serialization of a TxBody that matches the
+    /// representation in TxRaw.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pb::ByteString BodyBytes {
+      get { return bodyBytes_; }
+      set {
+        bodyBytes_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "public_key" field.</summary>
+    public const int PublicKeyFieldNumber = 2;
+    private global::Google.Protobuf.WellKnownTypes.Any publicKey_;
+    /// <summary>
+    /// public_key is the public key of the signing account.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Google.Protobuf.WellKnownTypes.Any PublicKey {
+      get { return publicKey_; }
+      set {
+        publicKey_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "chain_id" field.</summary>
+    public const int ChainIdFieldNumber = 3;
+    private string chainId_ = "";
+    /// <summary>
+    /// chain_id is the identifier of the chain this transaction targets.
+    /// It prevents signed transactions from being used on another chain by an
+    /// attacker.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string ChainId {
+      get { return chainId_; }
+      set {
+        chainId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "account_number" field.</summary>
+    public const int AccountNumberFieldNumber = 4;
+    private ulong accountNumber_;
+    /// <summary>
+    /// account_number is the account number of the account in state.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public ulong AccountNumber {
+      get { return accountNumber_; }
+      set {
+        accountNumber_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "sequence" field.</summary>
+    public const int SequenceFieldNumber = 5;
+    private ulong sequence_;
+    /// <summary>
+    /// sequence is the sequence number of the signing account.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public ulong Sequence {
+      get { return sequence_; }
+      set {
+        sequence_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "tip" field.</summary>
+    public const int TipFieldNumber = 6;
+    private global::Cosmos.Tx.V1Beta1.Tip tip_;
+    /// <summary>
+    /// Tip is the optional tip used for transactions fees paid in another denom.
+    /// It should be left empty if the signer is not the tipper for this
+    /// transaction.
+    ///
+    /// This field is ignored if the chain didn't enable tips, i.e. didn't add the
+    /// `TipDecorator` in its posthandler.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Cosmos.Tx.V1Beta1.Tip Tip {
+      get { return tip_; }
+      set {
+        tip_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as SignDocDirectAux);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(SignDocDirectAux other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (BodyBytes != other.BodyBytes) return false;
+      if (!object.Equals(PublicKey, other.PublicKey)) return false;
+      if (ChainId != other.ChainId) return false;
+      if (AccountNumber != other.AccountNumber) return false;
+      if (Sequence != other.Sequence) return false;
+      if (!object.Equals(Tip, other.Tip)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (BodyBytes.Length != 0) hash ^= BodyBytes.GetHashCode();
+      if (publicKey_ != null) hash ^= PublicKey.GetHashCode();
+      if (ChainId.Length != 0) hash ^= ChainId.GetHashCode();
+      if (AccountNumber != 0UL) hash ^= AccountNumber.GetHashCode();
+      if (Sequence != 0UL) hash ^= Sequence.GetHashCode();
+      if (tip_ != null) hash ^= Tip.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (BodyBytes.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteBytes(BodyBytes);
+      }
+      if (publicKey_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(PublicKey);
+      }
+      if (ChainId.Length != 0) {
+        output.WriteRawTag(26);
+        output.WriteString(ChainId);
+      }
+      if (AccountNumber != 0UL) {
+        output.WriteRawTag(32);
+        output.WriteUInt64(AccountNumber);
+      }
+      if (Sequence != 0UL) {
+        output.WriteRawTag(40);
+        output.WriteUInt64(Sequence);
+      }
+      if (tip_ != null) {
+        output.WriteRawTag(50);
+        output.WriteMessage(Tip);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (BodyBytes.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteBytes(BodyBytes);
+      }
+      if (publicKey_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(PublicKey);
+      }
+      if (ChainId.Length != 0) {
+        output.WriteRawTag(26);
+        output.WriteString(ChainId);
+      }
+      if (AccountNumber != 0UL) {
+        output.WriteRawTag(32);
+        output.WriteUInt64(AccountNumber);
+      }
+      if (Sequence != 0UL) {
+        output.WriteRawTag(40);
+        output.WriteUInt64(Sequence);
+      }
+      if (tip_ != null) {
+        output.WriteRawTag(50);
+        output.WriteMessage(Tip);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (BodyBytes.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeBytesSize(BodyBytes);
+      }
+      if (publicKey_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(PublicKey);
+      }
+      if (ChainId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ChainId);
+      }
+      if (AccountNumber != 0UL) {
+        size += 1 + pb::CodedOutputStream.ComputeUInt64Size(AccountNumber);
+      }
+      if (Sequence != 0UL) {
+        size += 1 + pb::CodedOutputStream.ComputeUInt64Size(Sequence);
+      }
+      if (tip_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Tip);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(SignDocDirectAux other) {
+      if (other == null) {
+        return;
+      }
+      if (other.BodyBytes.Length != 0) {
+        BodyBytes = other.BodyBytes;
+      }
+      if (other.publicKey_ != null) {
+        if (publicKey_ == null) {
+          PublicKey = new global::Google.Protobuf.WellKnownTypes.Any();
+        }
+        PublicKey.MergeFrom(other.PublicKey);
+      }
+      if (other.ChainId.Length != 0) {
+        ChainId = other.ChainId;
+      }
+      if (other.AccountNumber != 0UL) {
+        AccountNumber = other.AccountNumber;
+      }
+      if (other.Sequence != 0UL) {
+        Sequence = other.Sequence;
+      }
+      if (other.tip_ != null) {
+        if (tip_ == null) {
+          Tip = new global::Cosmos.Tx.V1Beta1.Tip();
+        }
+        Tip.MergeFrom(other.Tip);
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            BodyBytes = input.ReadBytes();
+            break;
+          }
+          case 18: {
+            if (publicKey_ == null) {
+              PublicKey = new global::Google.Protobuf.WellKnownTypes.Any();
+            }
+            input.ReadMessage(PublicKey);
+            break;
+          }
+          case 26: {
+            ChainId = input.ReadString();
+            break;
+          }
+          case 32: {
+            AccountNumber = input.ReadUInt64();
+            break;
+          }
+          case 40: {
+            Sequence = input.ReadUInt64();
+            break;
+          }
+          case 50: {
+            if (tip_ == null) {
+              Tip = new global::Cosmos.Tx.V1Beta1.Tip();
+            }
+            input.ReadMessage(Tip);
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            BodyBytes = input.ReadBytes();
+            break;
+          }
+          case 18: {
+            if (publicKey_ == null) {
+              PublicKey = new global::Google.Protobuf.WellKnownTypes.Any();
+            }
+            input.ReadMessage(PublicKey);
+            break;
+          }
+          case 26: {
+            ChainId = input.ReadString();
+            break;
+          }
+          case 32: {
+            AccountNumber = input.ReadUInt64();
+            break;
+          }
+          case 40: {
+            Sequence = input.ReadUInt64();
+            break;
+          }
+          case 50: {
+            if (tip_ == null) {
+              Tip = new global::Cosmos.Tx.V1Beta1.Tip();
+            }
+            input.ReadMessage(Tip);
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
   /// TxBody is the body of a transaction that all signers sign over.
   /// </summary>
   public sealed partial class TxBody : pb::IMessage<TxBody>
@@ -968,7 +1408,7 @@ namespace Cosmos.Tx.V1Beta1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Cosmos.Tx.V1Beta1.TxReflection.Descriptor.MessageTypes[3]; }
+      get { return global::Cosmos.Tx.V1Beta1.TxReflection.Descriptor.MessageTypes[4]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1304,7 +1744,7 @@ namespace Cosmos.Tx.V1Beta1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Cosmos.Tx.V1Beta1.TxReflection.Descriptor.MessageTypes[4]; }
+      get { return global::Cosmos.Tx.V1Beta1.TxReflection.Descriptor.MessageTypes[5]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1326,6 +1766,7 @@ namespace Cosmos.Tx.V1Beta1 {
     public AuthInfo(AuthInfo other) : this() {
       signerInfos_ = other.signerInfos_.Clone();
       fee_ = other.fee_ != null ? other.fee_.Clone() : null;
+      tip_ = other.tip_ != null ? other.tip_.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -1370,6 +1811,26 @@ namespace Cosmos.Tx.V1Beta1 {
       }
     }
 
+    /// <summary>Field number for the "tip" field.</summary>
+    public const int TipFieldNumber = 3;
+    private global::Cosmos.Tx.V1Beta1.Tip tip_;
+    /// <summary>
+    /// Tip is the optional tip used for transactions fees paid in another denom.
+    ///
+    /// This field is ignored if the chain didn't enable tips, i.e. didn't add the
+    /// `TipDecorator` in its posthandler.
+    ///
+    /// Since: cosmos-sdk 0.46
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Cosmos.Tx.V1Beta1.Tip Tip {
+      get { return tip_; }
+      set {
+        tip_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -1387,6 +1848,7 @@ namespace Cosmos.Tx.V1Beta1 {
       }
       if(!signerInfos_.Equals(other.signerInfos_)) return false;
       if (!object.Equals(Fee, other.Fee)) return false;
+      if (!object.Equals(Tip, other.Tip)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -1396,6 +1858,7 @@ namespace Cosmos.Tx.V1Beta1 {
       int hash = 1;
       hash ^= signerInfos_.GetHashCode();
       if (fee_ != null) hash ^= Fee.GetHashCode();
+      if (tip_ != null) hash ^= Tip.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -1419,6 +1882,10 @@ namespace Cosmos.Tx.V1Beta1 {
         output.WriteRawTag(18);
         output.WriteMessage(Fee);
       }
+      if (tip_ != null) {
+        output.WriteRawTag(26);
+        output.WriteMessage(Tip);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -1434,6 +1901,10 @@ namespace Cosmos.Tx.V1Beta1 {
         output.WriteRawTag(18);
         output.WriteMessage(Fee);
       }
+      if (tip_ != null) {
+        output.WriteRawTag(26);
+        output.WriteMessage(Tip);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -1447,6 +1918,9 @@ namespace Cosmos.Tx.V1Beta1 {
       size += signerInfos_.CalculateSize(_repeated_signerInfos_codec);
       if (fee_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(Fee);
+      }
+      if (tip_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Tip);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -1466,6 +1940,12 @@ namespace Cosmos.Tx.V1Beta1 {
           Fee = new global::Cosmos.Tx.V1Beta1.Fee();
         }
         Fee.MergeFrom(other.Fee);
+      }
+      if (other.tip_ != null) {
+        if (tip_ == null) {
+          Tip = new global::Cosmos.Tx.V1Beta1.Tip();
+        }
+        Tip.MergeFrom(other.Tip);
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -1491,6 +1971,13 @@ namespace Cosmos.Tx.V1Beta1 {
               Fee = new global::Cosmos.Tx.V1Beta1.Fee();
             }
             input.ReadMessage(Fee);
+            break;
+          }
+          case 26: {
+            if (tip_ == null) {
+              Tip = new global::Cosmos.Tx.V1Beta1.Tip();
+            }
+            input.ReadMessage(Tip);
             break;
           }
         }
@@ -1519,6 +2006,13 @@ namespace Cosmos.Tx.V1Beta1 {
             input.ReadMessage(Fee);
             break;
           }
+          case 26: {
+            if (tip_ == null) {
+              Tip = new global::Cosmos.Tx.V1Beta1.Tip();
+            }
+            input.ReadMessage(Tip);
+            break;
+          }
         }
       }
     }
@@ -1544,7 +2038,7 @@ namespace Cosmos.Tx.V1Beta1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Cosmos.Tx.V1Beta1.TxReflection.Descriptor.MessageTypes[5]; }
+      get { return global::Cosmos.Tx.V1Beta1.TxReflection.Descriptor.MessageTypes[6]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1842,7 +2336,7 @@ namespace Cosmos.Tx.V1Beta1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Cosmos.Tx.V1Beta1.TxReflection.Descriptor.MessageTypes[6]; }
+      get { return global::Cosmos.Tx.V1Beta1.TxReflection.Descriptor.MessageTypes[7]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2577,7 +3071,7 @@ namespace Cosmos.Tx.V1Beta1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Cosmos.Tx.V1Beta1.TxReflection.Descriptor.MessageTypes[7]; }
+      get { return global::Cosmos.Tx.V1Beta1.TxReflection.Descriptor.MessageTypes[8]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2860,6 +3354,565 @@ namespace Cosmos.Tx.V1Beta1 {
           }
           case 34: {
             Granter = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// Tip is the tip used for meta-transactions.
+  ///
+  /// Since: cosmos-sdk 0.46
+  /// </summary>
+  public sealed partial class Tip : pb::IMessage<Tip>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<Tip> _parser = new pb::MessageParser<Tip>(() => new Tip());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<Tip> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Cosmos.Tx.V1Beta1.TxReflection.Descriptor.MessageTypes[9]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public Tip() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public Tip(Tip other) : this() {
+      amount_ = other.amount_.Clone();
+      tipper_ = other.tipper_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public Tip Clone() {
+      return new Tip(this);
+    }
+
+    /// <summary>Field number for the "amount" field.</summary>
+    public const int AmountFieldNumber = 1;
+    private static readonly pb::FieldCodec<global::Cosmos.Base.V1Beta1.Coin> _repeated_amount_codec
+        = pb::FieldCodec.ForMessage(10, global::Cosmos.Base.V1Beta1.Coin.Parser);
+    private readonly pbc::RepeatedField<global::Cosmos.Base.V1Beta1.Coin> amount_ = new pbc::RepeatedField<global::Cosmos.Base.V1Beta1.Coin>();
+    /// <summary>
+    /// amount is the amount of the tip
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pbc::RepeatedField<global::Cosmos.Base.V1Beta1.Coin> Amount {
+      get { return amount_; }
+    }
+
+    /// <summary>Field number for the "tipper" field.</summary>
+    public const int TipperFieldNumber = 2;
+    private string tipper_ = "";
+    /// <summary>
+    /// tipper is the address of the account paying for the tip
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string Tipper {
+      get { return tipper_; }
+      set {
+        tipper_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as Tip);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(Tip other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if(!amount_.Equals(other.amount_)) return false;
+      if (Tipper != other.Tipper) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      hash ^= amount_.GetHashCode();
+      if (Tipper.Length != 0) hash ^= Tipper.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      amount_.WriteTo(output, _repeated_amount_codec);
+      if (Tipper.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(Tipper);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      amount_.WriteTo(ref output, _repeated_amount_codec);
+      if (Tipper.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(Tipper);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      size += amount_.CalculateSize(_repeated_amount_codec);
+      if (Tipper.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Tipper);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(Tip other) {
+      if (other == null) {
+        return;
+      }
+      amount_.Add(other.amount_);
+      if (other.Tipper.Length != 0) {
+        Tipper = other.Tipper;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            amount_.AddEntriesFrom(input, _repeated_amount_codec);
+            break;
+          }
+          case 18: {
+            Tipper = input.ReadString();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            amount_.AddEntriesFrom(ref input, _repeated_amount_codec);
+            break;
+          }
+          case 18: {
+            Tipper = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// AuxSignerData is the intermediary format that an auxiliary signer (e.g. a
+  /// tipper) builds and sends to the fee payer (who will build and broadcast the
+  /// actual tx). AuxSignerData is not a valid tx in itself, and will be rejected
+  /// by the node if sent directly as-is.
+  ///
+  /// Since: cosmos-sdk 0.46
+  /// </summary>
+  public sealed partial class AuxSignerData : pb::IMessage<AuxSignerData>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<AuxSignerData> _parser = new pb::MessageParser<AuxSignerData>(() => new AuxSignerData());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<AuxSignerData> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Cosmos.Tx.V1Beta1.TxReflection.Descriptor.MessageTypes[10]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public AuxSignerData() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public AuxSignerData(AuxSignerData other) : this() {
+      address_ = other.address_;
+      signDoc_ = other.signDoc_ != null ? other.signDoc_.Clone() : null;
+      mode_ = other.mode_;
+      sig_ = other.sig_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public AuxSignerData Clone() {
+      return new AuxSignerData(this);
+    }
+
+    /// <summary>Field number for the "address" field.</summary>
+    public const int AddressFieldNumber = 1;
+    private string address_ = "";
+    /// <summary>
+    /// address is the bech32-encoded address of the auxiliary signer. If using
+    /// AuxSignerData across different chains, the bech32 prefix of the target
+    /// chain (where the final transaction is broadcasted) should be used.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string Address {
+      get { return address_; }
+      set {
+        address_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "sign_doc" field.</summary>
+    public const int SignDocFieldNumber = 2;
+    private global::Cosmos.Tx.V1Beta1.SignDocDirectAux signDoc_;
+    /// <summary>
+    /// sign_doc is the SIGN_MODE_DIRECT_AUX sign doc that the auxiliary signer
+    /// signs. Note: we use the same sign doc even if we're signing with
+    /// LEGACY_AMINO_JSON.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Cosmos.Tx.V1Beta1.SignDocDirectAux SignDoc {
+      get { return signDoc_; }
+      set {
+        signDoc_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "mode" field.</summary>
+    public const int ModeFieldNumber = 3;
+    private global::Cosmos.Tx.Signing.V1Beta1.SignMode mode_ = global::Cosmos.Tx.Signing.V1Beta1.SignMode.Unspecified;
+    /// <summary>
+    /// mode is the signing mode of the single signer.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Cosmos.Tx.Signing.V1Beta1.SignMode Mode {
+      get { return mode_; }
+      set {
+        mode_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "sig" field.</summary>
+    public const int SigFieldNumber = 4;
+    private pb::ByteString sig_ = pb::ByteString.Empty;
+    /// <summary>
+    /// sig is the signature of the sign doc.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pb::ByteString Sig {
+      get { return sig_; }
+      set {
+        sig_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as AuxSignerData);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(AuxSignerData other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Address != other.Address) return false;
+      if (!object.Equals(SignDoc, other.SignDoc)) return false;
+      if (Mode != other.Mode) return false;
+      if (Sig != other.Sig) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Address.Length != 0) hash ^= Address.GetHashCode();
+      if (signDoc_ != null) hash ^= SignDoc.GetHashCode();
+      if (Mode != global::Cosmos.Tx.Signing.V1Beta1.SignMode.Unspecified) hash ^= Mode.GetHashCode();
+      if (Sig.Length != 0) hash ^= Sig.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (Address.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Address);
+      }
+      if (signDoc_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(SignDoc);
+      }
+      if (Mode != global::Cosmos.Tx.Signing.V1Beta1.SignMode.Unspecified) {
+        output.WriteRawTag(24);
+        output.WriteEnum((int) Mode);
+      }
+      if (Sig.Length != 0) {
+        output.WriteRawTag(34);
+        output.WriteBytes(Sig);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (Address.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Address);
+      }
+      if (signDoc_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(SignDoc);
+      }
+      if (Mode != global::Cosmos.Tx.Signing.V1Beta1.SignMode.Unspecified) {
+        output.WriteRawTag(24);
+        output.WriteEnum((int) Mode);
+      }
+      if (Sig.Length != 0) {
+        output.WriteRawTag(34);
+        output.WriteBytes(Sig);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (Address.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Address);
+      }
+      if (signDoc_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(SignDoc);
+      }
+      if (Mode != global::Cosmos.Tx.Signing.V1Beta1.SignMode.Unspecified) {
+        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Mode);
+      }
+      if (Sig.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeBytesSize(Sig);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(AuxSignerData other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Address.Length != 0) {
+        Address = other.Address;
+      }
+      if (other.signDoc_ != null) {
+        if (signDoc_ == null) {
+          SignDoc = new global::Cosmos.Tx.V1Beta1.SignDocDirectAux();
+        }
+        SignDoc.MergeFrom(other.SignDoc);
+      }
+      if (other.Mode != global::Cosmos.Tx.Signing.V1Beta1.SignMode.Unspecified) {
+        Mode = other.Mode;
+      }
+      if (other.Sig.Length != 0) {
+        Sig = other.Sig;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            Address = input.ReadString();
+            break;
+          }
+          case 18: {
+            if (signDoc_ == null) {
+              SignDoc = new global::Cosmos.Tx.V1Beta1.SignDocDirectAux();
+            }
+            input.ReadMessage(SignDoc);
+            break;
+          }
+          case 24: {
+            Mode = (global::Cosmos.Tx.Signing.V1Beta1.SignMode) input.ReadEnum();
+            break;
+          }
+          case 34: {
+            Sig = input.ReadBytes();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            Address = input.ReadString();
+            break;
+          }
+          case 18: {
+            if (signDoc_ == null) {
+              SignDoc = new global::Cosmos.Tx.V1Beta1.SignDocDirectAux();
+            }
+            input.ReadMessage(SignDoc);
+            break;
+          }
+          case 24: {
+            Mode = (global::Cosmos.Tx.Signing.V1Beta1.SignMode) input.ReadEnum();
+            break;
+          }
+          case 34: {
+            Sig = input.ReadBytes();
             break;
           }
         }

@@ -60,6 +60,22 @@ namespace Cosmos.Auth.V1Beta1 {
     static readonly grpc::Marshaller<global::Cosmos.Auth.V1Beta1.QueryParamsRequest> __Marshaller_cosmos_auth_v1beta1_QueryParamsRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Cosmos.Auth.V1Beta1.QueryParamsRequest.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Cosmos.Auth.V1Beta1.QueryParamsResponse> __Marshaller_cosmos_auth_v1beta1_QueryParamsResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Cosmos.Auth.V1Beta1.QueryParamsResponse.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Cosmos.Auth.V1Beta1.QueryModuleAccountsRequest> __Marshaller_cosmos_auth_v1beta1_QueryModuleAccountsRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Cosmos.Auth.V1Beta1.QueryModuleAccountsRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Cosmos.Auth.V1Beta1.QueryModuleAccountsResponse> __Marshaller_cosmos_auth_v1beta1_QueryModuleAccountsResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Cosmos.Auth.V1Beta1.QueryModuleAccountsResponse.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Cosmos.Auth.V1Beta1.Bech32PrefixRequest> __Marshaller_cosmos_auth_v1beta1_Bech32PrefixRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Cosmos.Auth.V1Beta1.Bech32PrefixRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Cosmos.Auth.V1Beta1.Bech32PrefixResponse> __Marshaller_cosmos_auth_v1beta1_Bech32PrefixResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Cosmos.Auth.V1Beta1.Bech32PrefixResponse.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Cosmos.Auth.V1Beta1.AddressBytesToStringRequest> __Marshaller_cosmos_auth_v1beta1_AddressBytesToStringRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Cosmos.Auth.V1Beta1.AddressBytesToStringRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Cosmos.Auth.V1Beta1.AddressBytesToStringResponse> __Marshaller_cosmos_auth_v1beta1_AddressBytesToStringResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Cosmos.Auth.V1Beta1.AddressBytesToStringResponse.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Cosmos.Auth.V1Beta1.AddressStringToBytesRequest> __Marshaller_cosmos_auth_v1beta1_AddressStringToBytesRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Cosmos.Auth.V1Beta1.AddressStringToBytesRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Cosmos.Auth.V1Beta1.AddressStringToBytesResponse> __Marshaller_cosmos_auth_v1beta1_AddressStringToBytesResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Cosmos.Auth.V1Beta1.AddressStringToBytesResponse.Parser));
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Cosmos.Auth.V1Beta1.QueryAccountsRequest, global::Cosmos.Auth.V1Beta1.QueryAccountsResponse> __Method_Accounts = new grpc::Method<global::Cosmos.Auth.V1Beta1.QueryAccountsRequest, global::Cosmos.Auth.V1Beta1.QueryAccountsResponse>(
@@ -85,6 +101,38 @@ namespace Cosmos.Auth.V1Beta1 {
         __Marshaller_cosmos_auth_v1beta1_QueryParamsRequest,
         __Marshaller_cosmos_auth_v1beta1_QueryParamsResponse);
 
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Cosmos.Auth.V1Beta1.QueryModuleAccountsRequest, global::Cosmos.Auth.V1Beta1.QueryModuleAccountsResponse> __Method_ModuleAccounts = new grpc::Method<global::Cosmos.Auth.V1Beta1.QueryModuleAccountsRequest, global::Cosmos.Auth.V1Beta1.QueryModuleAccountsResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "ModuleAccounts",
+        __Marshaller_cosmos_auth_v1beta1_QueryModuleAccountsRequest,
+        __Marshaller_cosmos_auth_v1beta1_QueryModuleAccountsResponse);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Cosmos.Auth.V1Beta1.Bech32PrefixRequest, global::Cosmos.Auth.V1Beta1.Bech32PrefixResponse> __Method_Bech32Prefix = new grpc::Method<global::Cosmos.Auth.V1Beta1.Bech32PrefixRequest, global::Cosmos.Auth.V1Beta1.Bech32PrefixResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "Bech32Prefix",
+        __Marshaller_cosmos_auth_v1beta1_Bech32PrefixRequest,
+        __Marshaller_cosmos_auth_v1beta1_Bech32PrefixResponse);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Cosmos.Auth.V1Beta1.AddressBytesToStringRequest, global::Cosmos.Auth.V1Beta1.AddressBytesToStringResponse> __Method_AddressBytesToString = new grpc::Method<global::Cosmos.Auth.V1Beta1.AddressBytesToStringRequest, global::Cosmos.Auth.V1Beta1.AddressBytesToStringResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "AddressBytesToString",
+        __Marshaller_cosmos_auth_v1beta1_AddressBytesToStringRequest,
+        __Marshaller_cosmos_auth_v1beta1_AddressBytesToStringResponse);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Cosmos.Auth.V1Beta1.AddressStringToBytesRequest, global::Cosmos.Auth.V1Beta1.AddressStringToBytesResponse> __Method_AddressStringToBytes = new grpc::Method<global::Cosmos.Auth.V1Beta1.AddressStringToBytesRequest, global::Cosmos.Auth.V1Beta1.AddressStringToBytesResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "AddressStringToBytes",
+        __Marshaller_cosmos_auth_v1beta1_AddressStringToBytesRequest,
+        __Marshaller_cosmos_auth_v1beta1_AddressStringToBytesResponse);
+
     /// <summary>Service descriptor</summary>
     public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor
     {
@@ -97,6 +145,8 @@ namespace Cosmos.Auth.V1Beta1 {
     {
       /// <summary>
       /// Accounts returns all the existing accounts
+      ///
+      /// Since: cosmos-sdk 0.43
       /// </summary>
       /// <param name="request">The request received from the client.</param>
       /// <param name="context">The context of the server-side call handler being invoked.</param>
@@ -127,6 +177,62 @@ namespace Cosmos.Auth.V1Beta1 {
       /// <returns>The response to send back to the client (wrapped by a task).</returns>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::System.Threading.Tasks.Task<global::Cosmos.Auth.V1Beta1.QueryParamsResponse> Params(global::Cosmos.Auth.V1Beta1.QueryParamsRequest request, grpc::ServerCallContext context)
+      {
+        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
+      }
+
+      /// <summary>
+      /// ModuleAccounts returns all the existing module accounts.
+      ///
+      /// Since: cosmos-sdk 0.46
+      /// </summary>
+      /// <param name="request">The request received from the client.</param>
+      /// <param name="context">The context of the server-side call handler being invoked.</param>
+      /// <returns>The response to send back to the client (wrapped by a task).</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::System.Threading.Tasks.Task<global::Cosmos.Auth.V1Beta1.QueryModuleAccountsResponse> ModuleAccounts(global::Cosmos.Auth.V1Beta1.QueryModuleAccountsRequest request, grpc::ServerCallContext context)
+      {
+        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
+      }
+
+      /// <summary>
+      /// Bech32Prefix queries bech32Prefix
+      ///
+      /// Since: cosmos-sdk 0.46
+      /// </summary>
+      /// <param name="request">The request received from the client.</param>
+      /// <param name="context">The context of the server-side call handler being invoked.</param>
+      /// <returns>The response to send back to the client (wrapped by a task).</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::System.Threading.Tasks.Task<global::Cosmos.Auth.V1Beta1.Bech32PrefixResponse> Bech32Prefix(global::Cosmos.Auth.V1Beta1.Bech32PrefixRequest request, grpc::ServerCallContext context)
+      {
+        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
+      }
+
+      /// <summary>
+      /// AddressBytesToString converts Account Address bytes to string
+      ///
+      /// Since: cosmos-sdk 0.46
+      /// </summary>
+      /// <param name="request">The request received from the client.</param>
+      /// <param name="context">The context of the server-side call handler being invoked.</param>
+      /// <returns>The response to send back to the client (wrapped by a task).</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::System.Threading.Tasks.Task<global::Cosmos.Auth.V1Beta1.AddressBytesToStringResponse> AddressBytesToString(global::Cosmos.Auth.V1Beta1.AddressBytesToStringRequest request, grpc::ServerCallContext context)
+      {
+        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
+      }
+
+      /// <summary>
+      /// AddressStringToBytes converts Address string to bytes
+      ///
+      /// Since: cosmos-sdk 0.46
+      /// </summary>
+      /// <param name="request">The request received from the client.</param>
+      /// <param name="context">The context of the server-side call handler being invoked.</param>
+      /// <returns>The response to send back to the client (wrapped by a task).</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::System.Threading.Tasks.Task<global::Cosmos.Auth.V1Beta1.AddressStringToBytesResponse> AddressStringToBytes(global::Cosmos.Auth.V1Beta1.AddressStringToBytesRequest request, grpc::ServerCallContext context)
       {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
       }
@@ -162,6 +268,8 @@ namespace Cosmos.Auth.V1Beta1 {
 
       /// <summary>
       /// Accounts returns all the existing accounts
+      ///
+      /// Since: cosmos-sdk 0.43
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
@@ -175,6 +283,8 @@ namespace Cosmos.Auth.V1Beta1 {
       }
       /// <summary>
       /// Accounts returns all the existing accounts
+      ///
+      /// Since: cosmos-sdk 0.43
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
@@ -186,6 +296,8 @@ namespace Cosmos.Auth.V1Beta1 {
       }
       /// <summary>
       /// Accounts returns all the existing accounts
+      ///
+      /// Since: cosmos-sdk 0.43
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
@@ -199,6 +311,8 @@ namespace Cosmos.Auth.V1Beta1 {
       }
       /// <summary>
       /// Accounts returns all the existing accounts
+      ///
+      /// Since: cosmos-sdk 0.43
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
@@ -304,6 +418,230 @@ namespace Cosmos.Auth.V1Beta1 {
       {
         return CallInvoker.AsyncUnaryCall(__Method_Params, null, options, request);
       }
+      /// <summary>
+      /// ModuleAccounts returns all the existing module accounts.
+      ///
+      /// Since: cosmos-sdk 0.46
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Cosmos.Auth.V1Beta1.QueryModuleAccountsResponse ModuleAccounts(global::Cosmos.Auth.V1Beta1.QueryModuleAccountsRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return ModuleAccounts(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// ModuleAccounts returns all the existing module accounts.
+      ///
+      /// Since: cosmos-sdk 0.46
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Cosmos.Auth.V1Beta1.QueryModuleAccountsResponse ModuleAccounts(global::Cosmos.Auth.V1Beta1.QueryModuleAccountsRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_ModuleAccounts, null, options, request);
+      }
+      /// <summary>
+      /// ModuleAccounts returns all the existing module accounts.
+      ///
+      /// Since: cosmos-sdk 0.46
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Cosmos.Auth.V1Beta1.QueryModuleAccountsResponse> ModuleAccountsAsync(global::Cosmos.Auth.V1Beta1.QueryModuleAccountsRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return ModuleAccountsAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// ModuleAccounts returns all the existing module accounts.
+      ///
+      /// Since: cosmos-sdk 0.46
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Cosmos.Auth.V1Beta1.QueryModuleAccountsResponse> ModuleAccountsAsync(global::Cosmos.Auth.V1Beta1.QueryModuleAccountsRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_ModuleAccounts, null, options, request);
+      }
+      /// <summary>
+      /// Bech32Prefix queries bech32Prefix
+      ///
+      /// Since: cosmos-sdk 0.46
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Cosmos.Auth.V1Beta1.Bech32PrefixResponse Bech32Prefix(global::Cosmos.Auth.V1Beta1.Bech32PrefixRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return Bech32Prefix(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Bech32Prefix queries bech32Prefix
+      ///
+      /// Since: cosmos-sdk 0.46
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Cosmos.Auth.V1Beta1.Bech32PrefixResponse Bech32Prefix(global::Cosmos.Auth.V1Beta1.Bech32PrefixRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_Bech32Prefix, null, options, request);
+      }
+      /// <summary>
+      /// Bech32Prefix queries bech32Prefix
+      ///
+      /// Since: cosmos-sdk 0.46
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Cosmos.Auth.V1Beta1.Bech32PrefixResponse> Bech32PrefixAsync(global::Cosmos.Auth.V1Beta1.Bech32PrefixRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return Bech32PrefixAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Bech32Prefix queries bech32Prefix
+      ///
+      /// Since: cosmos-sdk 0.46
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Cosmos.Auth.V1Beta1.Bech32PrefixResponse> Bech32PrefixAsync(global::Cosmos.Auth.V1Beta1.Bech32PrefixRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_Bech32Prefix, null, options, request);
+      }
+      /// <summary>
+      /// AddressBytesToString converts Account Address bytes to string
+      ///
+      /// Since: cosmos-sdk 0.46
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Cosmos.Auth.V1Beta1.AddressBytesToStringResponse AddressBytesToString(global::Cosmos.Auth.V1Beta1.AddressBytesToStringRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return AddressBytesToString(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// AddressBytesToString converts Account Address bytes to string
+      ///
+      /// Since: cosmos-sdk 0.46
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Cosmos.Auth.V1Beta1.AddressBytesToStringResponse AddressBytesToString(global::Cosmos.Auth.V1Beta1.AddressBytesToStringRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_AddressBytesToString, null, options, request);
+      }
+      /// <summary>
+      /// AddressBytesToString converts Account Address bytes to string
+      ///
+      /// Since: cosmos-sdk 0.46
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Cosmos.Auth.V1Beta1.AddressBytesToStringResponse> AddressBytesToStringAsync(global::Cosmos.Auth.V1Beta1.AddressBytesToStringRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return AddressBytesToStringAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// AddressBytesToString converts Account Address bytes to string
+      ///
+      /// Since: cosmos-sdk 0.46
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Cosmos.Auth.V1Beta1.AddressBytesToStringResponse> AddressBytesToStringAsync(global::Cosmos.Auth.V1Beta1.AddressBytesToStringRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_AddressBytesToString, null, options, request);
+      }
+      /// <summary>
+      /// AddressStringToBytes converts Address string to bytes
+      ///
+      /// Since: cosmos-sdk 0.46
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Cosmos.Auth.V1Beta1.AddressStringToBytesResponse AddressStringToBytes(global::Cosmos.Auth.V1Beta1.AddressStringToBytesRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return AddressStringToBytes(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// AddressStringToBytes converts Address string to bytes
+      ///
+      /// Since: cosmos-sdk 0.46
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Cosmos.Auth.V1Beta1.AddressStringToBytesResponse AddressStringToBytes(global::Cosmos.Auth.V1Beta1.AddressStringToBytesRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_AddressStringToBytes, null, options, request);
+      }
+      /// <summary>
+      /// AddressStringToBytes converts Address string to bytes
+      ///
+      /// Since: cosmos-sdk 0.46
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Cosmos.Auth.V1Beta1.AddressStringToBytesResponse> AddressStringToBytesAsync(global::Cosmos.Auth.V1Beta1.AddressStringToBytesRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return AddressStringToBytesAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// AddressStringToBytes converts Address string to bytes
+      ///
+      /// Since: cosmos-sdk 0.46
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Cosmos.Auth.V1Beta1.AddressStringToBytesResponse> AddressStringToBytesAsync(global::Cosmos.Auth.V1Beta1.AddressStringToBytesRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_AddressStringToBytes, null, options, request);
+      }
       /// <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       protected override QueryClient NewInstance(ClientBaseConfiguration configuration)
@@ -320,7 +658,11 @@ namespace Cosmos.Auth.V1Beta1 {
       return grpc::ServerServiceDefinition.CreateBuilder()
           .AddMethod(__Method_Accounts, serviceImpl.Accounts)
           .AddMethod(__Method_Account, serviceImpl.Account)
-          .AddMethod(__Method_Params, serviceImpl.Params).Build();
+          .AddMethod(__Method_Params, serviceImpl.Params)
+          .AddMethod(__Method_ModuleAccounts, serviceImpl.ModuleAccounts)
+          .AddMethod(__Method_Bech32Prefix, serviceImpl.Bech32Prefix)
+          .AddMethod(__Method_AddressBytesToString, serviceImpl.AddressBytesToString)
+          .AddMethod(__Method_AddressStringToBytes, serviceImpl.AddressStringToBytes).Build();
     }
 
     /// <summary>Register service method with a service binder with or without implementation. Useful when customizing the service binding logic.
@@ -333,6 +675,10 @@ namespace Cosmos.Auth.V1Beta1 {
       serviceBinder.AddMethod(__Method_Accounts, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Cosmos.Auth.V1Beta1.QueryAccountsRequest, global::Cosmos.Auth.V1Beta1.QueryAccountsResponse>(serviceImpl.Accounts));
       serviceBinder.AddMethod(__Method_Account, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Cosmos.Auth.V1Beta1.QueryAccountRequest, global::Cosmos.Auth.V1Beta1.QueryAccountResponse>(serviceImpl.Account));
       serviceBinder.AddMethod(__Method_Params, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Cosmos.Auth.V1Beta1.QueryParamsRequest, global::Cosmos.Auth.V1Beta1.QueryParamsResponse>(serviceImpl.Params));
+      serviceBinder.AddMethod(__Method_ModuleAccounts, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Cosmos.Auth.V1Beta1.QueryModuleAccountsRequest, global::Cosmos.Auth.V1Beta1.QueryModuleAccountsResponse>(serviceImpl.ModuleAccounts));
+      serviceBinder.AddMethod(__Method_Bech32Prefix, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Cosmos.Auth.V1Beta1.Bech32PrefixRequest, global::Cosmos.Auth.V1Beta1.Bech32PrefixResponse>(serviceImpl.Bech32Prefix));
+      serviceBinder.AddMethod(__Method_AddressBytesToString, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Cosmos.Auth.V1Beta1.AddressBytesToStringRequest, global::Cosmos.Auth.V1Beta1.AddressBytesToStringResponse>(serviceImpl.AddressBytesToString));
+      serviceBinder.AddMethod(__Method_AddressStringToBytes, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Cosmos.Auth.V1Beta1.AddressStringToBytesRequest, global::Cosmos.Auth.V1Beta1.AddressStringToBytesResponse>(serviceImpl.AddressStringToBytes));
     }
 
   }

@@ -52,6 +52,14 @@ namespace Cosmos.Vesting.V1Beta1 {
     static readonly grpc::Marshaller<global::Cosmos.Vesting.V1Beta1.MsgCreateVestingAccount> __Marshaller_cosmos_vesting_v1beta1_MsgCreateVestingAccount = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Cosmos.Vesting.V1Beta1.MsgCreateVestingAccount.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Cosmos.Vesting.V1Beta1.MsgCreateVestingAccountResponse> __Marshaller_cosmos_vesting_v1beta1_MsgCreateVestingAccountResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Cosmos.Vesting.V1Beta1.MsgCreateVestingAccountResponse.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Cosmos.Vesting.V1Beta1.MsgCreatePermanentLockedAccount> __Marshaller_cosmos_vesting_v1beta1_MsgCreatePermanentLockedAccount = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Cosmos.Vesting.V1Beta1.MsgCreatePermanentLockedAccount.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Cosmos.Vesting.V1Beta1.MsgCreatePermanentLockedAccountResponse> __Marshaller_cosmos_vesting_v1beta1_MsgCreatePermanentLockedAccountResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Cosmos.Vesting.V1Beta1.MsgCreatePermanentLockedAccountResponse.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Cosmos.Vesting.V1Beta1.MsgCreatePeriodicVestingAccount> __Marshaller_cosmos_vesting_v1beta1_MsgCreatePeriodicVestingAccount = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Cosmos.Vesting.V1Beta1.MsgCreatePeriodicVestingAccount.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Cosmos.Vesting.V1Beta1.MsgCreatePeriodicVestingAccountResponse> __Marshaller_cosmos_vesting_v1beta1_MsgCreatePeriodicVestingAccountResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Cosmos.Vesting.V1Beta1.MsgCreatePeriodicVestingAccountResponse.Parser));
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Cosmos.Vesting.V1Beta1.MsgCreateVestingAccount, global::Cosmos.Vesting.V1Beta1.MsgCreateVestingAccountResponse> __Method_CreateVestingAccount = new grpc::Method<global::Cosmos.Vesting.V1Beta1.MsgCreateVestingAccount, global::Cosmos.Vesting.V1Beta1.MsgCreateVestingAccountResponse>(
@@ -60,6 +68,22 @@ namespace Cosmos.Vesting.V1Beta1 {
         "CreateVestingAccount",
         __Marshaller_cosmos_vesting_v1beta1_MsgCreateVestingAccount,
         __Marshaller_cosmos_vesting_v1beta1_MsgCreateVestingAccountResponse);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Cosmos.Vesting.V1Beta1.MsgCreatePermanentLockedAccount, global::Cosmos.Vesting.V1Beta1.MsgCreatePermanentLockedAccountResponse> __Method_CreatePermanentLockedAccount = new grpc::Method<global::Cosmos.Vesting.V1Beta1.MsgCreatePermanentLockedAccount, global::Cosmos.Vesting.V1Beta1.MsgCreatePermanentLockedAccountResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "CreatePermanentLockedAccount",
+        __Marshaller_cosmos_vesting_v1beta1_MsgCreatePermanentLockedAccount,
+        __Marshaller_cosmos_vesting_v1beta1_MsgCreatePermanentLockedAccountResponse);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Cosmos.Vesting.V1Beta1.MsgCreatePeriodicVestingAccount, global::Cosmos.Vesting.V1Beta1.MsgCreatePeriodicVestingAccountResponse> __Method_CreatePeriodicVestingAccount = new grpc::Method<global::Cosmos.Vesting.V1Beta1.MsgCreatePeriodicVestingAccount, global::Cosmos.Vesting.V1Beta1.MsgCreatePeriodicVestingAccountResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "CreatePeriodicVestingAccount",
+        __Marshaller_cosmos_vesting_v1beta1_MsgCreatePeriodicVestingAccount,
+        __Marshaller_cosmos_vesting_v1beta1_MsgCreatePeriodicVestingAccountResponse);
 
     /// <summary>Service descriptor</summary>
     public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor
@@ -80,6 +104,36 @@ namespace Cosmos.Vesting.V1Beta1 {
       /// <returns>The response to send back to the client (wrapped by a task).</returns>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::System.Threading.Tasks.Task<global::Cosmos.Vesting.V1Beta1.MsgCreateVestingAccountResponse> CreateVestingAccount(global::Cosmos.Vesting.V1Beta1.MsgCreateVestingAccount request, grpc::ServerCallContext context)
+      {
+        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
+      }
+
+      /// <summary>
+      /// CreatePermanentLockedAccount defines a method that enables creating a permanent
+      /// locked account.
+      ///
+      /// Since: cosmos-sdk 0.46
+      /// </summary>
+      /// <param name="request">The request received from the client.</param>
+      /// <param name="context">The context of the server-side call handler being invoked.</param>
+      /// <returns>The response to send back to the client (wrapped by a task).</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::System.Threading.Tasks.Task<global::Cosmos.Vesting.V1Beta1.MsgCreatePermanentLockedAccountResponse> CreatePermanentLockedAccount(global::Cosmos.Vesting.V1Beta1.MsgCreatePermanentLockedAccount request, grpc::ServerCallContext context)
+      {
+        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
+      }
+
+      /// <summary>
+      /// CreatePeriodicVestingAccount defines a method that enables creating a
+      /// periodic vesting account.
+      ///
+      /// Since: cosmos-sdk 0.46
+      /// </summary>
+      /// <param name="request">The request received from the client.</param>
+      /// <param name="context">The context of the server-side call handler being invoked.</param>
+      /// <returns>The response to send back to the client (wrapped by a task).</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::System.Threading.Tasks.Task<global::Cosmos.Vesting.V1Beta1.MsgCreatePeriodicVestingAccountResponse> CreatePeriodicVestingAccount(global::Cosmos.Vesting.V1Beta1.MsgCreatePeriodicVestingAccount request, grpc::ServerCallContext context)
       {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
       }
@@ -165,6 +219,126 @@ namespace Cosmos.Vesting.V1Beta1 {
       {
         return CallInvoker.AsyncUnaryCall(__Method_CreateVestingAccount, null, options, request);
       }
+      /// <summary>
+      /// CreatePermanentLockedAccount defines a method that enables creating a permanent
+      /// locked account.
+      ///
+      /// Since: cosmos-sdk 0.46
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Cosmos.Vesting.V1Beta1.MsgCreatePermanentLockedAccountResponse CreatePermanentLockedAccount(global::Cosmos.Vesting.V1Beta1.MsgCreatePermanentLockedAccount request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return CreatePermanentLockedAccount(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// CreatePermanentLockedAccount defines a method that enables creating a permanent
+      /// locked account.
+      ///
+      /// Since: cosmos-sdk 0.46
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Cosmos.Vesting.V1Beta1.MsgCreatePermanentLockedAccountResponse CreatePermanentLockedAccount(global::Cosmos.Vesting.V1Beta1.MsgCreatePermanentLockedAccount request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_CreatePermanentLockedAccount, null, options, request);
+      }
+      /// <summary>
+      /// CreatePermanentLockedAccount defines a method that enables creating a permanent
+      /// locked account.
+      ///
+      /// Since: cosmos-sdk 0.46
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Cosmos.Vesting.V1Beta1.MsgCreatePermanentLockedAccountResponse> CreatePermanentLockedAccountAsync(global::Cosmos.Vesting.V1Beta1.MsgCreatePermanentLockedAccount request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return CreatePermanentLockedAccountAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// CreatePermanentLockedAccount defines a method that enables creating a permanent
+      /// locked account.
+      ///
+      /// Since: cosmos-sdk 0.46
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Cosmos.Vesting.V1Beta1.MsgCreatePermanentLockedAccountResponse> CreatePermanentLockedAccountAsync(global::Cosmos.Vesting.V1Beta1.MsgCreatePermanentLockedAccount request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_CreatePermanentLockedAccount, null, options, request);
+      }
+      /// <summary>
+      /// CreatePeriodicVestingAccount defines a method that enables creating a
+      /// periodic vesting account.
+      ///
+      /// Since: cosmos-sdk 0.46
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Cosmos.Vesting.V1Beta1.MsgCreatePeriodicVestingAccountResponse CreatePeriodicVestingAccount(global::Cosmos.Vesting.V1Beta1.MsgCreatePeriodicVestingAccount request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return CreatePeriodicVestingAccount(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// CreatePeriodicVestingAccount defines a method that enables creating a
+      /// periodic vesting account.
+      ///
+      /// Since: cosmos-sdk 0.46
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Cosmos.Vesting.V1Beta1.MsgCreatePeriodicVestingAccountResponse CreatePeriodicVestingAccount(global::Cosmos.Vesting.V1Beta1.MsgCreatePeriodicVestingAccount request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_CreatePeriodicVestingAccount, null, options, request);
+      }
+      /// <summary>
+      /// CreatePeriodicVestingAccount defines a method that enables creating a
+      /// periodic vesting account.
+      ///
+      /// Since: cosmos-sdk 0.46
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Cosmos.Vesting.V1Beta1.MsgCreatePeriodicVestingAccountResponse> CreatePeriodicVestingAccountAsync(global::Cosmos.Vesting.V1Beta1.MsgCreatePeriodicVestingAccount request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return CreatePeriodicVestingAccountAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// CreatePeriodicVestingAccount defines a method that enables creating a
+      /// periodic vesting account.
+      ///
+      /// Since: cosmos-sdk 0.46
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Cosmos.Vesting.V1Beta1.MsgCreatePeriodicVestingAccountResponse> CreatePeriodicVestingAccountAsync(global::Cosmos.Vesting.V1Beta1.MsgCreatePeriodicVestingAccount request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_CreatePeriodicVestingAccount, null, options, request);
+      }
       /// <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       protected override MsgClient NewInstance(ClientBaseConfiguration configuration)
@@ -179,7 +353,9 @@ namespace Cosmos.Vesting.V1Beta1 {
     public static grpc::ServerServiceDefinition BindService(MsgBase serviceImpl)
     {
       return grpc::ServerServiceDefinition.CreateBuilder()
-          .AddMethod(__Method_CreateVestingAccount, serviceImpl.CreateVestingAccount).Build();
+          .AddMethod(__Method_CreateVestingAccount, serviceImpl.CreateVestingAccount)
+          .AddMethod(__Method_CreatePermanentLockedAccount, serviceImpl.CreatePermanentLockedAccount)
+          .AddMethod(__Method_CreatePeriodicVestingAccount, serviceImpl.CreatePeriodicVestingAccount).Build();
     }
 
     /// <summary>Register service method with a service binder with or without implementation. Useful when customizing the service binding logic.
@@ -190,6 +366,8 @@ namespace Cosmos.Vesting.V1Beta1 {
     public static void BindService(grpc::ServiceBinderBase serviceBinder, MsgBase serviceImpl)
     {
       serviceBinder.AddMethod(__Method_CreateVestingAccount, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Cosmos.Vesting.V1Beta1.MsgCreateVestingAccount, global::Cosmos.Vesting.V1Beta1.MsgCreateVestingAccountResponse>(serviceImpl.CreateVestingAccount));
+      serviceBinder.AddMethod(__Method_CreatePermanentLockedAccount, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Cosmos.Vesting.V1Beta1.MsgCreatePermanentLockedAccount, global::Cosmos.Vesting.V1Beta1.MsgCreatePermanentLockedAccountResponse>(serviceImpl.CreatePermanentLockedAccount));
+      serviceBinder.AddMethod(__Method_CreatePeriodicVestingAccount, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Cosmos.Vesting.V1Beta1.MsgCreatePeriodicVestingAccount, global::Cosmos.Vesting.V1Beta1.MsgCreatePeriodicVestingAccountResponse>(serviceImpl.CreatePeriodicVestingAccount));
     }
 
   }

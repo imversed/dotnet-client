@@ -25,11 +25,10 @@ namespace Cosmos.Genutil.V1Beta1 {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
             "CiRjb3Ntb3MvZ2VudXRpbC92MWJldGExL2dlbmVzaXMucHJvdG8SFmNvc21v",
-            "cy5nZW51dGlsLnYxYmV0YTEaFGdvZ29wcm90by9nb2dvLnByb3RvIlgKDEdl",
-            "bmVzaXNTdGF0ZRJICgdnZW5fdHhzGAEgAygMQjf63h8YZW5jb2RpbmcvanNv",
-            "bi5SYXdNZXNzYWdl6t4fBmdlbnR4c/LeHw15YW1sOiJnZW50eHMiQi5aLGdp",
-            "dGh1Yi5jb20vY29zbW9zL2Nvc21vcy1zZGsveC9nZW51dGlsL3R5cGVzYgZw",
-            "cm90bzM="));
+            "cy5nZW51dGlsLnYxYmV0YTEaFGdvZ29wcm90by9nb2dvLnByb3RvIkcKDEdl",
+            "bmVzaXNTdGF0ZRI3CgdnZW5fdHhzGAEgAygMQib63h8YZW5jb2RpbmcvanNv",
+            "bi5SYXdNZXNzYWdl6t4fBmdlbnR4c0IuWixnaXRodWIuY29tL2Nvc21vcy9j",
+            "b3Ntb3Mtc2RrL3gvZ2VudXRpbC90eXBlc2IGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Gogoproto.GogoReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {

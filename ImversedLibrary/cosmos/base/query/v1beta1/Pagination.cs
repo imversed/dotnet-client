@@ -171,6 +171,8 @@ namespace Cosmos.Base.Query.V1Beta1 {
     private bool reverse_;
     /// <summary>
     /// reverse is set to true if results are to be returned in the descending order.
+    ///
+    /// Since: cosmos-sdk 0.43
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -469,7 +471,8 @@ namespace Cosmos.Base.Query.V1Beta1 {
     private pb::ByteString nextKey_ = pb::ByteString.Empty;
     /// <summary>
     /// next_key is the key to be passed to PageRequest.key to
-    /// query the next page most efficiently
+    /// query the next page most efficiently. It will be empty if
+    /// there are no more results.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]

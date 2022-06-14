@@ -26,14 +26,15 @@ namespace Cosmos.Evidence.V1Beta1 {
           string.Concat(
             "CiZjb3Ntb3MvZXZpZGVuY2UvdjFiZXRhMS9ldmlkZW5jZS5wcm90bxIXY29z",
             "bW9zLmV2aWRlbmNlLnYxYmV0YTEaFGdvZ29wcm90by9nb2dvLnByb3RvGh9n",
-            "b29nbGUvcHJvdG9idWYvdGltZXN0YW1wLnByb3RvIqgBCgxFcXVpdm9jYXRp",
-            "b24SDgoGaGVpZ2h0GAEgASgDEjIKBHRpbWUYAiABKAsyGi5nb29nbGUucHJv",
-            "dG9idWYuVGltZXN0YW1wQgjI3h8AkN8fARINCgVwb3dlchgDIAEoAxI3ChFj",
-            "b25zZW5zdXNfYWRkcmVzcxgEIAEoCUIc8t4fGHlhbWw6ImNvbnNlbnN1c19h",
-            "ZGRyZXNzIjoMmKAfAIigHwDooB8AQjNaLWdpdGh1Yi5jb20vY29zbW9zL2Nv",
-            "c21vcy1zZGsveC9ldmlkZW5jZS90eXBlc6jiHgFiBnByb3RvMw=="));
+            "b29nbGUvcHJvdG9idWYvdGltZXN0YW1wLnByb3RvGhljb3Ntb3NfcHJvdG8v",
+            "Y29zbW9zLnByb3RvIqQBCgxFcXVpdm9jYXRpb24SDgoGaGVpZ2h0GAEgASgD",
+            "EjIKBHRpbWUYAiABKAsyGi5nb29nbGUucHJvdG9idWYuVGltZXN0YW1wQgjI",
+            "3h8AkN8fARINCgVwb3dlchgDIAEoAxIzChFjb25zZW5zdXNfYWRkcmVzcxgE",
+            "IAEoCUIY0rQtFGNvc21vcy5BZGRyZXNzU3RyaW5nOgyYoB8AiKAfAOigHwBC",
+            "M1otZ2l0aHViLmNvbS9jb3Ntb3MvY29zbW9zLXNkay94L2V2aWRlbmNlL3R5",
+            "cGVzqOIeAWIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Gogoproto.GogoReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::Gogoproto.GogoReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::CosmosProto.CosmosReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Evidence.V1Beta1.Equivocation), global::Cosmos.Evidence.V1Beta1.Equivocation.Parser, new[]{ "Height", "Time", "Power", "ConsensusAddress" }, null, null, null, null)
           }));

@@ -52,6 +52,10 @@ namespace Cosmos.Params.V1Beta1 {
     static readonly grpc::Marshaller<global::Cosmos.Params.V1Beta1.QueryParamsRequest> __Marshaller_cosmos_params_v1beta1_QueryParamsRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Cosmos.Params.V1Beta1.QueryParamsRequest.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Cosmos.Params.V1Beta1.QueryParamsResponse> __Marshaller_cosmos_params_v1beta1_QueryParamsResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Cosmos.Params.V1Beta1.QueryParamsResponse.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Cosmos.Params.V1Beta1.QuerySubspacesRequest> __Marshaller_cosmos_params_v1beta1_QuerySubspacesRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Cosmos.Params.V1Beta1.QuerySubspacesRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Cosmos.Params.V1Beta1.QuerySubspacesResponse> __Marshaller_cosmos_params_v1beta1_QuerySubspacesResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Cosmos.Params.V1Beta1.QuerySubspacesResponse.Parser));
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Cosmos.Params.V1Beta1.QueryParamsRequest, global::Cosmos.Params.V1Beta1.QueryParamsResponse> __Method_Params = new grpc::Method<global::Cosmos.Params.V1Beta1.QueryParamsRequest, global::Cosmos.Params.V1Beta1.QueryParamsResponse>(
@@ -60,6 +64,14 @@ namespace Cosmos.Params.V1Beta1 {
         "Params",
         __Marshaller_cosmos_params_v1beta1_QueryParamsRequest,
         __Marshaller_cosmos_params_v1beta1_QueryParamsResponse);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Cosmos.Params.V1Beta1.QuerySubspacesRequest, global::Cosmos.Params.V1Beta1.QuerySubspacesResponse> __Method_Subspaces = new grpc::Method<global::Cosmos.Params.V1Beta1.QuerySubspacesRequest, global::Cosmos.Params.V1Beta1.QuerySubspacesResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "Subspaces",
+        __Marshaller_cosmos_params_v1beta1_QuerySubspacesRequest,
+        __Marshaller_cosmos_params_v1beta1_QuerySubspacesResponse);
 
     /// <summary>Service descriptor</summary>
     public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor
@@ -80,6 +92,20 @@ namespace Cosmos.Params.V1Beta1 {
       /// <returns>The response to send back to the client (wrapped by a task).</returns>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::System.Threading.Tasks.Task<global::Cosmos.Params.V1Beta1.QueryParamsResponse> Params(global::Cosmos.Params.V1Beta1.QueryParamsRequest request, grpc::ServerCallContext context)
+      {
+        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
+      }
+
+      /// <summary>
+      /// Subspaces queries for all registered subspaces and all keys for a subspace.
+      ///
+      /// Since: cosmos-sdk 0.46
+      /// </summary>
+      /// <param name="request">The request received from the client.</param>
+      /// <param name="context">The context of the server-side call handler being invoked.</param>
+      /// <returns>The response to send back to the client (wrapped by a task).</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::System.Threading.Tasks.Task<global::Cosmos.Params.V1Beta1.QuerySubspacesResponse> Subspaces(global::Cosmos.Params.V1Beta1.QuerySubspacesRequest request, grpc::ServerCallContext context)
       {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
       }
@@ -165,6 +191,62 @@ namespace Cosmos.Params.V1Beta1 {
       {
         return CallInvoker.AsyncUnaryCall(__Method_Params, null, options, request);
       }
+      /// <summary>
+      /// Subspaces queries for all registered subspaces and all keys for a subspace.
+      ///
+      /// Since: cosmos-sdk 0.46
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Cosmos.Params.V1Beta1.QuerySubspacesResponse Subspaces(global::Cosmos.Params.V1Beta1.QuerySubspacesRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return Subspaces(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Subspaces queries for all registered subspaces and all keys for a subspace.
+      ///
+      /// Since: cosmos-sdk 0.46
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Cosmos.Params.V1Beta1.QuerySubspacesResponse Subspaces(global::Cosmos.Params.V1Beta1.QuerySubspacesRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_Subspaces, null, options, request);
+      }
+      /// <summary>
+      /// Subspaces queries for all registered subspaces and all keys for a subspace.
+      ///
+      /// Since: cosmos-sdk 0.46
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Cosmos.Params.V1Beta1.QuerySubspacesResponse> SubspacesAsync(global::Cosmos.Params.V1Beta1.QuerySubspacesRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return SubspacesAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Subspaces queries for all registered subspaces and all keys for a subspace.
+      ///
+      /// Since: cosmos-sdk 0.46
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Cosmos.Params.V1Beta1.QuerySubspacesResponse> SubspacesAsync(global::Cosmos.Params.V1Beta1.QuerySubspacesRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_Subspaces, null, options, request);
+      }
       /// <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       protected override QueryClient NewInstance(ClientBaseConfiguration configuration)
@@ -179,7 +261,8 @@ namespace Cosmos.Params.V1Beta1 {
     public static grpc::ServerServiceDefinition BindService(QueryBase serviceImpl)
     {
       return grpc::ServerServiceDefinition.CreateBuilder()
-          .AddMethod(__Method_Params, serviceImpl.Params).Build();
+          .AddMethod(__Method_Params, serviceImpl.Params)
+          .AddMethod(__Method_Subspaces, serviceImpl.Subspaces).Build();
     }
 
     /// <summary>Register service method with a service binder with or without implementation. Useful when customizing the service binding logic.
@@ -190,6 +273,7 @@ namespace Cosmos.Params.V1Beta1 {
     public static void BindService(grpc::ServiceBinderBase serviceBinder, QueryBase serviceImpl)
     {
       serviceBinder.AddMethod(__Method_Params, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Cosmos.Params.V1Beta1.QueryParamsRequest, global::Cosmos.Params.V1Beta1.QueryParamsResponse>(serviceImpl.Params));
+      serviceBinder.AddMethod(__Method_Subspaces, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Cosmos.Params.V1Beta1.QuerySubspacesRequest, global::Cosmos.Params.V1Beta1.QuerySubspacesResponse>(serviceImpl.Subspaces));
     }
 
   }

@@ -26,23 +26,47 @@ namespace Cosmos.Vesting.V1Beta1 {
           string.Concat(
             "Ch9jb3Ntb3MvdmVzdGluZy92MWJldGExL3R4LnByb3RvEhZjb3Ntb3MudmVz",
             "dGluZy52MWJldGExGhRnb2dvcHJvdG8vZ29nby5wcm90bxoeY29zbW9zL2Jh",
-            "c2UvdjFiZXRhMS9jb2luLnByb3RvIo4CChdNc2dDcmVhdGVWZXN0aW5nQWNj",
-            "b3VudBItCgxmcm9tX2FkZHJlc3MYASABKAlCF/LeHxN5YW1sOiJmcm9tX2Fk",
-            "ZHJlc3MiEikKCnRvX2FkZHJlc3MYAiABKAlCFfLeHxF5YW1sOiJ0b19hZGRy",
-            "ZXNzIhJbCgZhbW91bnQYAyADKAsyGS5jb3Ntb3MuYmFzZS52MWJldGExLkNv",
-            "aW5CMMjeHwCq3x8oZ2l0aHViLmNvbS9jb3Ntb3MvY29zbW9zLXNkay90eXBl",
-            "cy5Db2lucxIlCghlbmRfdGltZRgEIAEoA0IT8t4fD3lhbWw6ImVuZF90aW1l",
-            "IhIPCgdkZWxheWVkGAUgASgIOgTooB8BIiEKH01zZ0NyZWF0ZVZlc3RpbmdB",
-            "Y2NvdW50UmVzcG9uc2UyiAEKA01zZxKAAQoUQ3JlYXRlVmVzdGluZ0FjY291",
+            "c2UvdjFiZXRhMS9jb2luLnByb3RvGhljb3Ntb3NfcHJvdG8vY29zbW9zLnBy",
+            "b3RvGiRjb3Ntb3MvdmVzdGluZy92MWJldGExL3Zlc3RpbmcucHJvdG8aF2Nv",
+            "c21vcy9tc2cvdjEvbXNnLnByb3RvIo4CChdNc2dDcmVhdGVWZXN0aW5nQWNj",
+            "b3VudBIuCgxmcm9tX2FkZHJlc3MYASABKAlCGNK0LRRjb3Ntb3MuQWRkcmVz",
+            "c1N0cmluZxIsCgp0b19hZGRyZXNzGAIgASgJQhjStC0UY29zbW9zLkFkZHJl",
+            "c3NTdHJpbmcSWwoGYW1vdW50GAMgAygLMhkuY29zbW9zLmJhc2UudjFiZXRh",
+            "MS5Db2luQjDI3h8Aqt8fKGdpdGh1Yi5jb20vY29zbW9zL2Nvc21vcy1zZGsv",
+            "dHlwZXMuQ29pbnMSEAoIZW5kX3RpbWUYBCABKAMSDwoHZGVsYXllZBgFIAEo",
+            "CDoVguewKgxmcm9tX2FkZHJlc3PooB8BIiEKH01zZ0NyZWF0ZVZlc3RpbmdB",
+            "Y2NvdW50UmVzcG9uc2Ui3gEKH01zZ0NyZWF0ZVBlcm1hbmVudExvY2tlZEFj",
+            "Y291bnQSLQoMZnJvbV9hZGRyZXNzGAEgASgJQhfy3h8TeWFtbDoiZnJvbV9h",
+            "ZGRyZXNzIhIpCgp0b19hZGRyZXNzGAIgASgJQhXy3h8ReWFtbDoidG9fYWRk",
+            "cmVzcyISWwoGYW1vdW50GAMgAygLMhkuY29zbW9zLmJhc2UudjFiZXRhMS5D",
+            "b2luQjDI3h8Aqt8fKGdpdGh1Yi5jb20vY29zbW9zL2Nvc21vcy1zZGsvdHlw",
+            "ZXMuQ29pbnM6BOigHwEiKQonTXNnQ3JlYXRlUGVybWFuZW50TG9ja2VkQWNj",
+            "b3VudFJlc3BvbnNlIrUBCh9Nc2dDcmVhdGVQZXJpb2RpY1Zlc3RpbmdBY2Nv",
+            "dW50EhQKDGZyb21fYWRkcmVzcxgBIAEoCRISCgp0b19hZGRyZXNzGAIgASgJ",
+            "EhIKCnN0YXJ0X3RpbWUYAyABKAMSPQoPdmVzdGluZ19wZXJpb2RzGAQgAygL",
+            "Mh4uY29zbW9zLnZlc3RpbmcudjFiZXRhMS5QZXJpb2RCBMjeHwA6FYLnsCoM",
+            "ZnJvbV9hZGRyZXNz6KAfACIpCidNc2dDcmVhdGVQZXJpb2RpY1Zlc3RpbmdB",
+            "Y2NvdW50UmVzcG9uc2UyvgMKA01zZxKAAQoUQ3JlYXRlVmVzdGluZ0FjY291",
             "bnQSLy5jb3Ntb3MudmVzdGluZy52MWJldGExLk1zZ0NyZWF0ZVZlc3RpbmdB",
             "Y2NvdW50GjcuY29zbW9zLnZlc3RpbmcudjFiZXRhMS5Nc2dDcmVhdGVWZXN0",
-            "aW5nQWNjb3VudFJlc3BvbnNlQjNaMWdpdGh1Yi5jb20vY29zbW9zL2Nvc21v",
-            "cy1zZGsveC9hdXRoL3Zlc3RpbmcvdHlwZXNiBnByb3RvMw=="));
+            "aW5nQWNjb3VudFJlc3BvbnNlEpgBChxDcmVhdGVQZXJtYW5lbnRMb2NrZWRB",
+            "Y2NvdW50EjcuY29zbW9zLnZlc3RpbmcudjFiZXRhMS5Nc2dDcmVhdGVQZXJt",
+            "YW5lbnRMb2NrZWRBY2NvdW50Gj8uY29zbW9zLnZlc3RpbmcudjFiZXRhMS5N",
+            "c2dDcmVhdGVQZXJtYW5lbnRMb2NrZWRBY2NvdW50UmVzcG9uc2USmAEKHENy",
+            "ZWF0ZVBlcmlvZGljVmVzdGluZ0FjY291bnQSNy5jb3Ntb3MudmVzdGluZy52",
+            "MWJldGExLk1zZ0NyZWF0ZVBlcmlvZGljVmVzdGluZ0FjY291bnQaPy5jb3Nt",
+            "b3MudmVzdGluZy52MWJldGExLk1zZ0NyZWF0ZVBlcmlvZGljVmVzdGluZ0Fj",
+            "Y291bnRSZXNwb25zZUIzWjFnaXRodWIuY29tL2Nvc21vcy9jb3Ntb3Mtc2Rr",
+            "L3gvYXV0aC92ZXN0aW5nL3R5cGVzYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Gogoproto.GogoReflection.Descriptor, global::Cosmos.Base.V1Beta1.CoinReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::Gogoproto.GogoReflection.Descriptor, global::Cosmos.Base.V1Beta1.CoinReflection.Descriptor, global::CosmosProto.CosmosReflection.Descriptor, global::Cosmos.Vesting.V1Beta1.VestingReflection.Descriptor, global::Cosmos.Msg.V1.MsgReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Vesting.V1Beta1.MsgCreateVestingAccount), global::Cosmos.Vesting.V1Beta1.MsgCreateVestingAccount.Parser, new[]{ "FromAddress", "ToAddress", "Amount", "EndTime", "Delayed" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Vesting.V1Beta1.MsgCreateVestingAccountResponse), global::Cosmos.Vesting.V1Beta1.MsgCreateVestingAccountResponse.Parser, null, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Vesting.V1Beta1.MsgCreateVestingAccountResponse), global::Cosmos.Vesting.V1Beta1.MsgCreateVestingAccountResponse.Parser, null, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Vesting.V1Beta1.MsgCreatePermanentLockedAccount), global::Cosmos.Vesting.V1Beta1.MsgCreatePermanentLockedAccount.Parser, new[]{ "FromAddress", "ToAddress", "Amount" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Vesting.V1Beta1.MsgCreatePermanentLockedAccountResponse), global::Cosmos.Vesting.V1Beta1.MsgCreatePermanentLockedAccountResponse.Parser, null, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Vesting.V1Beta1.MsgCreatePeriodicVestingAccount), global::Cosmos.Vesting.V1Beta1.MsgCreatePeriodicVestingAccount.Parser, new[]{ "FromAddress", "ToAddress", "StartTime", "VestingPeriods" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Vesting.V1Beta1.MsgCreatePeriodicVestingAccountResponse), global::Cosmos.Vesting.V1Beta1.MsgCreatePeriodicVestingAccountResponse.Parser, null, null, null, null, null)
           }));
     }
     #endregion
@@ -494,6 +518,874 @@ namespace Cosmos.Vesting.V1Beta1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(MsgCreateVestingAccountResponse other) {
+      if (other == null) {
+        return;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// MsgCreatePermanentLockedAccount defines a message that enables creating a permanent
+  /// locked account.
+  ///
+  /// Since: cosmos-sdk 0.46
+  /// </summary>
+  public sealed partial class MsgCreatePermanentLockedAccount : pb::IMessage<MsgCreatePermanentLockedAccount>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<MsgCreatePermanentLockedAccount> _parser = new pb::MessageParser<MsgCreatePermanentLockedAccount>(() => new MsgCreatePermanentLockedAccount());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<MsgCreatePermanentLockedAccount> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Cosmos.Vesting.V1Beta1.TxReflection.Descriptor.MessageTypes[2]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public MsgCreatePermanentLockedAccount() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public MsgCreatePermanentLockedAccount(MsgCreatePermanentLockedAccount other) : this() {
+      fromAddress_ = other.fromAddress_;
+      toAddress_ = other.toAddress_;
+      amount_ = other.amount_.Clone();
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public MsgCreatePermanentLockedAccount Clone() {
+      return new MsgCreatePermanentLockedAccount(this);
+    }
+
+    /// <summary>Field number for the "from_address" field.</summary>
+    public const int FromAddressFieldNumber = 1;
+    private string fromAddress_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string FromAddress {
+      get { return fromAddress_; }
+      set {
+        fromAddress_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "to_address" field.</summary>
+    public const int ToAddressFieldNumber = 2;
+    private string toAddress_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string ToAddress {
+      get { return toAddress_; }
+      set {
+        toAddress_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "amount" field.</summary>
+    public const int AmountFieldNumber = 3;
+    private static readonly pb::FieldCodec<global::Cosmos.Base.V1Beta1.Coin> _repeated_amount_codec
+        = pb::FieldCodec.ForMessage(26, global::Cosmos.Base.V1Beta1.Coin.Parser);
+    private readonly pbc::RepeatedField<global::Cosmos.Base.V1Beta1.Coin> amount_ = new pbc::RepeatedField<global::Cosmos.Base.V1Beta1.Coin>();
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pbc::RepeatedField<global::Cosmos.Base.V1Beta1.Coin> Amount {
+      get { return amount_; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as MsgCreatePermanentLockedAccount);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(MsgCreatePermanentLockedAccount other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (FromAddress != other.FromAddress) return false;
+      if (ToAddress != other.ToAddress) return false;
+      if(!amount_.Equals(other.amount_)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (FromAddress.Length != 0) hash ^= FromAddress.GetHashCode();
+      if (ToAddress.Length != 0) hash ^= ToAddress.GetHashCode();
+      hash ^= amount_.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (FromAddress.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(FromAddress);
+      }
+      if (ToAddress.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(ToAddress);
+      }
+      amount_.WriteTo(output, _repeated_amount_codec);
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (FromAddress.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(FromAddress);
+      }
+      if (ToAddress.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(ToAddress);
+      }
+      amount_.WriteTo(ref output, _repeated_amount_codec);
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (FromAddress.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(FromAddress);
+      }
+      if (ToAddress.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ToAddress);
+      }
+      size += amount_.CalculateSize(_repeated_amount_codec);
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(MsgCreatePermanentLockedAccount other) {
+      if (other == null) {
+        return;
+      }
+      if (other.FromAddress.Length != 0) {
+        FromAddress = other.FromAddress;
+      }
+      if (other.ToAddress.Length != 0) {
+        ToAddress = other.ToAddress;
+      }
+      amount_.Add(other.amount_);
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            FromAddress = input.ReadString();
+            break;
+          }
+          case 18: {
+            ToAddress = input.ReadString();
+            break;
+          }
+          case 26: {
+            amount_.AddEntriesFrom(input, _repeated_amount_codec);
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            FromAddress = input.ReadString();
+            break;
+          }
+          case 18: {
+            ToAddress = input.ReadString();
+            break;
+          }
+          case 26: {
+            amount_.AddEntriesFrom(ref input, _repeated_amount_codec);
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// MsgCreatePermanentLockedAccountResponse defines the Msg/CreatePermanentLockedAccount response type.
+  ///
+  /// Since: cosmos-sdk 0.46
+  /// </summary>
+  public sealed partial class MsgCreatePermanentLockedAccountResponse : pb::IMessage<MsgCreatePermanentLockedAccountResponse>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<MsgCreatePermanentLockedAccountResponse> _parser = new pb::MessageParser<MsgCreatePermanentLockedAccountResponse>(() => new MsgCreatePermanentLockedAccountResponse());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<MsgCreatePermanentLockedAccountResponse> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Cosmos.Vesting.V1Beta1.TxReflection.Descriptor.MessageTypes[3]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public MsgCreatePermanentLockedAccountResponse() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public MsgCreatePermanentLockedAccountResponse(MsgCreatePermanentLockedAccountResponse other) : this() {
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public MsgCreatePermanentLockedAccountResponse Clone() {
+      return new MsgCreatePermanentLockedAccountResponse(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as MsgCreatePermanentLockedAccountResponse);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(MsgCreatePermanentLockedAccountResponse other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(MsgCreatePermanentLockedAccountResponse other) {
+      if (other == null) {
+        return;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// MsgCreateVestingAccount defines a message that enables creating a vesting
+  /// account.
+  ///
+  /// Since: cosmos-sdk 0.46
+  /// </summary>
+  public sealed partial class MsgCreatePeriodicVestingAccount : pb::IMessage<MsgCreatePeriodicVestingAccount>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<MsgCreatePeriodicVestingAccount> _parser = new pb::MessageParser<MsgCreatePeriodicVestingAccount>(() => new MsgCreatePeriodicVestingAccount());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<MsgCreatePeriodicVestingAccount> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Cosmos.Vesting.V1Beta1.TxReflection.Descriptor.MessageTypes[4]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public MsgCreatePeriodicVestingAccount() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public MsgCreatePeriodicVestingAccount(MsgCreatePeriodicVestingAccount other) : this() {
+      fromAddress_ = other.fromAddress_;
+      toAddress_ = other.toAddress_;
+      startTime_ = other.startTime_;
+      vestingPeriods_ = other.vestingPeriods_.Clone();
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public MsgCreatePeriodicVestingAccount Clone() {
+      return new MsgCreatePeriodicVestingAccount(this);
+    }
+
+    /// <summary>Field number for the "from_address" field.</summary>
+    public const int FromAddressFieldNumber = 1;
+    private string fromAddress_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string FromAddress {
+      get { return fromAddress_; }
+      set {
+        fromAddress_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "to_address" field.</summary>
+    public const int ToAddressFieldNumber = 2;
+    private string toAddress_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string ToAddress {
+      get { return toAddress_; }
+      set {
+        toAddress_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "start_time" field.</summary>
+    public const int StartTimeFieldNumber = 3;
+    private long startTime_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public long StartTime {
+      get { return startTime_; }
+      set {
+        startTime_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "vesting_periods" field.</summary>
+    public const int VestingPeriodsFieldNumber = 4;
+    private static readonly pb::FieldCodec<global::Cosmos.Vesting.V1Beta1.Period> _repeated_vestingPeriods_codec
+        = pb::FieldCodec.ForMessage(34, global::Cosmos.Vesting.V1Beta1.Period.Parser);
+    private readonly pbc::RepeatedField<global::Cosmos.Vesting.V1Beta1.Period> vestingPeriods_ = new pbc::RepeatedField<global::Cosmos.Vesting.V1Beta1.Period>();
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pbc::RepeatedField<global::Cosmos.Vesting.V1Beta1.Period> VestingPeriods {
+      get { return vestingPeriods_; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as MsgCreatePeriodicVestingAccount);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(MsgCreatePeriodicVestingAccount other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (FromAddress != other.FromAddress) return false;
+      if (ToAddress != other.ToAddress) return false;
+      if (StartTime != other.StartTime) return false;
+      if(!vestingPeriods_.Equals(other.vestingPeriods_)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (FromAddress.Length != 0) hash ^= FromAddress.GetHashCode();
+      if (ToAddress.Length != 0) hash ^= ToAddress.GetHashCode();
+      if (StartTime != 0L) hash ^= StartTime.GetHashCode();
+      hash ^= vestingPeriods_.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (FromAddress.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(FromAddress);
+      }
+      if (ToAddress.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(ToAddress);
+      }
+      if (StartTime != 0L) {
+        output.WriteRawTag(24);
+        output.WriteInt64(StartTime);
+      }
+      vestingPeriods_.WriteTo(output, _repeated_vestingPeriods_codec);
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (FromAddress.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(FromAddress);
+      }
+      if (ToAddress.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(ToAddress);
+      }
+      if (StartTime != 0L) {
+        output.WriteRawTag(24);
+        output.WriteInt64(StartTime);
+      }
+      vestingPeriods_.WriteTo(ref output, _repeated_vestingPeriods_codec);
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (FromAddress.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(FromAddress);
+      }
+      if (ToAddress.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ToAddress);
+      }
+      if (StartTime != 0L) {
+        size += 1 + pb::CodedOutputStream.ComputeInt64Size(StartTime);
+      }
+      size += vestingPeriods_.CalculateSize(_repeated_vestingPeriods_codec);
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(MsgCreatePeriodicVestingAccount other) {
+      if (other == null) {
+        return;
+      }
+      if (other.FromAddress.Length != 0) {
+        FromAddress = other.FromAddress;
+      }
+      if (other.ToAddress.Length != 0) {
+        ToAddress = other.ToAddress;
+      }
+      if (other.StartTime != 0L) {
+        StartTime = other.StartTime;
+      }
+      vestingPeriods_.Add(other.vestingPeriods_);
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            FromAddress = input.ReadString();
+            break;
+          }
+          case 18: {
+            ToAddress = input.ReadString();
+            break;
+          }
+          case 24: {
+            StartTime = input.ReadInt64();
+            break;
+          }
+          case 34: {
+            vestingPeriods_.AddEntriesFrom(input, _repeated_vestingPeriods_codec);
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            FromAddress = input.ReadString();
+            break;
+          }
+          case 18: {
+            ToAddress = input.ReadString();
+            break;
+          }
+          case 24: {
+            StartTime = input.ReadInt64();
+            break;
+          }
+          case 34: {
+            vestingPeriods_.AddEntriesFrom(ref input, _repeated_vestingPeriods_codec);
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// MsgCreateVestingAccountResponse defines the Msg/CreatePeriodicVestingAccount
+  /// response type.
+  ///
+  /// Since: cosmos-sdk 0.46
+  /// </summary>
+  public sealed partial class MsgCreatePeriodicVestingAccountResponse : pb::IMessage<MsgCreatePeriodicVestingAccountResponse>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<MsgCreatePeriodicVestingAccountResponse> _parser = new pb::MessageParser<MsgCreatePeriodicVestingAccountResponse>(() => new MsgCreatePeriodicVestingAccountResponse());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<MsgCreatePeriodicVestingAccountResponse> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Cosmos.Vesting.V1Beta1.TxReflection.Descriptor.MessageTypes[5]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public MsgCreatePeriodicVestingAccountResponse() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public MsgCreatePeriodicVestingAccountResponse(MsgCreatePeriodicVestingAccountResponse other) : this() {
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public MsgCreatePeriodicVestingAccountResponse Clone() {
+      return new MsgCreatePeriodicVestingAccountResponse(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as MsgCreatePeriodicVestingAccountResponse);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(MsgCreatePeriodicVestingAccountResponse other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(MsgCreatePeriodicVestingAccountResponse other) {
       if (other == null) {
         return;
       }

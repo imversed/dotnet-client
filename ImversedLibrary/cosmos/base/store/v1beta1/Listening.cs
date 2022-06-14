@@ -43,6 +43,8 @@ namespace Cosmos.Base.Store.V1Beta1 {
   /// StoreKVPair is a KVStore KVPair used for listening to state changes (Sets and Deletes)
   /// It optionally includes the StoreKey for the originating KVStore and a Boolean flag to distinguish between Sets and
   /// Deletes
+  ///
+  /// Since: cosmos-sdk 0.43
   /// </summary>
   public sealed partial class StoreKVPair : pb::IMessage<StoreKVPair>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE

@@ -31,13 +31,21 @@ namespace Cosmos.Authz.V1Beta1 {
             "b3JpemF0aW9uEgsKA21zZxgBIAEoCToRyrQtDUF1dGhvcml6YXRpb24igQEK",
             "BUdyYW50Ej4KDWF1dGhvcml6YXRpb24YASABKAsyFC5nb29nbGUucHJvdG9i",
             "dWYuQW55QhHKtC0NQXV0aG9yaXphdGlvbhI4CgpleHBpcmF0aW9uGAIgASgL",
-            "MhouZ29vZ2xlLnByb3RvYnVmLlRpbWVzdGFtcEIIkN8fAcjeHwBCKlokZ2l0",
-            "aHViLmNvbS9jb3Ntb3MvY29zbW9zLXNkay94L2F1dGh6yOEeAGIGcHJvdG8z"));
+            "MhouZ29vZ2xlLnByb3RvYnVmLlRpbWVzdGFtcEIIkN8fAcjeHwEi4AEKEkdy",
+            "YW50QXV0aG9yaXphdGlvbhIpCgdncmFudGVyGAEgASgJQhjStC0UY29zbW9z",
+            "LkFkZHJlc3NTdHJpbmcSKQoHZ3JhbnRlZRgCIAEoCUIY0rQtFGNvc21vcy5B",
+            "ZGRyZXNzU3RyaW5nEj4KDWF1dGhvcml6YXRpb24YAyABKAsyFC5nb29nbGUu",
+            "cHJvdG9idWYuQW55QhHKtC0NQXV0aG9yaXphdGlvbhI0CgpleHBpcmF0aW9u",
+            "GAQgASgLMhouZ29vZ2xlLnByb3RvYnVmLlRpbWVzdGFtcEIEkN8fASInCg5H",
+            "cmFudFF1ZXVlSXRlbRIVCg1tc2dfdHlwZV91cmxzGAEgAygJQipaJGdpdGh1",
+            "Yi5jb20vY29zbW9zL2Nvc21vcy1zZGsveC9hdXRoesjhHgBiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::CosmosProto.CosmosReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Gogoproto.GogoReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.AnyReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Authz.V1Beta1.GenericAuthorization), global::Cosmos.Authz.V1Beta1.GenericAuthorization.Parser, new[]{ "Msg" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Authz.V1Beta1.Grant), global::Cosmos.Authz.V1Beta1.Grant.Parser, new[]{ "Authorization", "Expiration" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Authz.V1Beta1.Grant), global::Cosmos.Authz.V1Beta1.Grant.Parser, new[]{ "Authorization", "Expiration" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Authz.V1Beta1.GrantAuthorization), global::Cosmos.Authz.V1Beta1.GrantAuthorization.Parser, new[]{ "Granter", "Grantee", "Authorization", "Expiration" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Authz.V1Beta1.GrantQueueItem), global::Cosmos.Authz.V1Beta1.GrantQueueItem.Parser, new[]{ "MsgTypeUrls" }, null, null, null, null)
           }));
     }
     #endregion
@@ -304,6 +312,11 @@ namespace Cosmos.Authz.V1Beta1 {
     /// <summary>Field number for the "expiration" field.</summary>
     public const int ExpirationFieldNumber = 2;
     private global::Google.Protobuf.WellKnownTypes.Timestamp expiration_;
+    /// <summary>
+    /// time when the grant will expire and will be pruned. If null, then the grant
+    /// doesn't have a time expiration (other conditions  in `authorization`
+    /// may apply to invalidate the grant)
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::Google.Protobuf.WellKnownTypes.Timestamp Expiration {
@@ -479,6 +492,512 @@ namespace Cosmos.Authz.V1Beta1 {
               Expiration = new global::Google.Protobuf.WellKnownTypes.Timestamp();
             }
             input.ReadMessage(Expiration);
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// GrantAuthorization extends a grant with both the addresses of the grantee and granter.
+  /// It is used in genesis.proto and query.proto
+  /// </summary>
+  public sealed partial class GrantAuthorization : pb::IMessage<GrantAuthorization>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<GrantAuthorization> _parser = new pb::MessageParser<GrantAuthorization>(() => new GrantAuthorization());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<GrantAuthorization> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Cosmos.Authz.V1Beta1.AuthzReflection.Descriptor.MessageTypes[2]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public GrantAuthorization() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public GrantAuthorization(GrantAuthorization other) : this() {
+      granter_ = other.granter_;
+      grantee_ = other.grantee_;
+      authorization_ = other.authorization_ != null ? other.authorization_.Clone() : null;
+      expiration_ = other.expiration_ != null ? other.expiration_.Clone() : null;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public GrantAuthorization Clone() {
+      return new GrantAuthorization(this);
+    }
+
+    /// <summary>Field number for the "granter" field.</summary>
+    public const int GranterFieldNumber = 1;
+    private string granter_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string Granter {
+      get { return granter_; }
+      set {
+        granter_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "grantee" field.</summary>
+    public const int GranteeFieldNumber = 2;
+    private string grantee_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string Grantee {
+      get { return grantee_; }
+      set {
+        grantee_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "authorization" field.</summary>
+    public const int AuthorizationFieldNumber = 3;
+    private global::Google.Protobuf.WellKnownTypes.Any authorization_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Google.Protobuf.WellKnownTypes.Any Authorization {
+      get { return authorization_; }
+      set {
+        authorization_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "expiration" field.</summary>
+    public const int ExpirationFieldNumber = 4;
+    private global::Google.Protobuf.WellKnownTypes.Timestamp expiration_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Google.Protobuf.WellKnownTypes.Timestamp Expiration {
+      get { return expiration_; }
+      set {
+        expiration_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as GrantAuthorization);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(GrantAuthorization other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Granter != other.Granter) return false;
+      if (Grantee != other.Grantee) return false;
+      if (!object.Equals(Authorization, other.Authorization)) return false;
+      if (!object.Equals(Expiration, other.Expiration)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Granter.Length != 0) hash ^= Granter.GetHashCode();
+      if (Grantee.Length != 0) hash ^= Grantee.GetHashCode();
+      if (authorization_ != null) hash ^= Authorization.GetHashCode();
+      if (expiration_ != null) hash ^= Expiration.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (Granter.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Granter);
+      }
+      if (Grantee.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(Grantee);
+      }
+      if (authorization_ != null) {
+        output.WriteRawTag(26);
+        output.WriteMessage(Authorization);
+      }
+      if (expiration_ != null) {
+        output.WriteRawTag(34);
+        output.WriteMessage(Expiration);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (Granter.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Granter);
+      }
+      if (Grantee.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(Grantee);
+      }
+      if (authorization_ != null) {
+        output.WriteRawTag(26);
+        output.WriteMessage(Authorization);
+      }
+      if (expiration_ != null) {
+        output.WriteRawTag(34);
+        output.WriteMessage(Expiration);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (Granter.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Granter);
+      }
+      if (Grantee.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Grantee);
+      }
+      if (authorization_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Authorization);
+      }
+      if (expiration_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Expiration);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(GrantAuthorization other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Granter.Length != 0) {
+        Granter = other.Granter;
+      }
+      if (other.Grantee.Length != 0) {
+        Grantee = other.Grantee;
+      }
+      if (other.authorization_ != null) {
+        if (authorization_ == null) {
+          Authorization = new global::Google.Protobuf.WellKnownTypes.Any();
+        }
+        Authorization.MergeFrom(other.Authorization);
+      }
+      if (other.expiration_ != null) {
+        if (expiration_ == null) {
+          Expiration = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+        }
+        Expiration.MergeFrom(other.Expiration);
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            Granter = input.ReadString();
+            break;
+          }
+          case 18: {
+            Grantee = input.ReadString();
+            break;
+          }
+          case 26: {
+            if (authorization_ == null) {
+              Authorization = new global::Google.Protobuf.WellKnownTypes.Any();
+            }
+            input.ReadMessage(Authorization);
+            break;
+          }
+          case 34: {
+            if (expiration_ == null) {
+              Expiration = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+            }
+            input.ReadMessage(Expiration);
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            Granter = input.ReadString();
+            break;
+          }
+          case 18: {
+            Grantee = input.ReadString();
+            break;
+          }
+          case 26: {
+            if (authorization_ == null) {
+              Authorization = new global::Google.Protobuf.WellKnownTypes.Any();
+            }
+            input.ReadMessage(Authorization);
+            break;
+          }
+          case 34: {
+            if (expiration_ == null) {
+              Expiration = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+            }
+            input.ReadMessage(Expiration);
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// GrantQueueItem contains the list of TypeURL of a sdk.Msg.
+  /// </summary>
+  public sealed partial class GrantQueueItem : pb::IMessage<GrantQueueItem>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<GrantQueueItem> _parser = new pb::MessageParser<GrantQueueItem>(() => new GrantQueueItem());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<GrantQueueItem> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Cosmos.Authz.V1Beta1.AuthzReflection.Descriptor.MessageTypes[3]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public GrantQueueItem() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public GrantQueueItem(GrantQueueItem other) : this() {
+      msgTypeUrls_ = other.msgTypeUrls_.Clone();
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public GrantQueueItem Clone() {
+      return new GrantQueueItem(this);
+    }
+
+    /// <summary>Field number for the "msg_type_urls" field.</summary>
+    public const int MsgTypeUrlsFieldNumber = 1;
+    private static readonly pb::FieldCodec<string> _repeated_msgTypeUrls_codec
+        = pb::FieldCodec.ForString(10);
+    private readonly pbc::RepeatedField<string> msgTypeUrls_ = new pbc::RepeatedField<string>();
+    /// <summary>
+    /// msg_type_urls contains the list of TypeURL of a sdk.Msg.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pbc::RepeatedField<string> MsgTypeUrls {
+      get { return msgTypeUrls_; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as GrantQueueItem);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(GrantQueueItem other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if(!msgTypeUrls_.Equals(other.msgTypeUrls_)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      hash ^= msgTypeUrls_.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      msgTypeUrls_.WriteTo(output, _repeated_msgTypeUrls_codec);
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      msgTypeUrls_.WriteTo(ref output, _repeated_msgTypeUrls_codec);
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      size += msgTypeUrls_.CalculateSize(_repeated_msgTypeUrls_codec);
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(GrantQueueItem other) {
+      if (other == null) {
+        return;
+      }
+      msgTypeUrls_.Add(other.msgTypeUrls_);
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            msgTypeUrls_.AddEntriesFrom(input, _repeated_msgTypeUrls_codec);
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            msgTypeUrls_.AddEntriesFrom(ref input, _repeated_msgTypeUrls_codec);
             break;
           }
         }

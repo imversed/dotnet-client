@@ -64,6 +64,10 @@ namespace Cosmos.Upgrade.V1Beta1 {
     static readonly grpc::Marshaller<global::Cosmos.Upgrade.V1Beta1.QueryModuleVersionsRequest> __Marshaller_cosmos_upgrade_v1beta1_QueryModuleVersionsRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Cosmos.Upgrade.V1Beta1.QueryModuleVersionsRequest.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Cosmos.Upgrade.V1Beta1.QueryModuleVersionsResponse> __Marshaller_cosmos_upgrade_v1beta1_QueryModuleVersionsResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Cosmos.Upgrade.V1Beta1.QueryModuleVersionsResponse.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Cosmos.Upgrade.V1Beta1.QueryAuthorityRequest> __Marshaller_cosmos_upgrade_v1beta1_QueryAuthorityRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Cosmos.Upgrade.V1Beta1.QueryAuthorityRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Cosmos.Upgrade.V1Beta1.QueryAuthorityResponse> __Marshaller_cosmos_upgrade_v1beta1_QueryAuthorityResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Cosmos.Upgrade.V1Beta1.QueryAuthorityResponse.Parser));
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Cosmos.Upgrade.V1Beta1.QueryCurrentPlanRequest, global::Cosmos.Upgrade.V1Beta1.QueryCurrentPlanResponse> __Method_CurrentPlan = new grpc::Method<global::Cosmos.Upgrade.V1Beta1.QueryCurrentPlanRequest, global::Cosmos.Upgrade.V1Beta1.QueryCurrentPlanResponse>(
@@ -96,6 +100,14 @@ namespace Cosmos.Upgrade.V1Beta1 {
         "ModuleVersions",
         __Marshaller_cosmos_upgrade_v1beta1_QueryModuleVersionsRequest,
         __Marshaller_cosmos_upgrade_v1beta1_QueryModuleVersionsResponse);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Cosmos.Upgrade.V1Beta1.QueryAuthorityRequest, global::Cosmos.Upgrade.V1Beta1.QueryAuthorityResponse> __Method_Authority = new grpc::Method<global::Cosmos.Upgrade.V1Beta1.QueryAuthorityRequest, global::Cosmos.Upgrade.V1Beta1.QueryAuthorityResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "Authority",
+        __Marshaller_cosmos_upgrade_v1beta1_QueryAuthorityRequest,
+        __Marshaller_cosmos_upgrade_v1beta1_QueryAuthorityResponse);
 
     /// <summary>Service descriptor</summary>
     public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor
@@ -150,12 +162,28 @@ namespace Cosmos.Upgrade.V1Beta1 {
 
       /// <summary>
       /// ModuleVersions queries the list of module versions from state.
+      ///
+      /// Since: cosmos-sdk 0.43
       /// </summary>
       /// <param name="request">The request received from the client.</param>
       /// <param name="context">The context of the server-side call handler being invoked.</param>
       /// <returns>The response to send back to the client (wrapped by a task).</returns>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::System.Threading.Tasks.Task<global::Cosmos.Upgrade.V1Beta1.QueryModuleVersionsResponse> ModuleVersions(global::Cosmos.Upgrade.V1Beta1.QueryModuleVersionsRequest request, grpc::ServerCallContext context)
+      {
+        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
+      }
+
+      /// <summary>
+      /// Returns the account with authority to conduct upgrades
+      ///
+      /// Since: cosmos-sdk 0.46
+      /// </summary>
+      /// <param name="request">The request received from the client.</param>
+      /// <param name="context">The context of the server-side call handler being invoked.</param>
+      /// <returns>The response to send back to the client (wrapped by a task).</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::System.Threading.Tasks.Task<global::Cosmos.Upgrade.V1Beta1.QueryAuthorityResponse> Authority(global::Cosmos.Upgrade.V1Beta1.QueryAuthorityRequest request, grpc::ServerCallContext context)
       {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
       }
@@ -355,6 +383,8 @@ namespace Cosmos.Upgrade.V1Beta1 {
       }
       /// <summary>
       /// ModuleVersions queries the list of module versions from state.
+      ///
+      /// Since: cosmos-sdk 0.43
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
@@ -368,6 +398,8 @@ namespace Cosmos.Upgrade.V1Beta1 {
       }
       /// <summary>
       /// ModuleVersions queries the list of module versions from state.
+      ///
+      /// Since: cosmos-sdk 0.43
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
@@ -379,6 +411,8 @@ namespace Cosmos.Upgrade.V1Beta1 {
       }
       /// <summary>
       /// ModuleVersions queries the list of module versions from state.
+      ///
+      /// Since: cosmos-sdk 0.43
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
@@ -392,6 +426,8 @@ namespace Cosmos.Upgrade.V1Beta1 {
       }
       /// <summary>
       /// ModuleVersions queries the list of module versions from state.
+      ///
+      /// Since: cosmos-sdk 0.43
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
@@ -400,6 +436,62 @@ namespace Cosmos.Upgrade.V1Beta1 {
       public virtual grpc::AsyncUnaryCall<global::Cosmos.Upgrade.V1Beta1.QueryModuleVersionsResponse> ModuleVersionsAsync(global::Cosmos.Upgrade.V1Beta1.QueryModuleVersionsRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_ModuleVersions, null, options, request);
+      }
+      /// <summary>
+      /// Returns the account with authority to conduct upgrades
+      ///
+      /// Since: cosmos-sdk 0.46
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Cosmos.Upgrade.V1Beta1.QueryAuthorityResponse Authority(global::Cosmos.Upgrade.V1Beta1.QueryAuthorityRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return Authority(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Returns the account with authority to conduct upgrades
+      ///
+      /// Since: cosmos-sdk 0.46
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Cosmos.Upgrade.V1Beta1.QueryAuthorityResponse Authority(global::Cosmos.Upgrade.V1Beta1.QueryAuthorityRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_Authority, null, options, request);
+      }
+      /// <summary>
+      /// Returns the account with authority to conduct upgrades
+      ///
+      /// Since: cosmos-sdk 0.46
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Cosmos.Upgrade.V1Beta1.QueryAuthorityResponse> AuthorityAsync(global::Cosmos.Upgrade.V1Beta1.QueryAuthorityRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return AuthorityAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Returns the account with authority to conduct upgrades
+      ///
+      /// Since: cosmos-sdk 0.46
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Cosmos.Upgrade.V1Beta1.QueryAuthorityResponse> AuthorityAsync(global::Cosmos.Upgrade.V1Beta1.QueryAuthorityRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_Authority, null, options, request);
       }
       /// <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
@@ -418,7 +510,8 @@ namespace Cosmos.Upgrade.V1Beta1 {
           .AddMethod(__Method_CurrentPlan, serviceImpl.CurrentPlan)
           .AddMethod(__Method_AppliedPlan, serviceImpl.AppliedPlan)
           .AddMethod(__Method_UpgradedConsensusState, serviceImpl.UpgradedConsensusState)
-          .AddMethod(__Method_ModuleVersions, serviceImpl.ModuleVersions).Build();
+          .AddMethod(__Method_ModuleVersions, serviceImpl.ModuleVersions)
+          .AddMethod(__Method_Authority, serviceImpl.Authority).Build();
     }
 
     /// <summary>Register service method with a service binder with or without implementation. Useful when customizing the service binding logic.
@@ -432,6 +525,7 @@ namespace Cosmos.Upgrade.V1Beta1 {
       serviceBinder.AddMethod(__Method_AppliedPlan, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Cosmos.Upgrade.V1Beta1.QueryAppliedPlanRequest, global::Cosmos.Upgrade.V1Beta1.QueryAppliedPlanResponse>(serviceImpl.AppliedPlan));
       serviceBinder.AddMethod(__Method_UpgradedConsensusState, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Cosmos.Upgrade.V1Beta1.QueryUpgradedConsensusStateRequest, global::Cosmos.Upgrade.V1Beta1.QueryUpgradedConsensusStateResponse>(serviceImpl.UpgradedConsensusState));
       serviceBinder.AddMethod(__Method_ModuleVersions, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Cosmos.Upgrade.V1Beta1.QueryModuleVersionsRequest, global::Cosmos.Upgrade.V1Beta1.QueryModuleVersionsResponse>(serviceImpl.ModuleVersions));
+      serviceBinder.AddMethod(__Method_Authority, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Cosmos.Upgrade.V1Beta1.QueryAuthorityRequest, global::Cosmos.Upgrade.V1Beta1.QueryAuthorityResponse>(serviceImpl.Authority));
     }
 
   }

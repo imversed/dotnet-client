@@ -27,18 +27,18 @@ namespace Cosmos.Upgrade.V1Beta1 {
             "CiRjb3Ntb3MvdXBncmFkZS92MWJldGExL3VwZ3JhZGUucHJvdG8SFmNvc21v",
             "cy51cGdyYWRlLnYxYmV0YTEaGWdvb2dsZS9wcm90b2J1Zi9hbnkucHJvdG8a",
             "FGdvZ29wcm90by9nb2dvLnByb3RvGh9nb29nbGUvcHJvdG9idWYvdGltZXN0",
-            "YW1wLnByb3RvIssBCgRQbGFuEgwKBG5hbWUYASABKAkSNAoEdGltZRgCIAEo",
+            "YW1wLnByb3RvIqsBCgRQbGFuEgwKBG5hbWUYASABKAkSNAoEdGltZRgCIAEo",
             "CzIaLmdvb2dsZS5wcm90b2J1Zi5UaW1lc3RhbXBCChgBkN8fAcjeHwASDgoG",
-            "aGVpZ2h0GAMgASgDEgwKBGluZm8YBCABKAkSVwoVdXBncmFkZWRfY2xpZW50",
-            "X3N0YXRlGAUgASgLMhQuZ29vZ2xlLnByb3RvYnVmLkFueUIiGAHy3h8ceWFt",
-            "bDoidXBncmFkZWRfY2xpZW50X3N0YXRlIjoI6KAfAZigHwAieQoXU29mdHdh",
-            "cmVVcGdyYWRlUHJvcG9zYWwSDQoFdGl0bGUYASABKAkSEwoLZGVzY3JpcHRp",
-            "b24YAiABKAkSMAoEcGxhbhgDIAEoCzIcLmNvc21vcy51cGdyYWRlLnYxYmV0",
-            "YTEuUGxhbkIEyN4fADoI6KAfAZigHwAiTQodQ2FuY2VsU29mdHdhcmVVcGdy",
-            "YWRlUHJvcG9zYWwSDQoFdGl0bGUYASABKAkSEwoLZGVzY3JpcHRpb24YAiAB",
-            "KAk6COigHwGYoB8AIjgKDU1vZHVsZVZlcnNpb24SDAoEbmFtZRgBIAEoCRIP",
-            "Cgd2ZXJzaW9uGAIgASgEOgjooB8BmKAfAUIyWixnaXRodWIuY29tL2Nvc21v",
-            "cy9jb3Ntb3Mtc2RrL3gvdXBncmFkZS90eXBlc8jhHgBiBnByb3RvMw=="));
+            "aGVpZ2h0GAMgASgDEgwKBGluZm8YBCABKAkSNwoVdXBncmFkZWRfY2xpZW50",
+            "X3N0YXRlGAUgASgLMhQuZ29vZ2xlLnByb3RvYnVmLkFueUICGAE6COigHwGY",
+            "oB8AInsKF1NvZnR3YXJlVXBncmFkZVByb3Bvc2FsEg0KBXRpdGxlGAEgASgJ",
+            "EhMKC2Rlc2NyaXB0aW9uGAIgASgJEjAKBHBsYW4YAyABKAsyHC5jb3Ntb3Mu",
+            "dXBncmFkZS52MWJldGExLlBsYW5CBMjeHwA6ChgB6KAfAZigHwAiTwodQ2Fu",
+            "Y2VsU29mdHdhcmVVcGdyYWRlUHJvcG9zYWwSDQoFdGl0bGUYASABKAkSEwoL",
+            "ZGVzY3JpcHRpb24YAiABKAk6ChgB6KAfAZigHwAiOAoNTW9kdWxlVmVyc2lv",
+            "bhIMCgRuYW1lGAEgASgJEg8KB3ZlcnNpb24YAiABKAQ6COigHwGYoB8BQjJa",
+            "LGdpdGh1Yi5jb20vY29zbW9zL2Nvc21vcy1zZGsveC91cGdyYWRlL3R5cGVz",
+            "yOEeAGIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.AnyReflection.Descriptor, global::Gogoproto.GogoReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
@@ -442,7 +442,10 @@ namespace Cosmos.Upgrade.V1Beta1 {
   /// <summary>
   /// SoftwareUpgradeProposal is a gov Content type for initiating a software
   /// upgrade.
+  /// Deprecated: This legacy proposal is deprecated in favor of Msg-based gov
+  /// proposals, see MsgSoftwareUpgrade.
   /// </summary>
+  [global::System.ObsoleteAttribute]
   public sealed partial class SoftwareUpgradeProposal : pb::IMessage<SoftwareUpgradeProposal>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -718,7 +721,10 @@ namespace Cosmos.Upgrade.V1Beta1 {
   /// <summary>
   /// CancelSoftwareUpgradeProposal is a gov Content type for cancelling a software
   /// upgrade.
+  /// Deprecated: This legacy proposal is deprecated in favor of Msg-based gov
+  /// proposals, see MsgCancelUpgrade.
   /// </summary>
+  [global::System.ObsoleteAttribute]
   public sealed partial class CancelSoftwareUpgradeProposal : pb::IMessage<CancelSoftwareUpgradeProposal>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -947,6 +953,8 @@ namespace Cosmos.Upgrade.V1Beta1 {
 
   /// <summary>
   /// ModuleVersion specifies a module and its consensus version.
+  ///
+  /// Since: cosmos-sdk 0.43
   /// </summary>
   public sealed partial class ModuleVersion : pb::IMessage<ModuleVersion>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE

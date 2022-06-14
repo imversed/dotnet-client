@@ -27,32 +27,47 @@ namespace Cosmos.Feegrant.V1Beta1 {
             "CiNjb3Ntb3MvZmVlZ3JhbnQvdjFiZXRhMS9xdWVyeS5wcm90bxIXY29zbW9z",
             "LmZlZWdyYW50LnYxYmV0YTEaJmNvc21vcy9mZWVncmFudC92MWJldGExL2Zl",
             "ZWdyYW50LnByb3RvGipjb3Ntb3MvYmFzZS9xdWVyeS92MWJldGExL3BhZ2lu",
-            "YXRpb24ucHJvdG8aHGdvb2dsZS9hcGkvYW5ub3RhdGlvbnMucHJvdG8iOQoV",
-            "UXVlcnlBbGxvd2FuY2VSZXF1ZXN0Eg8KB2dyYW50ZXIYASABKAkSDwoHZ3Jh",
-            "bnRlZRgCIAEoCSJLChZRdWVyeUFsbG93YW5jZVJlc3BvbnNlEjEKCWFsbG93",
-            "YW5jZRgBIAEoCzIeLmNvc21vcy5mZWVncmFudC52MWJldGExLkdyYW50ImUK",
-            "FlF1ZXJ5QWxsb3dhbmNlc1JlcXVlc3QSDwoHZ3JhbnRlZRgBIAEoCRI6Cgpw",
-            "YWdpbmF0aW9uGAIgASgLMiYuY29zbW9zLmJhc2UucXVlcnkudjFiZXRhMS5Q",
-            "YWdlUmVxdWVzdCKKAQoXUXVlcnlBbGxvd2FuY2VzUmVzcG9uc2USMgoKYWxs",
-            "b3dhbmNlcxgBIAMoCzIeLmNvc21vcy5mZWVncmFudC52MWJldGExLkdyYW50",
-            "EjsKCnBhZ2luYXRpb24YAiABKAsyJy5jb3Ntb3MuYmFzZS5xdWVyeS52MWJl",
-            "dGExLlBhZ2VSZXNwb25zZTLfAgoFUXVlcnkSrAEKCUFsbG93YW5jZRIuLmNv",
-            "c21vcy5mZWVncmFudC52MWJldGExLlF1ZXJ5QWxsb3dhbmNlUmVxdWVzdBov",
-            "LmNvc21vcy5mZWVncmFudC52MWJldGExLlF1ZXJ5QWxsb3dhbmNlUmVzcG9u",
-            "c2UiPoLT5JMCOBI2L2Nvc21vcy9mZWVncmFudC92MWJldGExL2FsbG93YW5j",
-            "ZS97Z3JhbnRlcn0ve2dyYW50ZWV9EqYBCgpBbGxvd2FuY2VzEi8uY29zbW9z",
-            "LmZlZWdyYW50LnYxYmV0YTEuUXVlcnlBbGxvd2FuY2VzUmVxdWVzdBowLmNv",
-            "c21vcy5mZWVncmFudC52MWJldGExLlF1ZXJ5QWxsb3dhbmNlc1Jlc3BvbnNl",
-            "IjWC0+STAi8SLS9jb3Ntb3MvZmVlZ3JhbnQvdjFiZXRhMS9hbGxvd2FuY2Vz",
-            "L3tncmFudGVlfUIpWidnaXRodWIuY29tL2Nvc21vcy9jb3Ntb3Mtc2RrL3gv",
-            "ZmVlZ3JhbnRiBnByb3RvMw=="));
+            "YXRpb24ucHJvdG8aHGdvb2dsZS9hcGkvYW5ub3RhdGlvbnMucHJvdG8aGWNv",
+            "c21vc19wcm90by9jb3Ntb3MucHJvdG8ibQoVUXVlcnlBbGxvd2FuY2VSZXF1",
+            "ZXN0EikKB2dyYW50ZXIYASABKAlCGNK0LRRjb3Ntb3MuQWRkcmVzc1N0cmlu",
+            "ZxIpCgdncmFudGVlGAIgASgJQhjStC0UY29zbW9zLkFkZHJlc3NTdHJpbmci",
+            "SwoWUXVlcnlBbGxvd2FuY2VSZXNwb25zZRIxCglhbGxvd2FuY2UYASABKAsy",
+            "Hi5jb3Ntb3MuZmVlZ3JhbnQudjFiZXRhMS5HcmFudCJ/ChZRdWVyeUFsbG93",
+            "YW5jZXNSZXF1ZXN0EikKB2dyYW50ZWUYASABKAlCGNK0LRRjb3Ntb3MuQWRk",
+            "cmVzc1N0cmluZxI6CgpwYWdpbmF0aW9uGAIgASgLMiYuY29zbW9zLmJhc2Uu",
+            "cXVlcnkudjFiZXRhMS5QYWdlUmVxdWVzdCKKAQoXUXVlcnlBbGxvd2FuY2Vz",
+            "UmVzcG9uc2USMgoKYWxsb3dhbmNlcxgBIAMoCzIeLmNvc21vcy5mZWVncmFu",
+            "dC52MWJldGExLkdyYW50EjsKCnBhZ2luYXRpb24YAiABKAsyJy5jb3Ntb3Mu",
+            "YmFzZS5xdWVyeS52MWJldGExLlBhZ2VSZXNwb25zZSKIAQofUXVlcnlBbGxv",
+            "d2FuY2VzQnlHcmFudGVyUmVxdWVzdBIpCgdncmFudGVyGAEgASgJQhjStC0U",
+            "Y29zbW9zLkFkZHJlc3NTdHJpbmcSOgoKcGFnaW5hdGlvbhgCIAEoCzImLmNv",
+            "c21vcy5iYXNlLnF1ZXJ5LnYxYmV0YTEuUGFnZVJlcXVlc3QikwEKIFF1ZXJ5",
+            "QWxsb3dhbmNlc0J5R3JhbnRlclJlc3BvbnNlEjIKCmFsbG93YW5jZXMYASAD",
+            "KAsyHi5jb3Ntb3MuZmVlZ3JhbnQudjFiZXRhMS5HcmFudBI7CgpwYWdpbmF0",
+            "aW9uGAIgASgLMicuY29zbW9zLmJhc2UucXVlcnkudjFiZXRhMS5QYWdlUmVz",
+            "cG9uc2UynwQKBVF1ZXJ5EqwBCglBbGxvd2FuY2USLi5jb3Ntb3MuZmVlZ3Jh",
+            "bnQudjFiZXRhMS5RdWVyeUFsbG93YW5jZVJlcXVlc3QaLy5jb3Ntb3MuZmVl",
+            "Z3JhbnQudjFiZXRhMS5RdWVyeUFsbG93YW5jZVJlc3BvbnNlIj6C0+STAjgS",
+            "Ni9jb3Ntb3MvZmVlZ3JhbnQvdjFiZXRhMS9hbGxvd2FuY2Uve2dyYW50ZXJ9",
+            "L3tncmFudGVlfRKmAQoKQWxsb3dhbmNlcxIvLmNvc21vcy5mZWVncmFudC52",
+            "MWJldGExLlF1ZXJ5QWxsb3dhbmNlc1JlcXVlc3QaMC5jb3Ntb3MuZmVlZ3Jh",
+            "bnQudjFiZXRhMS5RdWVyeUFsbG93YW5jZXNSZXNwb25zZSI1gtPkkwIvEi0v",
+            "Y29zbW9zL2ZlZWdyYW50L3YxYmV0YTEvYWxsb3dhbmNlcy97Z3JhbnRlZX0S",
+            "vQEKE0FsbG93YW5jZXNCeUdyYW50ZXISOC5jb3Ntb3MuZmVlZ3JhbnQudjFi",
+            "ZXRhMS5RdWVyeUFsbG93YW5jZXNCeUdyYW50ZXJSZXF1ZXN0GjkuY29zbW9z",
+            "LmZlZWdyYW50LnYxYmV0YTEuUXVlcnlBbGxvd2FuY2VzQnlHcmFudGVyUmVz",
+            "cG9uc2UiMYLT5JMCKxIpL2Nvc21vcy9mZWVncmFudC92MWJldGExL2lzc3Vl",
+            "ZC97Z3JhbnRlcn1CKVonZ2l0aHViLmNvbS9jb3Ntb3MvY29zbW9zLXNkay94",
+            "L2ZlZWdyYW50YgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Cosmos.Feegrant.V1Beta1.FeegrantReflection.Descriptor, global::Cosmos.Base.Query.V1Beta1.PaginationReflection.Descriptor, global::Google.Api.AnnotationsReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::Cosmos.Feegrant.V1Beta1.FeegrantReflection.Descriptor, global::Cosmos.Base.Query.V1Beta1.PaginationReflection.Descriptor, global::Google.Api.AnnotationsReflection.Descriptor, global::CosmosProto.CosmosReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Feegrant.V1Beta1.QueryAllowanceRequest), global::Cosmos.Feegrant.V1Beta1.QueryAllowanceRequest.Parser, new[]{ "Granter", "Grantee" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Feegrant.V1Beta1.QueryAllowanceResponse), global::Cosmos.Feegrant.V1Beta1.QueryAllowanceResponse.Parser, new[]{ "Allowance" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Feegrant.V1Beta1.QueryAllowancesRequest), global::Cosmos.Feegrant.V1Beta1.QueryAllowancesRequest.Parser, new[]{ "Grantee", "Pagination" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Feegrant.V1Beta1.QueryAllowancesResponse), global::Cosmos.Feegrant.V1Beta1.QueryAllowancesResponse.Parser, new[]{ "Allowances", "Pagination" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Feegrant.V1Beta1.QueryAllowancesResponse), global::Cosmos.Feegrant.V1Beta1.QueryAllowancesResponse.Parser, new[]{ "Allowances", "Pagination" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Feegrant.V1Beta1.QueryAllowancesByGranterRequest), global::Cosmos.Feegrant.V1Beta1.QueryAllowancesByGranterRequest.Parser, new[]{ "Granter", "Pagination" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Feegrant.V1Beta1.QueryAllowancesByGranterResponse), global::Cosmos.Feegrant.V1Beta1.QueryAllowancesByGranterResponse.Parser, new[]{ "Allowances", "Pagination" }, null, null, null, null)
           }));
     }
     #endregion
@@ -903,6 +918,484 @@ namespace Cosmos.Feegrant.V1Beta1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(QueryAllowancesResponse other) {
+      if (other == null) {
+        return;
+      }
+      allowances_.Add(other.allowances_);
+      if (other.pagination_ != null) {
+        if (pagination_ == null) {
+          Pagination = new global::Cosmos.Base.Query.V1Beta1.PageResponse();
+        }
+        Pagination.MergeFrom(other.Pagination);
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            allowances_.AddEntriesFrom(input, _repeated_allowances_codec);
+            break;
+          }
+          case 18: {
+            if (pagination_ == null) {
+              Pagination = new global::Cosmos.Base.Query.V1Beta1.PageResponse();
+            }
+            input.ReadMessage(Pagination);
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            allowances_.AddEntriesFrom(ref input, _repeated_allowances_codec);
+            break;
+          }
+          case 18: {
+            if (pagination_ == null) {
+              Pagination = new global::Cosmos.Base.Query.V1Beta1.PageResponse();
+            }
+            input.ReadMessage(Pagination);
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// QueryAllowancesByGranterRequest is the request type for the Query/AllowancesByGranter RPC method.
+  ///
+  /// Since: cosmos-sdk 0.46
+  /// </summary>
+  public sealed partial class QueryAllowancesByGranterRequest : pb::IMessage<QueryAllowancesByGranterRequest>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<QueryAllowancesByGranterRequest> _parser = new pb::MessageParser<QueryAllowancesByGranterRequest>(() => new QueryAllowancesByGranterRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<QueryAllowancesByGranterRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Cosmos.Feegrant.V1Beta1.QueryReflection.Descriptor.MessageTypes[4]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public QueryAllowancesByGranterRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public QueryAllowancesByGranterRequest(QueryAllowancesByGranterRequest other) : this() {
+      granter_ = other.granter_;
+      pagination_ = other.pagination_ != null ? other.pagination_.Clone() : null;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public QueryAllowancesByGranterRequest Clone() {
+      return new QueryAllowancesByGranterRequest(this);
+    }
+
+    /// <summary>Field number for the "granter" field.</summary>
+    public const int GranterFieldNumber = 1;
+    private string granter_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string Granter {
+      get { return granter_; }
+      set {
+        granter_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "pagination" field.</summary>
+    public const int PaginationFieldNumber = 2;
+    private global::Cosmos.Base.Query.V1Beta1.PageRequest pagination_;
+    /// <summary>
+    /// pagination defines an pagination for the request.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Cosmos.Base.Query.V1Beta1.PageRequest Pagination {
+      get { return pagination_; }
+      set {
+        pagination_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as QueryAllowancesByGranterRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(QueryAllowancesByGranterRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Granter != other.Granter) return false;
+      if (!object.Equals(Pagination, other.Pagination)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Granter.Length != 0) hash ^= Granter.GetHashCode();
+      if (pagination_ != null) hash ^= Pagination.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (Granter.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Granter);
+      }
+      if (pagination_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(Pagination);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (Granter.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Granter);
+      }
+      if (pagination_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(Pagination);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (Granter.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Granter);
+      }
+      if (pagination_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Pagination);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(QueryAllowancesByGranterRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Granter.Length != 0) {
+        Granter = other.Granter;
+      }
+      if (other.pagination_ != null) {
+        if (pagination_ == null) {
+          Pagination = new global::Cosmos.Base.Query.V1Beta1.PageRequest();
+        }
+        Pagination.MergeFrom(other.Pagination);
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            Granter = input.ReadString();
+            break;
+          }
+          case 18: {
+            if (pagination_ == null) {
+              Pagination = new global::Cosmos.Base.Query.V1Beta1.PageRequest();
+            }
+            input.ReadMessage(Pagination);
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            Granter = input.ReadString();
+            break;
+          }
+          case 18: {
+            if (pagination_ == null) {
+              Pagination = new global::Cosmos.Base.Query.V1Beta1.PageRequest();
+            }
+            input.ReadMessage(Pagination);
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// QueryAllowancesByGranterResponse is the response type for the Query/AllowancesByGranter RPC method.
+  ///
+  /// Since: cosmos-sdk 0.46
+  /// </summary>
+  public sealed partial class QueryAllowancesByGranterResponse : pb::IMessage<QueryAllowancesByGranterResponse>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<QueryAllowancesByGranterResponse> _parser = new pb::MessageParser<QueryAllowancesByGranterResponse>(() => new QueryAllowancesByGranterResponse());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<QueryAllowancesByGranterResponse> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Cosmos.Feegrant.V1Beta1.QueryReflection.Descriptor.MessageTypes[5]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public QueryAllowancesByGranterResponse() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public QueryAllowancesByGranterResponse(QueryAllowancesByGranterResponse other) : this() {
+      allowances_ = other.allowances_.Clone();
+      pagination_ = other.pagination_ != null ? other.pagination_.Clone() : null;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public QueryAllowancesByGranterResponse Clone() {
+      return new QueryAllowancesByGranterResponse(this);
+    }
+
+    /// <summary>Field number for the "allowances" field.</summary>
+    public const int AllowancesFieldNumber = 1;
+    private static readonly pb::FieldCodec<global::Cosmos.Feegrant.V1Beta1.Grant> _repeated_allowances_codec
+        = pb::FieldCodec.ForMessage(10, global::Cosmos.Feegrant.V1Beta1.Grant.Parser);
+    private readonly pbc::RepeatedField<global::Cosmos.Feegrant.V1Beta1.Grant> allowances_ = new pbc::RepeatedField<global::Cosmos.Feegrant.V1Beta1.Grant>();
+    /// <summary>
+    /// allowances that have been issued by the granter.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pbc::RepeatedField<global::Cosmos.Feegrant.V1Beta1.Grant> Allowances {
+      get { return allowances_; }
+    }
+
+    /// <summary>Field number for the "pagination" field.</summary>
+    public const int PaginationFieldNumber = 2;
+    private global::Cosmos.Base.Query.V1Beta1.PageResponse pagination_;
+    /// <summary>
+    /// pagination defines an pagination for the response.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Cosmos.Base.Query.V1Beta1.PageResponse Pagination {
+      get { return pagination_; }
+      set {
+        pagination_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as QueryAllowancesByGranterResponse);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(QueryAllowancesByGranterResponse other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if(!allowances_.Equals(other.allowances_)) return false;
+      if (!object.Equals(Pagination, other.Pagination)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      hash ^= allowances_.GetHashCode();
+      if (pagination_ != null) hash ^= Pagination.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      allowances_.WriteTo(output, _repeated_allowances_codec);
+      if (pagination_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(Pagination);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      allowances_.WriteTo(ref output, _repeated_allowances_codec);
+      if (pagination_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(Pagination);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      size += allowances_.CalculateSize(_repeated_allowances_codec);
+      if (pagination_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Pagination);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(QueryAllowancesByGranterResponse other) {
       if (other == null) {
         return;
       }

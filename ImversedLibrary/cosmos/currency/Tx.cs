@@ -35,8 +35,8 @@ namespace Imversed.Currency {
             "ZRIbLmltdmVyc2VkLmN1cnJlbmN5Lk1zZ0lzc3VlGiMuaW12ZXJzZWQuY3Vy",
             "cmVuY3kuTXNnSXNzdWVSZXNwb25zZRJGCgRNaW50EhouaW12ZXJzZWQuY3Vy",
             "cmVuY3kuTXNnTWludBoiLmltdmVyc2VkLmN1cnJlbmN5Lk1zZ01pbnRSZXNw",
-            "b25zZUIxWi9naXRodWIuY29tL2Z1bGxkaXZldnIvaW12ZXJzZWQveC9jdXJy",
-            "ZW5jeS90eXBlc2IGcHJvdG8z"));
+            "b25zZUIvWi1naXRodWIuY29tL2ltdmVyc2VkL2ltdmVyc2VkL3gvY3VycmVu",
+            "Y3kvdHlwZXNiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Gogoproto.GogoReflection.Descriptor, global::Cosmos.Base.V1Beta1.CoinReflection.Descriptor, global::Imversed.Currency.CurrencyReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {

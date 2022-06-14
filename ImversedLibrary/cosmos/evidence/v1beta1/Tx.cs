@@ -27,16 +27,17 @@ namespace Cosmos.Evidence.V1Beta1 {
             "CiBjb3Ntb3MvZXZpZGVuY2UvdjFiZXRhMS90eC5wcm90bxIXY29zbW9zLmV2",
             "aWRlbmNlLnYxYmV0YTEaFGdvZ29wcm90by9nb2dvLnByb3RvGhlnb29nbGUv",
             "cHJvdG9idWYvYW55LnByb3RvGhljb3Ntb3NfcHJvdG8vY29zbW9zLnByb3Rv",
-            "ImYKEU1zZ1N1Ym1pdEV2aWRlbmNlEhEKCXN1Ym1pdHRlchgBIAEoCRI0Cghl",
-            "dmlkZW5jZRgCIAEoCzIULmdvb2dsZS5wcm90b2J1Zi5BbnlCDMq0LQhFdmlk",
-            "ZW5jZToI6KAfAIigHwAiKQoZTXNnU3VibWl0RXZpZGVuY2VSZXNwb25zZRIM",
-            "CgRoYXNoGAQgASgMMncKA01zZxJwCg5TdWJtaXRFdmlkZW5jZRIqLmNvc21v",
-            "cy5ldmlkZW5jZS52MWJldGExLk1zZ1N1Ym1pdEV2aWRlbmNlGjIuY29zbW9z",
-            "LmV2aWRlbmNlLnYxYmV0YTEuTXNnU3VibWl0RXZpZGVuY2VSZXNwb25zZUIz",
-            "Wi1naXRodWIuY29tL2Nvc21vcy9jb3Ntb3Mtc2RrL3gvZXZpZGVuY2UvdHlw",
-            "ZXOo4h4BYgZwcm90bzM="));
+            "Ghdjb3Ntb3MvbXNnL3YxL21zZy5wcm90byKOAQoRTXNnU3VibWl0RXZpZGVu",
+            "Y2USKwoJc3VibWl0dGVyGAEgASgJQhjStC0UY29zbW9zLkFkZHJlc3NTdHJp",
+            "bmcSNAoIZXZpZGVuY2UYAiABKAsyFC5nb29nbGUucHJvdG9idWYuQW55QgzK",
+            "tC0IRXZpZGVuY2U6FoLnsCoJc3VibWl0dGVy6KAfAIigHwAiKQoZTXNnU3Vi",
+            "bWl0RXZpZGVuY2VSZXNwb25zZRIMCgRoYXNoGAQgASgMMncKA01zZxJwCg5T",
+            "dWJtaXRFdmlkZW5jZRIqLmNvc21vcy5ldmlkZW5jZS52MWJldGExLk1zZ1N1",
+            "Ym1pdEV2aWRlbmNlGjIuY29zbW9zLmV2aWRlbmNlLnYxYmV0YTEuTXNnU3Vi",
+            "bWl0RXZpZGVuY2VSZXNwb25zZUIzWi1naXRodWIuY29tL2Nvc21vcy9jb3Nt",
+            "b3Mtc2RrL3gvZXZpZGVuY2UvdHlwZXOo4h4BYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Gogoproto.GogoReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.AnyReflection.Descriptor, global::CosmosProto.CosmosReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::Gogoproto.GogoReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.AnyReflection.Descriptor, global::CosmosProto.CosmosReflection.Descriptor, global::Cosmos.Msg.V1.MsgReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Evidence.V1Beta1.MsgSubmitEvidence), global::Cosmos.Evidence.V1Beta1.MsgSubmitEvidence.Parser, new[]{ "Submitter", "Evidence" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Evidence.V1Beta1.MsgSubmitEvidenceResponse), global::Cosmos.Evidence.V1Beta1.MsgSubmitEvidenceResponse.Parser, new[]{ "Hash" }, null, null, null, null)

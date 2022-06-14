@@ -25,13 +25,16 @@ namespace Cosmos.Authz.V1Beta1 {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
             "CiBjb3Ntb3MvYXV0aHovdjFiZXRhMS9ldmVudC5wcm90bxIUY29zbW9zLmF1",
-            "dGh6LnYxYmV0YTEiRAoKRXZlbnRHcmFudBIUCgxtc2dfdHlwZV91cmwYAiAB",
-            "KAkSDwoHZ3JhbnRlchgDIAEoCRIPCgdncmFudGVlGAQgASgJIkUKC0V2ZW50",
-            "UmV2b2tlEhQKDG1zZ190eXBlX3VybBgCIAEoCRIPCgdncmFudGVyGAMgASgJ",
-            "Eg8KB2dyYW50ZWUYBCABKAlCJlokZ2l0aHViLmNvbS9jb3Ntb3MvY29zbW9z",
-            "LXNkay94L2F1dGh6YgZwcm90bzM="));
+            "dGh6LnYxYmV0YTEaGWNvc21vc19wcm90by9jb3Ntb3MucHJvdG8ieAoKRXZl",
+            "bnRHcmFudBIUCgxtc2dfdHlwZV91cmwYAiABKAkSKQoHZ3JhbnRlchgDIAEo",
+            "CUIY0rQtFGNvc21vcy5BZGRyZXNzU3RyaW5nEikKB2dyYW50ZWUYBCABKAlC",
+            "GNK0LRRjb3Ntb3MuQWRkcmVzc1N0cmluZyJ5CgtFdmVudFJldm9rZRIUCgxt",
+            "c2dfdHlwZV91cmwYAiABKAkSKQoHZ3JhbnRlchgDIAEoCUIY0rQtFGNvc21v",
+            "cy5BZGRyZXNzU3RyaW5nEikKB2dyYW50ZWUYBCABKAlCGNK0LRRjb3Ntb3Mu",
+            "QWRkcmVzc1N0cmluZ0ImWiRnaXRodWIuY29tL2Nvc21vcy9jb3Ntb3Mtc2Rr",
+            "L3gvYXV0aHpiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { },
+          new pbr::FileDescriptor[] { global::CosmosProto.CosmosReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Authz.V1Beta1.EventGrant), global::Cosmos.Authz.V1Beta1.EventGrant.Parser, new[]{ "MsgTypeUrl", "Granter", "Grantee" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Authz.V1Beta1.EventRevoke), global::Cosmos.Authz.V1Beta1.EventRevoke.Parser, new[]{ "MsgTypeUrl", "Granter", "Grantee" }, null, null, null, null)

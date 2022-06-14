@@ -27,21 +27,23 @@ namespace Cosmos.Bank.V1Beta1 {
             "CiFjb3Ntb3MvYmFuay92MWJldGExL2dlbmVzaXMucHJvdG8SE2Nvc21vcy5i",
             "YW5rLnYxYmV0YTEaFGdvZ29wcm90by9nb2dvLnByb3RvGh5jb3Ntb3MvYmFz",
             "ZS92MWJldGExL2NvaW4ucHJvdG8aHmNvc21vcy9iYW5rL3YxYmV0YTEvYmFu",
-            "ay5wcm90byKqAgoMR2VuZXNpc1N0YXRlEjEKBnBhcmFtcxgBIAEoCzIbLmNv",
-            "c21vcy5iYW5rLnYxYmV0YTEuUGFyYW1zQgTI3h8AEjQKCGJhbGFuY2VzGAIg",
-            "AygLMhwuY29zbW9zLmJhbmsudjFiZXRhMS5CYWxhbmNlQgTI3h8AElsKBnN1",
-            "cHBseRgDIAMoCzIZLmNvc21vcy5iYXNlLnYxYmV0YTEuQ29pbkIwqt8fKGdp",
-            "dGh1Yi5jb20vY29zbW9zL2Nvc21vcy1zZGsvdHlwZXMuQ29pbnPI3h8AElQK",
-            "DmRlbm9tX21ldGFkYXRhGAQgAygLMh0uY29zbW9zLmJhbmsudjFiZXRhMS5N",
-            "ZXRhZGF0YUId8t4fFXlhbWw6ImRlbm9tX21ldGFkYXRhIsjeHwAigAEKB0Jh",
-            "bGFuY2USDwoHYWRkcmVzcxgBIAEoCRJaCgVjb2lucxgCIAMoCzIZLmNvc21v",
+            "ay5wcm90bxoZY29zbW9zX3Byb3RvL2Nvc21vcy5wcm90byLPAgoMR2VuZXNp",
+            "c1N0YXRlEjEKBnBhcmFtcxgBIAEoCzIbLmNvc21vcy5iYW5rLnYxYmV0YTEu",
+            "UGFyYW1zQgTI3h8AEjQKCGJhbGFuY2VzGAIgAygLMhwuY29zbW9zLmJhbmsu",
+            "djFiZXRhMS5CYWxhbmNlQgTI3h8AElsKBnN1cHBseRgDIAMoCzIZLmNvc21v",
+            "cy5iYXNlLnYxYmV0YTEuQ29pbkIwqt8fKGdpdGh1Yi5jb20vY29zbW9zL2Nv",
+            "c21vcy1zZGsvdHlwZXMuQ29pbnPI3h8AEjsKDmRlbm9tX21ldGFkYXRhGAQg",
+            "AygLMh0uY29zbW9zLmJhbmsudjFiZXRhMS5NZXRhZGF0YUIEyN4fABI8Cgxz",
+            "ZW5kX2VuYWJsZWQYBSADKAsyIC5jb3Ntb3MuYmFuay52MWJldGExLlNlbmRF",
+            "bmFibGVkQgTI3h8AIpoBCgdCYWxhbmNlEikKB2FkZHJlc3MYASABKAlCGNK0",
+            "LRRjb3Ntb3MuQWRkcmVzc1N0cmluZxJaCgVjb2lucxgCIAMoCzIZLmNvc21v",
             "cy5iYXNlLnYxYmV0YTEuQ29pbkIwqt8fKGdpdGh1Yi5jb20vY29zbW9zL2Nv",
             "c21vcy1zZGsvdHlwZXMuQ29pbnPI3h8AOgjooB8AiKAfAEIrWilnaXRodWIu",
             "Y29tL2Nvc21vcy9jb3Ntb3Mtc2RrL3gvYmFuay90eXBlc2IGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Gogoproto.GogoReflection.Descriptor, global::Cosmos.Base.V1Beta1.CoinReflection.Descriptor, global::Cosmos.Bank.V1Beta1.BankReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::Gogoproto.GogoReflection.Descriptor, global::Cosmos.Base.V1Beta1.CoinReflection.Descriptor, global::Cosmos.Bank.V1Beta1.BankReflection.Descriptor, global::CosmosProto.CosmosReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Bank.V1Beta1.GenesisState), global::Cosmos.Bank.V1Beta1.GenesisState.Parser, new[]{ "Params", "Balances", "Supply", "DenomMetadata" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Bank.V1Beta1.GenesisState), global::Cosmos.Bank.V1Beta1.GenesisState.Parser, new[]{ "Params", "Balances", "Supply", "DenomMetadata", "SendEnabled" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Bank.V1Beta1.Balance), global::Cosmos.Bank.V1Beta1.Balance.Parser, new[]{ "Address", "Coins" }, null, null, null, null)
           }));
     }
@@ -90,6 +92,7 @@ namespace Cosmos.Bank.V1Beta1 {
       balances_ = other.balances_.Clone();
       supply_ = other.supply_.Clone();
       denomMetadata_ = other.denomMetadata_.Clone();
+      sendEnabled_ = other.sendEnabled_.Clone();
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -103,7 +106,7 @@ namespace Cosmos.Bank.V1Beta1 {
     public const int ParamsFieldNumber = 1;
     private global::Cosmos.Bank.V1Beta1.Params params_;
     /// <summary>
-    /// params defines all the paramaters of the module.
+    /// params defines all the parameters of the module.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -149,12 +152,28 @@ namespace Cosmos.Bank.V1Beta1 {
         = pb::FieldCodec.ForMessage(34, global::Cosmos.Bank.V1Beta1.Metadata.Parser);
     private readonly pbc::RepeatedField<global::Cosmos.Bank.V1Beta1.Metadata> denomMetadata_ = new pbc::RepeatedField<global::Cosmos.Bank.V1Beta1.Metadata>();
     /// <summary>
-    /// denom_metadata defines the metadata of the differents coins.
+    /// denom_metadata defines the metadata of the different coins.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public pbc::RepeatedField<global::Cosmos.Bank.V1Beta1.Metadata> DenomMetadata {
       get { return denomMetadata_; }
+    }
+
+    /// <summary>Field number for the "send_enabled" field.</summary>
+    public const int SendEnabledFieldNumber = 5;
+    private static readonly pb::FieldCodec<global::Cosmos.Bank.V1Beta1.SendEnabled> _repeated_sendEnabled_codec
+        = pb::FieldCodec.ForMessage(42, global::Cosmos.Bank.V1Beta1.SendEnabled.Parser);
+    private readonly pbc::RepeatedField<global::Cosmos.Bank.V1Beta1.SendEnabled> sendEnabled_ = new pbc::RepeatedField<global::Cosmos.Bank.V1Beta1.SendEnabled>();
+    /// <summary>
+    /// send_enabled defines the denoms where send is enabled or disabled.
+    ///
+    /// Since: cosmos-sdk 0.47
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pbc::RepeatedField<global::Cosmos.Bank.V1Beta1.SendEnabled> SendEnabled {
+      get { return sendEnabled_; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -176,6 +195,7 @@ namespace Cosmos.Bank.V1Beta1 {
       if(!balances_.Equals(other.balances_)) return false;
       if(!supply_.Equals(other.supply_)) return false;
       if(!denomMetadata_.Equals(other.denomMetadata_)) return false;
+      if(!sendEnabled_.Equals(other.sendEnabled_)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -187,6 +207,7 @@ namespace Cosmos.Bank.V1Beta1 {
       hash ^= balances_.GetHashCode();
       hash ^= supply_.GetHashCode();
       hash ^= denomMetadata_.GetHashCode();
+      hash ^= sendEnabled_.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -212,6 +233,7 @@ namespace Cosmos.Bank.V1Beta1 {
       balances_.WriteTo(output, _repeated_balances_codec);
       supply_.WriteTo(output, _repeated_supply_codec);
       denomMetadata_.WriteTo(output, _repeated_denomMetadata_codec);
+      sendEnabled_.WriteTo(output, _repeated_sendEnabled_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -229,6 +251,7 @@ namespace Cosmos.Bank.V1Beta1 {
       balances_.WriteTo(ref output, _repeated_balances_codec);
       supply_.WriteTo(ref output, _repeated_supply_codec);
       denomMetadata_.WriteTo(ref output, _repeated_denomMetadata_codec);
+      sendEnabled_.WriteTo(ref output, _repeated_sendEnabled_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -245,6 +268,7 @@ namespace Cosmos.Bank.V1Beta1 {
       size += balances_.CalculateSize(_repeated_balances_codec);
       size += supply_.CalculateSize(_repeated_supply_codec);
       size += denomMetadata_.CalculateSize(_repeated_denomMetadata_codec);
+      size += sendEnabled_.CalculateSize(_repeated_sendEnabled_codec);
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -266,6 +290,7 @@ namespace Cosmos.Bank.V1Beta1 {
       balances_.Add(other.balances_);
       supply_.Add(other.supply_);
       denomMetadata_.Add(other.denomMetadata_);
+      sendEnabled_.Add(other.sendEnabled_);
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -300,6 +325,10 @@ namespace Cosmos.Bank.V1Beta1 {
             denomMetadata_.AddEntriesFrom(input, _repeated_denomMetadata_codec);
             break;
           }
+          case 42: {
+            sendEnabled_.AddEntriesFrom(input, _repeated_sendEnabled_codec);
+            break;
+          }
         }
       }
     #endif
@@ -332,6 +361,10 @@ namespace Cosmos.Bank.V1Beta1 {
           }
           case 34: {
             denomMetadata_.AddEntriesFrom(ref input, _repeated_denomMetadata_codec);
+            break;
+          }
+          case 42: {
+            sendEnabled_.AddEntriesFrom(ref input, _repeated_sendEnabled_codec);
             break;
           }
         }

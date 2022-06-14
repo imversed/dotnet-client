@@ -34,31 +34,64 @@ namespace Cosmos.Auth.V1Beta1 {
             "cXVlc3QiigEKFVF1ZXJ5QWNjb3VudHNSZXNwb25zZRI0CghhY2NvdW50cxgB",
             "IAMoCzIULmdvb2dsZS5wcm90b2J1Zi5BbnlCDMq0LQhBY2NvdW50SRI7Cgpw",
             "YWdpbmF0aW9uGAIgASgLMicuY29zbW9zLmJhc2UucXVlcnkudjFiZXRhMS5Q",
-            "YWdlUmVzcG9uc2UiMAoTUXVlcnlBY2NvdW50UmVxdWVzdBIPCgdhZGRyZXNz",
-            "GAEgASgJOgjooB8AiKAfACJLChRRdWVyeUFjY291bnRSZXNwb25zZRIzCgdh",
-            "Y2NvdW50GAEgASgLMhQuZ29vZ2xlLnByb3RvYnVmLkFueUIMyrQtCEFjY291",
-            "bnRJIhQKElF1ZXJ5UGFyYW1zUmVxdWVzdCJIChNRdWVyeVBhcmFtc1Jlc3Bv",
-            "bnNlEjEKBnBhcmFtcxgBIAEoCzIbLmNvc21vcy5hdXRoLnYxYmV0YTEuUGFy",
-            "YW1zQgTI3h8AMqcDCgVRdWVyeRKIAQoIQWNjb3VudHMSKS5jb3Ntb3MuYXV0",
-            "aC52MWJldGExLlF1ZXJ5QWNjb3VudHNSZXF1ZXN0GiouY29zbW9zLmF1dGgu",
-            "djFiZXRhMS5RdWVyeUFjY291bnRzUmVzcG9uc2UiJYLT5JMCHxIdL2Nvc21v",
-            "cy9hdXRoL3YxYmV0YTEvYWNjb3VudHMSjwEKB0FjY291bnQSKC5jb3Ntb3Mu",
-            "YXV0aC52MWJldGExLlF1ZXJ5QWNjb3VudFJlcXVlc3QaKS5jb3Ntb3MuYXV0",
-            "aC52MWJldGExLlF1ZXJ5QWNjb3VudFJlc3BvbnNlIi+C0+STAikSJy9jb3Nt",
-            "b3MvYXV0aC92MWJldGExL2FjY291bnRzL3thZGRyZXNzfRKAAQoGUGFyYW1z",
-            "EicuY29zbW9zLmF1dGgudjFiZXRhMS5RdWVyeVBhcmFtc1JlcXVlc3QaKC5j",
-            "b3Ntb3MuYXV0aC52MWJldGExLlF1ZXJ5UGFyYW1zUmVzcG9uc2UiI4LT5JMC",
-            "HRIbL2Nvc21vcy9hdXRoL3YxYmV0YTEvcGFyYW1zQitaKWdpdGh1Yi5jb20v",
-            "Y29zbW9zL2Nvc21vcy1zZGsveC9hdXRoL3R5cGVzYgZwcm90bzM="));
+            "YWdlUmVzcG9uc2UiSgoTUXVlcnlBY2NvdW50UmVxdWVzdBIpCgdhZGRyZXNz",
+            "GAEgASgJQhjStC0UY29zbW9zLkFkZHJlc3NTdHJpbmc6COigHwCIoB8AIhwK",
+            "GlF1ZXJ5TW9kdWxlQWNjb3VudHNSZXF1ZXN0IkgKE1F1ZXJ5UGFyYW1zUmVz",
+            "cG9uc2USMQoGcGFyYW1zGAEgASgLMhsuY29zbW9zLmF1dGgudjFiZXRhMS5Q",
+            "YXJhbXNCBMjeHwAiSwoUUXVlcnlBY2NvdW50UmVzcG9uc2USMwoHYWNjb3Vu",
+            "dBgBIAEoCzIULmdvb2dsZS5wcm90b2J1Zi5BbnlCDMq0LQhBY2NvdW50SSIU",
+            "ChJRdWVyeVBhcmFtc1JlcXVlc3QiWQobUXVlcnlNb2R1bGVBY2NvdW50c1Jl",
+            "c3BvbnNlEjoKCGFjY291bnRzGAEgAygLMhQuZ29vZ2xlLnByb3RvYnVmLkFu",
+            "eUISyrQtDk1vZHVsZUFjY291bnRJIhUKE0JlY2gzMlByZWZpeFJlcXVlc3Qi",
+            "LQoUQmVjaDMyUHJlZml4UmVzcG9uc2USFQoNYmVjaDMyX3ByZWZpeBgBIAEo",
+            "CSI0ChtBZGRyZXNzQnl0ZXNUb1N0cmluZ1JlcXVlc3QSFQoNYWRkcmVzc19i",
+            "eXRlcxgBIAEoDCI2ChxBZGRyZXNzQnl0ZXNUb1N0cmluZ1Jlc3BvbnNlEhYK",
+            "DmFkZHJlc3Nfc3RyaW5nGAEgASgJIjUKG0FkZHJlc3NTdHJpbmdUb0J5dGVz",
+            "UmVxdWVzdBIWCg5hZGRyZXNzX3N0cmluZxgBIAEoCSI1ChxBZGRyZXNzU3Ry",
+            "aW5nVG9CeXRlc1Jlc3BvbnNlEhUKDWFkZHJlc3NfYnl0ZXMYASABKAwyvQgK",
+            "BVF1ZXJ5EogBCghBY2NvdW50cxIpLmNvc21vcy5hdXRoLnYxYmV0YTEuUXVl",
+            "cnlBY2NvdW50c1JlcXVlc3QaKi5jb3Ntb3MuYXV0aC52MWJldGExLlF1ZXJ5",
+            "QWNjb3VudHNSZXNwb25zZSIlgtPkkwIfEh0vY29zbW9zL2F1dGgvdjFiZXRh",
+            "MS9hY2NvdW50cxKPAQoHQWNjb3VudBIoLmNvc21vcy5hdXRoLnYxYmV0YTEu",
+            "UXVlcnlBY2NvdW50UmVxdWVzdBopLmNvc21vcy5hdXRoLnYxYmV0YTEuUXVl",
+            "cnlBY2NvdW50UmVzcG9uc2UiL4LT5JMCKRInL2Nvc21vcy9hdXRoL3YxYmV0",
+            "YTEvYWNjb3VudHMve2FkZHJlc3N9EoABCgZQYXJhbXMSJy5jb3Ntb3MuYXV0",
+            "aC52MWJldGExLlF1ZXJ5UGFyYW1zUmVxdWVzdBooLmNvc21vcy5hdXRoLnYx",
+            "YmV0YTEuUXVlcnlQYXJhbXNSZXNwb25zZSIjgtPkkwIdEhsvY29zbW9zL2F1",
+            "dGgvdjFiZXRhMS9wYXJhbXMSoQEKDk1vZHVsZUFjY291bnRzEi8uY29zbW9z",
+            "LmF1dGgudjFiZXRhMS5RdWVyeU1vZHVsZUFjY291bnRzUmVxdWVzdBowLmNv",
+            "c21vcy5hdXRoLnYxYmV0YTEuUXVlcnlNb2R1bGVBY2NvdW50c1Jlc3BvbnNl",
+            "IiyC0+STAiYSJC9jb3Ntb3MvYXV0aC92MWJldGExL21vZHVsZV9hY2NvdW50",
+            "cxKIAQoMQmVjaDMyUHJlZml4EiguY29zbW9zLmF1dGgudjFiZXRhMS5CZWNo",
+            "MzJQcmVmaXhSZXF1ZXN0GikuY29zbW9zLmF1dGgudjFiZXRhMS5CZWNoMzJQ",
+            "cmVmaXhSZXNwb25zZSIjgtPkkwIdEhsvY29zbW9zL2F1dGgvdjFiZXRhMS9i",
+            "ZWNoMzISsAEKFEFkZHJlc3NCeXRlc1RvU3RyaW5nEjAuY29zbW9zLmF1dGgu",
+            "djFiZXRhMS5BZGRyZXNzQnl0ZXNUb1N0cmluZ1JlcXVlc3QaMS5jb3Ntb3Mu",
+            "YXV0aC52MWJldGExLkFkZHJlc3NCeXRlc1RvU3RyaW5nUmVzcG9uc2UiM4LT",
+            "5JMCLRIrL2Nvc21vcy9hdXRoL3YxYmV0YTEvYmVjaDMyL3thZGRyZXNzX2J5",
+            "dGVzfRKxAQoUQWRkcmVzc1N0cmluZ1RvQnl0ZXMSMC5jb3Ntb3MuYXV0aC52",
+            "MWJldGExLkFkZHJlc3NTdHJpbmdUb0J5dGVzUmVxdWVzdBoxLmNvc21vcy5h",
+            "dXRoLnYxYmV0YTEuQWRkcmVzc1N0cmluZ1RvQnl0ZXNSZXNwb25zZSI0gtPk",
+            "kwIuEiwvY29zbW9zL2F1dGgvdjFiZXRhMS9iZWNoMzIve2FkZHJlc3Nfc3Ry",
+            "aW5nfUIrWilnaXRodWIuY29tL2Nvc21vcy9jb3Ntb3Mtc2RrL3gvYXV0aC90",
+            "eXBlc2IGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Cosmos.Base.Query.V1Beta1.PaginationReflection.Descriptor, global::Gogoproto.GogoReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.AnyReflection.Descriptor, global::Google.Api.AnnotationsReflection.Descriptor, global::Cosmos.Auth.V1Beta1.AuthReflection.Descriptor, global::CosmosProto.CosmosReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Auth.V1Beta1.QueryAccountsRequest), global::Cosmos.Auth.V1Beta1.QueryAccountsRequest.Parser, new[]{ "Pagination" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Auth.V1Beta1.QueryAccountsResponse), global::Cosmos.Auth.V1Beta1.QueryAccountsResponse.Parser, new[]{ "Accounts", "Pagination" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Auth.V1Beta1.QueryAccountRequest), global::Cosmos.Auth.V1Beta1.QueryAccountRequest.Parser, new[]{ "Address" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Auth.V1Beta1.QueryModuleAccountsRequest), global::Cosmos.Auth.V1Beta1.QueryModuleAccountsRequest.Parser, null, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Auth.V1Beta1.QueryParamsResponse), global::Cosmos.Auth.V1Beta1.QueryParamsResponse.Parser, new[]{ "Params" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Auth.V1Beta1.QueryAccountResponse), global::Cosmos.Auth.V1Beta1.QueryAccountResponse.Parser, new[]{ "Account" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Auth.V1Beta1.QueryParamsRequest), global::Cosmos.Auth.V1Beta1.QueryParamsRequest.Parser, null, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Auth.V1Beta1.QueryParamsResponse), global::Cosmos.Auth.V1Beta1.QueryParamsResponse.Parser, new[]{ "Params" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Auth.V1Beta1.QueryModuleAccountsResponse), global::Cosmos.Auth.V1Beta1.QueryModuleAccountsResponse.Parser, new[]{ "Accounts" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Auth.V1Beta1.Bech32PrefixRequest), global::Cosmos.Auth.V1Beta1.Bech32PrefixRequest.Parser, null, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Auth.V1Beta1.Bech32PrefixResponse), global::Cosmos.Auth.V1Beta1.Bech32PrefixResponse.Parser, new[]{ "Bech32Prefix" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Auth.V1Beta1.AddressBytesToStringRequest), global::Cosmos.Auth.V1Beta1.AddressBytesToStringRequest.Parser, new[]{ "AddressBytes" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Auth.V1Beta1.AddressBytesToStringResponse), global::Cosmos.Auth.V1Beta1.AddressBytesToStringResponse.Parser, new[]{ "AddressString" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Auth.V1Beta1.AddressStringToBytesRequest), global::Cosmos.Auth.V1Beta1.AddressStringToBytesRequest.Parser, new[]{ "AddressString" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Auth.V1Beta1.AddressStringToBytesResponse), global::Cosmos.Auth.V1Beta1.AddressStringToBytesResponse.Parser, new[]{ "AddressBytes" }, null, null, null, null)
           }));
     }
     #endregion
@@ -67,6 +100,8 @@ namespace Cosmos.Auth.V1Beta1 {
   #region Messages
   /// <summary>
   /// QueryAccountsRequest is the request type for the Query/Accounts RPC method.
+  ///
+  /// Since: cosmos-sdk 0.43
   /// </summary>
   public sealed partial class QueryAccountsRequest : pb::IMessage<QueryAccountsRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
@@ -271,6 +306,8 @@ namespace Cosmos.Auth.V1Beta1 {
 
   /// <summary>
   /// QueryAccountsResponse is the response type for the Query/Accounts RPC method.
+  ///
+  /// Since: cosmos-sdk 0.43
   /// </summary>
   public sealed partial class QueryAccountsResponse : pb::IMessage<QueryAccountsResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
@@ -698,6 +735,367 @@ namespace Cosmos.Auth.V1Beta1 {
   }
 
   /// <summary>
+  /// QueryModuleAccountsRequest is the request type for the Query/ModuleAccounts RPC method.
+  ///
+  /// Since: cosmos-sdk 0.46
+  /// </summary>
+  public sealed partial class QueryModuleAccountsRequest : pb::IMessage<QueryModuleAccountsRequest>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<QueryModuleAccountsRequest> _parser = new pb::MessageParser<QueryModuleAccountsRequest>(() => new QueryModuleAccountsRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<QueryModuleAccountsRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Cosmos.Auth.V1Beta1.QueryReflection.Descriptor.MessageTypes[3]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public QueryModuleAccountsRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public QueryModuleAccountsRequest(QueryModuleAccountsRequest other) : this() {
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public QueryModuleAccountsRequest Clone() {
+      return new QueryModuleAccountsRequest(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as QueryModuleAccountsRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(QueryModuleAccountsRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(QueryModuleAccountsRequest other) {
+      if (other == null) {
+        return;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// QueryParamsResponse is the response type for the Query/Params RPC method.
+  /// </summary>
+  public sealed partial class QueryParamsResponse : pb::IMessage<QueryParamsResponse>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<QueryParamsResponse> _parser = new pb::MessageParser<QueryParamsResponse>(() => new QueryParamsResponse());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<QueryParamsResponse> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Cosmos.Auth.V1Beta1.QueryReflection.Descriptor.MessageTypes[4]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public QueryParamsResponse() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public QueryParamsResponse(QueryParamsResponse other) : this() {
+      params_ = other.params_ != null ? other.params_.Clone() : null;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public QueryParamsResponse Clone() {
+      return new QueryParamsResponse(this);
+    }
+
+    /// <summary>Field number for the "params" field.</summary>
+    public const int ParamsFieldNumber = 1;
+    private global::Cosmos.Auth.V1Beta1.Params params_;
+    /// <summary>
+    /// params defines the parameters of the module.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Cosmos.Auth.V1Beta1.Params Params {
+      get { return params_; }
+      set {
+        params_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as QueryParamsResponse);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(QueryParamsResponse other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (!object.Equals(Params, other.Params)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (params_ != null) hash ^= Params.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (params_ != null) {
+        output.WriteRawTag(10);
+        output.WriteMessage(Params);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (params_ != null) {
+        output.WriteRawTag(10);
+        output.WriteMessage(Params);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (params_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Params);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(QueryParamsResponse other) {
+      if (other == null) {
+        return;
+      }
+      if (other.params_ != null) {
+        if (params_ == null) {
+          Params = new global::Cosmos.Auth.V1Beta1.Params();
+        }
+        Params.MergeFrom(other.Params);
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            if (params_ == null) {
+              Params = new global::Cosmos.Auth.V1Beta1.Params();
+            }
+            input.ReadMessage(Params);
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            if (params_ == null) {
+              Params = new global::Cosmos.Auth.V1Beta1.Params();
+            }
+            input.ReadMessage(Params);
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
   /// QueryAccountResponse is the response type for the Query/Account RPC method.
   /// </summary>
   public sealed partial class QueryAccountResponse : pb::IMessage<QueryAccountResponse>
@@ -714,7 +1112,7 @@ namespace Cosmos.Auth.V1Beta1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Cosmos.Auth.V1Beta1.QueryReflection.Descriptor.MessageTypes[3]; }
+      get { return global::Cosmos.Auth.V1Beta1.QueryReflection.Descriptor.MessageTypes[5]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -918,7 +1316,7 @@ namespace Cosmos.Auth.V1Beta1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Cosmos.Auth.V1Beta1.QueryReflection.Descriptor.MessageTypes[4]; }
+      get { return global::Cosmos.Auth.V1Beta1.QueryReflection.Descriptor.MessageTypes[6]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1057,23 +1455,25 @@ namespace Cosmos.Auth.V1Beta1 {
   }
 
   /// <summary>
-  /// QueryParamsResponse is the response type for the Query/Params RPC method.
+  /// QueryModuleAccountsResponse is the response type for the Query/ModuleAccounts RPC method.
+  ///
+  /// Since: cosmos-sdk 0.46
   /// </summary>
-  public sealed partial class QueryParamsResponse : pb::IMessage<QueryParamsResponse>
+  public sealed partial class QueryModuleAccountsResponse : pb::IMessage<QueryModuleAccountsResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
   #endif
   {
-    private static readonly pb::MessageParser<QueryParamsResponse> _parser = new pb::MessageParser<QueryParamsResponse>(() => new QueryParamsResponse());
+    private static readonly pb::MessageParser<QueryModuleAccountsResponse> _parser = new pb::MessageParser<QueryModuleAccountsResponse>(() => new QueryModuleAccountsResponse());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<QueryParamsResponse> Parser { get { return _parser; } }
+    public static pb::MessageParser<QueryModuleAccountsResponse> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Cosmos.Auth.V1Beta1.QueryReflection.Descriptor.MessageTypes[5]; }
+      get { return global::Cosmos.Auth.V1Beta1.QueryReflection.Descriptor.MessageTypes[7]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1084,7 +1484,7 @@ namespace Cosmos.Auth.V1Beta1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public QueryParamsResponse() {
+    public QueryModuleAccountsResponse() {
       OnConstruction();
     }
 
@@ -1092,48 +1492,44 @@ namespace Cosmos.Auth.V1Beta1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public QueryParamsResponse(QueryParamsResponse other) : this() {
-      params_ = other.params_ != null ? other.params_.Clone() : null;
+    public QueryModuleAccountsResponse(QueryModuleAccountsResponse other) : this() {
+      accounts_ = other.accounts_.Clone();
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public QueryParamsResponse Clone() {
-      return new QueryParamsResponse(this);
+    public QueryModuleAccountsResponse Clone() {
+      return new QueryModuleAccountsResponse(this);
     }
 
-    /// <summary>Field number for the "params" field.</summary>
-    public const int ParamsFieldNumber = 1;
-    private global::Cosmos.Auth.V1Beta1.Params params_;
-    /// <summary>
-    /// params defines the parameters of the module.
-    /// </summary>
+    /// <summary>Field number for the "accounts" field.</summary>
+    public const int AccountsFieldNumber = 1;
+    private static readonly pb::FieldCodec<global::Google.Protobuf.WellKnownTypes.Any> _repeated_accounts_codec
+        = pb::FieldCodec.ForMessage(10, global::Google.Protobuf.WellKnownTypes.Any.Parser);
+    private readonly pbc::RepeatedField<global::Google.Protobuf.WellKnownTypes.Any> accounts_ = new pbc::RepeatedField<global::Google.Protobuf.WellKnownTypes.Any>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::Cosmos.Auth.V1Beta1.Params Params {
-      get { return params_; }
-      set {
-        params_ = value;
-      }
+    public pbc::RepeatedField<global::Google.Protobuf.WellKnownTypes.Any> Accounts {
+      get { return accounts_; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
-      return Equals(other as QueryParamsResponse);
+      return Equals(other as QueryModuleAccountsResponse);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(QueryParamsResponse other) {
+    public bool Equals(QueryModuleAccountsResponse other) {
       if (ReferenceEquals(other, null)) {
         return false;
       }
       if (ReferenceEquals(other, this)) {
         return true;
       }
-      if (!object.Equals(Params, other.Params)) return false;
+      if(!accounts_.Equals(other.accounts_)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -1141,7 +1537,7 @@ namespace Cosmos.Auth.V1Beta1 {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
-      if (params_ != null) hash ^= Params.GetHashCode();
+      hash ^= accounts_.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -1160,10 +1556,7 @@ namespace Cosmos.Auth.V1Beta1 {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
     #else
-      if (params_ != null) {
-        output.WriteRawTag(10);
-        output.WriteMessage(Params);
-      }
+      accounts_.WriteTo(output, _repeated_accounts_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -1174,10 +1567,7 @@ namespace Cosmos.Auth.V1Beta1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (params_ != null) {
-        output.WriteRawTag(10);
-        output.WriteMessage(Params);
-      }
+      accounts_.WriteTo(ref output, _repeated_accounts_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -1188,9 +1578,7 @@ namespace Cosmos.Auth.V1Beta1 {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
-      if (params_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Params);
-      }
+      size += accounts_.CalculateSize(_repeated_accounts_codec);
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -1199,16 +1587,11 @@ namespace Cosmos.Auth.V1Beta1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(QueryParamsResponse other) {
+    public void MergeFrom(QueryModuleAccountsResponse other) {
       if (other == null) {
         return;
       }
-      if (other.params_ != null) {
-        if (params_ == null) {
-          Params = new global::Cosmos.Auth.V1Beta1.Params();
-        }
-        Params.MergeFrom(other.Params);
-      }
+      accounts_.Add(other.accounts_);
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -1225,10 +1608,7 @@ namespace Cosmos.Auth.V1Beta1 {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
           case 10: {
-            if (params_ == null) {
-              Params = new global::Cosmos.Auth.V1Beta1.Params();
-            }
-            input.ReadMessage(Params);
+            accounts_.AddEntriesFrom(input, _repeated_accounts_codec);
             break;
           }
         }
@@ -1247,10 +1627,1134 @@ namespace Cosmos.Auth.V1Beta1 {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
           case 10: {
-            if (params_ == null) {
-              Params = new global::Cosmos.Auth.V1Beta1.Params();
-            }
-            input.ReadMessage(Params);
+            accounts_.AddEntriesFrom(ref input, _repeated_accounts_codec);
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// Bech32PrefixRequest is the request type for Bech32Prefix rpc method.
+  ///
+  /// Since: cosmos-sdk 0.46
+  /// </summary>
+  public sealed partial class Bech32PrefixRequest : pb::IMessage<Bech32PrefixRequest>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<Bech32PrefixRequest> _parser = new pb::MessageParser<Bech32PrefixRequest>(() => new Bech32PrefixRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<Bech32PrefixRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Cosmos.Auth.V1Beta1.QueryReflection.Descriptor.MessageTypes[8]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public Bech32PrefixRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public Bech32PrefixRequest(Bech32PrefixRequest other) : this() {
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public Bech32PrefixRequest Clone() {
+      return new Bech32PrefixRequest(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as Bech32PrefixRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(Bech32PrefixRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(Bech32PrefixRequest other) {
+      if (other == null) {
+        return;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// Bech32PrefixResponse is the response type for Bech32Prefix rpc method.
+  ///
+  /// Since: cosmos-sdk 0.46
+  /// </summary>
+  public sealed partial class Bech32PrefixResponse : pb::IMessage<Bech32PrefixResponse>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<Bech32PrefixResponse> _parser = new pb::MessageParser<Bech32PrefixResponse>(() => new Bech32PrefixResponse());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<Bech32PrefixResponse> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Cosmos.Auth.V1Beta1.QueryReflection.Descriptor.MessageTypes[9]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public Bech32PrefixResponse() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public Bech32PrefixResponse(Bech32PrefixResponse other) : this() {
+      bech32Prefix_ = other.bech32Prefix_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public Bech32PrefixResponse Clone() {
+      return new Bech32PrefixResponse(this);
+    }
+
+    /// <summary>Field number for the "bech32_prefix" field.</summary>
+    public const int Bech32PrefixFieldNumber = 1;
+    private string bech32Prefix_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string Bech32Prefix {
+      get { return bech32Prefix_; }
+      set {
+        bech32Prefix_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as Bech32PrefixResponse);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(Bech32PrefixResponse other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Bech32Prefix != other.Bech32Prefix) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Bech32Prefix.Length != 0) hash ^= Bech32Prefix.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (Bech32Prefix.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Bech32Prefix);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (Bech32Prefix.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Bech32Prefix);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (Bech32Prefix.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Bech32Prefix);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(Bech32PrefixResponse other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Bech32Prefix.Length != 0) {
+        Bech32Prefix = other.Bech32Prefix;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            Bech32Prefix = input.ReadString();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            Bech32Prefix = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// AddressBytesToStringRequest is the request type for AddressString rpc method.
+  ///
+  /// Since: cosmos-sdk 0.46
+  /// </summary>
+  public sealed partial class AddressBytesToStringRequest : pb::IMessage<AddressBytesToStringRequest>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<AddressBytesToStringRequest> _parser = new pb::MessageParser<AddressBytesToStringRequest>(() => new AddressBytesToStringRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<AddressBytesToStringRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Cosmos.Auth.V1Beta1.QueryReflection.Descriptor.MessageTypes[10]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public AddressBytesToStringRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public AddressBytesToStringRequest(AddressBytesToStringRequest other) : this() {
+      addressBytes_ = other.addressBytes_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public AddressBytesToStringRequest Clone() {
+      return new AddressBytesToStringRequest(this);
+    }
+
+    /// <summary>Field number for the "address_bytes" field.</summary>
+    public const int AddressBytesFieldNumber = 1;
+    private pb::ByteString addressBytes_ = pb::ByteString.Empty;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pb::ByteString AddressBytes {
+      get { return addressBytes_; }
+      set {
+        addressBytes_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as AddressBytesToStringRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(AddressBytesToStringRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (AddressBytes != other.AddressBytes) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (AddressBytes.Length != 0) hash ^= AddressBytes.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (AddressBytes.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteBytes(AddressBytes);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (AddressBytes.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteBytes(AddressBytes);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (AddressBytes.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeBytesSize(AddressBytes);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(AddressBytesToStringRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.AddressBytes.Length != 0) {
+        AddressBytes = other.AddressBytes;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            AddressBytes = input.ReadBytes();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            AddressBytes = input.ReadBytes();
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// AddressBytesToStringResponse is the response type for AddressString rpc method.
+  ///
+  /// Since: cosmos-sdk 0.46
+  /// </summary>
+  public sealed partial class AddressBytesToStringResponse : pb::IMessage<AddressBytesToStringResponse>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<AddressBytesToStringResponse> _parser = new pb::MessageParser<AddressBytesToStringResponse>(() => new AddressBytesToStringResponse());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<AddressBytesToStringResponse> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Cosmos.Auth.V1Beta1.QueryReflection.Descriptor.MessageTypes[11]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public AddressBytesToStringResponse() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public AddressBytesToStringResponse(AddressBytesToStringResponse other) : this() {
+      addressString_ = other.addressString_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public AddressBytesToStringResponse Clone() {
+      return new AddressBytesToStringResponse(this);
+    }
+
+    /// <summary>Field number for the "address_string" field.</summary>
+    public const int AddressStringFieldNumber = 1;
+    private string addressString_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string AddressString {
+      get { return addressString_; }
+      set {
+        addressString_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as AddressBytesToStringResponse);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(AddressBytesToStringResponse other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (AddressString != other.AddressString) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (AddressString.Length != 0) hash ^= AddressString.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (AddressString.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(AddressString);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (AddressString.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(AddressString);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (AddressString.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(AddressString);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(AddressBytesToStringResponse other) {
+      if (other == null) {
+        return;
+      }
+      if (other.AddressString.Length != 0) {
+        AddressString = other.AddressString;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            AddressString = input.ReadString();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            AddressString = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// AddressStringToBytesRequest is the request type for AccountBytes rpc method.
+  ///
+  /// Since: cosmos-sdk 0.46
+  /// </summary>
+  public sealed partial class AddressStringToBytesRequest : pb::IMessage<AddressStringToBytesRequest>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<AddressStringToBytesRequest> _parser = new pb::MessageParser<AddressStringToBytesRequest>(() => new AddressStringToBytesRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<AddressStringToBytesRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Cosmos.Auth.V1Beta1.QueryReflection.Descriptor.MessageTypes[12]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public AddressStringToBytesRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public AddressStringToBytesRequest(AddressStringToBytesRequest other) : this() {
+      addressString_ = other.addressString_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public AddressStringToBytesRequest Clone() {
+      return new AddressStringToBytesRequest(this);
+    }
+
+    /// <summary>Field number for the "address_string" field.</summary>
+    public const int AddressStringFieldNumber = 1;
+    private string addressString_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string AddressString {
+      get { return addressString_; }
+      set {
+        addressString_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as AddressStringToBytesRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(AddressStringToBytesRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (AddressString != other.AddressString) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (AddressString.Length != 0) hash ^= AddressString.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (AddressString.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(AddressString);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (AddressString.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(AddressString);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (AddressString.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(AddressString);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(AddressStringToBytesRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.AddressString.Length != 0) {
+        AddressString = other.AddressString;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            AddressString = input.ReadString();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            AddressString = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// AddressStringToBytesResponse is the response type for AddressBytes rpc method.
+  ///
+  /// Since: cosmos-sdk 0.46
+  /// </summary>
+  public sealed partial class AddressStringToBytesResponse : pb::IMessage<AddressStringToBytesResponse>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<AddressStringToBytesResponse> _parser = new pb::MessageParser<AddressStringToBytesResponse>(() => new AddressStringToBytesResponse());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<AddressStringToBytesResponse> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Cosmos.Auth.V1Beta1.QueryReflection.Descriptor.MessageTypes[13]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public AddressStringToBytesResponse() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public AddressStringToBytesResponse(AddressStringToBytesResponse other) : this() {
+      addressBytes_ = other.addressBytes_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public AddressStringToBytesResponse Clone() {
+      return new AddressStringToBytesResponse(this);
+    }
+
+    /// <summary>Field number for the "address_bytes" field.</summary>
+    public const int AddressBytesFieldNumber = 1;
+    private pb::ByteString addressBytes_ = pb::ByteString.Empty;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pb::ByteString AddressBytes {
+      get { return addressBytes_; }
+      set {
+        addressBytes_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as AddressStringToBytesResponse);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(AddressStringToBytesResponse other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (AddressBytes != other.AddressBytes) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (AddressBytes.Length != 0) hash ^= AddressBytes.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (AddressBytes.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteBytes(AddressBytes);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (AddressBytes.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteBytes(AddressBytes);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (AddressBytes.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeBytesSize(AddressBytes);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(AddressStringToBytesResponse other) {
+      if (other == null) {
+        return;
+      }
+      if (other.AddressBytes.Length != 0) {
+        AddressBytes = other.AddressBytes;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            AddressBytes = input.ReadBytes();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            AddressBytes = input.ReadBytes();
             break;
           }
         }

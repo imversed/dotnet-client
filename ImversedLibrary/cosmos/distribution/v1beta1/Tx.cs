@@ -26,46 +26,53 @@ namespace Cosmos.Distribution.V1Beta1 {
           string.Concat(
             "CiRjb3Ntb3MvZGlzdHJpYnV0aW9uL3YxYmV0YTEvdHgucHJvdG8SG2Nvc21v",
             "cy5kaXN0cmlidXRpb24udjFiZXRhMRoUZ29nb3Byb3RvL2dvZ28ucHJvdG8a",
-            "HmNvc21vcy9iYXNlL3YxYmV0YTEvY29pbi5wcm90byKRAQoVTXNnU2V0V2l0",
-            "aGRyYXdBZGRyZXNzEjcKEWRlbGVnYXRvcl9hZGRyZXNzGAEgASgJQhzy3h8Y",
-            "eWFtbDoiZGVsZWdhdG9yX2FkZHJlc3MiEjUKEHdpdGhkcmF3X2FkZHJlc3MY",
-            "AiABKAlCG/LeHxd5YW1sOiJ3aXRoZHJhd19hZGRyZXNzIjoI6KAfAIigHwAi",
-            "HwodTXNnU2V0V2l0aGRyYXdBZGRyZXNzUmVzcG9uc2UimAEKGk1zZ1dpdGhk",
-            "cmF3RGVsZWdhdG9yUmV3YXJkEjcKEWRlbGVnYXRvcl9hZGRyZXNzGAEgASgJ",
-            "Qhzy3h8YeWFtbDoiZGVsZWdhdG9yX2FkZHJlc3MiEjcKEXZhbGlkYXRvcl9h",
-            "ZGRyZXNzGAIgASgJQhzy3h8YeWFtbDoidmFsaWRhdG9yX2FkZHJlc3MiOgjo",
-            "oB8AiKAfACIkCiJNc2dXaXRoZHJhd0RlbGVnYXRvclJld2FyZFJlc3BvbnNl",
-            "ImMKHk1zZ1dpdGhkcmF3VmFsaWRhdG9yQ29tbWlzc2lvbhI3ChF2YWxpZGF0",
-            "b3JfYWRkcmVzcxgBIAEoCUIc8t4fGHlhbWw6InZhbGlkYXRvcl9hZGRyZXNz",
-            "IjoI6KAfAIigHwAiKAomTXNnV2l0aGRyYXdWYWxpZGF0b3JDb21taXNzaW9u",
-            "UmVzcG9uc2UikAEKFE1zZ0Z1bmRDb21tdW5pdHlQb29sElsKBmFtb3VudBgB",
-            "IAMoCzIZLmNvc21vcy5iYXNlLnYxYmV0YTEuQ29pbkIwyN4fAKrfHyhnaXRo",
-            "dWIuY29tL2Nvc21vcy9jb3Ntb3Mtc2RrL3R5cGVzLkNvaW5zEhEKCWRlcG9z",
-            "aXRvchgCIAEoCToI6KAfAIigHwAiHgocTXNnRnVuZENvbW11bml0eVBvb2xS",
-            "ZXNwb25zZTLIBAoDTXNnEoQBChJTZXRXaXRoZHJhd0FkZHJlc3MSMi5jb3Nt",
-            "b3MuZGlzdHJpYnV0aW9uLnYxYmV0YTEuTXNnU2V0V2l0aGRyYXdBZGRyZXNz",
-            "GjouY29zbW9zLmRpc3RyaWJ1dGlvbi52MWJldGExLk1zZ1NldFdpdGhkcmF3",
-            "QWRkcmVzc1Jlc3BvbnNlEpMBChdXaXRoZHJhd0RlbGVnYXRvclJld2FyZBI3",
-            "LmNvc21vcy5kaXN0cmlidXRpb24udjFiZXRhMS5Nc2dXaXRoZHJhd0RlbGVn",
-            "YXRvclJld2FyZBo/LmNvc21vcy5kaXN0cmlidXRpb24udjFiZXRhMS5Nc2dX",
-            "aXRoZHJhd0RlbGVnYXRvclJld2FyZFJlc3BvbnNlEp8BChtXaXRoZHJhd1Zh",
-            "bGlkYXRvckNvbW1pc3Npb24SOy5jb3Ntb3MuZGlzdHJpYnV0aW9uLnYxYmV0",
-            "YTEuTXNnV2l0aGRyYXdWYWxpZGF0b3JDb21taXNzaW9uGkMuY29zbW9zLmRp",
-            "c3RyaWJ1dGlvbi52MWJldGExLk1zZ1dpdGhkcmF3VmFsaWRhdG9yQ29tbWlz",
-            "c2lvblJlc3BvbnNlEoEBChFGdW5kQ29tbXVuaXR5UG9vbBIxLmNvc21vcy5k",
-            "aXN0cmlidXRpb24udjFiZXRhMS5Nc2dGdW5kQ29tbXVuaXR5UG9vbBo5LmNv",
-            "c21vcy5kaXN0cmlidXRpb24udjFiZXRhMS5Nc2dGdW5kQ29tbXVuaXR5UG9v",
-            "bFJlc3BvbnNlQjdaMWdpdGh1Yi5jb20vY29zbW9zL2Nvc21vcy1zZGsveC9k",
-            "aXN0cmlidXRpb24vdHlwZXOo4h4BYgZwcm90bzM="));
+            "HmNvc21vcy9iYXNlL3YxYmV0YTEvY29pbi5wcm90bxoZY29zbW9zX3Byb3Rv",
+            "L2Nvc21vcy5wcm90bxoXY29zbW9zL21zZy92MS9tc2cucHJvdG8ioAEKFU1z",
+            "Z1NldFdpdGhkcmF3QWRkcmVzcxIzChFkZWxlZ2F0b3JfYWRkcmVzcxgBIAEo",
+            "CUIY0rQtFGNvc21vcy5BZGRyZXNzU3RyaW5nEjIKEHdpdGhkcmF3X2FkZHJl",
+            "c3MYAiABKAlCGNK0LRRjb3Ntb3MuQWRkcmVzc1N0cmluZzoeguewKhFkZWxl",
+            "Z2F0b3JfYWRkcmVzc+igHwCIoB8AIh8KHU1zZ1NldFdpdGhkcmF3QWRkcmVz",
+            "c1Jlc3BvbnNlIqYBChpNc2dXaXRoZHJhd0RlbGVnYXRvclJld2FyZBIzChFk",
+            "ZWxlZ2F0b3JfYWRkcmVzcxgBIAEoCUIY0rQtFGNvc21vcy5BZGRyZXNzU3Ry",
+            "aW5nEjMKEXZhbGlkYXRvcl9hZGRyZXNzGAIgASgJQhjStC0UY29zbW9zLkFk",
+            "ZHJlc3NTdHJpbmc6HoLnsCoRZGVsZWdhdG9yX2FkZHJlc3PooB8AiKAfACKB",
+            "AQoiTXNnV2l0aGRyYXdEZWxlZ2F0b3JSZXdhcmRSZXNwb25zZRJbCgZhbW91",
+            "bnQYASADKAsyGS5jb3Ntb3MuYmFzZS52MWJldGExLkNvaW5CMMjeHwCq3x8o",
+            "Z2l0aHViLmNvbS9jb3Ntb3MvY29zbW9zLXNkay90eXBlcy5Db2lucyJ1Ch5N",
+            "c2dXaXRoZHJhd1ZhbGlkYXRvckNvbW1pc3Npb24SMwoRdmFsaWRhdG9yX2Fk",
+            "ZHJlc3MYASABKAlCGNK0LRRjb3Ntb3MuQWRkcmVzc1N0cmluZzoeguewKhF2",
+            "YWxpZGF0b3JfYWRkcmVzc+igHwCIoB8AIoUBCiZNc2dXaXRoZHJhd1ZhbGlk",
+            "YXRvckNvbW1pc3Npb25SZXNwb25zZRJbCgZhbW91bnQYASADKAsyGS5jb3Nt",
+            "b3MuYmFzZS52MWJldGExLkNvaW5CMMjeHwCq3x8oZ2l0aHViLmNvbS9jb3Nt",
+            "b3MvY29zbW9zLXNkay90eXBlcy5Db2lucyK4AQoUTXNnRnVuZENvbW11bml0",
+            "eVBvb2wSWwoGYW1vdW50GAEgAygLMhkuY29zbW9zLmJhc2UudjFiZXRhMS5D",
+            "b2luQjDI3h8Aqt8fKGdpdGh1Yi5jb20vY29zbW9zL2Nvc21vcy1zZGsvdHlw",
+            "ZXMuQ29pbnMSKwoJZGVwb3NpdG9yGAIgASgJQhjStC0UY29zbW9zLkFkZHJl",
+            "c3NTdHJpbmc6FoLnsCoJZGVwb3NpdG9y6KAfAIigHwAiHgocTXNnRnVuZENv",
+            "bW11bml0eVBvb2xSZXNwb25zZTLIBAoDTXNnEoQBChJTZXRXaXRoZHJhd0Fk",
+            "ZHJlc3MSMi5jb3Ntb3MuZGlzdHJpYnV0aW9uLnYxYmV0YTEuTXNnU2V0V2l0",
+            "aGRyYXdBZGRyZXNzGjouY29zbW9zLmRpc3RyaWJ1dGlvbi52MWJldGExLk1z",
+            "Z1NldFdpdGhkcmF3QWRkcmVzc1Jlc3BvbnNlEpMBChdXaXRoZHJhd0RlbGVn",
+            "YXRvclJld2FyZBI3LmNvc21vcy5kaXN0cmlidXRpb24udjFiZXRhMS5Nc2dX",
+            "aXRoZHJhd0RlbGVnYXRvclJld2FyZBo/LmNvc21vcy5kaXN0cmlidXRpb24u",
+            "djFiZXRhMS5Nc2dXaXRoZHJhd0RlbGVnYXRvclJld2FyZFJlc3BvbnNlEp8B",
+            "ChtXaXRoZHJhd1ZhbGlkYXRvckNvbW1pc3Npb24SOy5jb3Ntb3MuZGlzdHJp",
+            "YnV0aW9uLnYxYmV0YTEuTXNnV2l0aGRyYXdWYWxpZGF0b3JDb21taXNzaW9u",
+            "GkMuY29zbW9zLmRpc3RyaWJ1dGlvbi52MWJldGExLk1zZ1dpdGhkcmF3VmFs",
+            "aWRhdG9yQ29tbWlzc2lvblJlc3BvbnNlEoEBChFGdW5kQ29tbXVuaXR5UG9v",
+            "bBIxLmNvc21vcy5kaXN0cmlidXRpb24udjFiZXRhMS5Nc2dGdW5kQ29tbXVu",
+            "aXR5UG9vbBo5LmNvc21vcy5kaXN0cmlidXRpb24udjFiZXRhMS5Nc2dGdW5k",
+            "Q29tbXVuaXR5UG9vbFJlc3BvbnNlQjdaMWdpdGh1Yi5jb20vY29zbW9zL2Nv",
+            "c21vcy1zZGsveC9kaXN0cmlidXRpb24vdHlwZXOo4h4BYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Gogoproto.GogoReflection.Descriptor, global::Cosmos.Base.V1Beta1.CoinReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::Gogoproto.GogoReflection.Descriptor, global::Cosmos.Base.V1Beta1.CoinReflection.Descriptor, global::CosmosProto.CosmosReflection.Descriptor, global::Cosmos.Msg.V1.MsgReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Distribution.V1Beta1.MsgSetWithdrawAddress), global::Cosmos.Distribution.V1Beta1.MsgSetWithdrawAddress.Parser, new[]{ "DelegatorAddress", "WithdrawAddress" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Distribution.V1Beta1.MsgSetWithdrawAddressResponse), global::Cosmos.Distribution.V1Beta1.MsgSetWithdrawAddressResponse.Parser, null, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Distribution.V1Beta1.MsgWithdrawDelegatorReward), global::Cosmos.Distribution.V1Beta1.MsgWithdrawDelegatorReward.Parser, new[]{ "DelegatorAddress", "ValidatorAddress" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Distribution.V1Beta1.MsgWithdrawDelegatorRewardResponse), global::Cosmos.Distribution.V1Beta1.MsgWithdrawDelegatorRewardResponse.Parser, null, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Distribution.V1Beta1.MsgWithdrawDelegatorRewardResponse), global::Cosmos.Distribution.V1Beta1.MsgWithdrawDelegatorRewardResponse.Parser, new[]{ "Amount" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Distribution.V1Beta1.MsgWithdrawValidatorCommission), global::Cosmos.Distribution.V1Beta1.MsgWithdrawValidatorCommission.Parser, new[]{ "ValidatorAddress" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Distribution.V1Beta1.MsgWithdrawValidatorCommissionResponse), global::Cosmos.Distribution.V1Beta1.MsgWithdrawValidatorCommissionResponse.Parser, null, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Distribution.V1Beta1.MsgWithdrawValidatorCommissionResponse), global::Cosmos.Distribution.V1Beta1.MsgWithdrawValidatorCommissionResponse.Parser, new[]{ "Amount" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Distribution.V1Beta1.MsgFundCommunityPool), global::Cosmos.Distribution.V1Beta1.MsgFundCommunityPool.Parser, new[]{ "Amount", "Depositor" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Cosmos.Distribution.V1Beta1.MsgFundCommunityPoolResponse), global::Cosmos.Distribution.V1Beta1.MsgFundCommunityPoolResponse.Parser, null, null, null, null, null)
           }));
@@ -726,6 +733,7 @@ namespace Cosmos.Distribution.V1Beta1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public MsgWithdrawDelegatorRewardResponse(MsgWithdrawDelegatorRewardResponse other) : this() {
+      amount_ = other.amount_.Clone();
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -733,6 +741,20 @@ namespace Cosmos.Distribution.V1Beta1 {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public MsgWithdrawDelegatorRewardResponse Clone() {
       return new MsgWithdrawDelegatorRewardResponse(this);
+    }
+
+    /// <summary>Field number for the "amount" field.</summary>
+    public const int AmountFieldNumber = 1;
+    private static readonly pb::FieldCodec<global::Cosmos.Base.V1Beta1.Coin> _repeated_amount_codec
+        = pb::FieldCodec.ForMessage(10, global::Cosmos.Base.V1Beta1.Coin.Parser);
+    private readonly pbc::RepeatedField<global::Cosmos.Base.V1Beta1.Coin> amount_ = new pbc::RepeatedField<global::Cosmos.Base.V1Beta1.Coin>();
+    /// <summary>
+    /// Since: cosmos-sdk 0.46
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pbc::RepeatedField<global::Cosmos.Base.V1Beta1.Coin> Amount {
+      get { return amount_; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -750,6 +772,7 @@ namespace Cosmos.Distribution.V1Beta1 {
       if (ReferenceEquals(other, this)) {
         return true;
       }
+      if(!amount_.Equals(other.amount_)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -757,6 +780,7 @@ namespace Cosmos.Distribution.V1Beta1 {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
+      hash ^= amount_.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -775,6 +799,7 @@ namespace Cosmos.Distribution.V1Beta1 {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
     #else
+      amount_.WriteTo(output, _repeated_amount_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -785,6 +810,7 @@ namespace Cosmos.Distribution.V1Beta1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      amount_.WriteTo(ref output, _repeated_amount_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -795,6 +821,7 @@ namespace Cosmos.Distribution.V1Beta1 {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
+      size += amount_.CalculateSize(_repeated_amount_codec);
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -807,6 +834,7 @@ namespace Cosmos.Distribution.V1Beta1 {
       if (other == null) {
         return;
       }
+      amount_.Add(other.amount_);
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -822,6 +850,10 @@ namespace Cosmos.Distribution.V1Beta1 {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
+          case 10: {
+            amount_.AddEntriesFrom(input, _repeated_amount_codec);
+            break;
+          }
         }
       }
     #endif
@@ -837,6 +869,10 @@ namespace Cosmos.Distribution.V1Beta1 {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
+          case 10: {
+            amount_.AddEntriesFrom(ref input, _repeated_amount_codec);
+            break;
+          }
         }
       }
     }
@@ -1074,6 +1110,7 @@ namespace Cosmos.Distribution.V1Beta1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public MsgWithdrawValidatorCommissionResponse(MsgWithdrawValidatorCommissionResponse other) : this() {
+      amount_ = other.amount_.Clone();
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -1081,6 +1118,20 @@ namespace Cosmos.Distribution.V1Beta1 {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public MsgWithdrawValidatorCommissionResponse Clone() {
       return new MsgWithdrawValidatorCommissionResponse(this);
+    }
+
+    /// <summary>Field number for the "amount" field.</summary>
+    public const int AmountFieldNumber = 1;
+    private static readonly pb::FieldCodec<global::Cosmos.Base.V1Beta1.Coin> _repeated_amount_codec
+        = pb::FieldCodec.ForMessage(10, global::Cosmos.Base.V1Beta1.Coin.Parser);
+    private readonly pbc::RepeatedField<global::Cosmos.Base.V1Beta1.Coin> amount_ = new pbc::RepeatedField<global::Cosmos.Base.V1Beta1.Coin>();
+    /// <summary>
+    /// Since: cosmos-sdk 0.46
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pbc::RepeatedField<global::Cosmos.Base.V1Beta1.Coin> Amount {
+      get { return amount_; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1098,6 +1149,7 @@ namespace Cosmos.Distribution.V1Beta1 {
       if (ReferenceEquals(other, this)) {
         return true;
       }
+      if(!amount_.Equals(other.amount_)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -1105,6 +1157,7 @@ namespace Cosmos.Distribution.V1Beta1 {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
+      hash ^= amount_.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -1123,6 +1176,7 @@ namespace Cosmos.Distribution.V1Beta1 {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
     #else
+      amount_.WriteTo(output, _repeated_amount_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -1133,6 +1187,7 @@ namespace Cosmos.Distribution.V1Beta1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      amount_.WriteTo(ref output, _repeated_amount_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -1143,6 +1198,7 @@ namespace Cosmos.Distribution.V1Beta1 {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
+      size += amount_.CalculateSize(_repeated_amount_codec);
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -1155,6 +1211,7 @@ namespace Cosmos.Distribution.V1Beta1 {
       if (other == null) {
         return;
       }
+      amount_.Add(other.amount_);
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -1170,6 +1227,10 @@ namespace Cosmos.Distribution.V1Beta1 {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
+          case 10: {
+            amount_.AddEntriesFrom(input, _repeated_amount_codec);
+            break;
+          }
         }
       }
     #endif
@@ -1185,6 +1246,10 @@ namespace Cosmos.Distribution.V1Beta1 {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
+          case 10: {
+            amount_.AddEntriesFrom(ref input, _repeated_amount_codec);
+            break;
+          }
         }
       }
     }
